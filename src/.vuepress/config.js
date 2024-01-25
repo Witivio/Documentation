@@ -260,6 +260,13 @@ module.exports = {
 										['/solutions/gpt-pro/tutorials/plugins.md', "Plugins"],
 									]
 								},
+								{
+									title: 'Migrations',
+									collapsable: true,
+									children: [
+										['/solutions/gpt-pro/migrations/faq.md', "FAQ"],
+									]
+								},
 								['/solutions/gpt-pro/limits.md', "Limits"],
 								['/solutions/gpt-pro/changelog.md', "Change log​"],
 							]
@@ -1192,6 +1199,13 @@ module.exports = {
 									collapsable: true,
 									children: [
 										['/solutions/gpt-pro/tutorials/plugins.md', "Plugins"],
+									]
+								},
+								{
+									title: 'Migrations',
+									collapsable: true,
+									children: [
+										['/solutions/gpt-pro/migrations/faq.md', "FAQ"],
 									]
 								},
 								['/solutions/gpt-pro/limits.md', "Limits"],
@@ -2127,6 +2141,13 @@ module.exports = {
 									collapsable: true,
 									children: [
 										['/solutions/gpt-pro/tutorials/plugins.md', "Plugins"],
+									]
+								},
+								{
+									title: 'Migrations',
+									collapsable: true,
+									children: [
+										['/solutions/gpt-pro/migrations/faq.md', "FAQ"],
 									]
 								},
 								['/solutions/gpt-pro/limits.md', "Limits"],
