@@ -1,0 +1,28 @@
+name: Update Documentation
+
+on:
+  repository_dispatch:
+    types:
+      - update-documentation
+
+jobs:
+  updateDocumentation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+
+      - name: Run Custom Script
+        run: |
+          pwsh ./scripts/update_documentation_script_git.ps1 -FilePath ./src/solutions/gpt-pro/changelog.md -MarkdownData "${{github.event.client_payload.data}}"
+      
+      - name: Update resources
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: src/solutions/gpt-pro/changelog.md
+          commit-msg: Update resources  
+          github-token: ${{ secrets.GITHUB_TOKEN }}
