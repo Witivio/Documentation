@@ -133,7 +133,8 @@ You automatically benefit from Microsoft-managed encryption-at-rest.
 
 Azure OpenAI is part of Azure AI services. Azure AI services data is encrypted and decrypted using FIPS 140-2 compliant 256-bit AES encryption.
 
-The data is stored in the North Europe zone.
+Your documents are stored in the North Europe zone. Azure OpenAI services does not host any files. 
+Azure OpenAI services are hosted in France central.
 
 Your prompts (inputs) and completions (outputs), your embeddings, and your training data:
 
