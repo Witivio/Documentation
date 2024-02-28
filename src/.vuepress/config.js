@@ -479,6 +479,13 @@ module.exports = {
 											],
 										},
 										{
+											title: 'Duplication',
+											collapsable: true,
+											children: [
+												['/solutions/calendar-pro/duplicate-a-calendar-pro/how-to-duplicate-my-calendar-pro-in-another-channel-.md', "How do I duplicate my Calendar Pro in another channel?"],
+											],
+										},
+										{
 											title: 'Power automate connector',
 											collapsable: true,
 											children: [
@@ -1421,6 +1428,13 @@ module.exports = {
 											],
 										},
 										{
+											title: 'Duplication',
+											collapsable: true,
+											children: [
+												['/solutions/calendar-pro/duplicate-a-calendar-pro/how-to-duplicate-my-calendar-pro-in-another-channel-.md', "How do I duplicate my Calendar Pro in another channel?"],
+											],
+										},
+										{
 											title: 'Power automate connector',
 											collapsable: true,
 											children: [
@@ -2360,6 +2374,13 @@ module.exports = {
 												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-import-a-calendar-in-my-calendar-pro-.md', "How to import a calendar in my Calendar Pro?"],
 												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-manage-my-synchronized-calendar-.md', "How to manage my synchronized calendars?"],
 												['/solutions/calendar-pro/synchronization-in-calendar-pro/see-the-shared-synchronized-calendars-', "See the shared synchronized calendars"],
+											],
+										},
+										{
+											title: 'Duplication',
+											collapsable: true,
+											children: [
+												['/solutions/calendar-pro/duplicate-a-calendar-pro/how-to-duplicate-my-calendar-pro-in-another-channel-.md', "How do I duplicate my Calendar Pro in another channel?"],
 											],
 										},
 										{
