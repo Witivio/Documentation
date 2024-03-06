@@ -20,9 +20,11 @@ jobs:
         run: |
           pwsh ./scripts/update_documentation_script_git.ps1 -FilePath ./src/solutions/gpt-pro/changelog.md -MarkdownData "${{github.event.client_payload.data}}"
       
-      - name: Update resources
-        uses: test-room-7/action-update-file@v1
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
         with:
-          file-path: src/solutions/gpt-pro/changelog.md
-          commit-msg: Update resources  
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: Automatically generated pull request
+          body: Changes have been made automatically.
+          branch: auto-changes
+          base: main
