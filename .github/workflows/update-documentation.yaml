@@ -20,9 +20,27 @@ jobs:
         run: |
           pwsh ./scripts/update_documentation_script_git.ps1 -FilePath ./src/solutions/gpt-pro/changelog.md -MarkdownData "${{github.event.client_payload.data}}"
       
-      - name: Update resources
-        uses: test-room-7/action-update-file@v1
+      - name: Check if auto-changes branch exists
+        run: |
+          if git show-ref --quiet refs/heads/auto-changes; then
+            git checkout auto-changes
+          else
+            git checkout -b auto-changes
+          fi
+
+      - name: Commit changes and push to auto-changes branch
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add .
+          git commit -m "Update documentation"
+          git push origin auto-changes
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
         with:
-          file-path: src/solutions/gpt-pro/changelog.md
-          commit-msg: Update resources  
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: Automatically generated pull request
+          body: Changes have been made automatically.
+          branch: auto-changes
+          base: main
