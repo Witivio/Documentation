@@ -1,14 +1,15 @@
-# Manage Plugins
+# Manage Administrators
 
 ## Overview
 
-GPT Pro plugins are additional components that enhance the functionality of GPT applications by providing new features or integrating with external services. These plugins follow OpenAI's format guidelines, ensuring seamless integration and consistent performance.
+The 'Administrators' function in GPT Pro is where to oversee and manage the administrators access of your organisation's GPT Pro.It allows for the centralized management of the admin access, enabling control over who can influence the system's settings and capabilities.
 
-## Accessing Plugin Management
+## Possible Actions
 
 To manage your plugins for GPT Pro, navigate to the admin panel available at admin.gpt-pro.com. Here you can enable or disable plugins, add new ones, or configure existing ones.
 
-![Manage plugins](/assets/img/gpt/plugins.png)
+1. Add Administrator: Onboard new team members by granting them administrative privileges. 
+2. Delete: Remove administrative access when necessary by clicking the button 'Action' then 'Delete', ensuring security and appropriate access control within your organization.
 
 ## Enabling and Disabling Plugins
 Upon accessing the plugin management interface, you will see a list of available plugins.
