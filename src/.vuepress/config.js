@@ -248,8 +248,11 @@ module.exports = {
 									children: [
 										['/solutions/gpt-pro/fundamentals/dashboard.md', "Dashboard"],
 										['/solutions/gpt-pro/fundamentals/documents.md', "Documents"],
+										['/solutions/gpt-pro/fundamentals/history.md', "History"],
 										['/solutions/gpt-pro/fundamentals/prompts.md', "Prompts"],
+										['/solutions/gpt-pro/fundamentals/welcome-card.md', "Welcome Card"],
 										['/solutions/gpt-pro/fundamentals/manage-plugins.md', "Plugins"],
+										['/solutions/gpt-pro/fundamentals/manage-administrators.md', "Administrator"],
 									]
 								},
 								['/solutions/gpt-pro/whats-new.md', "What’s new​"],
@@ -1203,8 +1206,11 @@ module.exports = {
 									children: [
 										['/solutions/gpt-pro/fundamentals/dashboard.md', "Dashboard"],
 										['/solutions/gpt-pro/fundamentals/documents.md', "Documents"],
+										['/solutions/gpt-pro/fundamentals/history.md', "History"],
 										['/solutions/gpt-pro/fundamentals/prompts.md', "Prompts"],
+										['/solutions/gpt-pro/fundamentals/welcome-card.md', "Welcome Card"],
 										['/solutions/gpt-pro/fundamentals/manage-plugins.md', "Plugins"],
+										['/solutions/gpt-pro/fundamentals/manage-administrators.md', "Administrator"],
 									]
 								},
 								['/solutions/gpt-pro/whats-new.md', "What’s new​"],
@@ -2159,8 +2165,11 @@ module.exports = {
 									children: [
 										['/solutions/gpt-pro/fundamentals/dashboard.md', "Dashboard"],
 										['/solutions/gpt-pro/fundamentals/documents.md', "Documents"],
+										['/solutions/gpt-pro/fundamentals/history.md', "History"],
 										['/solutions/gpt-pro/fundamentals/prompts.md', "Prompts"],
+										['/solutions/gpt-pro/fundamentals/welcome-card.md', "Welcome Card"],
 										['/solutions/gpt-pro/fundamentals/manage-plugins.md', "Plugins"],
+										['/solutions/gpt-pro/fundamentals/manage-administrators.md', "Administrator"],
 									]
 								},
 								['/solutions/gpt-pro/whats-new.md', "What’s new​"],
