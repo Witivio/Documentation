@@ -486,6 +486,13 @@ module.exports = {
 											],
 										},
 										{
+											title: 'Files',
+											collapsable: true,
+											children: [
+												['/solutions/calendar-pro/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro-.md', "How do I add files in an event of my Calendar Pro?"],
+											],
+										},
+										{
 											title: 'Power automate connector',
 											collapsable: true,
 											children: [
@@ -1435,6 +1442,13 @@ module.exports = {
 											],
 										},
 										{
+											title: 'Files',
+											collapsable: true,
+											children: [
+												['/solutions/calendar-pro/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro-.md', "How do I add files in an event of my Calendar Pro?"],
+											],
+										},
+										{
 											title: 'Power automate connector',
 											collapsable: true,
 											children: [
@@ -2381,6 +2395,13 @@ module.exports = {
 											collapsable: true,
 											children: [
 												['/solutions/calendar-pro/duplicate-a-calendar-pro/how-to-duplicate-my-calendar-pro-in-another-channel-.md', "How do I duplicate my Calendar Pro in another channel?"],
+											],
+										},
+										{
+											title: 'Files',
+											collapsable: true,
+											children: [
+												['/solutions/calendar-pro/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro-.md', "How do I add files in an event of my Calendar Pro?"],
 											],
 										},
 										{
