@@ -53,7 +53,8 @@ The treemap chart dynamically tracks and visualizes the frequency of keyword usa
 This section provides a ranked list of the most frequent inquiries made by users, with a count next to each for easy tracking of common concerns and topics.
 
 ### Most asked question categories
-The pie chart offers a colorful breakdown of user queries, enabling prioritization and trend-spotting in customer concerns.
+The pie chart offers a colorful breakdown of user queries, enabling prioritization and trend-spotting in employee's concerns.
+
 
 ## Navigating the Dashboard
 
