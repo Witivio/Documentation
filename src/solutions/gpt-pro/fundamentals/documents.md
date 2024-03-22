@@ -22,7 +22,7 @@ The interface lists all documents with details such as title, format, and the da
 ### Uploading a Document
 
 :::tip
-To keep GPT Pro’s knowledge base current, regularly upload new documents.
+To keep GPT Pro’s knowledge base up to date, regularly upload new documents.
 :::
 
 1. Click '+ Upload a document'.
