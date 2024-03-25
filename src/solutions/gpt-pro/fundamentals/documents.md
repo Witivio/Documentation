@@ -18,23 +18,26 @@ The interface lists all documents with details such as title, format, and the da
 
 ![Manage documents](/assets/img/gpt/documents.png)
 
+
 ### Uploading a Document
+
 :::tip
-To keep GPT Pro’s knowledge base current, regularly upload new documents.
+To keep GPT Pro’s knowledge base up to date, regularly upload new documents.
 :::
+
 1. Click '+ Upload a document'.
-2. Choose the PDF or PPT file from your device.
-3. The document will upload and be listed with the existing documents.
+2. Drag and drop your document(s) inside the box or manually choose the PDF or PPT file from your device by clicking 'Attach Files' button.
+3. The document will upload and be listed with the existing documents. 
 
 ### Checking Document Status
 For updates on your uploaded documents:
-- Click 'Check my documents status'.
+- Click `Check my documents status`.
 - A detailed status of each document's upload and processing will be displayed.
 
 ### Performing Actions on Documents
-- Use the 'Actions' dropdown next to each document to:
-  - **View**: Opens the document.
-  - **Edit**: Modify details like the title.
+- To view the document, simply click on the document's title to view the content.
+- Use the `Actions` dropdown next to each document to:
+  - **Download**: Download the document uploaded in the list.
   - **Delete**: Remove the document from GPT Pro.
 
 ## Best Practices
