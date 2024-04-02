@@ -271,6 +271,7 @@ module.exports = {
 									]
 								},
 								['/solutions/gpt-pro/limits.md', "Limits"],
+								['/solutions/gpt-pro/content-filter.md', "Content filtering"],
 								['/solutions/gpt-pro/changelog.md', "Change log​"],
 							]
 						},
@@ -1229,6 +1230,7 @@ module.exports = {
 									]
 								},
 								['/solutions/gpt-pro/limits.md', "Limits"],
+								['/solutions/gpt-pro/content-filter.md', "Content filtering"],
 								['/solutions/gpt-pro/changelog.md', "Change log​"],
 							]
 						},
@@ -2188,6 +2190,7 @@ module.exports = {
 									]
 								},
 								['/solutions/gpt-pro/limits.md', "Limits"],
+								['/solutions/gpt-pro/content-filter.md', "Content filtering"],
 								['/solutions/gpt-pro/changelog.md', "Change log​"],
 							]
 						},
