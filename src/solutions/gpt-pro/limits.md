@@ -9,7 +9,16 @@ Understanding these technical boundaries will enable you to leverage GPT Pro's c
 
 ---
 
-## GPT Pro: Limits and Restrictions
+## Multilingual capabilities
+GPT Pro uses GPT-4 as model.
+
+GPT-4 outperforms both previous large language models and as of 2023, most state-of-the-art systems (which often have benchmark-specific training or hand-engineering). On the MMLU benchmark, an English-language suite of multiple-choice questions covering 57 subjects, GPT-4 not only outperforms existing models by a considerable margin in English, but also demonstrates strong performance in other languages.
+
+![Languages](/assets/img/gpt/languages.jpg)
+
+To know more about: [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai.com/papers/gpt-4.pdf)
+
+## Limits and Restrictions
 
 ### Document Upload Limits
 
