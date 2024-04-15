@@ -35,6 +35,8 @@ To know more about: [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai
 
 3. **File Size Limit**: Each document uploaded should not exceed 10 Megabytes (Mo) in size.
 
+4. **Page Number Limit**: Each document uploaded should not exceed 200 pages.
+
 ### Plugin Integration
 
 1. **Maximum Number of Plugins**: Users can integrate up to 5 plugins with their GPT Pro environment.
