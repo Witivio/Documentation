@@ -258,10 +258,11 @@ module.exports = {
                 {
                   title: "Migrations",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/migrations/faq.md", "FAQ"]],
+                  children: [["/solutions/gpt-pro/migrations/faq.md", "FAQ"],["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"]],
                 },
                 ["/solutions/gpt-pro/limits.md", "Limits"],
                 ["/solutions/gpt-pro/content-filter.md", "Content filtering"],
+                ["/solutions/gpt-pro/roadmap.md", "Roadmap"],
                 ["/solutions/gpt-pro/changelog.md", "Change log​"],
               ],
             },
@@ -1256,10 +1257,14 @@ module.exports = {
                 {
                   title: "Migrations",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/migrations/faq.md", "FAQ"]],
+                  children: [
+                    ["/solutions/gpt-pro/migrations/faq.md", "FAQ"],
+                    ["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"]
+                  ],
                 },
                 ["/solutions/gpt-pro/limits.md", "Limits"],
                 ["/solutions/gpt-pro/content-filter.md", "Content filtering"],
+                ["/solutions/gpt-pro/roadmap.md", "Roadmap"],
                 ["/solutions/gpt-pro/changelog.md", "Change log​"],
               ],
             },
@@ -2254,10 +2259,11 @@ module.exports = {
                 {
                   title: "Migrations",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/migrations/faq.md", "FAQ"]],
+                  children: [["/solutions/gpt-pro/migrations/faq.md", "FAQ"],["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"]],
                 },
                 ["/solutions/gpt-pro/limits.md", "Limits"],
                 ["/solutions/gpt-pro/content-filter.md", "Content filtering"],
+                ["/solutions/gpt-pro/roadmap.md", "Roadmap"],
                 ["/solutions/gpt-pro/changelog.md", "Change log​"],
               ],
             },
