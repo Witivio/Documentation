@@ -51,7 +51,7 @@ Here is a summary of the key architecture components involved:
 | Azure OpenAI Service | Azure OpenAI Service provides access to OpenAI's powerful models, including GPT-3, Codex, and DALL-E, integrating cutting-edge AI capabilities into a wide range of applications. [Learn more...](https://azure.microsoft.com/en-us/services/openai-service) |
 
 ::: tip
-Learn more about [Azure Data Residency](./datamanagement.html#data-residency) from our [Data Management Practices](./datamanagement) page
+Learn more about [Azure Data Residency](/trust-center/data-management-practices/#data-residency) from our [Data Management Practices](/trust-center/data-management-practices/) page
 :::
 
 ## Microsoft Azure Data

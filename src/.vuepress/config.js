@@ -273,7 +273,7 @@ module.exports = {
               children: [
                 ["/solutions/admin-center/overview.md", "Overview"],
                 {
-                  title: "Tutorials",
+                  title: "Fundamentals",
                   collapsable: true,
                   children: [
                     {
@@ -295,11 +295,14 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md", "How to modify your account information"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
+                        ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
+                        ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"]
                       ],
                     },
                   ],
                 },
                 ["/solutions/admin-center/whats-new.md", "What’s new​"],
+                ["/solutions/admin-center/tutorials.md", "Tutorials"],
                 ["/solutions/admin-center/limits.md", "Limits"],
                 ["/solutions/admin-center/changelog.md", "Changelog​"],
               ],
@@ -1296,6 +1299,9 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-or-update-your-credit-card-details-.md", "How to modify or update your credit card details"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md", "How to modify your account information"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
+                        ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
+                        ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"]
                       ],
                     },
                   ],
@@ -2295,6 +2301,9 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-or-update-your-credit-card-details-.md", "How to modify or update your credit card details"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md", "How to modify your account information"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
+                        ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
+                        ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"]
                       ],
                     },
                   ],
