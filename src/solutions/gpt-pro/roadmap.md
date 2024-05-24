@@ -326,54 +326,6 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                         </div>
                     </div>
                     <div class="single-timeline-area">
-                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s"
-                            style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                            <p>Q4 24</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
-                                    <div class="timeline-icon"><i class="fa fa-tree" aria-hidden="true"></i></div>
-                                    <div class="timeline-text">
-                                        <h6>Conversation Tree</h6>
-                                        <p>New designer to manage conversation structures and flows.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
-                                    <div class="timeline-icon"><i class="fa fa-connectdevelop" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="timeline-text">
-                                        <h6>Power Automate / LogicApps Connector</h6>
-                                        <p>Integrate seamlessly with Power Automate or LogicApps to automate workflows.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
-                                    <div class="timeline-icon"><i class="fa fa-search-plus" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="timeline-text">
-                                        <h6>Advanced Files Indexer</h6>
-                                        <p>Use Vision to index more content for comprehensive search capabilities.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
-                                    <div class="timeline-icon"><i class="fa fa-microsoft" aria-hidden="true"></i></div>
-                                    <div class="timeline-text">
-                                        <h6>GPTs as M365 Copilot Plugin</h6>
-                                        <p>Integrate GPTs directly into Microsoft 365 as a Copilot plugin for enhanced
-                                            productivity.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-timeline-area">
                         <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
                             <p>Q1 25</p>
                         </div>
