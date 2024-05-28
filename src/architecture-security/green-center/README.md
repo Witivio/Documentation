@@ -159,6 +159,25 @@ The image depicts a flow diagram that illustrates the interaction between variou
 6. **Secure Infrastructure Authentication:**
    - A user-assigned managed identity is used to authenticate against Azure services, allowing the application to access Azure resources securely without storing credentials in code.
 
+
+## Microsoft Azure cost
+
+The estimated monthly cost for up to **5000 active users** using various Azure services is approximately $800.00 per month. This estimation is based on **public prices** without including any support plans.
+The breakdown of the monthly expenses is as follows:
+
+- **Azure Functions**: $3.60 for consumption tier with pay-as-you-go pricing.
+- **App Service**: $329.96 for Premium V2 Tier with 2 P2V2 instances (2 cores, 7 GB RAM, 250 GB storage).
+- **Storage Accounts**: $20.43 for Block Blob Storage, General Purpose V2.
+- **Azure Cosmos DB**: $29.20 for NoSQL database service.
+- **Azure Front Door**: $41.03 for the Standard base instance.
+- **Azure Virtual Network Manager**: $73.00 for one managed subscription for 730 hours.
+- **Key Vault**: $0.03 for 10,000 operations with no advanced operations or renewals.
+- **Azure Monitor**: $305.80 for log analytics with 1 GB daily data ingestion and 6 months retention.
+
+These costs cover the essential services required to maintain and operate the Green Center app efficiently for up **to 5000 users**, ensuring reliable performance and security.
+
+The detail is available [here](hhttps://azure.com/e/8e77a10428a84e8499e46e54947af9a6)
+
 ## Dependencies
 
 ### Client
