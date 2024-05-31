@@ -810,16 +810,6 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/recycle-bin-keepass-pro/what-is-the-time-frame-for-retrieving-a-password-from-the-recycle-bin-.md",
-                          "What is the time frame for retrieving a password from the Recycle Bin?",
-                        ],
-                      ],
-                    },
-                    {
                       title: "Vault management",
                       collapsable: true,
                       children: [["/solutions/keepass-pro/vault-management-keepass-pro/what-is-a-keepass-pro-vault-.md", "What is a KeePass Pro vault?"]],
@@ -830,6 +820,16 @@ module.exports = {
                       children: [
                         ["/solutions/keepass-pro/permissions-keepass-pro/fundamentals-permissions-in-keepass-pro.md", "Fundamentals Permissions in KeePass Pro"],
                         ["/solutions/keepass-pro/permissions-keepass-pro/limitations-of-keepass-pro-permissions.md", "Limitations of KeePass Pro Permissions"],
+                      ],
+                    },
+                    {
+                      title: "Recycle bin",
+                      collapsable: true,
+                      children: [
+                        [
+                          "/solutions/keepass-pro/recycle-bin-keepass-pro/what-is-the-time-frame-for-retrieving-a-password-from-the-recycle-bin-.md",
+                          "What is the time frame for retrieving a password from the Recycle Bin?",
+                        ],
                       ],
                     },
                   ],

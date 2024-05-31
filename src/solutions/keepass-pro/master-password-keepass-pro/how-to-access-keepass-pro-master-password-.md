@@ -1,27 +1,22 @@
-# How to access KeePass Pro master password?
+# How to Access KeePass Pro Master Password
 
-<h2 id="h_63f5692b9a">KeePass Pro in a Microsoft Teams Channel</h2>
-<p class="no-margin">If KeePass Pro is on the <b>channel</b>, everyone in the channel can access the master password. </p>
-<ol>
-<li>
-<p class="no-margin">Go to Tab Settings and click 'Remove' (this action will NOT immediately remove the tab).</p>
-</li>
-<li>
-<p class="no-margin">A window will open up. Copy the Master Password.</p>
-</li>
-<li>
-<p class="no-margin">Click on 'Close'. ⚠️ Do NOT click on remove. </p>
-</li>
-</ol><p class="no-margin"></p>
-<div class="intercom-container"><img src="/assets/img/teams-pro/image_50.png"></div><p class="no-margin"></p>
-<p class="no-margin"></p>
-<p class="no-margin"></p>
-<h2 id="h_74d39337be">Personal KeePass Pro (pinned on the navigation bar)</h2>
-<p class="no-margin">If KeePass Pro is pinned to the <b>left navigation bar</b>, only you can access it.</p>
-<p class="no-margin"></p>
-<p class="no-margin">When you first create the vault, a pop up message will appear. This is the ONLY moment the Master Password will appear to you. </p>
-<p class="no-margin"></p>
-<div class="intercom-container"><img src="/assets/img/teams-pro/image_51.png"></div><p class="no-margin">⚠️ Make sure you have a copy of the master password. If you lose/forget the master password, even Witivio <b>can't help in retrieving it.</b></p>
+## KeePass Pro in a Microsoft Teams Channel
 
+If KeePass Pro is installed in a **channel**, only the owners of the vault can access the master password.
 
+1. Go to the Settings menu and click 'Master Password'.
 
+![Settings Menu](../../../.vuepress/public/assets/img/teams-pro/keepass-pro/1.png)
+
+2. The master password details are displayed. You can show and copy it.
+
+![Master Password Details](../../../.vuepress/public/assets/img/teams-pro/keepass-pro/master-password.png)
+
+3. Click on 'Close' to go back to your vault.
+
+⚠️ **Warning**: When KeePass is removed, only owners will see the master password in the popup. If the master password is not saved, a user can remove the tab, and it will not be possible to recover it.
+
+## Personal KeePass Pro (Pinned on the Navigation Bar)
+
+Like KeePass in a channel, you can access the master password of your personal vault from the settings menu.
+If you remove/uninstall the tab, the next time you reinstall it with the same account, you will get access to it automatically.
