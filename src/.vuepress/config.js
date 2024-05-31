@@ -824,6 +824,14 @@ module.exports = {
                       collapsable: true,
                       children: [["/solutions/keepass-pro/vault-management-keepass-pro/what-is-a-keepass-pro-vault-.md", "What is a KeePass Pro vault?"]],
                     },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/keepass-pro/permissions-keepass-pro/fundamentals-permissions-in-keepass-pro.md", "Fundamentals Permissions in KeePass Pro"],
+                        ["/solutions/keepass-pro/permissions-keepass-pro/limitations-of-keepass-pro-permissions.md", "Limitations of KeePass Pro Permissions"],
+                      ],
+                    },
                   ],
                 },
                 {
@@ -860,6 +868,11 @@ module.exports = {
                         ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-import-a-kdbx-file-in-keepass-pro-.md", "How to import a KDBX file in KeePass Pro?"],
                         ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-keep-a-keepass-pro-vault-private-.md", "How to keep a KeePass Pro Vault private?"],
                       ],
+                    },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [["/solutions/keepass-pro/permissions-keepass-pro/tuto-managing-passwords.md", "Managing passwords permissions for IT Team in KeePass Pro"]],
                     },
                   ],
                 },
