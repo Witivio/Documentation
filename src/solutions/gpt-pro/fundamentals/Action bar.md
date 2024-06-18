@@ -1,4 +1,3 @@
-```markdown
 # Action Bar
 
 ## Overview
