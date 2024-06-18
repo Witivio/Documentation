@@ -1,4 +1,4 @@
-# Manage Plugins
+# Manage Plugin
 
 ## Overview
 
@@ -6,7 +6,7 @@ GPT Pro plugins are additional components that enhance the functionality of GPT 
 
 ## Accessing Plugin Management
 
-To manage your plugins for GPT Pro, navigate to the admin panel available at admin.gpt-pro.com. Here you can enable or disable plugins, add new ones, or configure existing ones.
+To manage your plugins for GPT Pro, navigate to the admin panel available at `admin.gpt-pro.com`. Here you can enable or disable plugins, add new ones, or configure existing ones.
 
 ![Manage plugins](/assets/img/gpt/plugins.png)
 
