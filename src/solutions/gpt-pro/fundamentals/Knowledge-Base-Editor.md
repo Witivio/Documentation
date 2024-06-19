@@ -1,4 +1,4 @@
-# Manage Plugins
+# Manage Knowledge Base
 
 ## Overview
 
@@ -20,7 +20,6 @@ To access the KB Editor, navigate to the GPT Pro admin panel at `admin.gpt-pro.c
 5.  Set-up the configuration: Have the possibility to set up your answer to be registered as it is or be added in the context of AI's response and indexed in the reference, also add tag to the question to better categorize them.
 5.  Save Entry: Click on Save to add the entry to the knowledge base.
 
-![Knowledge base editor](/assets/img/gpt/KB-editor.png)
 
 ### Editing Existing Entries
 

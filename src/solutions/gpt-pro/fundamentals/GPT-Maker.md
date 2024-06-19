@@ -34,4 +34,4 @@ Once a GPT is set-up, you will see them in the GPT overview of your admin dashbo
 3. Check the deployment status of each GPT, if they are fully deployed or still in the initializing process
 4. Properly configure each GPT by clicking on the `actions` button then `details`, or simply click on the GPT name. You will be faced by a dashboard dedicated of your respective GPT, where you can configure and monitor different aspects of your GPT.
 
-![GPT Maker Actions](/assets/img/gpt/GGPT-Maker-Action.png)
+![GPT Maker Actions](/assets/img/gpt/GPT-Maker-Action.png)
