@@ -1,4 +1,4 @@
-# Manage Plugins
+# Manage Knowledge Base
 
 ## Overview
 
@@ -8,7 +8,7 @@ The Knowledge Base (KB) Editor in GPT Pro is a powerful tool designed to help us
 
 To access the KB Editor, navigate to the GPT Pro admin panel at `admin.gpt-pro.com` and select the Knowledge option from the side menu.
 
-![Knowledge base editor](/assets/img/gpt/KB-editor.png)
+![Knowledge base editor](/KB-editor.png)
 
 ## Creating and Managing Knowledge Entries
 
@@ -20,13 +20,13 @@ To access the KB Editor, navigate to the GPT Pro admin panel at `admin.gpt-pro.c
 5.  Set-up the configuration: Have the possibility to set up your answer to be registered as it is or be added in the context of AI's response and indexed in the reference, also add tag to the question to better categorize them.
 5.  Save Entry: Click on Save to add the entry to the knowledge base.
 
-![Knowledge base editor](/assets/img/gpt/KB-editor.png)
 
 ### Editing Existing Entries
 
 1. **Locate the Entry**: Choose the entry you want to edit.
 2. **Edit Information**: Click on the entry to open it and make the necessary changes on the draft
 3. **Save Changes**: Click on `Save` to update the entry, once saved the updated input will be showcased on the published tab..
+
 
 ### Categorizing and Tagging
 
@@ -36,3 +36,5 @@ To keep the knowledge base organized and easy to navigate, you can categorize an
 2. **Add Category**: Choose or create a category that best describes the content of the entry.
 3. **Add Tags**: Enter relevant tags that will help users find the entry more easily.
 4. **Save**: Click on `Save` to apply the changes.
+
+![Knowledge base editor](/KB-Tagging.png)
