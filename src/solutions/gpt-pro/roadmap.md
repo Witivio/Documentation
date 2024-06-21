@@ -197,7 +197,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
                                     <div class="timeline-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
-                                        <h6>Advanced Bar</h6>
+                                        <h6>Advanced Action Bar</h6>
                                         <p>Features references, mailto, chart & diagram capabilities.</p>
                                     </div>
                                 </div>
