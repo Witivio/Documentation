@@ -215,3 +215,5 @@ In debug mode, you will witness the execution plan, which offers insight into wh
 
 This enhanced transparency aids developers in troubleshooting and refining the plugin's integration with GPT Pro, ensuring that it functions as intended and provides the necessary information to the model. Debug mode is an invaluable tool for developers looking to optimize their plugins' performance and interaction with the GPT Pro model.
 
+
+<Hubspot />

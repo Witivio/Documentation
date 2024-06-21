@@ -13,7 +13,7 @@
 <p class="no-margin">⚠️ After you delete your account, you won't be able to access your invoices. Be sure to download your invoices before moving forward.</p>
 <p class="no-margin"></p>
 
-
+<Hubspot />
 
 
  

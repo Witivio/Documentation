@@ -31,3 +31,5 @@
 <p class="no-margin">- The email associated with the subscription/payment for the Calendar Pro</p>
 
 <p class="no-margin"></p>
+
+<Hubspot />

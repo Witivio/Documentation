@@ -17,3 +17,5 @@ Here is what you can do in Administrator section of GPT Pro admin center :
 When adding an administrator, simply find it in 'Administrators' then click on the button 'Add administrator'. You can search for users within your organization by name or email, making it simple to identify and select the appropriate individual. Once added, the new administrator can immediately begin to manage the system, set permissions, and help in scaling the use of GPT Pro within the organization. 
 
 ![Add administrator](/assets/img/gpt/admin-2.png)
+
+<Hubspot />

@@ -7,5 +7,5 @@
 <p class="no-margin">Open <b>Map Pro tab</b> &gt; click on the <b>three dots [...]</b> next to Trips &gt; <b>Connect (3) </b>&gt; Select <b>Calendar Pro</b> from the drop down arrow in the pop-up box &gt; paste the <b>unique identifier</b> <b>(4)</b> &gt; <b>Save</b>.<br><br></p>
 <div class="intercom-container"><img src="/assets/img/teams-pro/image_185.png"></div>
 
-
+<Hubspot />
 

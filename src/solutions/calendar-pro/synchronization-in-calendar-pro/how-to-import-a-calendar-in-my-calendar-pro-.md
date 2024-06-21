@@ -24,6 +24,6 @@ Copy and paste the .ICS link from your Outlook or Google Calendar.</p>
 Non-Platinum members cannot view or add synchronized calendars of Platinum members.</b></p>
 <p class="no-margin"></p>
 
-
+<Hubspot />
 
 

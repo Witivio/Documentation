@@ -63,3 +63,5 @@ Here is a short description of each flow:
 | Distribution Listgroup.teams-pro.com  | for the apps including help contents |
 |.msecnd.net and *.visualstudio.com  | for performance metrics analysis |
 |graph.microsoft.com | for Microsoft Graph API access |
+
+<Hubspot />

@@ -248,3 +248,4 @@ The detail is available [here](hhttps://azure.com/e/8e77a10428a84e8499e46e54947a
 | Microsoft.Extensions.Logging                             | 7.0.0            | https://www.nuget.org/packages/Microsoft.Extensions.Logging/                                                          | MIT     |
 | Microsoft.Kiota.Http.HttpClientLibrary                   | 1.0.6            | https://www.nuget.org/packages/Microsoft.Kiota.Http.HttpClientLibrary/                                                | MIT     |
 
+<Hubspot />

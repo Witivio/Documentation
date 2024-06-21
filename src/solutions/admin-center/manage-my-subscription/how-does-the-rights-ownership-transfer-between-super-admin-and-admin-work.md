@@ -27,3 +27,5 @@
 - If the Admin does not update the billing information as required, a reminder email is sent, urging them to complete the necessary updates to finalize the rights transfer.
 
 This process ensures a clear and documented transition of Super Admin rights to an Admin, maintaining accountability and continuity within the administrative structure.
+
+<Hubspot />

@@ -13,5 +13,5 @@
 <div class="intercom-container"><img src="/assets/img/teams-pro/image_109.png"></div><p class="no-margin"><br>ℹ️ Users will need a Calendar Pro premium license to be able to use tags.</p>
 <p class="no-margin"></p>
 
-
+<Hubspot />
 

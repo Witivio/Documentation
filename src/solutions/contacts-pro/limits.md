@@ -46,3 +46,5 @@ Understanding how different tier users interact within the same instance of Cont
 - **Free Users:** Restricted to searching among the first 100 contacts.
 
 This configuration ensures that while the system remains accessible to all levels of users, certain features and capabilities are restricted based on the user's subscription tier. It’s designed to provide flexibility and control, aligning with organizational needs and individual user roles.
+
+<Hubspot />

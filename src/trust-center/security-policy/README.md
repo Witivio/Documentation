@@ -24,3 +24,4 @@ Creating pressure towards more reasonably-timed fixes will result in smaller win
 In our opinion, vulnerability disclosure policies such as ours result in greater overall safety for users of the Internet.
 
 <Classification label="public" />
+<Hubspot />

@@ -54,3 +54,6 @@ To know more about: [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai
 - **Security**: Ensure that all files and plugins are sourced from trusted and secure origins to maintain the integrity of your GPT Pro environment.
 - **Updates and Changes**: The limits and restrictions outlined here are subject to change. Regularly check this documentation for the latest information.
 
+
+
+<Hubspot />

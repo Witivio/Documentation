@@ -38,3 +38,5 @@ To keep the knowledge base organized and easy to navigate, you can categorize an
 4. **Save**: Click on `Save` to apply the changes.
 
 ![Knowledge base editor](/KB-Tagging.png)
+
+<Hubspot />

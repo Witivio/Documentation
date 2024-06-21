@@ -17,5 +17,5 @@
 <p class="no-margin">Your subscription will be updated to a yearly plan by itself.</p>
 <p class="no-margin"></p>
 
-
+<Hubspot />
 

@@ -30,3 +30,4 @@ In the KeePass Pro app:
 - **Premium Users**: Similar to Free users, Premium users cannot modify or manage permissions but can view them.
 - **Platinum Users**: Have full access to view permissions, but only owners can modify them or assign ownership. Owners can only customize the permissions if they have a Platinum license and can only customize the permissions of members with a Platinum license allocated.
 
+<Hubspot />

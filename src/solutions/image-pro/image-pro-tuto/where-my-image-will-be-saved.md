@@ -13,4 +13,4 @@
 <p class="no-margin">This feature allows you to quickly view your image without navigating through your SharePoint library.</p>
 <p class="no-margin"></p>
 
- 
+ <Hubspot />

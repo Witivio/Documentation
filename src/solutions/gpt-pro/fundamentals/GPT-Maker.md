@@ -35,3 +35,5 @@ Once a GPT is set-up, you will see them in the GPT overview of your admin dashbo
 4. Properly configure each GPT by clicking on the `actions` button then `details`, or simply click on the GPT name. You will be faced by a dashboard dedicated of your respective GPT, where you can configure and monitor different aspects of your GPT.
 
 ![GPT Maker Actions](/GPT-Maker-Action.png)
+
+<Hubspot />

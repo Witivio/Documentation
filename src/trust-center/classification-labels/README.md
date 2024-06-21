@@ -43,3 +43,4 @@ Here is the list of classification labels we're using, from the least to the mos
 4.	Material that can only be accessed by some specific employees (authenticated).
 
 <Classification label="public" />
+<Hubspot />

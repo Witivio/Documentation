@@ -37,3 +37,5 @@ The reformat feature allows GPT Pro users to customize the layout of text genera
 ## Conclusion
 
 The Action Bar in GPT Pro enhances the way users interact with AI-generated content, providing tools for customization, visualization, and efficient communication. By leveraging these features, users can improve productivity, maintain consistent formatting, and streamline their workflows within the Microsoft Teams environment.
+
+<Hubspot />

@@ -20,3 +20,5 @@ If KeePass Pro is installed in a **channel**, only the owners of the vault can a
 
 Like KeePass in a channel, you can access the master password of your personal vault from the settings menu.
 If you remove/uninstall the tab, the next time you reinstall it with the same account, you will get access to it automatically.
+
+<Hubspot />

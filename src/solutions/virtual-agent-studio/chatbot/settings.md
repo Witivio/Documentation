@@ -21,3 +21,4 @@ The **Settings tab** allows you to configure:
 ---
 
 
+<Hubspot />

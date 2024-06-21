@@ -77,3 +77,5 @@ The data presented in the dashboard can be used to gauge the performance and use
 The GPT Pro Dashboard is a powerful tool for monitoring the performance and user engagement of your GPT Pro instance. Use the insights gained here to make informed decisions to enhance your service.
 
 Remember, the dashboard is an overview tool. For detailed analytics and user behavior, consider check the conversation history.
+
+<Hubspot />

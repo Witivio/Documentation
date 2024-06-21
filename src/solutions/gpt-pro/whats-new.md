@@ -23,3 +23,5 @@ This "What's New" page for GPT Pro provides insights into the latest updates, en
 **Plugin and Integration Improvements**
 - **Robust Plugin Data Validation:** Enhanced data validation for plugins has been implemented, adhering to Open AI's plugin manifest requirements. This ensures better data integrity and security within the system.
 
+
+<Hubspot />

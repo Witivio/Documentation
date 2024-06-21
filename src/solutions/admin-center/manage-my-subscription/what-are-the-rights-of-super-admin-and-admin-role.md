@@ -16,3 +16,4 @@
 - **License Allocation**: By default, Admins do not have an assigned license. They must assign one to themselves if needed.
 - **Promotion Eligibility**: Can become a Super Admin.
 
+<Hubspot />
