@@ -5,6 +5,7 @@
  */
 import Overview from './theme/components/Overview'
 import Translator from './theme/components/Translator'
+import Hubspot from './theme/components/Hubspot'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -14,4 +15,5 @@ export default ({
 }) => {
   Vue.component("Overview", Overview)
   Vue.component("Translator", Translator)
+  Vue.component("Hubspot", Hubspot)
 }

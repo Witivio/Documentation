@@ -50,3 +50,5 @@ Welcome to our comprehensive Documentation Website, your one-stop resource for a
 4. **Stay Connected**: Subscribe to our newsletter or updates to receive notifications about new additions or changes to the documentation.
 
 Thank you for choosing us. We are committed to ensuring that our documentation serves as a valuable resource for you. Dive in, explore, and let's embark on this journey of discovery together!
+
+<Hubspot />
