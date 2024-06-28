@@ -276,3 +276,5 @@ If needed, it is possible to multiple the API calls to determine a profile. To t
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

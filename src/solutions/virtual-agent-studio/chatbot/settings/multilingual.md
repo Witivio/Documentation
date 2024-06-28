@@ -158,3 +158,5 @@ Once this training is over, if you make new changes and start a second training,
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

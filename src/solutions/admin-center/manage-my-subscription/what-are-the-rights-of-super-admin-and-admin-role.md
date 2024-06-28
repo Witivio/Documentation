@@ -17,3 +17,5 @@
 - **Promotion Eligibility**: Can become a Super Admin.
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

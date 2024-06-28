@@ -73,3 +73,5 @@ Better craft your AI Chatbot's personality by giving it instructions about how i
 In the system prompt section you can either describe the assistant’s personality, tell it what it should and shouldn’t answer, and tell it how to format responses. There’s no token limit for this section, but it will be included with every API call, so it counts against the overall token limit.
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

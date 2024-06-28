@@ -249,3 +249,5 @@ Click [here](/solutions/virtual-agent-studio/chatbot/communication/campaign.html
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

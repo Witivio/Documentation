@@ -112,3 +112,5 @@ This information is subject to change and we recommend that you check back quart
 
 <Classification label="public" />
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

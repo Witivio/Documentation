@@ -5,4 +5,6 @@
 <div class="intercom-container"><img src="/assets/img/teams-pro/image_101.png"></div><div class="intercom-container"><img src="/assets/img/teams-pro/image_102.png"></div>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
 

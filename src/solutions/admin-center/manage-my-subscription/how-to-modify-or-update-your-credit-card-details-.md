@@ -15,4 +15,6 @@
 <p class="no-margin">From now on, all your subscriptions will be charged to this new credit card.</p>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
 

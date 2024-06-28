@@ -35,3 +35,5 @@ For detailed information on tier limits and upgrading your account, please visit
 If you encounter any issues or have questions during the import process, please contact our support team for assistance. Our goal is to ensure a smooth and effective experience as you manage your contacts within Contacts Pro.
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

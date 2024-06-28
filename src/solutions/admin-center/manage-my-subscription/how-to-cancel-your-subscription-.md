@@ -20,6 +20,8 @@
 <p class="no-margin"></p>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
 
  
 

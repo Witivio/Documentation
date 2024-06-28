@@ -22,3 +22,5 @@ The **Settings tab** allows you to configure:
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

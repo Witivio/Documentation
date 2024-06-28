@@ -38,3 +38,5 @@ Don't forget to save changes!
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

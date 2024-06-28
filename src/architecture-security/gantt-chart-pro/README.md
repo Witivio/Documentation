@@ -136,3 +136,5 @@ Here is a short description of each flow:
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

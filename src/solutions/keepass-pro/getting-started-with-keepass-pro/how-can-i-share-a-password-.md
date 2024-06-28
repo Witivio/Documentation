@@ -8,4 +8,6 @@
 <p class="no-margin">⚠️ <b>Please note</b> that you can share passwords only when you have added KeePass Pro to a tab (shared channel). <b>This function is not available for private vaults or private channels.</b></p>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
 

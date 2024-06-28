@@ -19,3 +19,5 @@ When adding an administrator, simply find it in 'Administrators' then click on t
 ![Add administrator](/assets/img/gpt/admin-2.png)
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

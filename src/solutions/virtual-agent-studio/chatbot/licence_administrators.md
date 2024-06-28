@@ -56,3 +56,5 @@ chatbots (2) :
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

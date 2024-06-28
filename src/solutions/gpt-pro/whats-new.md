@@ -25,3 +25,5 @@ This "What's New" page for GPT Pro provides insights into the latest updates, en
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

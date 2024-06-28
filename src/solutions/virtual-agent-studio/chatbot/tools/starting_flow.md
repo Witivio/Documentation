@@ -45,3 +45,5 @@ pour starting flow
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

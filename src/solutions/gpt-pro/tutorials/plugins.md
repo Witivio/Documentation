@@ -72,3 +72,5 @@ Now that you know the basics of plugins, you might want to:
 3. [Manage Plugins](/solutions/gpt-pro/fundamentals/manage-plugins)
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

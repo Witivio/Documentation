@@ -27,3 +27,5 @@ This feedback loop not only enhances the AI's learning but also ensures that use
 ![Manage plugins](/assets/img/gpt/plugins.png)
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

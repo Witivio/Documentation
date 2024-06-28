@@ -22,3 +22,5 @@ Like KeePass in a channel, you can access the master password of your personal v
 If you remove/uninstall the tab, the next time you reinstall it with the same account, you will get access to it automatically.
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

@@ -1,2 +1,4 @@
 # Knowledge
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

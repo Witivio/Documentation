@@ -54,3 +54,5 @@ Here is an **example** of a dashboard:
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

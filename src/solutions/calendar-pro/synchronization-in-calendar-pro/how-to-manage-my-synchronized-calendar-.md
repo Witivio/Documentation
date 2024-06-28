@@ -23,4 +23,6 @@ Non-Platinum members cannot view or add synchronized calendars of Platinum membe
 <p class="no-margin"></p>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
 

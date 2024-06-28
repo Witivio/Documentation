@@ -16,3 +16,5 @@ Especially:
 
 <Classification label="public" />
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

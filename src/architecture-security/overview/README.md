@@ -27,3 +27,5 @@ Through these pages, you'll discover:
 <Classification label="public" />
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

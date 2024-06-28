@@ -65,3 +65,5 @@ Here is a short description of each flow:
 |graph.microsoft.com | for Microsoft Graph API access |
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

@@ -93,3 +93,5 @@ Finally, we invite you to verify the veracity of the information provided by the
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

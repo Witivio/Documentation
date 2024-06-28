@@ -36,3 +36,5 @@ Click on the question asked by the user to display the details and take the nece
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

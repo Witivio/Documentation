@@ -98,3 +98,5 @@ Here is a short description of each flow:
 | Microsoft.Bot.Builder.Integration.AspNet.Core                  | 4.17.2  | https://raw.githubusercontent.com/domaindrivendev/Swashbuckle.AspNetCore/master/LICENSE | MIT        |
 | Microsoft.Bot.Builder.LanguageGeneration                       | 4.17.2  | https://raw.githubusercontent.com/domaindrivendev/Swashbuckle.AspNetCore/master/LICENSE | MIT        |
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

@@ -25,3 +25,5 @@ In the system prompt section you can either describe the assistant’s personali
 :::
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

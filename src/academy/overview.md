@@ -8,3 +8,5 @@ Duis posuere pharetra odio efficitur gravida. Integer consectetur orci pellentes
 
 Fusce sit amet pulvinar orci. Etiam a nisi felis. Nunc eget diam vestibulum, vestibulum ex ac, molestie nisl. Vivamus porta dolor sit amet elit sodales, ac semper odio mattis. Pellentesque arcu libero, semper vitae mollis eget, posuere nec magna. Proin id accumsan diam, ac vehicula enim. Aenean aliquam nibh id vulputate ornare. Fusce scelerisque lacus in augue luctus tristique. Suspendisse potenti. Duis ac convallis quam, et posuere arcu. Nam sodales congue turpis a luctus. Proin nunc ex, imperdiet eu eros sit amet, porta ultricies nunc. Nulla facilisi. Etiam feugiat bibendum odio, non consequat eros tincidunt non.
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

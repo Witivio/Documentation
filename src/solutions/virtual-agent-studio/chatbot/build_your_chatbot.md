@@ -107,3 +107,5 @@ Let’s go ! 🕺
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

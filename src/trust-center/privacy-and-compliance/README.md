@@ -39,3 +39,5 @@ See [Microsoft Azure Trusted Cloud](https://azure.microsoft.com/en-us/overview/t
 
 <Classification label="public" />
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

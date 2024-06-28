@@ -14,4 +14,6 @@
 <p class="no-margin">ℹ️ Users will need a Booking Room Pro premium license to be able to use tags.</p>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
 

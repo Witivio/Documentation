@@ -31,3 +31,5 @@ Adele Vance, an IT Manager at a large corporation, needs to manage access permis
    - After making all necessary adjustments, Adele clicks "Save" to apply the new permissions. The changes are now effective, and only those with the appropriate permissions can manage the passwords in KeePass Pro.
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

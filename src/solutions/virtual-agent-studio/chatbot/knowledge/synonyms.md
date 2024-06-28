@@ -60,3 +60,5 @@ To synchronize the synonyms, click on "PUBLISH" at the top right of the page.
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

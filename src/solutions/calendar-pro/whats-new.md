@@ -24,3 +24,5 @@ Our comprehensive guide will walk you through the synchronization process for a 
 Detailed documentation for these features is available under their respective sections. Enhance your scheduling efficiency with these latest updates in Calendar Pro!</p>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

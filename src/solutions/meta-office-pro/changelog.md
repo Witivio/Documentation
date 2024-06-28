@@ -28,3 +28,5 @@ Feel free to adapt the language further to make it more user-friendly based on y
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

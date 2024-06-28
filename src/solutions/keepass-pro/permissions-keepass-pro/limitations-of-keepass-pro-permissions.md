@@ -5,3 +5,5 @@
 - Only the owner(s) of the KeePass Pro tab can assign owner rights and modify permissions.
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

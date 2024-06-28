@@ -44,3 +44,5 @@ Here is the list of classification labels we're using, from the least to the mos
 
 <Classification label="public" />
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

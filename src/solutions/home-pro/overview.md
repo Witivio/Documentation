@@ -24,3 +24,5 @@ items:
 
 <Overview />
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

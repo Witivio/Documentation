@@ -14,3 +14,5 @@
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

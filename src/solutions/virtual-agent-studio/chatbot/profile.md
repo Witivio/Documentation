@@ -113,3 +113,5 @@ Everyone.
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

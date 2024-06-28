@@ -375,3 +375,5 @@ Please note: All items on the roadmap are subject to change based on evolving bu
 </section>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

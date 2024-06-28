@@ -66,3 +66,5 @@ suggested by users and the number of unresolved feedbacks.
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

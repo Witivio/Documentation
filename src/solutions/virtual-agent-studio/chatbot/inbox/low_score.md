@@ -31,3 +31,5 @@ actions:
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

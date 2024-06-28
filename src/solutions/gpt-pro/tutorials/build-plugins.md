@@ -217,3 +217,5 @@ This enhanced transparency aids developers in troubleshooting and refining the p
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

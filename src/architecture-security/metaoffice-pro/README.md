@@ -215,3 +215,5 @@ Here is a short description of each flow:
 | `uuid`                                    | ^8.3.2         | https://www.npmjs.com/package/uuid                                    | MIT                              |
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

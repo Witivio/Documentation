@@ -1,2 +1,4 @@
 <Translator />
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

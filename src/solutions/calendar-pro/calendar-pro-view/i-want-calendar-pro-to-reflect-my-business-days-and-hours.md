@@ -7,4 +7,6 @@
 <div class="intercom-container"><img src="/assets/img/teams-pro/image_0.png"></div><p class="no-margin"></p>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
 

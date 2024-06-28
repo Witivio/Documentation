@@ -13,3 +13,5 @@
 - **Account Restrictions**: Cannot be an Admin in another account but can have a license from another subscription.
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

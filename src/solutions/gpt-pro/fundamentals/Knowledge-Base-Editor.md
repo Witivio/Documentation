@@ -40,3 +40,5 @@ To keep the knowledge base organized and easy to navigate, you can categorize an
 ![Knowledge base editor](/KB-Tagging.png)
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

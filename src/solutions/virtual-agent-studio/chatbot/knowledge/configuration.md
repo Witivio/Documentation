@@ -62,3 +62,5 @@ the different questions).
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

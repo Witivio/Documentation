@@ -176,3 +176,5 @@ Then click on publish.
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

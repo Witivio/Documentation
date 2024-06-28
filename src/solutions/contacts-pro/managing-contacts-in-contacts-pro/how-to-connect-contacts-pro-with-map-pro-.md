@@ -26,4 +26,6 @@
 </ol><p class="no-margin">And voilà, you can see your contacts in the Map Pro 🚀</p>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
 

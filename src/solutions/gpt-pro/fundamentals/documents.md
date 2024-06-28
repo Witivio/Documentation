@@ -94,3 +94,5 @@ For updates on your added libraries:
 - Remove outdated libraries to maintain GPT Pro's performance.
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

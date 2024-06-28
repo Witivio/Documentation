@@ -112,3 +112,5 @@ Here is a short description of each flow:
 | Newtonsoft.Json | 13.0.3 | https://github.com/JamesNK/Newtonsoft.Json | MIT |
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

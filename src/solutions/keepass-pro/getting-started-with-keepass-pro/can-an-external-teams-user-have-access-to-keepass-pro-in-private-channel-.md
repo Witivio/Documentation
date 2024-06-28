@@ -5,4 +5,6 @@
 <p class="no-margin">We've implemented this policy to maintain the utmost privacy of your passwords.</p>
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
 

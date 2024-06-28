@@ -34,3 +34,5 @@ on “Communication” then [**“Campaign”**](/solutions/virtual-agent-studio
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

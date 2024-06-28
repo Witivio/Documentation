@@ -7,6 +7,8 @@
 
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
 
 
 

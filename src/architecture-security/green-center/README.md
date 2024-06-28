@@ -249,3 +249,5 @@ The detail is available [here](hhttps://azure.com/e/8e77a10428a84e8499e46e54947a
 | Microsoft.Kiota.Http.HttpClientLibrary                   | 1.0.6            | https://www.nuget.org/packages/Microsoft.Kiota.Http.HttpClientLibrary/                                                | MIT     |
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

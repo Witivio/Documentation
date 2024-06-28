@@ -62,3 +62,5 @@ footer: Made by Witivio with ❤️
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />

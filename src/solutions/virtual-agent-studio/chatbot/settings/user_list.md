@@ -66,3 +66,5 @@ Save changes!
 ---
 
 <Hubspot />
+<Clarity />
+<GoogleAnalytics />
