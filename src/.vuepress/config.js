@@ -426,9 +426,9 @@ module.exports = {
                   title: "Get started !",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Overview"],
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/setup-and-installation.md", "Setup and Installation"],
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/faq.md", "Setup FAQ"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Get started guide"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/setup-and-installation.md", "Setup and installation"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/faq.md", "FAQ"],
                   ],
                 },
                 {
@@ -436,111 +436,96 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
+                      title: "Calendar Customization",
+                      collapsable: true,
+                      children: [
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-view.md",
+                          "Manage view",
+                        ],
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
+                          "How do I duplicate my Calendar Pro in another channel?",
+                        ],
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
+                          "Manage notifications",
+                        ],
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
+                          "Set up and manage public holiday",
+                        ],
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md",
+                          "Manage timezone",
+                        ],
+                      ],
+                    },
+                    {
                       title: "Events",
                       collapsable: true,
                       children: [
                         [
                           "/solutions/calendar-pro/fundamentals/events/managing-events.md",
-                          "Managing Events",
+                          "Managing events",
                         ],
                         [
                           "/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md",
-                          "Personalizing Events",
+                          "Advanced event personalization",
                         ],
                       ],
                     },
-                    {
-                      title: "Calendar Customization",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/Calendar-pro-view.md",
-                          "Calendar Pro View",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
-                          "Duplicate Calendar",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
-                          "Public Holiday",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezone.md",
-                          "Timezone",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
-                          "Notifications",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Synchronize with Other Calendar",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md",
-                          "Print Calendar Pro Overview",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Printing",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md",
-                          "Print Calendar Pro Overview",
-                        ],
-                      ],
-                    },
-                    title: "Tags Management",
-                    collapsable: true,
-                    children: [
-                      [
-                        "/solutions/calendar-pro/fundamentals/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md",
-                        "Creating and Managing Tags",
-                      ],
-                    ],
-                  },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
                         [
                           "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md",
-                          "Managing Permissions",
+                          "Managing permissions",
                         ],
                         [
                           "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md",
-                          "Permissions FAQ",
+                          "FAQ",
                         ],
                       ],
                     },
                     {
                       title: "Power automate connector",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/power-automate-connector-calendar-pro/is-calendar-pro-integrated-with-power-bi-.md", "Is Calendar Pro integrated with Power BI?"]],
-                    },
-                  ],
-                },
-                    {
-                      title: "Pricing",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/pricing-calendar-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
-                        [
-                          "/solutions/calendar-pro/pricing-calendar-pro/what-is-the-difference-between-calendar-pro-premium-vs-free-.md",
-                          "What is the difference between Calendar Pro Premium vs free?",
-                        ],
-                      ],
+                      children: [["/solutions/calendar-pro/fundamentals/power-automate-connector-calendar-pro/is-calendar-pro-integrated-with-power-bi-.md", "Is Calendar Pro integrated with Power BI?"]],
                     },
                     {
                       title: "Printing",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/printing-calendar-pro/i-can-t-see-the-print-option.md", "I can’t see the print option."]],
+                      children: [["/solutions/calendar-pro/fundamentals/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md", "How Can I Print My Calendar Pro Overview?"]],
                     },
+                    {
+                      title: "Tags",
+                      collapsable: true,
+                      children: [["/solutions/calendar-pro/fundamentals/tags-in-calendar-pro/how-can-i-add-tags-to-my-events-.md", "How can I add tags to my events?"]],
+                    },
+                  ],
+                },
+                {
+                  title: "Pricing and subscription",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/calendar-pro/pricing-and-subscription/do-you-offer-educational-or-nonprofit-plans-.md", "Get started guide"],
+                    ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
+                    ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
+                  ],
+                },
+                {
+                  title: "Troubleshooting",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/calendar-pro/troubleshooting/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
+                    [
+                      "/solutions/calendar-pro/troubleshooting/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
+                     "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
+                    ],
+                    ["/solutions/calendar-pro/troubleshooting/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
+                      
                   ],
                 },
                 {
@@ -548,44 +533,14 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "View",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/calendar-pro-view/how-can-i-change-the-first-day-of-the-week-in-calendar-pro-.md", "How can I change the first day of the week in Calendar Pro?"],
-                        [
-                          "/solutions/calendar-pro/calendar-pro-view/how-can-i-change-the-view-of-the-calendar-pro-to-day-week-monthly-.md",
-                          "How can I change the view of the Calendar Pro to day/week/monthly?",
-                        ],
-                        ["/solutions/calendar-pro/calendar-pro-view/i-want-calendar-pro-to-reflect-my-business-days-and-hours.md", "I want Calendar Pro to reflect my business days and hours"],
-                        ["/solutions/calendar-pro/calendar-pro-view/show-and-hide-weekends-and-the-number-of-the-week.md", "Show and hide weekends and the number of the week"],
-                        ["/solutions/calendar-pro/calendar-pro-view/view-customized-public-holidays-in-calendar-pro.md", "View customized public holidays in Calendar Pro"],
-                      ],
-                    },
-                    {
-                      title: "Permissions",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/how-to-change-the-permission-to-make-changes-in-calendar-pro-.md",
-                          "How to change the permission to make changes to Calendar Pro?",
-                        ],
-                      ],
-                    },
-                    {
                       title: "Synchronization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-export-my-calendar-pro-to-another-calendar-", "How to export my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-import-a-calendar-in-my-calendar-pro-.md", "How to import a calendar in my Calendar Pro?"],
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-manage-my-synchronized-calendar-.md", "How to manage my synchronized calendars?"],
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/see-the-shared-synchronized-calendars-", "See the shared synchronized calendars"],
-                      ],
-                    },
-                    {
-                      title: "Duplication",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/duplicate-a-calendar-pro/how-to-duplicate-my-calendar-pro-in-another-channel-.md", "How do I duplicate my Calendar Pro in another channel?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-export-my-calendar-pro-to-another-calendar-", "How to export my calendar pro to another calendar?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-import-a-calendar-in-my-calendar-pro-.md", "How to import a calendar in my Calendar Pro?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-manage-my-synchronized-calendar-.md", "How to manage my synchronized calendars?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-synchronize-outlook-with-calendar-pro-.md", "How to synchronize outlook with Calendar Pro?"],
+                        ["/solutions/calendar-pro/synchronization/see-the-shared-synchronized-calendars-", "See the shared synchronized calendars"],
                       ],
                     },
                     {
@@ -594,60 +549,28 @@ module.exports = {
                       children: [["/solutions/calendar-pro/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro-.md", "How do I add files in an event of my Calendar Pro?"]],
                     },
                     {
-                      title: "Power automate connector",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/power-automate-connector-calendar-pro/how-to-synchronize-outlook-with-calendar-pro-.md", "How to synchronize Outlook with Calendar Pro?"]],
-                    },
-                    {
-                      title: "Printing",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md", "How can I print my Calendar Pro?"]],
-                    },
-                    {
                       title: "Single and recurrent events",
                       collapsable: true,
                       children: [
                         [
-                          "/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/can-we-delete-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
+                          "/solutions/calendar-pro/single-and-recurrent-events/can-we-delete-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
                           "Can we delete a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
                         ],
                         [
-                          "/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/can-we-edit-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
+                          "/solutions/calendar-pro/single-and-recurrent-events/can-we-edit-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
                           "Can we edit a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
                         ],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-add-a-recurrent-event-.md", "How can I add a recurrent event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-add-an-event-.md", "How can I add an event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-add-links-to-my-events-.md", "How can I add links to my events?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-delete-an-event-.md", "How can I delete an event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-edit-modify-a-recurrent-events-.md", "How can I edit/modify a recurrent events?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-edit-modify-an-event-.md", "How can I edit/modify an event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-to-see-the-event-id-in-calendar-pro-.md", "How to see the Event ID in Calendar Pro?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-add-a-recurrent-event-.md", "How can I add a recurrent event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-add-an-event-.md", "How can I add an event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-add-links-to-my-events-.md", "How can I add links to my events?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-delete-an-event-.md", "How can I delete an event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-edit-modify-a-recurrent-events-.md", "How can I edit/modify a recurrent events?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-edit-modify-an-event-.md", "How can I edit/modify an event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-to-see-the-event-id-in-calendar-pro-.md", "How to see the Event ID in Calendar Pro?"],
                         [
-                          "/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-to-see-the-series-id-of-a-recurrent-event-series-in-calendar-pro-.md",
+                          "/solutions/calendar-pro/single-and-recurrent-events/how-to-see-the-series-id-of-a-recurrent-event-series-in-calendar-pro-.md",
                           "How to see the series Id of a recurrent event series in Calendar Pro?",
                         ],
-                      ],
-                    },
-                    {
-                      title: "Tags",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/tags-in-calendar-pro/how-can-i-add-tags-to-my-events-.md", "How can I add tags to my events?"]],
-                    },
-                    {
-                      title: "Timezones",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/timezones-in-calendar-pro/how-can-i-change-the-time-zone-.md", "How can I change the time zone?"]],
-                    },
-                    {
-                      title: "Troubleshooting",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/troubleshooting-in-calendar-pro/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
-                        [
-                          "/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
-                          "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
-                        ],
-                        ["/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
                       ],
                     },
                   ],
@@ -1517,9 +1440,9 @@ module.exports = {
                   title: "Get started !",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Overview"],
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/setup-and-installation.md", "Setup and Installation"],
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/faq.md", "Setup FAQ"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Get started guide"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/setup-and-installation.md", "Setup and installation"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/faq.md", "FAQ"],
                   ],
                 },
                 {
@@ -1527,93 +1450,96 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
+                      title: "Calendar Customization",
+                      collapsable: true,
+                      children: [
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-view.md",
+                          "Manage view",
+                        ],
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
+                          "How do I duplicate my Calendar Pro in another channel?",
+                        ],
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
+                          "Manage notifications",
+                        ],
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
+                          "Set up and manage public holiday",
+                        ],
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md",
+                          "Manage timezone",
+                        ],
+                      ],
+                    },
+                    {
                       title: "Events",
                       collapsable: true,
                       children: [
                         [
                           "/solutions/calendar-pro/fundamentals/events/managing-events.md",
-                          "Managing Events",
+                          "Managing events",
                         ],
                         [
                           "/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md",
-                          "Personalizing Events",
+                          "Advanced event personalization",
                         ],
                       ],
                     },
-                    {
-                      title: "Calendar Customization",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/Calendar-pro-view.md",
-                          "Calendar Pro View",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
-                          "Duplicate Calendar",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
-                          "Public Holiday",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezone.md",
-                          "Timezone",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
-                          "Notifications",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Synchronize with Other Calendar",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md",
-                          "Print Calendar Pro Overview",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Printing",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md",
-                          "Print Calendar Pro Overview",
-                        ],
-                      ],
-                    },
-                    title: "Tags Management",
-                    collapsable: true,
-                    children: [
-                      [
-                        "/solutions/calendar-pro/fundamentals/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md",
-                        "Creating and Managing Tags",
-                      ],
-                    ],
-                  },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
                         [
                           "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md",
-                          "Managing Permissions",
+                          "Managing permissions",
                         ],
                         [
                           "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md",
-                          "Permissions FAQ",
+                          "FAQ",
                         ],
                       ],
                     },
                     {
                       title: "Power automate connector",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/power-automate-connector-calendar-pro/is-calendar-pro-integrated-with-power-bi-.md", "Is Calendar Pro integrated with Power BI?"]],
+                      children: [["/solutions/calendar-pro/fundamentals/power-automate-connector-calendar-pro/is-calendar-pro-integrated-with-power-bi-.md", "Is Calendar Pro integrated with Power BI?"]],
                     },
+                    {
+                      title: "Printing",
+                      collapsable: true,
+                      children: [["/solutions/calendar-pro/fundamentals/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md", "How Can I Print My Calendar Pro Overview?"]],
+                    },
+                    {
+                      title: "Tags",
+                      collapsable: true,
+                      children: [["/solutions/calendar-pro/fundamentals/tags-in-calendar-pro/how-can-i-add-tags-to-my-events-.md", "How can I add tags to my events?"]],
+                    },
+                  ],
+                },
+                {
+                  title: "Pricing and subscription",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/calendar-pro/pricing-and-subscription/do-you-offer-educational-or-nonprofit-plans-.md", "Get started guide"],
+                    ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
+                    ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
+                  ],
+                },
+                {
+                  title: "Troubleshooting",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/calendar-pro/troubleshooting/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
+                    [
+                      "/solutions/calendar-pro/troubleshooting/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
+                     "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
+                    ],
+                    ["/solutions/calendar-pro/troubleshooting/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
+                      
                   ],
                 },
                 {
@@ -1621,44 +1547,14 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "View",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/calendar-pro-view/how-can-i-change-the-first-day-of-the-week-in-calendar-pro-.md", "How can I change the first day of the week in Calendar Pro?"],
-                        [
-                          "/solutions/calendar-pro/calendar-pro-view/how-can-i-change-the-view-of-the-calendar-pro-to-day-week-monthly-.md",
-                          "How can I change the view of the Calendar Pro to day/week/monthly?",
-                        ],
-                        ["/solutions/calendar-pro/calendar-pro-view/i-want-calendar-pro-to-reflect-my-business-days-and-hours.md", "I want Calendar Pro to reflect my business days and hours"],
-                        ["/solutions/calendar-pro/calendar-pro-view/show-and-hide-weekends-and-the-number-of-the-week.md", "Show and hide weekends and the number of the week"],
-                        ["/solutions/calendar-pro/calendar-pro-view/view-customized-public-holidays-in-calendar-pro.md", "View customized public holidays in Calendar Pro"],
-                      ],
-                    },
-                    {
-                      title: "Permissions",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/how-to-change-the-permission-to-make-changes-in-calendar-pro-.md",
-                          "How to change the permission to make changes to Calendar Pro?",
-                        ],
-                      ],
-                    },
-                    {
                       title: "Synchronization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-export-my-calendar-pro-to-another-calendar-", "How to export my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-import-a-calendar-in-my-calendar-pro-.md", "How to import a calendar in my Calendar Pro?"],
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-manage-my-synchronized-calendar-.md", "How to manage my synchronized calendars?"],
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/see-the-shared-synchronized-calendars-", "See the shared synchronized calendars"],
-                      ],
-                    },
-                    {
-                      title: "Duplication",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/duplicate-a-calendar-pro/how-to-duplicate-my-calendar-pro-in-another-channel-.md", "How do I duplicate my Calendar Pro in another channel?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-export-my-calendar-pro-to-another-calendar-", "How to export my calendar pro to another calendar?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-import-a-calendar-in-my-calendar-pro-.md", "How to import a calendar in my Calendar Pro?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-manage-my-synchronized-calendar-.md", "How to manage my synchronized calendars?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-synchronize-outlook-with-calendar-pro-.md", "How to synchronize outlook with Calendar Pro?"],
+                        ["/solutions/calendar-pro/synchronization/see-the-shared-synchronized-calendars-", "See the shared synchronized calendars"],
                       ],
                     },
                     {
@@ -1667,72 +1563,28 @@ module.exports = {
                       children: [["/solutions/calendar-pro/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro-.md", "How do I add files in an event of my Calendar Pro?"]],
                     },
                     {
-                      title: "Power automate connector",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/power-automate-connector-calendar-pro/how-to-synchronize-outlook-with-calendar-pro-.md", "How to synchronize Outlook with Calendar Pro?"]],
-                    },
-                    {
-                      title: "Printing",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md", "How can I print my Calendar Pro?"]],
-                    },
-                    {
                       title: "Single and recurrent events",
                       collapsable: true,
                       children: [
                         [
-                          "/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/can-we-delete-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
+                          "/solutions/calendar-pro/single-and-recurrent-events/can-we-delete-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
                           "Can we delete a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
                         ],
                         [
-                          "/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/can-we-edit-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
+                          "/solutions/calendar-pro/single-and-recurrent-events/can-we-edit-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
                           "Can we edit a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
                         ],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-add-a-recurrent-event-.md", "How can I add a recurrent event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-add-an-event-.md", "How can I add an event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-add-links-to-my-events-.md", "How can I add links to my events?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-delete-an-event-.md", "How can I delete an event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-edit-modify-a-recurrent-events-.md", "How can I edit/modify a recurrent events?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-edit-modify-an-event-.md", "How can I edit/modify an event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-to-see-the-event-id-in-calendar-pro-.md", "How to see the Event ID in Calendar Pro?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-add-a-recurrent-event-.md", "How can I add a recurrent event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-add-an-event-.md", "How can I add an event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-add-links-to-my-events-.md", "How can I add links to my events?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-delete-an-event-.md", "How can I delete an event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-edit-modify-a-recurrent-events-.md", "How can I edit/modify a recurrent events?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-edit-modify-an-event-.md", "How can I edit/modify an event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-to-see-the-event-id-in-calendar-pro-.md", "How to see the Event ID in Calendar Pro?"],
                         [
-                          "/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-to-see-the-series-id-of-a-recurrent-event-series-in-calendar-pro-.md",
+                          "/solutions/calendar-pro/single-and-recurrent-events/how-to-see-the-series-id-of-a-recurrent-event-series-in-calendar-pro-.md",
                           "How to see the series Id of a recurrent event series in Calendar Pro?",
                         ],
-                      ],
-                    },
-                    {
-                      title: "Tags",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/tags-in-calendar-pro/how-can-i-add-tags-to-my-events-.md", "How can I add tags to my events?"]],
-                    },
-                    {
-                      title: "Timezones",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/timezones-in-calendar-pro/how-can-i-change-the-time-zone-.md", "How can I change the time zone?"]],
-                    },
-                    {
-                      title: "Pricing",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/pricing-calendar-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
-                        [
-                          "/solutions/calendar-pro/pricing-calendar-pro/what-is-the-difference-between-calendar-pro-premium-vs-free-.md",
-                          "What is the difference between Calendar Pro Premium vs free?",
-                        ],
-                        ["/solutions/calendar-pro/pricing-calendar-pro/managing-subscription.md", "Do you offer educational or nonprofit plans?"],
-                      ],
-                    },
-                    {
-                      title: "Troubleshooting",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/troubleshooting-in-calendar-pro/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
-                        [
-                          "/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
-                          "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
-                        ],
-                        ["/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
                       ],
                     },
                   ],
@@ -2586,9 +2438,9 @@ module.exports = {
                   title: "Get started !",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Overview"],
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/setup-and-installation.md", "Setup and Installation"],
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/faq.md", "Setup FAQ"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Get started guide"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/setup-and-installation.md", "Setup and installation"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/faq.md", "FAQ"],
                   ],
                 },
                 {
@@ -2600,20 +2452,24 @@ module.exports = {
                       collapsable: true,
                       children: [
                         [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/Calendar-pro-view.md",
-                          "Customize the view in Calendar",
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-view.md",
+                          "Manage view",
+                        ],
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
+                          "How do I duplicate my Calendar Pro in another channel?",
+                        ],
+                        [
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
+                          "Manage notifications",
                         ],
                         [
                           "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
-                          "Add Public Holiday",
+                          "Set up and manage public holiday",
                         ],
                         [
                           "/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md",
-                          "Timezones",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/how-to-share-all-the-resources-as-a-licensed-user-with-other-non-licensed-users-.md",
-                          "How to share all the resources as a licensed user with other non-licensed users?",
+                          "Manage timezone",
                         ],
                       ],
                     },
@@ -2623,58 +2479,65 @@ module.exports = {
                       children: [
                         [
                           "/solutions/calendar-pro/fundamentals/events/managing-events.md",
-                          "Managing Events",
+                          "Managing events",
                         ],
                         [
                           "/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md",
-                          "Personalizing Events",
+                          "Advanced event personalization",
                         ],
                       ],
                     },
-
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
                         [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/Calendar-pro-view.md",
-                          "Customize the view in Calendar",
+                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md",
+                          "Managing permissions",
                         ],
                         [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
-                          "Add Public Holiday",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md",
-                          "Timezones",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/how-to-share-all-the-resources-as-a-licensed-user-with-other-non-licensed-users-.md",
-                          "How to share all the resources as a licensed user with other non-licensed users?",
+                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md",
+                          "FAQ",
                         ],
                       ],
-
+                    },
                     {
                       title: "Power automate connector",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/power-automate-connector-calendar-pro/is-calendar-pro-integrated-with-power-bi-.md", "Is Calendar Pro integrated with Power BI?"]],
-                    },
-                    {
-                      title: "Pricing",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/pricing-calendar-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
-                        [
-                          "/solutions/calendar-pro/pricing-calendar-pro/what-is-the-difference-between-calendar-pro-premium-vs-free-.md",
-                          "What is the difference between Calendar Pro Premium vs free?",
-                        ],
-                      ],
+                      children: [["/solutions/calendar-pro/fundamentals/power-automate-connector-calendar-pro/is-calendar-pro-integrated-with-power-bi-.md", "Is Calendar Pro integrated with Power BI?"]],
                     },
                     {
                       title: "Printing",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/printing-calendar-pro/i-can-t-see-the-print-option.md", "I can’t see the print option."]],
+                      children: [["/solutions/calendar-pro/fundamentals/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md", "How Can I Print My Calendar Pro Overview?"]],
                     },
+                    {
+                      title: "Tags",
+                      collapsable: true,
+                      children: [["/solutions/calendar-pro/fundamentals/tags-in-calendar-pro/how-can-i-add-tags-to-my-events-.md", "How can I add tags to my events?"]],
+                    },
+                  ],
+                },
+                {
+                  title: "Pricing and subscription",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/calendar-pro/pricing-and-subscription/do-you-offer-educational-or-nonprofit-plans-.md", "Get started guide"],
+                    ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
+                    ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
+                  ],
+                },
+                {
+                  title: "Troubleshooting",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/calendar-pro/troubleshooting/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
+                    [
+                      "/solutions/calendar-pro/troubleshooting/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
+                     "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
+                    ],
+                    ["/solutions/calendar-pro/troubleshooting/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
+                      
                   ],
                 },
                 {
@@ -2682,44 +2545,14 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "View",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/calendar-pro-view/how-can-i-change-the-first-day-of-the-week-in-calendar-pro-.md", "How can I change the first day of the week in Calendar Pro?"],
-                        [
-                          "/solutions/calendar-pro/calendar-pro-view/how-can-i-change-the-view-of-the-calendar-pro-to-day-week-monthly-.md",
-                          "How can I change the view of the Calendar Pro to day/week/monthly?",
-                        ],
-                        ["/solutions/calendar-pro/calendar-pro-view/i-want-calendar-pro-to-reflect-my-business-days-and-hours.md", "I want Calendar Pro to reflect my business days and hours"],
-                        ["/solutions/calendar-pro/calendar-pro-view/show-and-hide-weekends-and-the-number-of-the-week.md", "Show and hide weekends and the number of the week"],
-                        ["/solutions/calendar-pro/calendar-pro-view/view-customized-public-holidays-in-calendar-pro.md", "View customized public holidays in Calendar Pro"],
-                      ],
-                    },
-                    {
-                      title: "Permissions",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/how-to-change-the-permission-to-make-changes-in-calendar-pro-.md",
-                          "How to change the permission to make changes to Calendar Pro?",
-                        ],
-                      ],
-                    },
-                    {
                       title: "Synchronization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-export-my-calendar-pro-to-another-calendar-", "How to export my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-import-a-calendar-in-my-calendar-pro-.md", "How to import a calendar in my Calendar Pro?"],
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-manage-my-synchronized-calendar-.md", "How to manage my synchronized calendars?"],
-                        ["/solutions/calendar-pro/synchronization-in-calendar-pro/see-the-shared-synchronized-calendars-", "See the shared synchronized calendars"],
-                      ],
-                    },
-                    {
-                      title: "Duplication",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/duplicate-a-calendar-pro/how-to-duplicate-my-calendar-pro-in-another-channel-.md", "How do I duplicate my Calendar Pro in another channel?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-export-my-calendar-pro-to-another-calendar-", "How to export my calendar pro to another calendar?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-import-a-calendar-in-my-calendar-pro-.md", "How to import a calendar in my Calendar Pro?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-manage-my-synchronized-calendar-.md", "How to manage my synchronized calendars?"],
+                        ["/solutions/calendar-pro/synchronization/how-to-synchronize-outlook-with-calendar-pro-.md", "How to synchronize outlook with Calendar Pro?"],
+                        ["/solutions/calendar-pro/synchronization/see-the-shared-synchronized-calendars-", "See the shared synchronized calendars"],
                       ],
                     },
                     {
@@ -2728,60 +2561,28 @@ module.exports = {
                       children: [["/solutions/calendar-pro/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro-.md", "How do I add files in an event of my Calendar Pro?"]],
                     },
                     {
-                      title: "Power automate connector",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/power-automate-connector-calendar-pro/how-to-synchronize-outlook-with-calendar-pro-.md", "How to synchronize Outlook with Calendar Pro?"]],
-                    },
-                    {
-                      title: "Printing",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/printing-calendar-pro/how-can-i-print-my-calendar-pro-.md", "How can I print my Calendar Pro?"]],
-                    },
-                    {
                       title: "Single and recurrent events",
                       collapsable: true,
                       children: [
                         [
-                          "/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/can-we-delete-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
+                          "/solutions/calendar-pro/single-and-recurrent-events/can-we-delete-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
                           "Can we delete a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
                         ],
                         [
-                          "/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/can-we-edit-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
+                          "/solutions/calendar-pro/single-and-recurrent-events/can-we-edit-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro-.md",
                           "Can we edit a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
                         ],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-add-a-recurrent-event-.md", "How can I add a recurrent event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-add-an-event-.md", "How can I add an event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-add-links-to-my-events-.md", "How can I add links to my events?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-delete-an-event-.md", "How can I delete an event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-edit-modify-a-recurrent-events-.md", "How can I edit/modify a recurrent events?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-can-i-edit-modify-an-event-.md", "How can I edit/modify an event?"],
-                        ["/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-to-see-the-event-id-in-calendar-pro-.md", "How to see the Event ID in Calendar Pro?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-add-a-recurrent-event-.md", "How can I add a recurrent event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-add-an-event-.md", "How can I add an event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-add-links-to-my-events-.md", "How can I add links to my events?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-delete-an-event-.md", "How can I delete an event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-edit-modify-a-recurrent-events-.md", "How can I edit/modify a recurrent events?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-can-i-edit-modify-an-event-.md", "How can I edit/modify an event?"],
+                        ["/solutions/calendar-pro/single-and-recurrent-events/how-to-see-the-event-id-in-calendar-pro-.md", "How to see the Event ID in Calendar Pro?"],
                         [
-                          "/solutions/calendar-pro/single-and-recurrent-events-in-calendar-pro/how-to-see-the-series-id-of-a-recurrent-event-series-in-calendar-pro-.md",
+                          "/solutions/calendar-pro/single-and-recurrent-events/how-to-see-the-series-id-of-a-recurrent-event-series-in-calendar-pro-.md",
                           "How to see the series Id of a recurrent event series in Calendar Pro?",
                         ],
-                      ],
-                    },
-                    {
-                      title: "Tags",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/tags-in-calendar-pro/how-can-i-add-tags-to-my-events-.md", "How can I add tags to my events?"]],
-                    },
-                    {
-                      title: "Timezones",
-                      collapsable: true,
-                      children: [["/solutions/calendar-pro/timezones-in-calendar-pro/how-can-i-change-the-time-zone-.md", "How can I change the time zone?"]],
-                    },
-                    {
-                      title: "Troubleshooting",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/troubleshooting-in-calendar-pro/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
-                        [
-                          "/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
-                          "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
-                        ],
-                        ["/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
                       ],
                     },
                   ],
