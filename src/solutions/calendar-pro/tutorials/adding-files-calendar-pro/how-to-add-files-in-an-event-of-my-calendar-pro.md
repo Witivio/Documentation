@@ -15,7 +15,7 @@
 <div class="intercom-container"><img src="/assets/img/teams-pro/adding-files-displayed-icon.png"></div>
 <p class="no-margin"></p>
 <br><br>
-<p class="no-margin">Follow these steps to explore the files:</p>
+<p class="no-margin">Follow these steps to explore the files :</p>
 <p class="no-margin"></p>
 <p class="no-margin">1. Click on the "Edit" button of the event to view its details.</p>
 <p class="no-margin"></p>
