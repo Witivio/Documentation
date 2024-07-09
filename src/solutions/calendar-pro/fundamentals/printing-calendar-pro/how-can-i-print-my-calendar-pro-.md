@@ -1,4 +1,6 @@
-### How Can I Print My Calendar Pro Overview?
+# Set-up
+
+## How Can I Print My Calendar Pro Overview?
 
 Printing your Calendar Pro overview is a straightforward process that allows you to have a physical or PDF copy of your calendar. The content being printed will depend on your current calendar view, whether it's set to day, week, or month.
 
@@ -16,7 +18,7 @@ To print your Calendar Pro overview, follow these steps:
 
 ℹ️ **Note:** Adjusting the zoom level in Teams can help you format the print view as needed. For example, you can zoom out to fit more information on a single page or zoom in for a detailed view.
 
-### I Can’t See the Print Option
+## I Can’t See the Print Option
 
 If you cannot see the three dots for more options because Teams is zoomed in more than 100%, follow these steps to visualize the three dots:
 

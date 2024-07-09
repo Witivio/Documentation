@@ -1,13 +1,13 @@
 # Managing Permissions in Calendar Pro
 
-### Accessing Permissions Settings
+## Setting Permissions Settings
 
 1. **Open Permissions Menu:**
    - Click on the settings icon located at the top-right corner of the calendar interface.
    - From the dropdown menu, select "Permissions."
 
+<div class="intercom-container"><img src="/assets/img/teams-pro/permissions.png"></div>
 
-### Setting General Permissions
 
 2. **General Permissions Settings:**
    - In the permissions dialog, you will see the "General permissions settings" section.
@@ -16,17 +16,17 @@
      - **Only the owner(s) of this Marketing Calendar FY25 can add/edit/delete events:** Restricts event management to calendar owners only.
      - **Customize permissions:** Allows you to set specific permissions for each member.
 
-### Customizing Permissions
+## Customizing Permissions
 
-3. **Customize Permissions:**
+1. **Customize Permissions:**
    - Select the "Customize permissions" option to enable individual permissions settings.
    - In the "Customized permissions settings" section, you can manage permissions for each member.
    
-4. **Add Member:**
+2. **Add Member:**
    - Click on the "Add member" button to add new members to the permissions list.
    - Use the search bar to find and add members.
 
-5. **Set Individual Permissions:**
+3. **Set Individual Permissions:**
    - For each member, set the following permissions by checking the appropriate boxes:
      - **Add:** Allows the member to add events.
      - **Modify:** Allows the member to modify events.
@@ -35,10 +35,11 @@
      - **Meeting Scheduler:** Allows the member to schedule meetings.
    - You can also view the member's subscription level (e.g., Platinum).
 
-### Saving Changes
-
-6. **Save Permissions:**
+4. **Save Permissions:**
    - After setting the desired permissions, click on the "Save" button to apply the changes.
+
+   <div class="intercom-container"><img src="/assets/img/teams-pro/customize-permissions.png"></div>
+
 
 ### Managing Permissions Tips
 

@@ -10,13 +10,16 @@ You can also add tags directly while creating a new event. This makes it easy to
 1. Go to the **New Event** page.
 2. In the **Tags** section under **Advanced**, type in the tag you want to add and click **Add**.
 
+<div class="intercom-container"><img src="/assets/img/teams-pro/tags.png"></div>
 
-### Filtering Events Based on Tags
+## Filtering Events Based on Tags
 
 Once you have created tags, you can filter your calendar view based on these tags. This helps in quickly finding specific events. Follow these steps:
 
 1. Go to the **Calendar View**.
 2. In the **Tag** dropdown at the top, start typing the tag you want to filter by and select it.
+
+<div class="intercom-container"><img src="/assets/img/teams-pro/filter-tags.png"></div>
 
 ### Example Use Case: HR Team
 
