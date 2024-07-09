@@ -439,7 +439,7 @@ module.exports = {
                       collapsable: true,
                       children: [
                         [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-view.md",
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md",
                           "Manage view",
                         ],
                         [
@@ -1452,7 +1452,7 @@ module.exports = {
                       collapsable: true,
                       children: [
                         [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-view.md",
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md",
                           "Manage view",
                         ],
                         [
@@ -2449,7 +2449,7 @@ module.exports = {
                       collapsable: true,
                       children: [
                         [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-view.md",
+                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md",
                           "Manage view",
                         ],
                         [
