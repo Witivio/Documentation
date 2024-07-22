@@ -49,6 +49,6 @@ For service account authentication details, please refer to [Microsoft Graph Per
 :::
 
 <Classification label="public" />
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

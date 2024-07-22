@@ -50,6 +50,6 @@ To add an image in your Adaptive card, drag the **Image** element > Open the pro
 
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

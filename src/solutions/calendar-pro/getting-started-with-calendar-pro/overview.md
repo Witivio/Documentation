@@ -17,7 +17,7 @@ Calendar Pro integrates seamlessly with Microsoft Teams, providing advanced cale
 
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

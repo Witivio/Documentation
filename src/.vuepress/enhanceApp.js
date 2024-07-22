@@ -5,7 +5,7 @@
  */
 import Overview from './theme/components/Overview'
 import Translator from './theme/components/Translator'
-import Hubspot from './theme/components/Hubspot'
+import Intercom from './theme/components/Intercom'
 import Clarity from './theme/components/Clarity'
 import GoogleAnalytics from './theme/components/GoogleAnalytics'
 
@@ -17,7 +17,7 @@ export default ({
 }) => {
   Vue.component("Overview", Overview)
   Vue.component("Translator", Translator)
-  Vue.component("Hubspot", Hubspot)
+  Vue.component("Intercom", Intercom)
   Vue.component("Clarity", Clarity)
   Vue.component("GoogleAnalytics", GoogleAnalytics)
 }

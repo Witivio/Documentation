@@ -135,6 +135,6 @@ Here is a short description of each flow:
 | Microsoft.AspNet.OData | 7.5.12 | https://github.com/OData/WebApi.git | MIT |
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

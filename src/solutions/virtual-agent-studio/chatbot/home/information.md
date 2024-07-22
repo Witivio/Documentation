@@ -18,6 +18,6 @@ This page also contains a summary table indicating:
 #
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

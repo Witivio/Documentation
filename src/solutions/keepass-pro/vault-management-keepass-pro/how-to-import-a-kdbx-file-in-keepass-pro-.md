@@ -26,6 +26,6 @@
 </ul>
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

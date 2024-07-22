@@ -1,4 +1,4 @@
 The changelog 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

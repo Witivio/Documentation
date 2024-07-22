@@ -2,7 +2,7 @@
 
 <p class="no-margin">There is <b>no time limit to retrieve your passwords from the Recycle Bin</b>. They are preserved there indefinitely, available for retrieval at your convenience.</p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

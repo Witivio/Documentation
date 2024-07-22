@@ -18,7 +18,7 @@ This is an important point to keep in mind as you set up and use our application
 If you try to use the application on many tenant at the same time you may experience some synchronization issues. 
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

@@ -58,7 +58,7 @@ knowledge base must be modified (red 👎) (3).
 
 
 ---
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

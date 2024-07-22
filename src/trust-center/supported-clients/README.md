@@ -15,6 +15,6 @@ Especially:
 - [Microsoft Teams supported browsers](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams#browsers)
 
 <Classification label="public" />
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

@@ -30,6 +30,6 @@ To ensure a positive user experience while minimizing potential harms, consider 
 - **Error Handling**: If an error occurs due to content filtering, encourage users to review the provided documentation for guidance.
 - **Compliance**: Adhere to our content filtering guidelines and ensure that your interactions with GPT Pro comply with our Code of Conduct.
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

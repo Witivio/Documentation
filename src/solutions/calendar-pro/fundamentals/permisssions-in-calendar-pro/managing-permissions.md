@@ -47,7 +47,7 @@
 - **Limit Access:** Restrict permissions to essential personnel to maintain control over the calendar.
 - **Clear Roles:** Clearly define roles and communicate them to your team to avoid any confusion.
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

@@ -93,6 +93,6 @@ For updates on your added libraries:
 - Regularly add and review SharePoint libraries.
 - Remove outdated libraries to maintain GPT Pro's performance.
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

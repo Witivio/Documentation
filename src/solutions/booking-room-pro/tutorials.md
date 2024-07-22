@@ -1,5 +1,5 @@
 There are some tutorials
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

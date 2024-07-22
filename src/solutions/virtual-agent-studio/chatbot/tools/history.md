@@ -27,6 +27,6 @@ You can find all conversations in the tab **Tools** > **History**.
 
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

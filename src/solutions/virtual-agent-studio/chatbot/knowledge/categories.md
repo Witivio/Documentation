@@ -52,6 +52,6 @@ a category can be modified (pen icon) or deleted (trash icon).
 
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

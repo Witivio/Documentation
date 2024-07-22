@@ -1,4 +1,4 @@
 On commence ?
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

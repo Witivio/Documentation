@@ -65,6 +65,6 @@ suggested by users and the number of unresolved feedbacks.
 ---
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

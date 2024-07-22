@@ -19,7 +19,7 @@
 <p class="no-margin">Lastly, confirm you want to cancel by clicking on "Confirm cancellation".</p>
 <p class="no-margin"></p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

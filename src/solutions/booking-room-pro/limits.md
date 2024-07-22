@@ -1,5 +1,5 @@
 Any limits ?
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

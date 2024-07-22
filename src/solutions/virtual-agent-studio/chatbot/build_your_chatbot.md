@@ -106,6 +106,6 @@ Let’s go ! 🕺
 
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

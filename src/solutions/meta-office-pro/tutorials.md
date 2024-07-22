@@ -32,6 +32,6 @@ Just before connecting, a device configuration menu will appear. You can choose 
  
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

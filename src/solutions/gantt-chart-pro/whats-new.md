@@ -15,6 +15,6 @@
 
 <p>These new features are designed to enhance your project planning experience in Gantt Chart Pro. Dive into our detailed tutorials in the app to learn how to make the most of these exciting updates!</p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

@@ -29,7 +29,7 @@ You can also find the status of publications as well as the tags of your chatbot
 
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

@@ -109,6 +109,6 @@ Don't forget to register !
 
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

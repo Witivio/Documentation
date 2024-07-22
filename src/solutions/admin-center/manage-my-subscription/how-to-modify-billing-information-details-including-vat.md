@@ -16,7 +16,7 @@
 You can add or change your VAT details in the 'Billing' options. Remember, these changes will only affect future invoices. We can't change past invoices.</p>
 <p class="no-margin"></p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

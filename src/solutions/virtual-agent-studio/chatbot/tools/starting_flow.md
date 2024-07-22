@@ -44,6 +44,6 @@ pour starting flow
 
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

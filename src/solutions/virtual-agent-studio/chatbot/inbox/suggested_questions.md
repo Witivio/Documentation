@@ -34,6 +34,6 @@ actions:
 
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

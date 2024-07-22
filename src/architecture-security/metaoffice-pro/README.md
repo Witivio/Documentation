@@ -214,6 +214,6 @@ Here is a short description of each flow:
 | `use-file-picker`                         | ^1.4.2         | https://www.npmjs.com/package/use-file-picker                         | MIT                              |
 | `uuid`                                    | ^8.3.2         | https://www.npmjs.com/package/uuid                                    | MIT                              |
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

@@ -125,6 +125,6 @@ Here is a short description of each flow:
 | Microsoft.Bot.Builder.Integration.ApplicationInsights.Core | 4.21.1 | https://github.com/Microsoft/botbuilder-dotnet | MIT |
 | Ical.Net | 4.2.0 | https://github.com/rianjs/ical.net | MIT |
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

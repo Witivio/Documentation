@@ -1,5 +1,5 @@
 What's new there ?
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

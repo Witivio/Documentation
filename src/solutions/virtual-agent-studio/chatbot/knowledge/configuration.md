@@ -61,6 +61,6 @@ the different questions).
 #
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

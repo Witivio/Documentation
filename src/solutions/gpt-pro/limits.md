@@ -56,6 +56,6 @@ To know more about: [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai
 
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

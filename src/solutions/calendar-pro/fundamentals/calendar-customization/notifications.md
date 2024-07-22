@@ -24,6 +24,6 @@
 2. Customize Notifications: Adjust the notification settings to fit the needs of your team, reducing unnecessary alerts while keeping everyone updated on important changes.
 :::
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

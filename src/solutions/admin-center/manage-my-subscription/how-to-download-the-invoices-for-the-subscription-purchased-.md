@@ -14,7 +14,7 @@
 <div class="admin-center-container"><img src="/assets/img/teams-pro/3_3.png"></div><p class="no-margin"></p>
 <p class="no-margin"></p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
  

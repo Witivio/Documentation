@@ -42,6 +42,6 @@ GPT Pro allows you to create customized GPT models tailored to your organization
 
 Thank you for choosing GPT Pro to revolutionize the way your team interacts with information. Let's get started on this exciting journey!
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

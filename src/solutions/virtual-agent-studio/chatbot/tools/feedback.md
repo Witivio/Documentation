@@ -34,6 +34,6 @@ the defect one of … “ or “Describe the issue”.
 
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

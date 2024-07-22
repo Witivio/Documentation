@@ -6,7 +6,7 @@
 <p class="no-margin"></p>
 <div class="intercom-container"><img src="/assets/img/teams-pro/image_73.png"></div><p class="no-margin">⚠️ Be sure to confirm whether you'd like to permanently delete it or just move it to the recycle bin before proceeding.</p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

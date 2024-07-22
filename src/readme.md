@@ -61,6 +61,6 @@ items:
 footer: Made by Witivio with ❤️
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

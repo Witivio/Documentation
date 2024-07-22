@@ -23,6 +23,6 @@ Our comprehensive guide will walk you through the synchronization process for a 
 <p><b>Discover More:</b>
 Detailed documentation for these features is available under their respective sections. Enhance your scheduling efficiency with these latest updates in Calendar Pro!</p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

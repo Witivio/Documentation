@@ -103,6 +103,6 @@ Learn more about [Authentication and authorization basics for Microsoft Graph...
 * Learn more for [GPT Pro...](/architecture-security/gpt-pro/#microsoft-graph)
 
 <Classification label="public" />
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

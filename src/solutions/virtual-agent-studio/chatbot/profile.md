@@ -112,6 +112,6 @@ Everyone.
 ---
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

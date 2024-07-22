@@ -13,7 +13,7 @@
 </li>
 </ol><div class="intercom-container"><img src="/assets/img/teams-pro/image_129.png"></div>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

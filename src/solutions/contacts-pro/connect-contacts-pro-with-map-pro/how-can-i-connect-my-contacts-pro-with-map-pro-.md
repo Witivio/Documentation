@@ -11,7 +11,7 @@
 </li>
 </ol>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

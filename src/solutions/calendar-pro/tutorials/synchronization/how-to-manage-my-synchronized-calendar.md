@@ -22,7 +22,7 @@
 Non-Platinum members cannot view or add synchronized calendars of Platinum members.</b></p>
 <p class="no-margin"></p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

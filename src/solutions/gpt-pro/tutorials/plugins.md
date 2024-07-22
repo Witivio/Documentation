@@ -71,6 +71,6 @@ Now that you know the basics of plugins, you might want to:
 2. [Explore example plugins](https://github.com/Witivio/Gpt-Pro---Samples)
 3. [Manage Plugins](/solutions/gpt-pro/fundamentals/manage-plugins)
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

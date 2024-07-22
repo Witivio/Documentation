@@ -55,6 +55,6 @@ Add location details to your events for better participant navigation. Use the "
    :::
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

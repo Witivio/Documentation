@@ -5,6 +5,6 @@
 <p class="no-margin">ℹ️ For more information, check our <a href="https://www.teams-pro.com/en/pricing/" target="_blank" class="intercom-content-link">pricing page</a>.</p>
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

@@ -6,7 +6,7 @@
 <p class="no-margin"></p>
 <p class="no-margin">This system is helpful because you just need to remember your master key, and it takes care of the rest, giving you access to all your different passwords securely. Plus, it uses very advanced methods of encryption (just like complex, high-tech locking systems) to make sure your passwords are as safe as possible. The vault, with all of its secured passwords, is then safely stored on SharePoint.</p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

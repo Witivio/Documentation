@@ -1,4 +1,4 @@
 Les bases
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

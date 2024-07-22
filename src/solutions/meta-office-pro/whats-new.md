@@ -12,6 +12,6 @@ Welcome to the MetaOffice Pro What's new page!
 
 
  
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

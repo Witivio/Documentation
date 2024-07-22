@@ -150,6 +150,6 @@ Virtual Agent Studio will be stopped on 01/03/2025.
 
 </div>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

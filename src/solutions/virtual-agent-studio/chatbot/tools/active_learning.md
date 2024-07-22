@@ -37,6 +37,6 @@ Don't forget to save changes!
 
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

@@ -78,6 +78,6 @@ The GPT Pro Dashboard is a powerful tool for monitoring the performance and user
 
 Remember, the dashboard is an overview tool. For detailed analytics and user behavior, consider check the conversation history.
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

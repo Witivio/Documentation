@@ -1,4 +1,4 @@
 <Translator />
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

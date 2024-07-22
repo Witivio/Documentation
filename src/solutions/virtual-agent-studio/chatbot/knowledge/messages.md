@@ -99,6 +99,6 @@ Do not forget to save changes !
 
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

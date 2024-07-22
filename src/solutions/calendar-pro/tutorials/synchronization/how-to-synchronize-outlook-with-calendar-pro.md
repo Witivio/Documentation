@@ -14,7 +14,7 @@
 <p class="no-margin"></p>
 <div class="intercom-container"><img src="/assets/img/teams-pro/image_199.png"></div><p class="no-margin">ℹ️ If it's the first time you're using Calendar Pro Power Automate connector, you will need to enter your API key, which is available on your <a target="_blank" class="intercom-content-link">developer.teams-pro.com account profile</a>. </p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

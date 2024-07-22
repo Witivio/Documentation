@@ -35,7 +35,7 @@
    - To delete an event, click on the event in the calendar view and select "Delete."
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

@@ -47,7 +47,7 @@ To set or change the time zone for a specific event:
    - Click on the “Save” button to save your event with the specified time zone.
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

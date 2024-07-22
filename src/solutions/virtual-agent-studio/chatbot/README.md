@@ -1,3 +1,3 @@
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

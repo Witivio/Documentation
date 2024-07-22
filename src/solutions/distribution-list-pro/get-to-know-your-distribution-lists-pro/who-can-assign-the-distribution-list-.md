@@ -6,7 +6,7 @@
 <p class="no-margin"></p>
 <p class="no-margin">Go to the Admin Center &gt; Group &gt; Select the list you wish to add the user in &gt; Members &gt; Edit &gt; Add member &gt; Search or Select the member &gt; Save &gt; Close.</p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

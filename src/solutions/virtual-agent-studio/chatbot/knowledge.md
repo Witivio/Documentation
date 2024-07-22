@@ -1,4 +1,4 @@
 # Knowledge
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

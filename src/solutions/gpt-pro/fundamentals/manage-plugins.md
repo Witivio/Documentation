@@ -40,6 +40,6 @@ If you decide that a plugin is no longer needed:
 Removing a plugin may result in the loss of associated data or functionality. Proceed with caution and ensure that you have backups if necessary.
 :::
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

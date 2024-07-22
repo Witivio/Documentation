@@ -26,6 +26,6 @@ Through these pages, you'll discover:
 
 <Classification label="public" />
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

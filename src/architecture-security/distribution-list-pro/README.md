@@ -64,6 +64,6 @@ Here is a short description of each flow:
 |.msecnd.net and *.visualstudio.com  | for performance metrics analysis |
 |graph.microsoft.com | for Microsoft Graph API access |
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

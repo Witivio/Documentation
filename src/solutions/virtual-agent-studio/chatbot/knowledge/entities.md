@@ -58,7 +58,7 @@ Once your knowledge base is **enough trained**, the detection will be done autom
 
 
 ---
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 

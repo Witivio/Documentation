@@ -122,6 +122,6 @@ Here is a short description of each flow:
 | Microsoft.AspNetCore.SpaServices.Extensions | 6.0.20 | https://github.com/dotnet/aspnetcore | MIT |
 | Microsoft.Extensions.DependencyInjection | 6.0.1 | https://github.com/dotnet/runtime | MIT |
 | Newtonsoft.Json | 13.0.3 | https://github.com/JamesNK/Newtonsoft.Json | MIT |
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

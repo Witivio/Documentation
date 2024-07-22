@@ -20,6 +20,6 @@ Remember to save changes !
 
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

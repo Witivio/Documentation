@@ -108,6 +108,6 @@ You can decide to delete only the data of a specific user by selecting the user'
 
 ---
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

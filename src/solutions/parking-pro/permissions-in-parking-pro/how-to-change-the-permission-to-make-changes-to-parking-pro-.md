@@ -14,6 +14,6 @@
 <p class="no-margin">ℹ️ The creator is the individual who added the Parking Pro tab, and there is only one creator for each tab. <br> <br>⚠️Currently, <b>granular/selective permissions are not available</b>. For example, it's not possible to allow some users to add events but not delete them, or to assign different permission levels to different users.  <br> <br>If you'd like to see this kind of detailed control over permissions in the future, <b>we encourage you to suggest it on <a href="https://ideas.teams-pro.com/" target="_blank" class="intercom-content-link">ideas.teams-pro.com</a></b> </p>
 
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

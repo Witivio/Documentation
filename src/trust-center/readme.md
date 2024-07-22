@@ -26,6 +26,6 @@ Through these pages, you'll discover:
 - How we manage data
 
 <Classification label="public" />
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />

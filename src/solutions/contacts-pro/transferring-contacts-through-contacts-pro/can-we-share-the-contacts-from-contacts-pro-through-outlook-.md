@@ -2,7 +2,7 @@
 
 <p class="no-margin">The team is working on it to bring it you at the earliest.</p>
 
-<Hubspot />
+<Intercom />
 <Clarity />
 <GoogleAnalytics />
 
