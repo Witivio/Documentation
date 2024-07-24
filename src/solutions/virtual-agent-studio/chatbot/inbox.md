@@ -97,5 +97,6 @@ Here you can also configure the minimum score to launch a conversation tree
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

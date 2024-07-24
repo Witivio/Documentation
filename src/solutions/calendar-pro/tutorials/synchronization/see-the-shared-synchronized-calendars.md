@@ -7,6 +7,7 @@
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

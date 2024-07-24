@@ -126,5 +126,6 @@ Here is a short description of each flow:
 | Ical.Net | 4.2.0 | https://github.com/rianjs/ical.net | MIT |
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

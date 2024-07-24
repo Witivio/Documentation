@@ -39,5 +39,6 @@ This change log documents the updates, bug fixes, and feature enhancements for G
 - For detailed information about each change, users are encouraged to refer to the specific release notes or contact our support team.
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

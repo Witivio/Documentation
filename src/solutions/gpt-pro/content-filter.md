@@ -31,5 +31,6 @@ To ensure a positive user experience while minimizing potential harms, consider 
 - **Compliance**: Adhere to our content filtering guidelines and ensure that your interactions with GPT Pro comply with our Code of Conduct.
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

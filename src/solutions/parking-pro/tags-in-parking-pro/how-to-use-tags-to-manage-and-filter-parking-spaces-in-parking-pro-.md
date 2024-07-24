@@ -13,6 +13,7 @@
 <p class="no-margin">ℹ️ Users will need a Parking Pro premium license to be able to use tags.<br></p>
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

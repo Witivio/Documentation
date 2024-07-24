@@ -37,5 +37,6 @@ Once a GPT is set-up, you will see them in the GPT overview of your admin dashbo
 ![GPT Maker Actions](/GPT-Maker-Action.png)
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

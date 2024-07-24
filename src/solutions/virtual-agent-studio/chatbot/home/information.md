@@ -19,5 +19,6 @@ This page also contains a summary table indicating:
 ---
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

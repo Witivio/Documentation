@@ -133,5 +133,6 @@ These tools and resources are integral to the development process, providing a r
 
 <Classification label="public" />
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

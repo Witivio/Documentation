@@ -25,5 +25,6 @@ This "What's New" page for GPT Pro provides insights into the latest updates, en
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

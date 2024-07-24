@@ -54,5 +54,6 @@ Here is an **example** of a dashboard:
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

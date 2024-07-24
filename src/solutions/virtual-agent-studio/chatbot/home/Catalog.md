@@ -176,5 +176,6 @@ Then click on publish.
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

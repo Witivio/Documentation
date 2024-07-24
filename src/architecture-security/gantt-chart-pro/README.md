@@ -136,5 +136,6 @@ Here is a short description of each flow:
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

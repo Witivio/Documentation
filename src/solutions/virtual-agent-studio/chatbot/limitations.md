@@ -32,5 +32,6 @@ The platform is compatible with the following browser versions:
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

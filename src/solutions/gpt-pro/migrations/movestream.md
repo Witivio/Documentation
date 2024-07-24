@@ -97,5 +97,6 @@ This comprehensive table outlines the migration status and configuration require
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

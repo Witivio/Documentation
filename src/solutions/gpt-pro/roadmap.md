@@ -375,5 +375,6 @@ Please note: All items on the roadmap are subject to change based on evolving bu
 </section>
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

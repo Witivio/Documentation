@@ -231,5 +231,6 @@ Indexed documents should contain up-to-date information: even if you add another
 No, it is not possible. Each document must be added or deleted individually. If you wish to perform a bulk import of documents, please contact your Customer Success Manager (CSM).
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

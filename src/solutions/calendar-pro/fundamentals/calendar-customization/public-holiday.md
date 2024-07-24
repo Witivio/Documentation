@@ -45,6 +45,7 @@ After the initial setup, you can change the public holidays by following these s
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

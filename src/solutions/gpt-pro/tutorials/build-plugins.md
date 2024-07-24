@@ -217,5 +217,6 @@ This enhanced transparency aids developers in troubleshooting and refining the p
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

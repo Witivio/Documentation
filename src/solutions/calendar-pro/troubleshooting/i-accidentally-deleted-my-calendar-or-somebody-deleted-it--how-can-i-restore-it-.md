@@ -69,5 +69,6 @@
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

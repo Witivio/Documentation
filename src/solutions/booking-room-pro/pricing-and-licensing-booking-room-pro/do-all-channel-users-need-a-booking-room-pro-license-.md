@@ -8,6 +8,7 @@
 <p class="no-margin">ℹ️ For more information, please, check out the <a href="https://app.intercom.com/" target="_blank" class="intercom-content-link">pricing page</a>.  </p>
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

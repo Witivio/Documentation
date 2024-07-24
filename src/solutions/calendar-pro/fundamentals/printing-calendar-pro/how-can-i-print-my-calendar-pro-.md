@@ -30,6 +30,7 @@ If you cannot see the three dots for more options because Teams is zoomed in mor
 Using these steps, you can easily print or export your Calendar Pro overview, ensuring you have the right format and view for your needs.
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

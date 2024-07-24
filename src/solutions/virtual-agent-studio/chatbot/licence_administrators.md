@@ -56,5 +56,6 @@ chatbots (2) :
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

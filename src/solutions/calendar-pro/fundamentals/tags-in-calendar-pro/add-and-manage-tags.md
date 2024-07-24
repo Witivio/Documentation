@@ -51,6 +51,7 @@ Managers and employees can **tag PTO from the main event creation page**, allowi
 ℹ️ **Note:** Users will need a Calendar Pro premium license to be able to use tags.
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

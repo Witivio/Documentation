@@ -25,5 +25,6 @@ In the system prompt section you can either describe the assistant’s personali
 :::
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

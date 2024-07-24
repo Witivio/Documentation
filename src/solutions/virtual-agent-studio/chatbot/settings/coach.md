@@ -40,5 +40,6 @@ Click [**here**](/solutions/virtual-agent-studio/chatbot/licence_administrators)
 ---
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

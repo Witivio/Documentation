@@ -22,5 +22,6 @@ The **Settings tab** allows you to configure:
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

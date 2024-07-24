@@ -52,5 +52,6 @@ Welcome to our comprehensive Documentation Website, your one-stop resource for a
 Thank you for choosing us. We are committed to ensuring that our documentation serves as a valuable resource for you. Dive in, explore, and let's embark on this journey of discovery together!
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

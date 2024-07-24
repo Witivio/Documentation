@@ -134,5 +134,6 @@ Learn more about [Azure Regions](https://azure.microsoft.com/en-us/global-infras
 
 <Classification label="public" />
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

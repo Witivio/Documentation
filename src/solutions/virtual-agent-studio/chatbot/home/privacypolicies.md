@@ -21,5 +21,6 @@ Remember to save changes !
 ---
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

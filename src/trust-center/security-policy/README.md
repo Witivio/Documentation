@@ -25,5 +25,6 @@ In our opinion, vulnerability disclosure policies such as ours result in greater
 
 <Classification label="public" />
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

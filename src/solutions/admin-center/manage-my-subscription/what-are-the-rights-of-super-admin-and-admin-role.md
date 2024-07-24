@@ -17,5 +17,6 @@
 - **Promotion Eligibility**: Can become a Super Admin.
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

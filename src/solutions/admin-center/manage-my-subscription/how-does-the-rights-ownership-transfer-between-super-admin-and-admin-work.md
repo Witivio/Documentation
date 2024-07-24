@@ -29,5 +29,6 @@
 This process ensures a clear and documented transition of Super Admin rights to an Admin, maintaining accountability and continuity within the administrative structure.
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

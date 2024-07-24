@@ -50,5 +50,6 @@ For service account authentication details, please refer to [Microsoft Graph Per
 
 <Classification label="public" />
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

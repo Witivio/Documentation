@@ -15,5 +15,6 @@ This means that any new events added in Calendar Pro will appear in the external
 <p>Note: These limitations are in place to maintain the highest standards of efficiency and reliability within the Calendar Pro app. For more detailed information or assistance, please refer to our support section or contact our helpdesk.</p>
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

@@ -31,5 +31,6 @@ In the KeePass Pro app:
 - **Platinum Users**: Have full access to view permissions, but only owners can modify them or assign ownership. Owners can only customize the permissions if they have a Platinum license and can only customize the permissions of members with a Platinum license allocated.
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

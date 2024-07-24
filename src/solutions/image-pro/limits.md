@@ -8,5 +8,6 @@
 <p>Note: This ensures that the most recently edited image is always readily accessible in the tab.</p>
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

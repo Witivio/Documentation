@@ -66,5 +66,6 @@ Save changes!
 ---
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

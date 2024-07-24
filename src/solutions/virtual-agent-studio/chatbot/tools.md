@@ -19,5 +19,6 @@ Click on "Tools" tab and then on the appropriate tool among :
 ---
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

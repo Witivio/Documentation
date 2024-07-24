@@ -17,6 +17,7 @@ You can add or change your VAT details in the 'Billing' options. Remember, these
 <p class="no-margin"></p>
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

@@ -22,5 +22,6 @@ items:
 
 <Overview />
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

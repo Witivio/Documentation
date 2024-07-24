@@ -19,6 +19,7 @@ If you try to use the application on many tenant at the same time you may experi
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

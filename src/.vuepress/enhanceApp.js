@@ -8,6 +8,7 @@ import Translator from './theme/components/Translator'
 import Intercom from './theme/components/Intercom'
 import Clarity from './theme/components/Clarity'
 import GoogleAnalytics from './theme/components/GoogleAnalytics'
+import Hubspot from './theme/components/Hubspot'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -20,4 +21,5 @@ export default ({
   Vue.component("Intercom", Intercom)
   Vue.component("Clarity", Clarity)
   Vue.component("GoogleAnalytics", GoogleAnalytics)
+  Vue.component("Hubspot", Hubspot)
 }

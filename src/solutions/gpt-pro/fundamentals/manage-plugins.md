@@ -41,5 +41,6 @@ Removing a plugin may result in the loss of associated data or functionality. Pr
 :::
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

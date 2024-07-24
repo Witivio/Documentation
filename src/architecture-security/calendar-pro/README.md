@@ -150,5 +150,6 @@ Here is a short description of each flow:
 | AdaptiveCards | 3.1.0 | https://www.nuget.org/packages/AdaptiveCards/3.1.0 |  |
 | ReverseMarkdown | 3.25.0 | https://github.com/mysticmind/reversemarkdown-net.git | MIT |
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

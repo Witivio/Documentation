@@ -3,6 +3,7 @@
 <p class="no-margin">It automatically synchronizes with your Outlook Account.</p>
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

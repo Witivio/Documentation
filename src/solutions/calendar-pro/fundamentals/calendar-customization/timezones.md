@@ -48,6 +48,7 @@ To set or change the time zone for a specific event:
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

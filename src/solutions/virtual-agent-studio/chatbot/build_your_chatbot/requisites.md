@@ -110,5 +110,6 @@ Don't forget to register !
 
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

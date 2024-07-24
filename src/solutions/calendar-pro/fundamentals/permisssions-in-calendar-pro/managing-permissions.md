@@ -48,6 +48,7 @@
 - **Clear Roles:** Clearly define roles and communicate them to your team to avoid any confusion.
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
 

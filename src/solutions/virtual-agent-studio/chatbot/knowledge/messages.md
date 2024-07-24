@@ -100,5 +100,6 @@ Do not forget to save changes !
 ---
 
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />

@@ -104,5 +104,6 @@ Learn more about [Authentication and authorization basics for Microsoft Graph...
 
 <Classification label="public" />
 <Intercom />
+<Hubspot />
 <Clarity />
 <GoogleAnalytics />
