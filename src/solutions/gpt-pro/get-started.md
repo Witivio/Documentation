@@ -8,30 +8,36 @@ GPT Pro allows you to create customized GPT models tailored to your organization
 ### Key Features
 - **Custom GPT Creation:** Tailor GPT models with your specific organizational knowledge.
 - **Document Upload:** Easily upload and integrate documents to train your custom GPT.
+- **Knowledge base management:** Keep your GPT up-to-date with the latest organizational information.
 - **Usage Tracking:** Monitor how your team interacts with the GPT.
 - **KPI Monitoring:** Analyze performance metrics to gauge the effectiveness of your GPT.
+- **Plugin capabilities:** Seamlessly integrate your plugin to access data from your own IT system.
 
-## Step 1: Setting Up Your Account
-1. **Sign Up:** Subscribe to GPT Pro on https://appsource.microsoft.com/en-us/product/web-apps/witivio.gpt-pro.
-2. **Microsoft Teams Integration:** Connect your GPT Pro account with Microsoft Teams.
+## Setting up from Microsoft Teams Store
+To get started with GPT Pro, follow these steps:
+### Step 1: Install the application
+1. Navigate to the Microsoft Teams Store and search for "GPT Pro."
+2. Click on the "Add" button to install the application.
+3. Once installed, you recieve a welcome message from GPT Pro.
 
-## Step 2: Configure Your Custom GPT
-1. **Access the Dashboard:** Log into your GPT Pro account and navigate to the dashboard.
-2. **Create a New GPT:** Click on 'Create GPT' and give your model a name.
-3. **Customize Settings:** Choose the language, tone, and scope of knowledge relevant to your model.
+### Step 2: Access your GPT statistics
+1. Access the Admin center by clicking on the link provided in the welcome message or go to [GPT Pro Admin Center](https://admin.gpt-pro.com/).
+2. Click on "Continue with Microsoft" and log in with your Microsoft Teams account.
+3. Click on "Gpt Pro" available on the list of GPTs.
 
-## Step 3: Uploading Documents
-1. **Navigate to Document Upload:** Select 'Upload Documents' in the dashboard.
-2. **Upload Files:** Drag and drop or browse to upload files. Supported formats: PDF, DOCX, PPTX.
-3. **Training Your GPT:** The system will automatically start training your GPT with the uploaded documents.
+### Step 3 Upload documents
+1. Navigate to the "Local Documents" menu available in the knowledge section from the left sidebar.
+2. Upload Files: Drag and drop or browse to upload files.
+:::warning
+Supported file formats: PDF, DOCX, PPTX.
+:::
+3. The documents will be processed and added to your GPT model.
 
-## Step 4: Tracking Usage and KPIs
-1. **Usage Statistics:** Access real-time usage data to see how your team is engaging with the GPT.
-2. **KPI Dashboard:** Monitor key metrics like response accuracy, speed, and user satisfaction.
+### Step 4: Ask questions to your GPT
+1. Go to Microsoft Teams and start a conversation with GPT Pro.
+2. Ask questions related to the documents you uploaded.
+3. The GPT will provide answers based on the knowledge it has learned from the documents and display the source.
 
-## Step 5: Integrating with Microsoft Teams
-1. **Connect to Teams:** Use the setup page to connect your GPT Pro model with Microsoft Teams.
-2. **Using GPT in Teams:** Access your custom GPT directly in Teams for seamless communication and information retrieval.
 
 ## Tips for Success
 :::tip
