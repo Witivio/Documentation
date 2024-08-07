@@ -147,6 +147,15 @@ Virtual Agent Studio will be stopped on 01/03/2025.
 ### Can I still send push messages in GPT Pro?
 **Answer:** Push messaging will be supported in GPT Pro through an additional addon named Company Communicator Pro. This feature enhances the communication capabilities of the platform.
 
+### What are the architectural difference between GPT Pro and VAS.
+**Answer:** GPT Pro is a brand new application with is own architecture and its own data model.
+While most of the data will be migrated by Witivio, customer administrators might have to do some manual work to ensure a smooth transition.
+- **Two Azure AD Applications will need consent instead of one**. In GPT Pro we distinguish the admin center from the bot. 
+The bot is available from Microsoft Teams Store to all users. It uses Teams SSO to authenticate the user and ask for consent to access files when the user ask a question about a file stored in SharePoint.
+The admin center is used by the customer administrator to manage the bot and the data.
+- **The permission asked by GPT Pro are different**. The admin center will ask for `User.Read`, `email`, `openid`, `offline_access`, `profile`, `User.ReadBasic.All` and `Files.Read.All`. The bot will ask for `User.Read` and `Files.Read.All`.
+- **The bot is now available in Microsoft Teams Store**. Instead of having to install it from the Teams Admin center.
+- **The DNS name will change** from `app.virtualagentstudio.com*` to `admin.gpt-pro.com`.
 
 </div>
 
