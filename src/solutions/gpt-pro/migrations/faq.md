@@ -155,7 +155,7 @@ The bot is available from Microsoft Teams Store to all users. It uses Teams SSO 
 The admin center is used by the customer administrator to manage the bot and the data.
 - **The permission asked by GPT Pro are different**. The admin center will ask for `User.Read`, `email`, `openid`, `offline_access`, `profile`, `User.ReadBasic.All` and `Files.Read.All`. The bot will ask for `User.Read` and `Files.Read.All`.
 - **The bot is now available in Microsoft Teams Store**. Instead of having to install it from the Teams Admin center.
-- **DNS will change** from `app.virtualagentstudio.com*` to `admin.gpt-pro.com`. `webchat.witivio.com` will be removed. Customer might have to update their proxy configuration to reflect this change.
+- **DNS will change** from `app.virtualagentstudio.com` to `admin.gpt-pro.com`. `webchat.witivio.com` will be removed. Customer might have to update their proxy configuration to reflect this change.
 - **The webchat script, Sharepoint Webpart, Outlook extension, Teams Escalation App and PowerBI connector will not be migrated**. The customer will have to install the new extensions when available.
 - **API Providers will not be migrated**. Customer will have to migrate their API to GPT Pro Plugin when necessary.
 
