@@ -299,7 +299,8 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
                         ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
-                        ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"]
+                        ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
                       ],
                     },
                   ],
@@ -1312,7 +1313,8 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
                         ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
-                        ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"]
+                        ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
                       ],
                     },
                   ],
@@ -2309,7 +2311,8 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
                         ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
-                        ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"]
+                        ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
                       ],
                     },
                   ],
