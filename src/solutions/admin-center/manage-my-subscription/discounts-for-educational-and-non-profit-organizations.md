@@ -7,7 +7,7 @@ We understand that educational institutions and non-profit organizations often h
 If you're part of an educational institution or a non-profit organization, follow the steps below to apply for the discount:
 
 1. **Fill out the Discount Request Form:**  
-   To apply, simply fill out our [Educational and Non-Profit Discount Form](#https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__XGxQVNUQzBJWUNGRzBBM0ROSTE5NTk0RDNBNUxYWi4u). This form will collect the necessary details to verify your eligibility.
+   To apply, simply fill out our [Educational and Non-Profit Discount Form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__XGxQVNUQzBJWUNGRzBBM0ROSTE5NTk0RDNBNUxYWi4u). This form will collect the necessary details to verify your eligibility.
 
 2. **Eligibility Criteria:**  
    To qualify for the discount, your organization must meet the following criteria:
@@ -23,6 +23,6 @@ If you're part of an educational institution or a non-profit organization, follo
 ## Important Notes
 
 - The discount is only available for **Platinum licenses** and above.
-- The discount applies to both **1-year**, **2-year** and **2-year** licenses.
+- The discount applies to both **1-year**, **2-year** and **3-year** licenses.
 
 We look forward to supporting your educational or non-profit organization!
