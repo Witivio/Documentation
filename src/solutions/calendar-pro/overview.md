@@ -7,7 +7,7 @@ actionLink: /solutions/calendar-pro/getting-started-with-calendar-pro/how-can-i-
 items:
 - title: Fundamentals​
   itemImage: /heart-book.svg
-  link: /solutions/calendar-pro/calendar-pro-view/how-can-i-change-the-first-day-of-the-week-in-calendar-pro-/
+  link: /solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview/
 - title: What’s new
   itemImage: /light.svg
   link: /solutions/calendar-pro/whats-new/
