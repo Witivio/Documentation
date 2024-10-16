@@ -85,15 +85,6 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
-                                    <div class="timeline-icon"><i class="fa fa-comments" aria-hidden="true"></i></div>
-                                    <div class="timeline-text">
-                                        <h6>Feedback</h6>
-                                        <p>Gather user feedback to continuously improve user experience.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
                                     <div class="timeline-icon"><i class="fa fa-search" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -161,35 +152,8 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
                                     <div class="timeline-icon"><i class="fa fa-book" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
-                                        <h6>KB</h6>
-                                        <p>Keep the written text as a GPT answer.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
-                                    <div class="timeline-icon"><i class="fa fa-laptop" aria-hidden="true"></i></div>
-                                    <div class="timeline-text">
-                                        <h6>Notebook</h6>
-                                        <p>Use the GPT not as chat but in a simple question/answer format.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
-                                    <div class="timeline-icon"><i class="fa fa-bullhorn" aria-hidden="true"></i></div>
-                                    <div class="timeline-text">
-                                        <h6>Push</h6>
-                                        <p>Link with Company Communicator Pro.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
-                                    <div class="timeline-icon"><i class="fa fa-database" aria-hidden="true"></i></div>
-                                    <div class="timeline-text">
-                                        <h6>Data Source</h6>
-                                        <p>Check data source quality.</p>
+                                        <h6>Knowledge Base - Simple Answers</h6>
+                                        <p>Simple answers; using the knowledge base as a GenIA data source; save answers written as GPT Pro answers.</p>
                                     </div>
                                 </div>
                             </div>
@@ -208,51 +172,41 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                         <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s"
                             style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
                             <p>Q3 24</p>
-                        </div>
+                        </div>                        
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
-                                    <div class="timeline-icon"><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>
+                                    <div class="timeline-icon"><i class="fa fa-laptop" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
-                                        <h6>Advanced Prompt Library</h6>
-                                        <p>Group and Security management for prompt libraries.</p>
+                                        <h6>Notebook</h6>
+                                        <p>Use the GPT not as chat but in a simple question/answer format.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
-                                    <div class="timeline-icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
+                                    <div class="timeline-icon"><i class="fa fa-bullhorn" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
-                                        <h6>Personal File</h6>
-                                        <p>Upload a personal file and chat with GPT about its contents.</p>
+                                        <h6>Push</h6>
+                                        <p>Link with Company Communicator Pro.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4">
+                                                       <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
+                                    <div class="timeline-icon"><i class="fa fa-database" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Data Source</h6>
+                                        <p>Check data source quality.</p>
+                                    </div>
+                                </div>
+                            </div>                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
                                     <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i>
                                     </div>
                                     <div class="timeline-text">
-                                        <h6>KB with Card</h6>
+                                        <h6>Knowledge Base with Card</h6>
                                         <p>Manage Card answer formats within the Knowledge Base.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
-                                    <div class="timeline-icon"><i class="fa fa-database" aria-hidden="true"></i></div>
-                                    <div class="timeline-text">
-                                        <h6>KB</h6>
-                                        <p>Use the KB as GenIA data source for enhanced data integration.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
-                                    <div class="timeline-icon"><i class="fa fa-commenting" aria-hidden="true"></i></div>
-                                    <div class="timeline-text">
-                                        <h6>Feedback</h6>
-                                        <p>Collect advanced feedback & reason from users for continuous improvement.</p>
                                     </div>
                                 </div>
                             </div>
@@ -267,11 +221,12 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
-                                    <div class="timeline-icon"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
+                                    <div class="timeline-icon"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+                                    </div>
                                     <div class="timeline-text">
-                                        <h6>Adoption Dashboard</h6>
-                                        <p>Track the user adoption with detailed analytics and metrics.</p>
+                                        <h6>LLM Model: GPT4o</h6>
+                                        <p>Changing the model to GPT4o.</p>
                                     </div>
                                 </div>
                             </div>
@@ -283,7 +238,34 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                             <p>Q4 24</p>
                         </div>
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
+                                    <div class="timeline-icon"><i class="fa fa-commenting" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Feedback</h6>
+                                        <p>Gather user feedback to continuously improve user experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
+                                    <div class="timeline-icon"><i class="fa fa-comments" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Webchat</h6>
+                                        <p>Simple web chat experience for seamless user interaction.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
+                                    <div class="timeline-icon"><i class="fa-solid fa-layer-plus" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="timeline-text">
+                                        <h6>SharePoint site and page indexing</h6>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
                                     <div class="timeline-icon"><i class="fa fa-tree" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -292,18 +274,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
-                                    <div class="timeline-icon"><i class="fa fa-connectdevelop" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="timeline-text">
-                                        <h6>Power Automate / LogicApps Connector</h6>
-                                        <p>Integrate seamlessly with Power Automate or LogicApps to automate workflows.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
                                     <div class="timeline-icon"><i class="fa fa-search-plus" aria-hidden="true"></i>
                                     </div>
@@ -313,13 +284,21 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4">
+                                                <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
-                                    <div class="timeline-icon"><i class="fa fa-microsoft" aria-hidden="true"></i></div>
+                                    <div class="timeline-icon"><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
-                                        <h6>GPTs as M365 Copilot Plugin</h6>
-                                        <p>Integrate GPTs directly into Microsoft 365 as a Copilot plugin for enhanced
-                                            productivity.</p>
+                                        <h6>Web connection - targeting public urls</h6>
+                                        <p>Indexing targeted web pages.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
+                                    <div class="timeline-icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Personal File</h6>
+                                        <p>Upload a personal file and chat with GPT about its contents.</p>
                                     </div>
                                 </div>
                             </div>
@@ -332,10 +311,20 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
-                                    <div class="timeline-icon"><i class="fa fa-comments" aria-hidden="true"></i></div>
+                                    <div class="timeline-icon"><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
-                                        <h6>Webchat</h6>
-                                        <p>Simple web chat experience for seamless user interaction.</p>
+                                        <h6>Advanced Prompt Library</h6>
+                                        <p>Group and Security management for prompt libraries.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
+                                    <div class="timeline-icon"><i class="fa fa-microsoft" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>GPTs as M365 Copilot Plugin</h6>
+                                        <p>Integrate GPTs directly into Microsoft 365 as a Copilot plugin for enhanced
+                                            productivity.</p>
                                     </div>
                                 </div>
                             </div>
@@ -363,6 +352,26 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     <div class="timeline-text">
                                         <h6>Test Mode</h6>
                                         <p>Test the documents before releasing them to catch and fix issues early.</p>
+                                    </div>
+                                </div>
+                            </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
+                                    <div class="timeline-icon"><i class="fa fa-dashboard" aria-hidden="true"></i></div>
+                                    <div class="timeline-text">
+                                        <h6>Adoption Dashboard</h6>
+                                        <p>Guide to support the administrator in adopting GPT Pro. License assignment rates, usage rates</p>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
+                                    <div class="timeline-icon"><i class="fa fa-connectdevelop" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="timeline-text">
+                                        <h6>Power Automate / LogicApps Connector</h6>
+                                        <p>Integrate seamlessly with Power Automate or LogicApps to automate workflows.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
