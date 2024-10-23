@@ -261,7 +261,10 @@ module.exports = {
                 {
                   title: "Migrations",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/migrations/faq.md", "FAQ"],["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"]],
+                  children: [
+                    ["/solutions/gpt-pro/migrations/faq.md", "FAQ"],
+                    ["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"],
+                  ],
                 },
                 ["/solutions/gpt-pro/limits.md", "Limits"],
                 ["/solutions/gpt-pro/content-filter.md", "Content filtering"],
@@ -298,10 +301,13 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md", "How to modify your account information"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
-                        ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
+                        [
+                          "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
+                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                        ],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"]
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
                       ],
                     },
                   ],
@@ -440,54 +446,27 @@ module.exports = {
                       title: "Calendar customization",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md",
-                          "Manage view",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
-                          "Duplicate calendar",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
-                          "Manage notifications",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
-                          "Set up and manage public holiday",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md",
-                          "Manage timezone",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage view"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate calendar"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage notifications"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and manage public holiday"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage timezone"],
                       ],
                     },
                     {
                       title: "Events",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/managing-events.md",
-                          "Managing events",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md",
-                          "Advanced event personalization",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing events"],
+                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced event personalization"],
                       ],
                     },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md",
-                          "Managing permissions",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md",
-                          "FAQ",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md", "FAQ"],
                       ],
                     },
                     {
@@ -523,10 +502,9 @@ module.exports = {
                     ["/solutions/calendar-pro/troubleshooting/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
                     [
                       "/solutions/calendar-pro/troubleshooting/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
-                     "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
+                      "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
                     ],
                     ["/solutions/calendar-pro/troubleshooting/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
-                      
                   ],
                 },
                 {
@@ -547,7 +525,9 @@ module.exports = {
                     {
                       title: "Files",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"]],
+                      children: [
+                        ["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"],
+                      ],
                     },
                     {
                       title: "Single and recurrent events",
@@ -610,6 +590,7 @@ module.exports = {
                           "/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-share-the-contacts-from-contacts-pro-through-outlook-.md",
                           "Can we share the contacts from Contacts Pro through Outlook?",
                         ],
+                        ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
                   ],
@@ -1275,7 +1256,7 @@ module.exports = {
                   collapsable: true,
                   children: [
                     ["/solutions/gpt-pro/migrations/faq.md", "FAQ"],
-                    ["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"]
+                    ["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"],
                   ],
                 },
                 ["/solutions/gpt-pro/limits.md", "Limits"],
@@ -1313,10 +1294,13 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md", "How to modify your account information"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
-                        ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
+                        [
+                          "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
+                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                        ],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"]
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
                       ],
                     },
                   ],
@@ -1455,54 +1439,27 @@ module.exports = {
                       title: "Calendar customization",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md",
-                          "Manage view",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
-                          "Duplicate calendar",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
-                          "Manage notifications",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
-                          "Set up and manage public holiday",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md",
-                          "Manage timezone",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage view"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate calendar"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage notifications"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and manage public holiday"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage timezone"],
                       ],
                     },
                     {
                       title: "Events",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/managing-events.md",
-                          "Managing events",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md",
-                          "Advanced event personalization",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing events"],
+                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced event personalization"],
                       ],
                     },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md",
-                          "Managing permissions",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md",
-                          "FAQ",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md", "FAQ"],
                       ],
                     },
                     {
@@ -1538,10 +1495,9 @@ module.exports = {
                     ["/solutions/calendar-pro/troubleshooting/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
                     [
                       "/solutions/calendar-pro/troubleshooting/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
-                     "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
+                      "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
                     ],
                     ["/solutions/calendar-pro/troubleshooting/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
-                      
                   ],
                 },
                 {
@@ -1562,7 +1518,9 @@ module.exports = {
                     {
                       title: "Files",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"]],
+                      children: [
+                        ["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"],
+                      ],
                     },
                     {
                       title: "Single and recurrent events",
@@ -1625,6 +1583,7 @@ module.exports = {
                           "/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-share-the-contacts-from-contacts-pro-through-outlook-.md",
                           "Can we share the contacts from Contacts Pro through Outlook?",
                         ],
+                        ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
                   ],
@@ -2275,7 +2234,10 @@ module.exports = {
                 {
                   title: "Migrations",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/migrations/faq.md", "FAQ"],["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"]],
+                  children: [
+                    ["/solutions/gpt-pro/migrations/faq.md", "FAQ"],
+                    ["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"],
+                  ],
                 },
                 ["/solutions/gpt-pro/limits.md", "Limits"],
                 ["/solutions/gpt-pro/content-filter.md", "Content filtering"],
@@ -2312,10 +2274,13 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md", "How to modify your account information"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
-                        ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
+                        [
+                          "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
+                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                        ],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"]
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
                       ],
                     },
                   ],
@@ -2454,54 +2419,27 @@ module.exports = {
                       title: "Calendar customization",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md",
-                          "Manage view",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
-                          "Duplicate calendar",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
-                          "Manage notifications",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
-                          "Set up and manage public holiday",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md",
-                          "Manage timezone",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage view"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate calendar"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage notifications"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and manage public holiday"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage timezone"],
                       ],
                     },
                     {
                       title: "Events",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/managing-events.md",
-                          "Managing events",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md",
-                          "Advanced event personalization",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing events"],
+                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced event personalization"],
                       ],
                     },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md",
-                          "Managing permissions",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md",
-                          "FAQ",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md", "FAQ"],
                       ],
                     },
                     {
@@ -2537,10 +2475,9 @@ module.exports = {
                     ["/solutions/calendar-pro/troubleshooting/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
                     [
                       "/solutions/calendar-pro/troubleshooting/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
-                     "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
+                      "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
                     ],
                     ["/solutions/calendar-pro/troubleshooting/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
-                      
                   ],
                 },
                 {
@@ -2561,7 +2498,9 @@ module.exports = {
                     {
                       title: "Files",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"]],
+                      children: [
+                        ["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"],
+                      ],
                     },
                     {
                       title: "Single and recurrent events",
@@ -2624,6 +2563,7 @@ module.exports = {
                           "/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-share-the-contacts-from-contacts-pro-through-outlook-.md",
                           "Can we share the contacts from Contacts Pro through Outlook?",
                         ],
+                        ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
                   ],
