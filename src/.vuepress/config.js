@@ -355,7 +355,6 @@ module.exports = {
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-all-channel-users-need-a-booking-room-pro-license-.md",
                           "Do all channel users need a Booking Room Pro license?",
                         ],
-                        ["/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/what-is-the-difference-between-booking-room-pro-premium-vs-free-model-.md",
                           "What is the difference between Booking Room Pro Premium vs free model?",
@@ -490,7 +489,6 @@ module.exports = {
                   title: "Pricing and subscription",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/pricing-and-subscription/do-you-offer-educational-or-nonprofit-plans-.md", "Get started guide"],
                     ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
                     ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
                   ],
@@ -515,8 +513,8 @@ module.exports = {
                       title: "Synchronization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-export-my-calendar-pro-to-another-calendar", "How to export my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-import-a-calendar-in-my-calendar-pro.md", "How to import a calendar in my Calendar Pro?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-my-calendar-pro-to-another-calendar", "How to synchronize my Calendar Pro to another calendar?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-a-calendar-in-my-calendar-pro.md", "How to synchronize a calendar in my Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-manage-my-synchronized-calendar.md", "How to manage my synchronized calendars?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-outlook-with-calendar-pro.md", "How to synchronize outlook with Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/see-the-shared-synchronized-calendars", "See the shared synchronized calendars"],
@@ -653,7 +651,6 @@ module.exports = {
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-all-channel-users-need-a-gantt-chart-pro-license-.md",
                           "Do all channel users need a Gantt Chart Pro license?",
                         ],
-                        ["/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/what-s-the-difference-between-free-and-premium-gantt-chart-pro-.md",
                           "What’s the difference between free and premium Gantt Chart Pro?",
@@ -949,10 +946,6 @@ module.exports = {
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-all-channel-or-teams-users-need-a-parking-pro-license-.md",
                           "Do all channel or Teams users need a Parking Pro license?",
-                        ],
-                        [
-                          "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-you-offer-educational-or-nonprofit-plans-for-parking-pro-.md",
-                          "Do you offer educational or nonprofit plans for Parking Pro?",
                         ],
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/what-s-the-difference-between-free-and-premium-parking-pro-.md",
@@ -1348,7 +1341,6 @@ module.exports = {
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-all-channel-users-need-a-booking-room-pro-license-.md",
                           "Do all channel users need a Booking Room Pro license?",
                         ],
-                        ["/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/what-is-the-difference-between-booking-room-pro-premium-vs-free-model-.md",
                           "What is the difference between Booking Room Pro Premium vs free model?",
@@ -1483,7 +1475,6 @@ module.exports = {
                   title: "Pricing and subscription",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/pricing-and-subscription/do-you-offer-educational-or-nonprofit-plans-.md", "Get started guide"],
                     ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
                     ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
                   ],
@@ -1508,8 +1499,8 @@ module.exports = {
                       title: "Synchronization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-export-my-calendar-pro-to-another-calendar.md", "How to export my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-import-a-calendar-in-my-calendar-pro.md", "How to import a calendar in my Calendar Pro?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-my-calendar-pro-to-another-calendar.md", "How to synchronize my calendar pro to another calendar?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-a-calendar-in-my-calendar-pro.md", "How to synchronize a calendar in my Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-manage-my-synchronized-calendar.md", "How to manage my synchronized calendars?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-outlook-with-calendar-pro.md", "How to synchronize outlook with Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/see-the-shared-synchronized-calendars.md", "See the shared synchronized calendars"],
@@ -1646,7 +1637,6 @@ module.exports = {
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-all-channel-users-need-a-gantt-chart-pro-license-.md",
                           "Do all channel users need a Gantt Chart Pro license?",
                         ],
-                        ["/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/what-s-the-difference-between-free-and-premium-gantt-chart-pro-.md",
                           "What’s the difference between free and premium Gantt Chart Pro?",
@@ -1929,10 +1919,6 @@ module.exports = {
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-all-channel-or-teams-users-need-a-parking-pro-license-.md",
                           "Do all channel or Teams users need a Parking Pro license?",
-                        ],
-                        [
-                          "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-you-offer-educational-or-nonprofit-plans-for-parking-pro-.md",
-                          "Do you offer educational or nonprofit plans for Parking Pro?",
                         ],
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/what-s-the-difference-between-free-and-premium-parking-pro-.md",
@@ -2328,7 +2314,6 @@ module.exports = {
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-all-channel-users-need-a-booking-room-pro-license-.md",
                           "Do all channel users need a Booking Room Pro license?",
                         ],
-                        ["/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/what-is-the-difference-between-booking-room-pro-premium-vs-free-model-.md",
                           "What is the difference between Booking Room Pro Premium vs free model?",
@@ -2463,7 +2448,6 @@ module.exports = {
                   title: "Pricing and subscription",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/pricing-and-subscription/do-you-offer-educational-or-nonprofit-plans-.md", "Get started guide"],
                     ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
                     ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
                   ],
@@ -2488,8 +2472,8 @@ module.exports = {
                       title: "Synchronization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-export-my-calendar-pro-to-another-calendar.md", "How to export my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-import-a-calendar-in-my-calendar-pro.md", "How to import a calendar in my Calendar Pro?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-my-calendar-pro-to-another-calendar.md", "How to synchronize my calendar pro to another calendar?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-a-calendar-in-my-calendar-pro.md", "How to synchronize a calendar in my Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-manage-my-synchronized-calendar.md", "How to manage my synchronized calendars?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-outlook-with-calendar-pro.md", "How to synchronize outlook with Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/see-the-shared-synchronized-calendars.md", "See the shared synchronized calendars"],
@@ -2626,7 +2610,6 @@ module.exports = {
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-all-channel-users-need-a-gantt-chart-pro-license-.md",
                           "Do all channel users need a Gantt Chart Pro license?",
                         ],
-                        ["/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/what-s-the-difference-between-free-and-premium-gantt-chart-pro-.md",
                           "What’s the difference between free and premium Gantt Chart Pro?",
@@ -2909,10 +2892,6 @@ module.exports = {
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-all-channel-or-teams-users-need-a-parking-pro-license-.md",
                           "Do all channel or Teams users need a Parking Pro license?",
-                        ],
-                        [
-                          "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-you-offer-educational-or-nonprofit-plans-for-parking-pro-.md",
-                          "Do you offer educational or nonprofit plans for Parking Pro?",
                         ],
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/what-s-the-difference-between-free-and-premium-parking-pro-.md",
