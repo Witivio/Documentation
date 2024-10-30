@@ -261,7 +261,10 @@ module.exports = {
                 {
                   title: "Migrations",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/migrations/faq.md", "FAQ"],["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"]],
+                  children: [
+                    ["/solutions/gpt-pro/migrations/faq.md", "FAQ"],
+                    ["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"],
+                  ],
                 },
                 ["/solutions/gpt-pro/limits.md", "Limits"],
                 ["/solutions/gpt-pro/content-filter.md", "Content filtering"],
@@ -298,10 +301,13 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md", "How to modify your account information"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
-                        ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
+                        [
+                          "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
+                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                        ],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"]
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
                       ],
                     },
                   ],
@@ -349,7 +355,6 @@ module.exports = {
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-all-channel-users-need-a-booking-room-pro-license-.md",
                           "Do all channel users need a Booking Room Pro license?",
                         ],
-                        ["/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/what-is-the-difference-between-booking-room-pro-premium-vs-free-model-.md",
                           "What is the difference between Booking Room Pro Premium vs free model?",
@@ -440,54 +445,27 @@ module.exports = {
                       title: "Calendar customization",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md",
-                          "Manage view",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
-                          "Duplicate calendar",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
-                          "Manage notifications",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
-                          "Set up and manage public holiday",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md",
-                          "Manage timezone",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage view"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate calendar"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage notifications"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and manage public holiday"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage timezone"],
                       ],
                     },
                     {
                       title: "Events",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/managing-events.md",
-                          "Managing events",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md",
-                          "Advanced event personalization",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing events"],
+                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced event personalization"],
                       ],
                     },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md",
-                          "Managing permissions",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md",
-                          "FAQ",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md", "FAQ"],
                       ],
                     },
                     {
@@ -511,7 +489,6 @@ module.exports = {
                   title: "Pricing and subscription",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/pricing-and-subscription/do-you-offer-educational-or-nonprofit-plans-.md", "Get started guide"],
                     ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
                     ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
                   ],
@@ -523,10 +500,9 @@ module.exports = {
                     ["/solutions/calendar-pro/troubleshooting/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
                     [
                       "/solutions/calendar-pro/troubleshooting/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
-                     "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
+                      "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
                     ],
                     ["/solutions/calendar-pro/troubleshooting/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
-                      
                   ],
                 },
                 {
@@ -537,8 +513,8 @@ module.exports = {
                       title: "Synchronization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-export-my-calendar-pro-to-another-calendar", "How to export my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-import-a-calendar-in-my-calendar-pro.md", "How to import a calendar in my Calendar Pro?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-my-calendar-pro-to-another-calendar", "How to synchronize my Calendar Pro to another calendar?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-a-calendar-in-my-calendar-pro.md", "How to synchronize a calendar in my Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-manage-my-synchronized-calendar.md", "How to manage my synchronized calendars?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-outlook-with-calendar-pro.md", "How to synchronize outlook with Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/see-the-shared-synchronized-calendars", "See the shared synchronized calendars"],
@@ -547,7 +523,9 @@ module.exports = {
                     {
                       title: "Files",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"]],
+                      children: [
+                        ["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"],
+                      ],
                     },
                     {
                       title: "Single and recurrent events",
@@ -610,6 +588,7 @@ module.exports = {
                           "/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-share-the-contacts-from-contacts-pro-through-outlook-.md",
                           "Can we share the contacts from Contacts Pro through Outlook?",
                         ],
+                        ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
                   ],
@@ -672,7 +651,6 @@ module.exports = {
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-all-channel-users-need-a-gantt-chart-pro-license-.md",
                           "Do all channel users need a Gantt Chart Pro license?",
                         ],
-                        ["/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/what-s-the-difference-between-free-and-premium-gantt-chart-pro-.md",
                           "What’s the difference between free and premium Gantt Chart Pro?",
@@ -968,10 +946,6 @@ module.exports = {
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-all-channel-or-teams-users-need-a-parking-pro-license-.md",
                           "Do all channel or Teams users need a Parking Pro license?",
-                        ],
-                        [
-                          "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-you-offer-educational-or-nonprofit-plans-for-parking-pro-.md",
-                          "Do you offer educational or nonprofit plans for Parking Pro?",
                         ],
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/what-s-the-difference-between-free-and-premium-parking-pro-.md",
@@ -1275,7 +1249,7 @@ module.exports = {
                   collapsable: true,
                   children: [
                     ["/solutions/gpt-pro/migrations/faq.md", "FAQ"],
-                    ["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"]
+                    ["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"],
                   ],
                 },
                 ["/solutions/gpt-pro/limits.md", "Limits"],
@@ -1313,10 +1287,13 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md", "How to modify your account information"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
-                        ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
+                        [
+                          "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
+                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                        ],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"]
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
                       ],
                     },
                   ],
@@ -1364,7 +1341,6 @@ module.exports = {
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-all-channel-users-need-a-booking-room-pro-license-.md",
                           "Do all channel users need a Booking Room Pro license?",
                         ],
-                        ["/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/what-is-the-difference-between-booking-room-pro-premium-vs-free-model-.md",
                           "What is the difference between Booking Room Pro Premium vs free model?",
@@ -1455,54 +1431,27 @@ module.exports = {
                       title: "Calendar customization",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md",
-                          "Manage view",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
-                          "Duplicate calendar",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
-                          "Manage notifications",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
-                          "Set up and manage public holiday",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md",
-                          "Manage timezone",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage view"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate calendar"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage notifications"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and manage public holiday"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage timezone"],
                       ],
                     },
                     {
                       title: "Events",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/managing-events.md",
-                          "Managing events",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md",
-                          "Advanced event personalization",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing events"],
+                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced event personalization"],
                       ],
                     },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md",
-                          "Managing permissions",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md",
-                          "FAQ",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md", "FAQ"],
                       ],
                     },
                     {
@@ -1526,7 +1475,6 @@ module.exports = {
                   title: "Pricing and subscription",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/pricing-and-subscription/do-you-offer-educational-or-nonprofit-plans-.md", "Get started guide"],
                     ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
                     ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
                   ],
@@ -1538,10 +1486,9 @@ module.exports = {
                     ["/solutions/calendar-pro/troubleshooting/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
                     [
                       "/solutions/calendar-pro/troubleshooting/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
-                     "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
+                      "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
                     ],
                     ["/solutions/calendar-pro/troubleshooting/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
-                      
                   ],
                 },
                 {
@@ -1552,8 +1499,8 @@ module.exports = {
                       title: "Synchronization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-export-my-calendar-pro-to-another-calendar.md", "How to export my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-import-a-calendar-in-my-calendar-pro.md", "How to import a calendar in my Calendar Pro?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-my-calendar-pro-to-another-calendar.md", "How to synchronize my calendar pro to another calendar?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-a-calendar-in-my-calendar-pro.md", "How to synchronize a calendar in my Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-manage-my-synchronized-calendar.md", "How to manage my synchronized calendars?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-outlook-with-calendar-pro.md", "How to synchronize outlook with Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/see-the-shared-synchronized-calendars.md", "See the shared synchronized calendars"],
@@ -1562,7 +1509,9 @@ module.exports = {
                     {
                       title: "Files",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"]],
+                      children: [
+                        ["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"],
+                      ],
                     },
                     {
                       title: "Single and recurrent events",
@@ -1625,6 +1574,7 @@ module.exports = {
                           "/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-share-the-contacts-from-contacts-pro-through-outlook-.md",
                           "Can we share the contacts from Contacts Pro through Outlook?",
                         ],
+                        ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
                   ],
@@ -1687,7 +1637,6 @@ module.exports = {
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-all-channel-users-need-a-gantt-chart-pro-license-.md",
                           "Do all channel users need a Gantt Chart Pro license?",
                         ],
-                        ["/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/what-s-the-difference-between-free-and-premium-gantt-chart-pro-.md",
                           "What’s the difference between free and premium Gantt Chart Pro?",
@@ -1970,10 +1919,6 @@ module.exports = {
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-all-channel-or-teams-users-need-a-parking-pro-license-.md",
                           "Do all channel or Teams users need a Parking Pro license?",
-                        ],
-                        [
-                          "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-you-offer-educational-or-nonprofit-plans-for-parking-pro-.md",
-                          "Do you offer educational or nonprofit plans for Parking Pro?",
                         ],
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/what-s-the-difference-between-free-and-premium-parking-pro-.md",
@@ -2275,7 +2220,10 @@ module.exports = {
                 {
                   title: "Migrations",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/migrations/faq.md", "FAQ"],["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"]],
+                  children: [
+                    ["/solutions/gpt-pro/migrations/faq.md", "FAQ"],
+                    ["/solutions/gpt-pro/migrations/movestream.md", "MoveStream Program"],
+                  ],
                 },
                 ["/solutions/gpt-pro/limits.md", "Limits"],
                 ["/solutions/gpt-pro/content-filter.md", "Content filtering"],
@@ -2312,10 +2260,13 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md", "How to modify your account information"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md", "How to remove your account"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
-                        ["/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md", "How Does the Rights Ownership Transfer Between Super Admin and Admin Work"],
+                        [
+                          "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
+                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                        ],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"]
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
                       ],
                     },
                   ],
@@ -2363,7 +2314,6 @@ module.exports = {
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-all-channel-users-need-a-booking-room-pro-license-.md",
                           "Do all channel users need a Booking Room Pro license?",
                         ],
-                        ["/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/what-is-the-difference-between-booking-room-pro-premium-vs-free-model-.md",
                           "What is the difference between Booking Room Pro Premium vs free model?",
@@ -2454,54 +2404,27 @@ module.exports = {
                       title: "Calendar customization",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md",
-                          "Manage view",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md",
-                          "Duplicate calendar",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md",
-                          "Manage notifications",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md",
-                          "Set up and manage public holiday",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md",
-                          "Manage timezone",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage view"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate calendar"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage notifications"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and manage public holiday"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage timezone"],
                       ],
                     },
                     {
                       title: "Events",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/managing-events.md",
-                          "Managing events",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md",
-                          "Advanced event personalization",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing events"],
+                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced event personalization"],
                       ],
                     },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md",
-                          "Managing permissions",
-                        ],
-                        [
-                          "/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md",
-                          "FAQ",
-                        ],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md", "FAQ"],
                       ],
                     },
                     {
@@ -2525,7 +2448,6 @@ module.exports = {
                   title: "Pricing and subscription",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/pricing-and-subscription/do-you-offer-educational-or-nonprofit-plans-.md", "Get started guide"],
                     ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
                     ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
                   ],
@@ -2537,10 +2459,9 @@ module.exports = {
                     ["/solutions/calendar-pro/troubleshooting/how-to-clean-the-microsoft-teams-cache-.md", "How to clean the Microsoft Teams cache?"],
                     [
                       "/solutions/calendar-pro/troubleshooting/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md",
-                     "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
+                      "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it?",
                     ],
                     ["/solutions/calendar-pro/troubleshooting/blank-screen-popup-after-sign-in-.md", "Blank screen popup after sign in"],
-                      
                   ],
                 },
                 {
@@ -2551,8 +2472,8 @@ module.exports = {
                       title: "Synchronization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-export-my-calendar-pro-to-another-calendar.md", "How to export my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-import-a-calendar-in-my-calendar-pro.md", "How to import a calendar in my Calendar Pro?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-my-calendar-pro-to-another-calendar.md", "How to synchronize my calendar pro to another calendar?"],
+                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-a-calendar-in-my-calendar-pro.md", "How to synchronize a calendar in my Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-manage-my-synchronized-calendar.md", "How to manage my synchronized calendars?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-outlook-with-calendar-pro.md", "How to synchronize outlook with Calendar Pro?"],
                         ["/solutions/calendar-pro/tutorials/synchronization/see-the-shared-synchronized-calendars.md", "See the shared synchronized calendars"],
@@ -2561,7 +2482,9 @@ module.exports = {
                     {
                       title: "Files",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"]],
+                      children: [
+                        ["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"],
+                      ],
                     },
                     {
                       title: "Single and recurrent events",
@@ -2624,6 +2547,7 @@ module.exports = {
                           "/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-share-the-contacts-from-contacts-pro-through-outlook-.md",
                           "Can we share the contacts from Contacts Pro through Outlook?",
                         ],
+                        ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
                   ],
@@ -2686,7 +2610,6 @@ module.exports = {
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-all-channel-users-need-a-gantt-chart-pro-license-.md",
                           "Do all channel users need a Gantt Chart Pro license?",
                         ],
-                        ["/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-you-offer-educational-or-nonprofit-plans-.md", "Do you offer educational or nonprofit plans?"],
                         [
                           "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/what-s-the-difference-between-free-and-premium-gantt-chart-pro-.md",
                           "What’s the difference between free and premium Gantt Chart Pro?",
@@ -2969,10 +2892,6 @@ module.exports = {
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-all-channel-or-teams-users-need-a-parking-pro-license-.md",
                           "Do all channel or Teams users need a Parking Pro license?",
-                        ],
-                        [
-                          "/solutions/parking-pro/pricing-and-licensing-parking-pro/do-you-offer-educational-or-nonprofit-plans-for-parking-pro-.md",
-                          "Do you offer educational or nonprofit plans for Parking Pro?",
                         ],
                         [
                           "/solutions/parking-pro/pricing-and-licensing-parking-pro/what-s-the-difference-between-free-and-premium-parking-pro-.md",
