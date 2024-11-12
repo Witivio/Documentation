@@ -19,13 +19,17 @@ To get started with GPT Pro, follow these steps:
 1. Navigate to the Microsoft Teams Store and search for "GPT Pro."
 2. Click on the "Add" button to install the application.
 3. Once installed, you recieve a welcome message from GPT Pro.
+:::tip
 💡It is possible to manage access rights within the administration of Microsoft Teams applications in the admin center.
+:::
 
 ### Step 2: Access your GPT statistics
 1. Access the Admin center by clicking on the link provided in the welcome message or go to [GPT Pro Admin Center](https://admin.gpt-pro.com/).
 2. Click on "Continue with Microsoft" and log in with your Microsoft Teams account.
 3. Click on "Gpt Pro" available on the list of GPTs.
+:::warning
 💡Guest accounts cannot be added.
+:::
 
 ### Step 3 Upload documents
 - **Local Documents:** 
@@ -43,7 +47,9 @@ Supported file formats: PDF, DOCX, PPTX.Each document must not exceed 10MB.
 Supported file formats: PDF, DOCX, PPTX. Each document must not exceed 10MB.
 :::
 3. The documents will be processed and added to your GPT model.
-💡The update of indexed documents (addition, modification, deletion) is performed at the top of each hour: for example, 2:00 p.m., 3:00 p.m., 4:00 p.m.
+:::tip
+💡The update of indexed documents (addition, modification, deletion) is performed at the top of each hour: for example, 2:00 p.m., 3:00 p.m., 4:00 p.m.^
+:::
 
 ### Step 4: Ask questions to your GPT
 1. Go to Microsoft Teams and start a conversation with GPT Pro.

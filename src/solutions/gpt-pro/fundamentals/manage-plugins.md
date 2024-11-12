@@ -17,8 +17,8 @@ Upon accessing the plugin management interface, you will see a list of available
 To activate or deactivate a plugin, simply toggle the switch next to the plugin's name. A green toggle indicates an enabled plugin, while a grey toggle shows a disabled one.
 :::
 
-::: warning ⚠️
-Be aware that enabling or disabling plugins will affect all users. Ensure you understand the implications before changing the status of a plugin.
+::: warning
+⚠️ Be aware that enabling or disabling plugins will affect all users. Ensure you understand the implications before changing the status of a plugin.
 :::
 
 ## Adding a New Plugin
@@ -36,8 +36,8 @@ If you decide that a plugin is no longer needed:
 2. Choose `Remove` and confirm the action.
 3. The plugin will be uninstalled from your GPT application.
 
-::: warning ⚠️
-Removing a plugin may result in the loss of associated data or functionality. Proceed with caution and ensure that you have backups if necessary.
+::: warning
+⚠️ Removing a plugin may result in the loss of associated data or functionality. Proceed with caution and ensure that you have backups if necessary.
 :::
 
 <Intercom />

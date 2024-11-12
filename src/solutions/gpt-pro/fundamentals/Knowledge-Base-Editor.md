@@ -56,11 +56,13 @@ Card anwser allows to add title, images, buttons.
 
     Once saved, it is necessary to write the answer.
    - **Writing the answer**: A text editor is available. By default, the answer is in draft mode. 
-    - **Save** by clicking on "Save". It's possible to preview the anwser cliking on "Preview in Microsoft Teams".
-    - **Publication**: To publish an answer and make it available to end users, go to the relevant question and click the "Publish" button at the top right of the question. Once published, the "Unpublish" button appears, allowing you to unpublish the answer at any time.
-           ![Card answer published](/assets/img/gpt/card-answer-published.png)
+   - **Save** by clicking on "Save". It's possible to preview the anwser cliking on "Preview in Microsoft Teams".
+   - **Publication**: To publish an answer and make it available to end users, go to the relevant question and click the "Publish" button at the top right of the question. Once published, the "Unpublish" button appears, allowing you to unpublish the answer at any time.
+           
+  ![Card answer published](/assets/img/gpt/card-answer-published.png)
 
-::: 💡 **Tip**: If a similar question already exists, a message saying "We found a similar question" is displayed when adding a new question.
+:::tip
+💡 If a similar question already exists, a message saying "We found a similar question" is displayed when adding a new question.
 :::
 
 
@@ -83,10 +85,11 @@ To maintain an organized card image, a gallery is available:  an image must be a
 #### Manage images
 
 1. **Access tags management**: Choose 'Images gallery' tab
-2. **Add a new folder**: Click on '+Add a folder' to create a new folder. 
+2. **Add a new folder**: Click on '+Add a folder' to create a new folder.
+
  ![Add image](/assets/img/gpt/add-folder.png)
 
-    To perform an action, click on 'Actions' next to the folder. From there, you can view and manage images, edit the folder's name, and delete the folder if no images are used
+  To perform an action, click on 'Actions' next to the folder. From there, you can view and manage images, edit the folder's name, and delete the folder if no images are used
 
 3. **Add a new image**: Click on '+Add an image' within the folder to add the image.
 3. **View image**: Click on the 'Actions' button and select 'View' to see the image.
@@ -103,7 +106,8 @@ To maintain an organized and easily navigable knowledge base, you can tag entrie
 1. **Select an Entry**: to add a tag to a question: open a question, choose 'Configuration' and choose or create a tag.
 Open the entry you want to categorize or tag.
 2. **Save**: Click on `Save` to apply the changes.
- ![Tags](/assets/img/gpt/add-tag.png)
+
+![Tags](/assets/img/gpt/add-tag.png)
 
 
 #### Manage tags
