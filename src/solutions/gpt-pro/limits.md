@@ -37,6 +37,11 @@ To know more about: [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai
 
 4. **Page Number Limit**: Each document uploaded should not exceed 300 pages.
 
+5. **Image Limit**: The maximum number of images allowed is 1,000.
+
+4. **System Prompt Character Limit**: System prompts can contain up to 4,000 characters.
+
+4. **Notebook Character Limit**: The Notebook feature supports up to 5,000 characters.
 ### Plugin Integration
 
 1. **Maximum Number of Plugins**: Users can integrate up to 5 plugins with their GPT Pro environment.

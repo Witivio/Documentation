@@ -12,7 +12,7 @@ A license administrator has access rights to all chatbots under the license. Her
 2. Add Administrator: Onboard new team members by granting them administrative privileges. 
 3. Delete: Remove administrative access when necessary by clicking the button 'Action' then 'Delete', ensuring security and appropriate access control within your organization.
 
-![Manage licence administrator](/assets/img/gpt/Licence-Admin.png)
+![Subsciption administrators](/assets/img/gpt/Licence-Admin.png)
 
 ### How to add an licence administrator
 When adding an administrator, simply find it in 'Administrators' then click on the button 'Add administrator'. You can search for users within your organization by name or email, making it simple to identify and select the appropriate individual. Once added, the new administrator can immediately begin to manage the system, set permissions, and help in scaling the use of GPT Pro within the organization. 
@@ -27,9 +27,9 @@ A GPT administrator has access rights only to the GPT(s) to which they have been
 2. Add GPT Administrator: Onboard new team members by granting them administrative privileges. 
 3. Delete: Remove administrative access when necessary by clicking the button 'Action' then 'Delete', ensuring security and appropriate access control within your organization.
 
-![Manage GPT administrator](/assets/img/gpt/GPT-Admin-1.png)
+![Manage GPT administrator](/assets/img/gpt/GPT-Admin.png)
 
-### How to add an administrator
+### How to add a GPT administrator
 When adding an administrator, simply find it in 'Administrators' then click on the button 'Add administrator'. You can search for users within your organization by name or email, making it simple to identify and select the appropriate individual. Once added, the new administrator can immediately begin to manage the system, set permissions, and help in scaling the use of GPT Pro within the organization. 
 
 ![Add GPT administrator](/assets/img/gpt/Add-GPT-admin.png)
