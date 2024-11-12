@@ -22,14 +22,14 @@ Here, you can see the total number of messages processed by GPT Pro.
 
 ### Feedbacks Received
 
-This section shows the amount of feedback your system has received.
+This section shows the amount of feedbacks your system has received. Feedback corresponds to a Teams reaction (emoji) to a message.
 
 :::tip
 Regularly check the feedback section to understand user satisfaction and areas of improvement.
 :::
 
 ### Average Chat Ratings
-The star rating system is designed for the administrators to evaluate the quality of the chat and GPT Pro's responses.
+The star rating system is designed for the administrators to evaluate the quality of a conversation between the user and GPT Pro's responses.
 
 ### Unique Users per Day
 

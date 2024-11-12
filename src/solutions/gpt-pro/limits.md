@@ -10,9 +10,9 @@ Understanding these technical boundaries will enable you to leverage GPT Pro's c
 ---
 
 ## Multilingual capabilities
-GPT Pro uses GPT-4 as model.
+GPT Pro uses GPT-4o as model.
 
-GPT-4 outperforms both previous large language models and as of 2023, most state-of-the-art systems (which often have benchmark-specific training or hand-engineering). On the MMLU benchmark, an English-language suite of multiple-choice questions covering 57 subjects, GPT-4 not only outperforms existing models by a considerable margin in English, but also demonstrates strong performance in other languages.
+GPT-4o outperforms both previous large language models and as of 2023, most state-of-the-art systems (which often have benchmark-specific training or hand-engineering). On the MMLU benchmark, an English-language suite of multiple-choice questions covering 57 subjects, GPT-4o not only outperforms existing models by a considerable margin in English, but also demonstrates strong performance in other languages.
 
 ![Languages](/assets/img/gpt/languages.jpg)
 
@@ -22,7 +22,7 @@ To know more about: [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai
 
 ### Document Upload Limits
 
-1. **Maximum Number of Documents**: Users can upload up to 10 documents to their GPT Pro environment.
+1. **Maximum Number of Documents**: Users can upload up to 50 documents to their GPT Pro environment.
 2. **Supported File Types**: The following file formats are supported for upload:
     - PDF (Portable Document Format)
     - PPTX (Microsoft PowerPoint Presentation)
@@ -35,8 +35,13 @@ To know more about: [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai
 
 3. **File Size Limit**: Each document uploaded should not exceed 10 Megabytes (Mo) in size.
 
-4. **Page Number Limit**: Each document uploaded should not exceed 200 pages.
+4. **Page Number Limit**: Each document uploaded should not exceed 300 pages.
 
+5. **Image Limit**: The maximum number of images allowed is 1,000.
+
+4. **System Prompt Character Limit**: System prompts can contain up to 4,000 characters.
+
+4. **Notebook Character Limit**: The Notebook feature supports up to 5,000 characters.
 ### Plugin Integration
 
 1. **Maximum Number of Plugins**: Users can integrate up to 5 plugins with their GPT Pro environment.

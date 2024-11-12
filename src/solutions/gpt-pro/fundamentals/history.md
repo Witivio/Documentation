@@ -24,7 +24,7 @@ Evaluating chat history is an integral part of maintaining the quality of user i
 
 This feedback loop not only enhances the AI's learning but also ensures that user experiences remain at the forefront of the service's evolution. Through meticulous monitoring and evaluation, administrators can derive actionable insights and foster an environment of constant enhancement in AI communication strategies.
 
-![Manage plugins](/assets/img/gpt/plugins.png)
+![Manage plugins](/assets/img/gpt/history-evaluation.png)
 
 <Intercom />
 <Hubspot />
