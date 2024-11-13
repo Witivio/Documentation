@@ -24,7 +24,7 @@ Soon, `flow` answer type will be available to choose.
 
 ![Knowledge base editor](/assets/img/gpt/answer-type.png)
 
-- 4.1 Simple answer:
+##### Simple answer:
   - **Set-up the configuration**: Have the possibility to set up your answer to be registered as it is or be added in the context of AI's response and indexed in the reference, also add tag to the question to better categorize them.
 ![simple answer creation](/assets/img/gpt/simple-answer-creation.png)
 
@@ -45,7 +45,7 @@ Soon, `flow` answer type will be available to choose.
 
    - **Publication**: To publish an answer and make it available to end users, go to the relevant question and click the "Publish" button at the top right of the question. Once published, the "Unpublish" button appears, allowing you to unpublish the answer at any time.
 
-- 4.2 Card answer:
+##### Card answer:
 Card anwser allows to add title, images, buttons.
   - **Set-up the configuration**:  Choose the card template in the list of choices. 
   
@@ -120,7 +120,7 @@ Open the entry you want to categorize or tag.
 
 The tag list shows the number of times each tag is used in questions.
 
- ![Tags](/assets/img/gpt/tags.png)
+ ![Tags](/assets/img/gpt/Tags.png)
 
 <Intercom />
 <Hubspot />

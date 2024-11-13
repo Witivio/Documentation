@@ -19,7 +19,6 @@ This tutorial provides step-by-step instructions for managing documents within G
 The interface lists all documents with details such as title, format, and the date they were added.
 
 ![Manage documents](/assets/img/gpt/Local-documents.png)
-Sharepoint-overview.png
 
 ### Uploading a Document
 

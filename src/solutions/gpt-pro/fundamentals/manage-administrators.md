@@ -19,6 +19,10 @@ When adding an administrator, simply find it in 'Administrators' then click on t
 
 ![Add licence administrator](/assets/img/gpt/Add-licence-admin.png)
 
+:::warning
+Guest accounts cannot be added.
+:::
+
 ## GPT Administrator
 ### Possible Actions
 A GPT administrator has access rights only to the GPT(s) to which they have been added as an administrator. Here is what you can do in 'Administrators' section of GPT Pro admin center :
@@ -33,6 +37,10 @@ A GPT administrator has access rights only to the GPT(s) to which they have been
 When adding an administrator, simply find it in 'Administrators' then click on the button 'Add administrator'. You can search for users within your organization by name or email, making it simple to identify and select the appropriate individual. Once added, the new administrator can immediately begin to manage the system, set permissions, and help in scaling the use of GPT Pro within the organization. 
 
 ![Add GPT administrator](/assets/img/gpt/Add-GPT-admin.png)
+
+:::warning
+Guest accounts cannot be added.
+:::
 
 <Intercom />
 <Hubspot />
