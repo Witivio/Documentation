@@ -18,8 +18,7 @@ This tutorial provides step-by-step instructions for managing documents within G
 ### Viewing Documents
 The interface lists all documents with details such as title, format, and the date they were added.
 
-![Manage documents](/assets/img/gpt/documents.png)
-Sharepoint-overview.png
+![Manage documents](/assets/img/gpt/Local-documents.png)
 
 ### Uploading a Document
 
@@ -52,7 +51,7 @@ For updates on your uploaded documents:
 ## Viewing SharePoint Libraries
 The interface lists all SharePoint libraries with details such as library name, site URL, indexing status, and the last indexing date.
 
-[Manage SharePoint Libraries](/assets/img/gpt/Sharepoint-overview.png)
+[Manage SharePoint Libraries](/assets/img/gpt/Sharepoint-indexation.png)
 
 ## Adding a SharePoint Library
 
@@ -65,7 +64,7 @@ To keep GPT Pro’s knowledge base up to date, regularly add new SharePoint libr
 3. Click 'Check' to verify the site URL.
 4. Once verified, click 'Save' to add the library to GPT Pro.
 
-[Add SharePoint Library](/assets/img/gpt/add-sharepoint-library.png)
+[Add SharePoint Library](/assets/img/gpt/SharePoint-library.png)
 action-library.png
 
 ## Checking Library Indexing Status
@@ -77,7 +76,7 @@ For updates on your added libraries:
 - To manage and delete unused sharepoint library, click the `Actions` dropdown next to the library.
   - **Delete**: Remove the library from GPT Pro.
 
-[Action on library](/assets/img/gpt/action-library.png)
+[Action on library](/assets/img/gpt/delete-sharepoint-library.png)
 
 ## Viewing Library Contents
 - Click on the library name to view the contents of the library.
@@ -92,6 +91,25 @@ For updates on your added libraries:
 ## Best Practices
 - Regularly add and review SharePoint libraries.
 - Remove outdated libraries to maintain GPT Pro's performance.
+
+## Document Indexation and Metadata Management
+
+When indexing documentation, specific criteria and filters are applied to ensure the most relevant document is retrieved when a user submits a query. The process for managing metadata and determining which document is selected involves the following:
+
+#### 1. **Pre-filters for Version Control**
+   To ensure that versioning is correctly accounted for, the system applies various filters based on:
+   - **File Names**: The document's name is checked for version-specific details.
+   - **Directory Names**: The folder structure is examined for version indications.
+   - **Contract Addendums and Contract Numbers**: Relevant metadata related to contracts is analyzed.
+   - **Status Indicators (e.g., Old, Draft, Published)**: Documents are filtered based on their status to prioritize relevant versions.
+
+#### 2. **Primary Criterion (P1): Version Number Priority**
+   - The version number is the leading criterion for document selection. The system prioritizes documents that have clear versioning information embedded in their metadata or file names.
+
+#### 3. **Secondary Criterion (P2): Update Date**
+   - If no explicit version number is found, the system defaults to using the **latest update date** to determine the most current and relevant document.
+
+This structured approach ensures that users receive the most appropriate document based on versioning and recency when querying the system.
 
 <Intercom />
 <Hubspot />
