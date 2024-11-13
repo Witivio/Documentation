@@ -311,6 +311,7 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
                         ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-download-user-team-id-for-license-assignment.md", "How to download the User Team ID for license assignment"],
                       ],
                     },
                   ],
