@@ -26,3 +26,9 @@ If you're part of an educational institution or a non-profit organization, follo
 - The discount applies to both **1-year**, **2-year** and **3-year** licenses.
 
 We look forward to supporting your educational or non-profit organization!
+
+
+<Intercom />
+<Hubspot />
+<Clarity />
+<GoogleAnalytics />

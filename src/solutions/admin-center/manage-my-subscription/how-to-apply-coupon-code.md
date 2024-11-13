@@ -2,7 +2,7 @@
 
 #### Step by step
 
-1. Log into the Teams PRO Admin Center with your Microsoft Teams credentials.
+1. Log into the [Teams PRO Admin Center](https://admin.teams-pro.com/) with your Microsoft Teams credentials.
 
 2. Go to the “Purchase Apps” and select an application.
 
