@@ -7,7 +7,7 @@ A system prompt is a predefined instruction given to the AI to shape its respons
 ## Add system Prompt in GPT Pro
 To add a system prompt, use 'System Prompt' tab. Write a prompt and think to click on 'Save'. 
 
-![Prompts](/assets/img/gpt/prompts.png)
+![Prompts](/assets/img/gpt/system-prompt.png)
 
 ## Tips for Creating Effective System Prompts:
 1. Clarity and Structure: Be as clear and specific as possible about the role and context the AI should take. Use steps or stages to break down complex interactions.
