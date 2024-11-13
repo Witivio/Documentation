@@ -26,7 +26,8 @@ There are different ways to proceed:
 https://login.microsoftonline.com/organizations/adminconsent?client_id=b2c0dc10-7931-4437-8e5b-21aeb264b648
 
 Clicking this link redirects to the consent page for all the necessary permissions for our application at once.
-[SharePoint Consent Link](/assets/img/gpt/sharepoint-consent-link.jpg)
+
+![SharePoint consent with link](/assets/img/gpt/sharepoint-consent-link.jpg)
 
 **Option 2: SharePoint authorization for all users from GPT Pro:**
 
@@ -41,7 +42,7 @@ Clicking this link redirects to the consent page for all the necessary permissio
    - Check the box "Consent on Behalf of your organization" to provide consent for everyone.
    - Then click "Accept."
 
-   [SharePoint Consent Link](/assets/img/gpt/sharepoint-consent-gptpro.png)
+   ![SharePoint Consent in GPT Pro](/assets/img/gpt/sharepoint-consent-gptpro.png)
 
 **Option 3: SharePoint authorization for all users from Azure:**
 
@@ -52,7 +53,9 @@ To do this:
 - GPT Pro admin center
 - Permissions (security menu)
 - Then click the blue button "Grant admin consent for MSFT."
-[SharePoint Consent Link](/assets/img/gpt/consent-gptpro-admin-center.png)
+
+![SharePoint Consent in Azure](/assets/img/gpt/consent-gptpro-admin-center.png)
 
 The following pop-up will appear, allowing you to accept and authorize for all users:
-[SharePoint Consent Link](/assets/img/gpt/consent-gptpro-popup-azure.png)
+
+![SharePoint Pop-up Consent in Azure](/assets/img/gpt/consent-gptpro-popup-azure.png)
