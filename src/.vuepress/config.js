@@ -240,6 +240,7 @@ module.exports = {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
+                    ["/solutions/gpt-pro/fundamentals/authentication.md", "Authentication & Authorization"],
                     ["/solutions/gpt-pro/fundamentals/dashboard.md", "Dashboard"],
                     ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
@@ -1230,6 +1231,7 @@ module.exports = {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
+                    ["/solutions/gpt-pro/fundamentals/authentication.md", "Authentication & Authorization"],
                     ["/solutions/gpt-pro/fundamentals/dashboard.md", "Dashboard"],
                     ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
@@ -2206,6 +2208,7 @@ module.exports = {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
+                    ["/solutions/gpt-pro/fundamentals/authentication.md", "Authentication & Authorization"],
                     ["/solutions/gpt-pro/fundamentals/dashboard.md", "Dashboard"],
                     ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],

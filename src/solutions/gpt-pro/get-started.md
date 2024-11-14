@@ -28,7 +28,7 @@ To get started with GPT Pro, follow these steps:
 2. Click on "Continue with Microsoft" and log in with your Microsoft Teams account.
 3. Click on "Gpt Pro" available on the list of GPTs.
 :::warning
-💡Guest accounts cannot be added.
+Guest accounts cannot be added.
 :::
 
 ### Step 3 Upload documents
