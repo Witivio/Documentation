@@ -1,61 +1,102 @@
-# Authentication
+# Admin center authentication
 
-At Witivio, the security of our clients' data is a top priority. To ensure the highest level of protection and ease of use, we implement Office 365 SSO as a single sign-on method for seamless access to our applications. This approach not only enhances user experience but also leverages existing security measures, which means certain permissions need to be activated on your side.
+At Witivio, protecting our customers' data is our top priority. To ensure a secure and seamless authentication experience, GPT-Pro leverages Office 365 Single Sign-On (SSO) for accessing our applications. This approach integrates directly with Azure Active Directory (Azure AD), using incremental consent to request only the necessary permissions as users interact with our solution, minimizing access requests and protecting user privacy.
 
-Our SSO solution simplifies authentication by allowing users to sign in with their Office 365 credentials, minimizing password fatigue and enhancing overall security. This method ensures that users benefit from a centralized authentication process, reducing vulnerabilities associated with multiple login systems.
+Through Office 365 SSO, GPT-Pro enables customers to:
+- Enforce their own security policies for authentication, ensuring compliance with organizational standards.
+- Leverage Office 365 Multi-Factor Authentication (MFA) where it’s configured or required, adding an extra layer of protection.
+- Control user access to the application directly within their Azure AD environment, simplifying management for security teams.
+- Comply with consent policies for permissions, ensuring transparent permission requests and adherence to established security protocols.
 
-This SSO system allows our clients to integrate their Azure security policies for effective rights management and streamlined operations, ensuring that data security protocols remain intact.
+The sections that follow in this documentation will guide you through the incremental consent process, detailing how and when additional permissions are requested and how to manage them for optimal security and compliance.
 
-Therefore, it is necessary for an Azure administrator to:
+::: warning
+⚠️ Each step in this documentation **may vary depending on the security policies configured by your organization**. At any point, admin rights might be required, even if not explicitly indicated in the official [Microsoft Graph permissions documentation](https://learn.microsoft.com/en-us/graph/permissions-reference).
+:::
 
-## Add administrators in the admin center: 
+## Option 1: Use incremental consent within the application.
+
+Navigate to the [admin center](https://admin.gpt-pro.com)
+When your log in for the first time, you must consent for the following permissions :
+- offline_access 
+- User.Read
+
+![Mandatory Permissions](/assets/img/gpt/user-consent-mandatory-permissions.png)
+
+::: warning
+⚠️ These permissions are mandatory. You will not be able to use the admin center without consent.
+:::
+
+For some features, the admin center will prompt you for consent because a new permission is needed.
+This happens for the following feature :
+- [Adding subscriptions or bot administrators](/solutions/gpt-pro/fundamentals/manage-administrators)
+- [Adding SharePoint libraries to index](/solutions/gpt-pro/fundamentals/documents.html#managing-sharepoint-sites-documents)
+
+### Consent to list possible administrators
+
+Navigate to [Subscription administrators](/solutions/gpt-pro/fundamentals/manage-administrators.html#licence-administrator) or [bot administrators](solutions/gpt-pro/fundamentals/manage-administrators.html#licence-administrator) and click on __add an administrator__ button
+
+When you're doing this for the first time, you must consent for the following permissions :
+- User.ReadBasic.All
+
+![List users Permissions](/assets/img/gpt/user-consent-administrators.png)
+
+### Consent to connect to SharePoint
+
+Navigate to [SharePoint document](/solutions/gpt-pro/fundamentals/documents.html#managing-sharepoint-sites-documents) and click on __Add library__
+When you're doing this for the first time you must consent for the following permissions :
+- Files.Read.All
+
+![List Files from SharePoint](/assets/img/gpt/user-consent-sharepoint.png)
+
+## Option 2: Admin consent application through Azure Portal
+
+For somes organisations, IT teams must perform ad admin consent because organization security policy ask for it for :
+- Adding a new office 365 Application in the tenant
+- Consenting any permissions in the Microsoft Graph
 
 
-To do this:  Go to https://admin.gpt-pro.com/ and click on 'License Administrators' in the left menu and add the administrators.  For more details, see the 'Manage administrators' section.
+In the case, you admin can consent either :
+- From the application itself, by checking the __Consent on behalf of your organization__ checkbox. In this case, please Refer to [Option 1](/solutions/gpt-pro/fundamentals/authentication.html#option-1-use-incremental-consent-within-the-application)
+- From __Enterprise applications__ panel in Azure AD **after connecting successfully to GPT Pro Admin center.**
+    You can access the __Enterprise Applications__ panel [here](https://portal.azure.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview/menuId~/null) and search for **GPT Pro - Admin Center**
+::: warning
+If you have no results when looking for **GPT Pro - Admin Center**, you should connect first to [admin center](https://admin.gpt-pro.com) to activate the application in your tenant or try with [option 3](/solutions/gpt-pro/fundamentals/authentication.html#option-3-admin-consent-the-application-through-link)
+:::
 
-For adding documents in the back office (local documents), no additional permissions are required.
-However, to connect to your SharePoint, it is necessary to authorize permissions.
+![Enterprise apps panel](/assets/img/gpt/consent-enterprise-app-panel.png)
 
+::: tip
+You might found 2 **GPT Pro** applications.\
+**GPT Pro** is the app used by the Teams Application.\
+**GPT Pro - Admin Center** is the app used by the admin center.\
+Both Application Id (or client Id) can be found [here](/architecture-security/gpt-pro/#microsoft-graph)
+:::
 
-## Authorize permissions to connect to your SharePoint documents:
+Click on **GPT Pro - Admin Center** and navigate to the **Permissions** tab and click on **Grant permissions for {Your Tenant Name}**
+![permission tab](/assets/img/gpt/consent-entreprise-app-permission.png)
 
-There are different ways to proceed:
+You will be prompt for all permissions at once
 
-**Option 1: SharePoint authorization for all users via a consent page link:**
+![admin consent](/assets/img/gpt/consent-admin-all-permissions.png)
 
-https://login.microsoftonline.com/organizations/adminconsent?client_id=b2c0dc10-7931-4437-8e5b-21aeb264b648
+::: tip
+💡 The full list of permission is available [here](/architecture-security/gpt-pro/#microsoft-graph)
+:::
 
-Clicking this link redirects to the consent page for all the necessary permissions for our application at once.
+## Option 3 : Admin consent the application through link.
+
+::: warning
+**This section is intended for experienced users.** \
+Before clicking on any admin consent link, please carefully verify its accuracy. Incorrect consent links could compromise the security of your tenant and lead to unintended permissions being granted.
+:::
+
+Clicking on the folowing link redirects to the consent page for all the necessary permissions for our application at once.
+
+[https://login.microsoftonline.com/organizations/adminconsent?client_id=b2c0dc10-7931-4437-8e5b-21aeb264b648](https://login.microsoftonline.com/organizations/adminconsent?client_id=b2c0dc10-7931-4437-8e5b-21aeb264b648)
+
+::: warning
+Please review carrefully that the application Id in the URL is the one listed [here](https://docs.witivio.com/architecture-security/gpt-pro/#microsoft-graph) and that the application is certified by Witivio with the blue mark.
+:::
 
 ![SharePoint consent with link](/assets/img/gpt/sharepoint-consent-link.jpg)
-
-**Option 2: SharePoint authorization for all users from GPT Pro:**
-
- • Go to the GPT Pro admin interface:
- - Click on the relevant chatbot.
- - Navigate to the left menu and click:
-- Knowledge > SharePoint
-
- • Click on + Add Library
-
-   As an M365 administrator, the following screen will appear:
-   - Check the box "Consent on Behalf of your organization" to provide consent for everyone.
-   - Then click "Accept."
-
-   ![SharePoint Consent in GPT Pro](/assets/img/gpt/sharepoint-consent-gptpro.png)
-
-**Option 3: SharePoint authorization for all users from Azure:**
-
-To do this:
-   
-   • Access Azure and navigate to:
-- Enterprise applications
-- GPT Pro admin center
-- Permissions (security menu)
-- Then click the blue button "Grant admin consent for MSFT."
-
-![SharePoint Consent in Azure](/assets/img/gpt/consent-gptpro-admin-center.png)
-
-The following pop-up will appear, allowing you to accept and authorize for all users:
-
-![SharePoint Pop-up Consent in Azure](/assets/img/gpt/consent-gptpro-popup-azure.png)
