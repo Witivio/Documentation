@@ -1010,6 +1010,7 @@ module.exports = {
           collapsable: true,
           children: [
             ["/architecture-security/overview/", "Overview"],
+            ["/architecture-security/admin-center/", "Admin Center"],
             ["/architecture-security/bookingroom-pro/", "BookingRoom Pro"],
             ["/architecture-security/calendar-pro/", "Calendar Pro"],
             ["/architecture-security/parking-pro/", "Parking Pro"],
@@ -1987,6 +1988,7 @@ module.exports = {
           collapsable: true,
           children: [
             ["/architecture-security/overview/", "Overview"],
+            ["/architecture-security/admin-center/", "Admin Center"],
             ["/architecture-security/bookingroom-pro/", "BookingRoom Pro"],
             ["/architecture-security/calendar-pro/", "Calendar Pro"],
             ["/architecture-security/parking-pro/", "Parking Pro"],
@@ -2964,6 +2966,7 @@ module.exports = {
           collapsable: true,
           children: [
             ["/architecture-security/overview/", "Overview"],
+            ["/architecture-security/admin-center/", "Admin Center"],
             ["/architecture-security/bookingroom-pro/", "BookingRoom Pro"],
             ["/architecture-security/calendar-pro/", "Calendar Pro"],
             ["/architecture-security/parking-pro/", "Parking Pro"],
