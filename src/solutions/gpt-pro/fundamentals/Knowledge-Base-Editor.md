@@ -25,7 +25,7 @@ Soon, `flow` answer type will be available to choose.
 ![Knowledge base editor](/assets/img/gpt/answer-type.png)
 
 ##### Simple answer:
-  - **Set-up the configuration**: Have the possibility to set up your answer to be registered as it is or be added in the context of AI's response and indexed in the reference, also add tag to the question to better categorize them.
+  - **Set-up the configuration**: Have the possibility to set up your answer to be registered as it is or be added in the context of AI's response and indexed in the reference, also add tag to the question to better categorize them.\
 ![simple answer creation](/assets/img/gpt/simple-answer-creation.png)
 
       - If the 'use this answer directly' option is checked, generative AI will not be used to rephrase the question, and the agent will first check the written answers before searching other sources of information, such as documents or others. 
@@ -51,10 +51,9 @@ Card anwser allows to add title, images, buttons.
   
   ![Card answer creation](/assets/img/gpt/card-answer-creation.png)
   
-  Select the language, card responses cannot be used as context for generative AI and will be displayed exactly as written. Also add tag to the question to better categorize them.
-  Click on "Submit" 
-
-    Once saved, it is necessary to write the answer.
+  - Select the language, card responses cannot be used as context for generative AI and will be displayed exactly as written. Also add tag to the question to -better categorize them.
+  - Click on "Submit" \
+  Once saved, it is necessary to write the answer.
    - **Writing the answer**: A text editor is available. By default, the answer is in draft mode. 
    - **Save** by clicking on "Save". It's possible to preview the anwser cliking on "Preview in Microsoft Teams".
    - **Publication**: To publish an answer and make it available to end users, go to the relevant question and click the "Publish" button at the top right of the question. Once published, the "Unpublish" button appears, allowing you to unpublish the answer at any time.
