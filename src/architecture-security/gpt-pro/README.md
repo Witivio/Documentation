@@ -27,11 +27,15 @@ Here is how we're managing data for these different categories:
 | Document files | ✔ | ✔ | ✔ |🚫| Files for the knowledge of the bot.<br/>Accessed when the indexer vectorize the content and to check permissons |
 | Teams files | 🚫 | 🚫 | 🚫 |🚫| No access.<br/>No cache.<br/>No storage. |
 
-:::  tip Note
-Data is stored in the Azure cloud in Frnce Central region.
+:::  tip
+Data is stored in the Azure cloud in France Central region.
 :::
 
 ## Microsoft Graph
+
+::: tip
+All permissions are delegated permissions
+:::
 
 ### Admin center
 
