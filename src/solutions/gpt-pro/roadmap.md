@@ -14,7 +14,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                 <div class="apland-timeline-area">
                     <div class="single-timeline-area">
                         <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s"
-                            style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                             style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
                             <p>Q1 24</p>
                         </div>
                         <div class="row">
@@ -126,7 +126,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                     </div>
                     <div class="single-timeline-area">
                         <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s"
-                            style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                             style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
                             <p>Q2 24</p>
                         </div>
                         <div class="row">
@@ -170,9 +170,9 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                     </div>
                     <div class="single-timeline-area">
                         <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s"
-                            style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                             style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
                             <p>Q3 24</p>
-                        </div>                        
+                        </div>
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
@@ -192,7 +192,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                                                       <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
                                     <div class="timeline-icon"><i class="fa fa-database" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -200,7 +200,8 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                         <p>Check data source quality.</p>
                                     </div>
                                 </div>
-                            </div>                            <div class="col-12 col-md-6 col-lg-4">
+                            </div>                            
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
                                     <div class="timeline-icon"><i class="fa fa-address-card" aria-hidden="true"></i>
                                     </div>
@@ -234,11 +235,11 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                     </div>
                     <div class="single-timeline-area">
                         <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s"
-                            style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                             style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
                             <p>Q4 24</p>
                         </div>
                         <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="timeline-icon"><i class="fa fa-commenting" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -247,7 +248,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
                                     <div class="timeline-icon"><i class="fa fa-comments" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -256,7 +257,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
                                     <div class="timeline-icon"><i class="fa fa-tree" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -265,7 +266,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
                                     <div class="timeline-icon"><i class="fa fa-search-plus" aria-hidden="true"></i>
                                     </div>
@@ -275,16 +276,16 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                                                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="timeline-icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
                                         <h6>Document version management and metadata</h6>
-                                        <p>"Consideration of version numbers and metadata to provide answers based on the latest version updates and data."</p>
+                                        <p>Consideration of version numbers and metadata to provide answers based on the latest version updates and data.</p>
                                     </div>
                                 </div>
                             </div>
-                                                                                    <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="timeline-icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -292,7 +293,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                                     <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="timeline-icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -300,7 +301,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-         <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="timeline-icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -308,10 +309,15 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
                     <div class="single-timeline-area">
-                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s"
+                             style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
                             <p>Q1 25</p>
-                                                 <div class="col-12 col-md-6 col-lg-4">
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s">
                                     <div class="timeline-icon"><i class="fa-solid fa-layer-plus" aria-hidden="true"></i>
                                     </div>
@@ -320,8 +326,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                                    <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
                                     <div class="timeline-icon"><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -330,7 +335,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="timeline-icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -339,7 +344,6 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                        <div class="row">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
                                     <div class="timeline-icon"><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>
@@ -355,13 +359,16 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     <div class="timeline-text">
                                         <h6>KB History</h6>
                                         <p>Compare test & production environments to ensure consistency and accuracy in deployment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
- <p>Q2 25</p>
+                    <div class="single-timeline-area">
+                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                            <p>Q2 25</p>
+                        </div>
+                        <div class="row">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="timeline-icon"><i class="fa fa-life-ring" aria-hidden="true"></i></div>
@@ -380,7 +387,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s">
                                     <div class="timeline-icon"><i class="fa fa-dashboard" aria-hidden="true"></i></div>
                                     <div class="timeline-text">
@@ -389,7 +396,7 @@ Please note: All items on the roadmap are subject to change based on evolving bu
                                     </div>
                                 </div>
                             </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s">
                                     <div class="timeline-icon"><i class="fa fa-connectdevelop" aria-hidden="true"></i>
                                     </div>
