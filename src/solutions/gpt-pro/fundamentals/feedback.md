@@ -9,7 +9,8 @@ The feedback feature is designed to help you track and improve your chatbot's pe
 - **Performance analysis:** The dashboard provides an overview of feedback trends and recurring suggestions.
 - **Data export:** Export feedback over a selected period for in-depth analysis.
 
-:::tip Positive feedback validates what works well, while negative feedback provides concrete improvement opportunities.
+::: tip
+💡 Positive feedback validates what works well, while negative feedback provides concrete improvement opportunities.
 :::
 
 
