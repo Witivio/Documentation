@@ -597,6 +597,13 @@ module.exports = {
                         ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/contacts-pro/fundamentals/permissions-in-contacts-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
                   ],
                 },
                 {
@@ -1589,6 +1596,13 @@ module.exports = {
                         ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/contacts-pro/fundamentals/permissions-in-contacts-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
                   ],
                 },
                 {
@@ -2568,6 +2582,13 @@ module.exports = {
                         ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/contacts-pro/fundamentals/permissions-in-contacts-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
                   ],
                 },
                 {
