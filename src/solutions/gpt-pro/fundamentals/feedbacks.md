@@ -1,4 +1,4 @@
-# Feedbacks Feature Documentation
+# Manage Feedbacks
 
 ## 1. Overview
 

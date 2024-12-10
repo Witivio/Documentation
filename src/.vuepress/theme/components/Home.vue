@@ -53,7 +53,7 @@
 <h2>Unlock the Full Potential of Witivio Documentation!</h2>
     <h5 class="font-w-4 mb-6">Customize your knowledge acquisition journey from beginning to mastery</h5>
 
-    <div class="grid_custom_flow">
+    <div class="grid_custom_flow_home">
 
 
 

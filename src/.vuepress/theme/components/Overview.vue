@@ -4,7 +4,7 @@
       class="home"
       :aria-labelledby="data.heroText !== null ? 'main-title' : null"
     >
-         <header class="overview_hero">
+         <header class="overview_hero shadow">
             <div class="overview_hero_container">
                 <div class="overview_hero_text">
                     <p
@@ -40,21 +40,20 @@
                 </div>
             </div>
         </header>
-  
-      <div class="overview_container_items">
-        <a
-          v-for="(item, index) in data.items"
-          :key="index"
-          class="overview_container_item overview_wrap_range" 
-          :href="item.link"
-        >
-          <div class="teams_container_item_content">
-            <h2 class="container_item_title">{{item.title}}</h2>
-          </div>
-          <div class="container_image">
-            <img :src="item.itemImage" class="home_img">
-          </div>
-        </a>
+      <div class="container" style="max-width: 100%;">
+        <div class="grid_custom_flow" style="padding-top: 4.5rem;">
+          <a :href="item.link" class="shadow p-3 text-start custom_radius" style="max-width: 280px;width: 100%" v-for="(item, index) in data.items" :key="index">
+              <div class="bg-primary custom_key_radius text-white h3"><img :src="item.itemImage" class="home_img" style="max-width: 50%" /></div>
+              <div class="container mt-0">
+                  <p class="h4">{{ item.itemDescription }}</p>
+                  <div class="text-italic mt-4">{{ item.title }}</div>
+
+                  <div class="arrow">
+
+                  </div>
+              </div>
+          </a>
+        </div>
       </div>
   
     </main>
@@ -153,7 +152,7 @@
       flex-direction column
       align-items center
       justify-content flex-start
-      border: 2px solid rgba($borderColor, 1)
+      border: 2px solid #eaecef63
       background-color rgba($borderColor, 0.1)
       border-radius 5px;
       .overview_img
