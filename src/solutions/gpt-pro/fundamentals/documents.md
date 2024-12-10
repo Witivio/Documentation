@@ -13,6 +13,21 @@ This tutorial provides step-by-step instructions for managing documents within G
 3. Select 'Documents' from the sidebar to open the document management interface.
 4. Choose either 'local documents' or 'SharePoint sites'.
 
+### Status explanation
+| **Status**            | **Explanation**                                                                                   |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| Initializing          | The indexing process is starting. The system is preparing the document for further processing.    |
+| Reading file          | The system is reading the raw content of the file to extract necessary data.                      |
+| Parsing               | The system is analyzing the document's structure (e.g., extracting text, detecting sections).     |
+| Using OCR             | The system is using Optical Character Recognition (OCR) to extract text from image-based files. If included in your subscription.  |
+| Not supported         | The document's file type or format is not supported by the system.                                |
+| Unreadable            | The document cannot be read due to corruption, inaccessible permissions, or unsupported encoding. |
+| Ignored               | The document was intentionally skipped based on system rules (e.g., excluded file types).         |
+| Creating Embedding    | The system is generating vector embeddings of the document for intelligent search and linkage.    |
+| Updating              | The system is updating the document's index to reflect recent changes in content or metadata.     |
+| Completed             | The indexing process is finished. The document is ready for use in the system.                   |
+
+
 ## Managing Local Documents
 
 ### Viewing Documents
