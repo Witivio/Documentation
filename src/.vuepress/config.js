@@ -310,6 +310,7 @@ module.exports = {
                           "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
                           "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
                         ],
+                        ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why Can't a Transfer Be Initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
                         ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
@@ -597,6 +598,13 @@ module.exports = {
                         ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/contacts-pro/fundamentals/permissions-in-contacts-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
                   ],
                 },
                 {
@@ -1303,6 +1311,7 @@ module.exports = {
                           "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
                           "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
                         ],
+                        ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why Can't a Transfer Be Initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
                         ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
@@ -1589,6 +1598,13 @@ module.exports = {
                         ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/contacts-pro/fundamentals/permissions-in-contacts-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
                   ],
                 },
                 {
@@ -2282,6 +2298,7 @@ module.exports = {
                           "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
                           "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
                         ],
+                        ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why Can't a Transfer Be Initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
                         ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
@@ -2568,6 +2585,13 @@ module.exports = {
                         ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/contacts-pro/fundamentals/permissions-in-contacts-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
                   ],
                 },
                 {

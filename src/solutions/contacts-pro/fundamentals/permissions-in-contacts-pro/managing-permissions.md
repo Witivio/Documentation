@@ -1,19 +1,19 @@
-# Managing Permissions in Calendar Pro
+# Managing Permissions in Contacts Pro
 
 ## Setting Permissions Settings
 
 1. **Open Permissions Menu:**
-   - Click on the settings icon located at the top-right corner of the calendar interface.
+   - Click on the settings icon located at the top-right corner of the contacts interface.
    - From the dropdown menu, select "Permissions."
 
-<div class="intercom-container"><img src="/assets/img/teams-pro/calendar-pro/perms-1.png"></div>
+<div class="intercom-container"><img src="/assets/img/teams-pro/contacts-pro/perms-1.png"></div>
 
 
 2. **General Permissions Settings:**
    - In the permissions dialog, you will see the "General permissions settings" section.
    - Choose one of the following options:
-     - **Everybody in this channel can add/edit/delete events:** Allows all members to manage events.
-     - **Only the owner(s) of this Calendar Pro can add/edit/delete events:** Restricts event management to calendar owners only.
+     - **Everybody in this channel can add/edit/delete contacts and groups:** Allows all members to manage contacts and groups.
+     - **Only the owner(s) of this Contacts Pro can add/edit/delete contacts and groups:** Restricts contact management to contacts owners only.
      - **Customize permissions:** Allows you to set specific permissions for each member.
 
 ## Customizing Permissions
@@ -28,23 +28,21 @@
 
 3. **Set Individual Permissions:**
    - For each member, set the following permissions by checking the appropriate boxes:
-     - **Add:** Allows the member to add events.
-     - **Modify:** Allows the member to modify events.
-     - **Delete:** Allows the member to delete events.
-     - **Calendar Sharing:** Allows the member to share the calendar with others.
-     - **Meeting Scheduler:** Allows the member to schedule meetings.
+     - **Add:** Allows the member to add contacts and groups.
+     - **Modify:** Allows the member to modify contacts and groups.
+     - **Delete:** Allows the member to delete contacts and groups.
    - You can also view the member's subscription level (e.g., Platinum).
 
 4. **Save Permissions:**
    - After setting the desired permissions, click on the "Save" button to apply the changes.
 
-   <div class="intercom-container"><img src="/assets/img/teams-pro/calendar-pro/perms-2.png"></div>
+   <div class="intercom-container"><img src="/assets/img/teams-pro/contacts-pro/perms-2.png"></div>
 
 
 ### Managing Permissions Tips
 
 - **Review Regularly:** Regularly review permissions to ensure they align with team roles and responsibilities.
-- **Limit Access:** Restrict permissions to essential personnel to maintain control over the calendar.
+- **Limit Access:** Restrict permissions to essential personnel to maintain control over the contacts.
 - **Clear Roles:** Clearly define roles and communicate them to your team to avoid any confusion.
 
 
