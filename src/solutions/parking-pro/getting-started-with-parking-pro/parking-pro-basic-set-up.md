@@ -1,4 +1,4 @@
-# Parking Pro Basic Set Up
+# Parking Pro basic set up
 
 <ol>
 <li>

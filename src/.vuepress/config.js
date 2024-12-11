@@ -309,12 +309,12 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
                         [
                           "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
-                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                          "How does the rights ownership transfer between Super Admin and Admin work",
                         ],
                         ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why can't a transfer be initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for educational and non-profit organizations"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-download-user-team-id-for-license-assignment.md", "How to download the User Team ID for license assignment"],
                       ],
                     },
@@ -652,7 +652,7 @@ module.exports = {
                 {
                   title: "Get started !",
                   collapsable: true,
-                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to Set Up Gantt Chart Pro?"]],
+                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to set up Gantt Chart Pro"]],
                 },
                 {
                   title: "Fundamentals",
@@ -937,7 +937,7 @@ module.exports = {
                   children: [
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-check-the-parking-pro-unique-identifier-(id)-.md", "How to check the Parking Pro Unique Identifier (ID)?"],
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-get-parking-pro-version-.md", "How to get Parking Pro version?"],
-                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro Basic Set Up"],
+                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro basic set up"],
                   ],
                 },
                 {
@@ -1310,12 +1310,12 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
                         [
                           "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
-                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                          "How does the rights ownership transfer between Super Admin and Admin work",
                         ],
                         ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why can't a transfer be initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for educational and non-profit organizations"],
                       ],
                     },
                   ],
@@ -1652,7 +1652,7 @@ module.exports = {
                 {
                   title: "Get started !",
                   collapsable: true,
-                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to Set Up Gantt Chart Pro?"]],
+                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to set up Gantt Chart Pro"]],
                 },
                 {
                   title: "Fundamentals",
@@ -1924,7 +1924,7 @@ module.exports = {
                   children: [
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-check-the-parking-pro-unique-identifier-(id)-.md", "How to check the Parking Pro Unique Identifier (ID)?"],
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-get-parking-pro-version-.md", "How to get Parking Pro version?"],
-                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro Basic Set Up"],
+                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro basic set up"],
                   ],
                 },
                 {
@@ -2297,12 +2297,12 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
                         [
                           "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
-                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                          "How does the rights ownership transfer between Super Admin and Admin work",
                         ],
                         ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why can't a transfer be initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for educational and non-profit organizations"],
                       ],
                     },
                   ],
@@ -2639,7 +2639,7 @@ module.exports = {
                 {
                   title: "Get started !",
                   collapsable: true,
-                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to Set Up Gantt Chart Pro?"]],
+                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to set up Gantt Chart Pro"]],
                 },
                 {
                   title: "Fundamentals",
@@ -2911,7 +2911,7 @@ module.exports = {
                   children: [
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-check-the-parking-pro-unique-identifier-(id)-.md", "How to check the Parking Pro Unique Identifier (ID)?"],
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-get-parking-pro-version-.md", "How to get Parking Pro version?"],
-                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro Basic Set Up"],
+                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro basic set up"],
                   ],
                 },
                 {
