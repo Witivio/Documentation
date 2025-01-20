@@ -33,7 +33,7 @@ Here is how we're managing data for these different categories:
 | ```Files.ReadWrite.All``` | Read and Write file. / onedrive. | **Read and Write the kbdx file in user sharepoint / onedrive.** | No |
 |```email```| Gives the app access to the user's primary email address in the form of the email claim | | No |
 |```openid```| Used to sign in with OpenID Connect | | No |
-|```offline_access```| Gives thee app access to resources on behalf of the user for an extended time. | **When a user approves the offline_access scope, Keepass Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Keepass Pro can get new access tokens as older ones expire.** | No |
+|```offline_access```| Gives the app access to resources on behalf of the user for an extended time. | **When a user approves the offline_access scope, Keepass Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Keepass Pro can get new access tokens as older ones expire.** | No |
 |```profile```| Gives the app access to basic information about the user in the claims.| | No |
 
 ::: tip
@@ -85,8 +85,8 @@ Here is a short description of each flow:
 | immutability-helper | 3.1.1 | https://github.com/kolodny/immutability-helper | MIT |
 | kdbxweb | 1.14.4 | https://github.com/keeweb/kdbxweb | MIT |
 | randomatic | 3.1.1 | https://github.com/jonschlinkert/randomatic | MIT |
-| react | 16.14.0 | https://github.com/facebook/react | MIT |
-| react-dom | 16.14.0 | https://github.com/facebook/react | MIT |
+| react | 18.3.1 | https://github.com/facebook/react | MIT |
+| react-dom | 18.3.1 | https://github.com/facebook/react | MIT |
 | react-router-dom | 5.2.0 | https://github.com/remix-run/react-router | MIT |
 | react-scripts | 4.0.3 | https://github.com/facebook/create-react-app | MIT |
 | sass | 1.43.4 | https://github.com/sass/dart-sass | MIT |

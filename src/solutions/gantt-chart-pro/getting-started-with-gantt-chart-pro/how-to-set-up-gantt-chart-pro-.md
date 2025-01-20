@@ -1,4 +1,4 @@
-# How to Set Up Gantt Chart Pro?
+# How to set up Gantt Chart Pro?
 
 <p class="no-margin">To make the most out of Gantt Chart Pro in effectively managing your project, follow these steps:</p>
 <ol>

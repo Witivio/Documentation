@@ -31,7 +31,7 @@ Here is how we're managing data for these different categories:
 | ```User.Read``` | Retrieve the properties and relationships of user object. | **Allows Map Pro to read user information and to display it in the UI.** | No |
 |```email```| Gives the app access to the user's primary email address in the form of the email claim | | No |Map
 |```openid```| Used to sign in with OpenID Connect | | No |
-|```offline_access```| Gives thee app access to resources on behalf of the user for an extended time. | **When a user approves the offline_access scope, Map Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Map Pro can get new access tokens as older ones expire.** | No |
+|```offline_access```| Gives the app access to resources on behalf of the user for an extended time. | **When a user approves the offline_access scope, Map Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Map Pro can get new access tokens as older ones expire.** | No |
 |```profile```| Gives the app access to basic information about the user in the claims.| | No |
 
 ::: tip
@@ -83,8 +83,8 @@ Here is a short description of each flow:
 | eslint-plugin-react-hooks | 4.3.0 | https://github.com/facebook/react | MIT |
 | moment | 2.29.1 | https://github.com/moment/moment | MIT |
 | moment-timezone | 0.5.34 | https://github.com/moment/moment-timezone | MIT |
-| react | 16.14.0 | https://github.com/facebook/react | MIT |
-| react-dom | 16.14.0 | https://github.com/facebook/react | MIT |
+| react | 18.3.1 | https://github.com/facebook/react | MIT |
+| react-dom | 18.3.1 | https://github.com/facebook/react | MIT |
 | react-intl | 5.20.12 | https://github.com/formatjs/formatjs | BSD-3-Clause |
 | react-router-dom | 5.3.0 | https://github.com/remix-run/react-router | MIT |
 | react-scripts | 4.0.3 | https://github.com/facebook/create-react-app | MIT |

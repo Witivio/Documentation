@@ -6,14 +6,14 @@
    - Click on the settings icon located at the top-right corner of the calendar interface.
    - From the dropdown menu, select "Permissions."
 
-<div class="intercom-container"><img src="/assets/img/teams-pro/permissions.png"></div>
+<div class="intercom-container"><img src="/assets/img/teams-pro/calendar-pro/perms-1.png"></div>
 
 
 2. **General Permissions Settings:**
    - In the permissions dialog, you will see the "General permissions settings" section.
    - Choose one of the following options:
      - **Everybody in this channel can add/edit/delete events:** Allows all members to manage events.
-     - **Only the owner(s) of this Marketing Calendar FY25 can add/edit/delete events:** Restricts event management to calendar owners only.
+     - **Only the owner(s) of this Calendar Pro can add/edit/delete events:** Restricts event management to calendar owners only.
      - **Customize permissions:** Allows you to set specific permissions for each member.
 
 ## Customizing Permissions
@@ -38,7 +38,7 @@
 4. **Save Permissions:**
    - After setting the desired permissions, click on the "Save" button to apply the changes.
 
-   <div class="intercom-container"><img src="/assets/img/teams-pro/customize-permissions.png"></div>
+   <div class="intercom-container"><img src="/assets/img/teams-pro/calendar-pro/perms-2.png"></div>
 
 
 ### Managing Permissions Tips
@@ -46,6 +46,8 @@
 - **Review Regularly:** Regularly review permissions to ensure they align with team roles and responsibilities.
 - **Limit Access:** Restrict permissions to essential personnel to maintain control over the calendar.
 - **Clear Roles:** Clearly define roles and communicate them to your team to avoid any confusion.
+
+
 
 <Intercom />
 <Hubspot />

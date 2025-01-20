@@ -1,6 +1,7 @@
 ---
 tagTitle: User solutions for GPT Pro and GPT Pro Admin Center.
 tagLine: Manage your own enterprise custom GPTs
+heroImage: /gpt-pro.png
 actionText: Get Started →
 actionLink: /solutions/gpt-pro/get-started/
 items:

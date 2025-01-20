@@ -27,11 +27,15 @@ Here is how we're managing data for these different categories:
 | Document files | ✔ | ✔ | ✔ |🚫| Files for the knowledge of the bot.<br/>Accessed when the indexer vectorize the content and to check permissons |
 | Teams files | 🚫 | 🚫 | 🚫 |🚫| No access.<br/>No cache.<br/>No storage. |
 
-:::  tip Note
-Data is stored in the Azure cloud in Frnce Central region.
+:::  tip
+Data is stored in the Azure cloud in France Central region.
 :::
 
 ## Microsoft Graph
+
+::: tip
+All permissions are delegated permissions
+:::
 
 ### Admin center
 
@@ -40,7 +44,7 @@ Data is stored in the Azure cloud in Frnce Central region.
 | `User.Read`                | Retrieve the properties and relationships of user object.                               | **Allows GPT Pro to read user information and to display it in the UI.**                                                                                                                                                             |           No           |
 | `email`                    | Gives the app access to the user's primary email address in the form of the email claim |                                                                                                                                                                                                                                             |           No           |
 | `openid`                   | Used to sign in with OpenID Connect                                                     |                                                                                                                                                                                                                                             |           No           |
-| `offline_access`           | Gives thee app access to resources on behalf of the user for an extended time.          | When a user approves the offline_access scope, GPT Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. GPT Pro can get new access tokens as older ones expire. |           No           |
+| `offline_access`           | Gives the app access to resources on behalf of the user for an extended time.          | When a user approves the offline_access scope, GPT Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. GPT Pro can get new access tokens as older ones expire. |           No           |
 | `profile`                  | Gives the app access to basic information about the user in the claims.                 |                                                                                                                                                                                                                                             |           No           |
 | `User.ReadBasic.All` | Used in the add an administrator view to search for a user to promote as an administrator. |                                                                                                                                                                                                                                             |           No           |
 | `Files.Read.All` | Used to read SharePoint library the admin can access. It is used to index the content of the library. This scopes is only used when adding a new library | **Allow GPT Pro to access Files within a SharePoint Library to index it and ask question about those files in the bot**  |           No           |

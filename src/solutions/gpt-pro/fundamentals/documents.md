@@ -1,17 +1,32 @@
-# Manage Documents in GPT Pro
+## Manage Documents in GPT Pro
 
-## Overview
+### Overview
 This tutorial provides step-by-step instructions for managing documents within GPT Pro's knowledge base through the admin portal.
 
-## Prerequisites
+### Prerequisites
 - Administrator access to admin.gpt-pro.com.
-- Documents in PDF or PPTX format ready for upload.
+- Documents in PDF, DOCX or PPTX format ready for upload.
 
-## Accessing the Documents Interface
+### Accessing the Documents Interface
 1. Navigate to [admin.gpt-pro.com](http://admin.gpt-pro.com).
 2. Enter your administrator credentials to log in.
 3. Select 'Documents' from the sidebar to open the document management interface.
 4. Choose either 'local documents' or 'SharePoint sites'.
+
+### Status explanation
+| **Status**            | **Explanation**                                                                                   |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| Initializing          | The indexing process is starting. The system is preparing the document for further processing.    |
+| Reading file          | The system is reading the raw content of the file to extract necessary data.                      |
+| Parsing               | The system is analyzing the document's structure (e.g., extracting text, detecting sections).     |
+| Using OCR             | The system is using Optical Character Recognition (OCR) to extract text from image-based files. If included in your subscription.  |
+| Not supported         | The document's file type or format is not supported by the system.                                |
+| Unreadable            | The document cannot be read due to corruption, inaccessible permissions, or unsupported encoding. |
+| Ignored               | The document was intentionally skipped based on system rules (e.g., excluded file types).         |
+| Creating Embedding    | The system is generating vector embeddings of the document for intelligent search and linkage.    |
+| Updating              | The system is updating the document's index to reflect recent changes in content or metadata.     |
+| Completed             | The indexing process is finished. The document is ready for use in the system.                   |
+
 
 ## Managing Local Documents
 
@@ -23,7 +38,7 @@ The interface lists all documents with details such as title, format, and the da
 ### Uploading a Document
 
 :::tip
-To keep GPT Pro’s knowledge base up to date, regularly upload new documents.
+💡To keep GPT Pro’s knowledge base up to date, regularly upload new documents.
 :::
 
 1. Click '+ Upload a document'.
@@ -41,22 +56,22 @@ For updates on your uploaded documents:
   - **Download**: Download the document uploaded in the list.
   - **Delete**: Remove the document from GPT Pro.
 
-## Best Practices
+### Best Practices
 - Update and review documents regularly.
 - Remove outdated content to maintain GPT Pro's performance.
 
 
-# Managing SharePoint Sites Documents
+## Managing SharePoint Sites Documents
 
-## Viewing SharePoint Libraries
+### Viewing SharePoint Libraries
 The interface lists all SharePoint libraries with details such as library name, site URL, indexing status, and the last indexing date.
 
-[Manage SharePoint Libraries](/assets/img/gpt/Sharepoint-indexation.png)
+![Manage SharePoint Libraries](/assets/img/gpt/Sharepoint-indexation.png)
 
-## Adding a SharePoint Library
+### Adding a SharePoint Library
 
 :::tip
-To keep GPT Pro’s knowledge base up to date, regularly add new SharePoint libraries.
+💡To keep GPT Pro’s knowledge base up to date, regularly add new SharePoint libraries.
 :::
 
 1. Click '+ Add library'.
@@ -64,35 +79,34 @@ To keep GPT Pro’s knowledge base up to date, regularly add new SharePoint libr
 3. Click 'Check' to verify the site URL.
 4. Once verified, click 'Save' to add the library to GPT Pro.
 
-[Add SharePoint Library](/assets/img/gpt/SharePoint-library.png)
-action-library.png
+![Add SharePoint Library](/assets/img/gpt/SharePoint-library.png)
 
-## Checking Library Indexing Status
+### Checking Library Indexing Status
 For updates on your added libraries:
 - The indexing status of each library is displayed in the 'Indexing status' column.
 - The 'Last indexing' column shows the most recent indexing date and time.
 
-## Deleting unused sharepoint library
+### Deleting unused sharepoint library
 - To manage and delete unused sharepoint library, click the `Actions` dropdown next to the library.
   - **Delete**: Remove the library from GPT Pro.
 
-[Action on library](/assets/img/gpt/delete-sharepoint-library.png)
+![Action on library](/assets/img/gpt/delete-sharepoint-library.png)
 
-## Viewing Library Contents
+### Viewing Library Contents
 - Click on the library name to view the contents of the library.
 - If there are no documents in the library, a message will be displayed indicating that there are no documents available.
 - To add the content in the library, you have to add it directly from your sharepoint file
 
 
-## User Permissions
+### User Permissions
 - The type of user who can see or index the documents is the same user who has the right to the SharePoint document since the beginning.
 - Ensure that the permissions are set correctly on the SharePoint site to allow the appropriate users access to the documents.
 
-## Best Practices
+### Best Practices
 - Regularly add and review SharePoint libraries.
 - Remove outdated libraries to maintain GPT Pro's performance.
 
-## Document Indexation and Metadata Management
+### Document Indexation and Metadata Management
 
 When indexing documentation, specific criteria and filters are applied to ensure the most relevant document is retrieved when a user submits a query. The process for managing metadata and determining which document is selected involves the following:
 

@@ -10,6 +10,7 @@ module.exports = {
     ["link", { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" }],
     ["link", { rel: "stylesheet", href: "https://www.teams-pro.com/css/vendor.min.css" }],
     ["link", { rel: "stylesheet", href: "https://www.teams-pro.com/css/index.css" }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
 
   themeConfig: {
@@ -240,6 +241,7 @@ module.exports = {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
+                    ["/solutions/gpt-pro/fundamentals/authentication.md", "Authentication & Authorization"],
                     ["/solutions/gpt-pro/fundamentals/dashboard.md", "Dashboard"],
                     ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
@@ -253,6 +255,7 @@ module.exports = {
                     ["/solutions/gpt-pro/fundamentals/manage-administrators.md", "Administrator"],
                     ["/solutions/gpt-pro/fundamentals/notebook.md", "Notebook"],
                     ["/solutions/gpt-pro/fundamentals/push-communication.md", "Push Communication"],
+                    ["/solutions/gpt-pro/fundamentals/feedbacks.md", "Feedbacks"],
                   ],
                 },
                 ["/solutions/gpt-pro/whats-new.md", "What’s new​"],
@@ -272,7 +275,7 @@ module.exports = {
                 ["/solutions/gpt-pro/limits.md", "Limits"],
                 ["/solutions/gpt-pro/content-filter.md", "Content filtering"],
                 ["/solutions/gpt-pro/roadmap.md", "Roadmap"],
-                ["/solutions/gpt-pro/changelog.md", "Change log​"],
+                //["/solutions/gpt-pro/changelog.md", "Change log​"],
               ],
             },
             {
@@ -306,11 +309,13 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
                         [
                           "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
-                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                          "How does the rights ownership transfer between Super Admin and Admin work",
                         ],
+                        ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why can't a transfer be initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for educational and non-profit organizations"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-download-user-team-id-for-license-assignment.md", "How to download the User Team ID for license assignment"],
                       ],
                     },
                   ],
@@ -594,6 +599,13 @@ module.exports = {
                         ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/contacts-pro/fundamentals/permissions-in-contacts-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
                   ],
                 },
                 {
@@ -640,7 +652,7 @@ module.exports = {
                 {
                   title: "Get started !",
                   collapsable: true,
-                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to Set Up Gantt Chart Pro?"]],
+                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to set up Gantt Chart Pro"]],
                 },
                 {
                   title: "Fundamentals",
@@ -717,6 +729,50 @@ module.exports = {
                 ["/solutions/home-pro/tutorials.md", "Tutorials"],
                 ["/solutions/home-pro/limits.md", "Limits"],
                 ["/solutions/home-pro/changelog.md", "Changelog​"],
+              ],
+            },
+            {
+              title: "Remind Pro",
+              collapsable: true,
+              path: "/solutions/remind-pro/overview/",
+              children: [
+                ["/solutions/remind-pro/overview.md", "Overview"],
+                {
+                  title: "Get started !",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-install-remind-pro-to-my-teams-application.md", "How to install Remind Pro to my Teams Application?"],
+                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-get-the-remind-pro-id.md", "How to get the Remind Pro id?"],
+                  ],
+                },
+                {
+                  title: "Fundamentals",
+                  collapsable: true,
+                  children: [
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/remind-pro/fundamentals/permissions-in-remind-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
+                  ],
+                },
+                {
+                  title: "Tutorials",
+                  collapsable: true,
+                  children: [
+                    {
+                      title: "Managing reminders",
+                      collapsable: true,
+                      children: [
+                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-add-a-new-reminder.md", "How can i add a new reminder?"],
+                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-edit-a-reminder.md", "How can i edit a reminder?"],
+                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-delete-a-reminder.md", "How can i delete a reminder?"],
+                      ],
+                    },
+                  ],
+                },
               ],
             },
             {
@@ -925,7 +981,7 @@ module.exports = {
                   children: [
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-check-the-parking-pro-unique-identifier-(id)-.md", "How to check the Parking Pro Unique Identifier (ID)?"],
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-get-parking-pro-version-.md", "How to get Parking Pro version?"],
-                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro Basic Set Up"],
+                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro basic set up"],
                   ],
                 },
                 {
@@ -1008,6 +1064,7 @@ module.exports = {
           collapsable: true,
           children: [
             ["/architecture-security/overview/", "Overview"],
+            ["/architecture-security/admin-center/", "Admin Center"],
             ["/architecture-security/bookingroom-pro/", "BookingRoom Pro"],
             ["/architecture-security/calendar-pro/", "Calendar Pro"],
             ["/architecture-security/parking-pro/", "Parking Pro"],
@@ -1229,6 +1286,7 @@ module.exports = {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
+                    ["/solutions/gpt-pro/fundamentals/authentication.md", "Authentication & Authorization"],
                     ["/solutions/gpt-pro/fundamentals/dashboard.md", "Dashboard"],
                     ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
@@ -1242,6 +1300,7 @@ module.exports = {
                     ["/solutions/gpt-pro/fundamentals/manage-administrators.md", "Administrator"],
                     ["/solutions/gpt-pro/fundamentals/notebook.md", "Notebook"],
                     ["/solutions/gpt-pro/fundamentals/push-communication.md", "Push Communication"],
+                    ["/solutions/gpt-pro/fundamentals/feedbacks.md", "Feedbacks"],
                   ],
                 },
                 ["/solutions/gpt-pro/whats-new.md", "What’s new​"],
@@ -1261,7 +1320,7 @@ module.exports = {
                 ["/solutions/gpt-pro/limits.md", "Limits"],
                 ["/solutions/gpt-pro/content-filter.md", "Content filtering"],
                 ["/solutions/gpt-pro/roadmap.md", "Roadmap"],
-                ["/solutions/gpt-pro/changelog.md", "Change log​"],
+                //["/solutions/gpt-pro/changelog.md", "Change log​"],
               ],
             },
             {
@@ -1295,11 +1354,12 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
                         [
                           "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
-                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                          "How does the rights ownership transfer between Super Admin and Admin work",
                         ],
+                        ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why can't a transfer be initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for educational and non-profit organizations"],
                       ],
                     },
                   ],
@@ -1583,6 +1643,13 @@ module.exports = {
                         ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/contacts-pro/fundamentals/permissions-in-contacts-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
                   ],
                 },
                 {
@@ -1629,7 +1696,7 @@ module.exports = {
                 {
                   title: "Get started !",
                   collapsable: true,
-                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to Set Up Gantt Chart Pro?"]],
+                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to set up Gantt Chart Pro"]],
                 },
                 {
                   title: "Fundamentals",
@@ -1706,6 +1773,50 @@ module.exports = {
                 ["/solutions/home-pro/tutorials.md", "Tutorials"],
                 ["/solutions/home-pro/limits.md", "Limits"],
                 ["/solutions/home-pro/changelog.md", "Changelog​"],
+              ],
+            },
+            {
+              title: "Remind Pro",
+              collapsable: true,
+              path: "/solutions/remind-pro/overview/",
+              children: [
+                ["/solutions/remind-pro/overview.md", "Overview"],
+                {
+                  title: "Get started !",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-install-remind-pro-to-my-teams-application.md", "How to install Remind Pro to my Teams Application?"],
+                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-get-the-remind-pro-id.md", "How to get the Remind Pro id?"],
+                  ],
+                },
+                {
+                  title: "Fundamentals",
+                  collapsable: true,
+                  children: [
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/remind-pro/fundamentals/permissions-in-remind-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
+                  ],
+                },
+                {
+                  title: "Tutorials",
+                  collapsable: true,
+                  children: [
+                    {
+                      title: "Managing reminders",
+                      collapsable: true,
+                      children: [
+                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-add-a-new-reminder.md", "How can i add a new reminder?"],
+                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-edit-a-reminder.md", "How can i edit a reminder?"],
+                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-delete-a-reminder.md", "How can i delete a reminder?"],
+                      ],
+                    },
+                  ],
+                },
               ],
             },
             {
@@ -1901,7 +2012,7 @@ module.exports = {
                   children: [
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-check-the-parking-pro-unique-identifier-(id)-.md", "How to check the Parking Pro Unique Identifier (ID)?"],
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-get-parking-pro-version-.md", "How to get Parking Pro version?"],
-                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro Basic Set Up"],
+                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro basic set up"],
                   ],
                 },
                 {
@@ -1984,6 +2095,7 @@ module.exports = {
           collapsable: true,
           children: [
             ["/architecture-security/overview/", "Overview"],
+            ["/architecture-security/admin-center/", "Admin Center"],
             ["/architecture-security/bookingroom-pro/", "BookingRoom Pro"],
             ["/architecture-security/calendar-pro/", "Calendar Pro"],
             ["/architecture-security/parking-pro/", "Parking Pro"],
@@ -2205,6 +2317,7 @@ module.exports = {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
+                    ["/solutions/gpt-pro/fundamentals/authentication.md", "Authentication & Authorization"],
                     ["/solutions/gpt-pro/fundamentals/dashboard.md", "Dashboard"],
                     ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
@@ -2218,6 +2331,7 @@ module.exports = {
                     ["/solutions/gpt-pro/fundamentals/manage-administrators.md", "Administrator"],
                     ["/solutions/gpt-pro/fundamentals/notebook.md", "Notebook"],
                     ["/solutions/gpt-pro/fundamentals/push-communication.md", "Push Communication"],
+                    ["/solutions/gpt-pro/fundamentals/feedbacks.md", "Feedbacks"],
                   ],
                 },
                 ["/solutions/gpt-pro/whats-new.md", "What’s new​"],
@@ -2237,7 +2351,7 @@ module.exports = {
                 ["/solutions/gpt-pro/limits.md", "Limits"],
                 ["/solutions/gpt-pro/content-filter.md", "Content filtering"],
                 ["/solutions/gpt-pro/roadmap.md", "Roadmap"],
-                ["/solutions/gpt-pro/changelog.md", "Change log​"],
+                //["/solutions/gpt-pro/changelog.md", "Change log​"],
               ],
             },
             {
@@ -2271,11 +2385,12 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/how-to-assign-or-remove-a-license-from-a-user-.md", "How to assign or remove a license from a user"],
                         [
                           "/solutions/admin-center/manage-my-subscription/how-does-the-rights-ownership-transfer-between-super-admin-and-admin-work.md",
-                          "How Does the Rights Ownership Transfer Between Super Admin and Admin Work",
+                          "How does the rights ownership transfer between Super Admin and Admin work",
                         ],
+                        ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why can't a transfer be initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
-                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for Educational and Non-Profit Organizations"],
+                        ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for educational and non-profit organizations"],
                       ],
                     },
                   ],
@@ -2559,6 +2674,13 @@ module.exports = {
                         ["/solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro.md", "Can we use PowerAutomate with Contacts Pro?"],
                       ],
                     },
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/contacts-pro/fundamentals/permissions-in-contacts-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
                   ],
                 },
                 {
@@ -2605,7 +2727,7 @@ module.exports = {
                 {
                   title: "Get started !",
                   collapsable: true,
-                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to Set Up Gantt Chart Pro?"]],
+                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to set up Gantt Chart Pro"]],
                 },
                 {
                   title: "Fundamentals",
@@ -2682,6 +2804,50 @@ module.exports = {
                 ["/solutions/home-pro/tutorials.md", "Tutorials"],
                 ["/solutions/home-pro/limits.md", "Limits"],
                 ["/solutions/home-pro/changelog.md", "Changelog​"],
+              ],
+            },
+            {
+              title: "Remind Pro",
+              collapsable: true,
+              path: "/solutions/remind-pro/overview/",
+              children: [
+                ["/solutions/remind-pro/overview.md", "Overview"],
+                {
+                  title: "Get started !",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-install-remind-pro-to-my-teams-application.md", "How to install Remind Pro to my Teams Application?"],
+                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-get-the-remind-pro-id.md", "How to get the Remind Pro id?"],
+                  ],
+                },
+                {
+                  title: "Fundamentals",
+                  collapsable: true,
+                  children: [
+                    {
+                      title: "Permissions",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/remind-pro/fundamentals/permissions-in-remind-pro/managing-permissions.md", "Managing permissions"],
+                      ]
+                    }
+                  ],
+                },
+                {
+                  title: "Tutorials",
+                  collapsable: true,
+                  children: [
+                    {
+                      title: "Managing reminders",
+                      collapsable: true,
+                      children: [
+                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-add-a-new-reminder.md", "How can i add a new reminder?"],
+                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-edit-a-reminder.md", "How can i edit a reminder?"],
+                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-delete-a-reminder.md", "How can i delete a reminder?"],
+                      ],
+                    },
+                  ],
+                },
               ],
             },
             {
@@ -2877,7 +3043,7 @@ module.exports = {
                   children: [
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-check-the-parking-pro-unique-identifier-(id)-.md", "How to check the Parking Pro Unique Identifier (ID)?"],
                     ["/solutions/parking-pro/getting-started-with-parking-pro/how-to-get-parking-pro-version-.md", "How to get Parking Pro version?"],
-                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro Basic Set Up"],
+                    ["/solutions/parking-pro/getting-started-with-parking-pro/parking-pro-basic-set-up.md", "Parking Pro basic set up"],
                   ],
                 },
                 {
@@ -2960,6 +3126,7 @@ module.exports = {
           collapsable: true,
           children: [
             ["/architecture-security/overview/", "Overview"],
+            ["/architecture-security/admin-center/", "Admin Center"],
             ["/architecture-security/bookingroom-pro/", "BookingRoom Pro"],
             ["/architecture-security/calendar-pro/", "Calendar Pro"],
             ["/architecture-security/parking-pro/", "Parking Pro"],

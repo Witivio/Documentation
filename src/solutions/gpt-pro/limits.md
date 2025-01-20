@@ -59,7 +59,27 @@ To know more about: [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai
 - **Security**: Ensure that all files and plugins are sourced from trusted and secure origins to maintain the integrity of your GPT Pro environment.
 - **Updates and Changes**: The limits and restrictions outlined here are subject to change. Regularly check this documentation for the latest information.
 
+## Security restrictions
 
+
+As part of our commitment to enhancing security, GPT Pro now exclusively support TLS 1.3. This upgrade provides improved encryption and performance but may impact compatibility with older clients. Below is a list of known clients that are not supported under this configuration:
+
+### Operating Systems
+
+- Windows versions older than Windows 10 (version 1903) without updates.
+- macOS versions older than 10.13 (High Sierra).
+
+### Web Browsers
+
+- Internet Explorer (all versions).
+- Microsoft Edge versions prior to 16.
+- Safari versions older than 11.
+- Chrome versions older than 70.
+- Firefox versions older than 63.
+
+:::tip Note
+Please ensure that your client software and operating systems are updated to the latest versions to maintain compatibility and benefit from enhanced security features.
+:::
 
 <Intercom />
 <Hubspot />
