@@ -7,7 +7,7 @@ We understand that educational institutions and non-profit organizations often h
 If you're part of an educational institution or a non-profit organization, follow the steps below to apply for the discount:
 
 1. **Fill out the discount request form:**  
-   To apply, simply fill out our [Educational and Non-Profit Discount Form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__XGxQVNUQzBJWUNGRzBBM0ROSTE5NTk0RDNBNUxYWi4u). This form will collect the necessary details to verify your eligibility.
+   To apply, simply fill out our [Educational and Non-Profit Discount Form](https://forms.office.com/Pages/ResponsePage.aspx?id=sOWgDLr7lEmDnY1HuW2G24anUxqyy2FGtyU2vfe1jY1UMVczRlExNUUyM0hBRlREMjFHSVowR0tMNi4u). This form will collect the necessary details to verify your eligibility.
 
 2. **Eligibility criteria:**  
    To qualify for the discount, your organization must meet the following criteria:
