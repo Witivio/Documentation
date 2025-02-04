@@ -1363,7 +1363,7 @@ module.exports = {
                         ],
                         ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why can't a transfer be initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
-                        ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply a coupon code"],
                         ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for educational and non-profit organizations"],
                       ],
                     },
