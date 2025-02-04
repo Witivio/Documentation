@@ -333,7 +333,7 @@ module.exports = {
               children: [
                 ["/solutions/booking-room-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get started!",
                   collapsable: true,
                   children: [
                     [
@@ -376,9 +376,9 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "View options",
+                      title: "Outlook integration",
                       collapsable: true,
-                      children: [["/solutions/booking-room-pro/booking-room-pro-view-options/how-can-i-change-the-view-and-day-of-the-week-.md", "How can I change the view and day of the week?"]],
+                      children: [["/solutions/booking-room-pro/booking-room-pro-outlook-add-in/how-to-use-booking-room-pro-outlook.md", "How to Use the Booking Room Pro Add-in in Outlook"]],
                     },
                     {
                       title: "Permissions",
@@ -423,6 +423,11 @@ module.exports = {
                       title: "Timezones",
                       collapsable: true,
                       children: [["/solutions/booking-room-pro/time-zones-in-booking-room-pro/how-to-change-the-time-zone-.md", "How to change the time zone?"]],
+                    },
+                    {
+                      title: "View options",
+                      collapsable: true,
+                      children: [["/solutions/booking-room-pro/booking-room-pro-view-options/how-can-i-change-the-view-and-day-of-the-week-.md", "How can I change the view and day of the week?"]],
                     },
                   ],
                 },
