@@ -17,7 +17,7 @@ Follow these steps to ensure a smooth setup and provide an optimal conversationa
 To start configuring your Webchat:  
 1. Navigate to the **"Configuration"** tab in your administration interface.  
 2. Click on **"Webchat"** in the menu to open the configuration options.
-
+![Webchat configuration](/assets/img/gpt/webchat-configuration.png)
 ---
 
 ## 2. Configuring the Webchat
@@ -99,13 +99,12 @@ In the **Installation** tab, you will find the script needed to integrate Webcha
 To integrate Webchat into **SharePoint** add a personnal app in SharePoint : 
 
 #### 1.Add custom apps in Sharepoint 
-1. Download the package [📥 Download](/assets/img/gpt/files/gpt-pro-webchat.sppkg.png)
+1. Download the package [Download](https://admin.gpt-pro.com/webchat/gpt-pro-webchat.sppkg)
 2. Go to More features in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185077), and sign in with an account that has admin permissions for your organization.
 3. Under Apps, select Open.
-
 4. On the Manage apps page, select Upload, and browse to the app you want upload, or drag the app into the library. SharePoint Framework solutions have the file name extension .sppkg.
-
 5. Review the info in the Enable app panel. Depending on the functionality that the app provides, the developer can set a flag that allows you to add the app to all sites in the organization. To do this, select Enable this app and add it to all sites.
+[More info here](https://learn.microsoft.com/en-us/sharepoint/use-app-catalog)
 
 And use this **"GPT Pro Witivio"** component, follow these steps:
 
