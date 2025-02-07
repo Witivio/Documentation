@@ -17,7 +17,9 @@ Follow these steps to ensure a smooth setup and provide an optimal conversationa
 To start configuring your Webchat:  
 1. Navigate to the **"Configuration"** tab in your administration interface.  
 2. Click on **"Webchat"** in the menu to open the configuration options.
+
 ![Webchat configuration](/assets/img/gpt/webchat-configuration.png)
+
 ---
 
 ## 2. Configuring the Webchat
@@ -32,13 +34,13 @@ Once the Webchat is selected, you will have access to four configuration tabs:
 ### 2.1 Configuring Webchat Settings
 In the **Settings** tab, you can customize the Webchat’s behavior.
 
-#### Content Customization
+**Content Customization**
 - **Welcome message**: Maximum **500 characters**  
 - **Webchat description**: Maximum **300 characters**  
 - **Default language**:  
   - Defines the display language and chatbot response language.
 
-#### Feature Activation
+**Feature Activation**
 You can enable or disable the following features:
 - **Slider mode**: Webchat opens in full-screen mode.
 - **Refresh option**: Allows users to manually refresh the Webchat.
@@ -50,7 +52,7 @@ Once your modifications are complete, click **"Save"** to apply them.
 ### 2.2 Customizing Appearance (Design)
 In the **Design** tab, you can personalize the Webchat’s look to match your website.
 
-#### Customization Options
+**Customization Options**
 - **Colors**: Use the palette to define your colors.
 - **Webchat dimensions**:  
   - Minimum width & height: **300 x 400 pixels**  
@@ -69,7 +71,7 @@ After customization, click **"Save"** to store your settings.
 ### 2.3 Configuring Security
 The **Security** tab allows you to protect Webchat access and control its usage.
 
-#### Security Settings
+**Security Settings**
 - **API Key**:  
   - Enter your API key to secure exchanges with the chatbot.  
 - **Authorized URLs**:  
@@ -86,7 +88,7 @@ Click **"Save"** to apply security restrictions.
 ### 2.4 Installing Webchat in a WebPart on a Website
 In the **Installation** tab, you will find the script needed to integrate Webchat into your site.
 
-#### Installation Instructions
+**Installation Instructions**
 1. Copy the provided script.  
 2. Paste it into your website (**inside a WebPart or another suitable location**).  
 3. Ensure your site's URL is authorized in the **Security** tab.  
@@ -98,8 +100,8 @@ In the **Installation** tab, you will find the script needed to integrate Webcha
 ### 2.5 Installing Webchat in SharePoint
 To integrate Webchat into **SharePoint** add a personnal app in SharePoint : 
 
-#### 1.Add custom apps in Sharepoint 
-1. Download the package [Download](https://admin.gpt-pro.com/webchat/gpt-pro-webchat.sppkg)
+**Step 1: Add custom apps in Sharepoint**
+1. Ask to witivio the app package 
 2. Go to More features in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185077), and sign in with an account that has admin permissions for your organization.
 3. Under Apps, select Open.
 4. On the Manage apps page, select Upload, and browse to the app you want upload, or drag the app into the library. SharePoint Framework solutions have the file name extension .sppkg.
@@ -108,19 +110,22 @@ To integrate Webchat into **SharePoint** add a personnal app in SharePoint :
 
 And use this **"GPT Pro Witivio"** component, follow these steps:
 
-#### 2. Access the SharePoint Page
+---
+**Step 2: Access the SharePoint Page**
 1. Log in to your **SharePoint** workspace.  
 2. Navigate to the **page** where you want to add Webchat.  
 3. Click **"Edit Page"** (top right).  
+---
 
-#### 3. Add the WebPart at the Top of the Page
+**Step 3: Add the WebPart at the Top of the Page**
 1. **Place your cursor at the top of the page** to add the WebPart in the correct location.  
 2. Click the **"+"** button to insert a new element.  
 3. In the window that opens, click **"More WebParts"** at the bottom.  
 4. In the search bar, type **"GPT Pro Witivio"**.  
 5. Select **"GPT Pro Witivio"** and add it at the top of the page.  
+---
 
-#### 4. Configure the WebPart
+**Step 4: Configure the WebPart**
 1. Click on the WebPart to open its **settings**.  
 2. Click **"Edit Properties"**.  
 ![Properties](/assets/img/gpt/sharepoint-properties.png)
@@ -130,8 +135,9 @@ And use this **"GPT Pro Witivio"** component, follow these steps:
 ![GPTPRO ID](/assets/img/gpt/gpt-id.png)
 5. Enter the **API Key** from GPT Pro:  
    - Go to **Configuration > Webchat > Security** and copy/paste the API Key.  
+   ---
 
-#### 5. Save and Publish
+**Step 5: Save and Publish**
 1. Click **"Apply"** to save the changes.  
 2. Click **"Publish"** to activate Webchat on the page.  
 
