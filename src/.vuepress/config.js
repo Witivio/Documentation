@@ -43,7 +43,7 @@ module.exports = {
           collapsable: true,
           children: [
             ["/solutions/", "Overview"],
-            {
+            /*{
               title: "Virtual Agent Studio",
               collapsable: true,
               path: "/solutions/virtual-agent-studio/chatbot/build_your_chatbot/",
@@ -216,7 +216,7 @@ module.exports = {
                 },
               ],
             },
-            /*{
+            {
 							title: 'Meta Office Pro',
 							collapsable: true,
 							path: "/solutions/meta-office-pro/overview/",
