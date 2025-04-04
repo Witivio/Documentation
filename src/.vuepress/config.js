@@ -263,7 +263,10 @@ module.exports = {
                 {
                   title: "Tutorials & tips",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"]],
+                  children: [
+                    ["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"],
+                    ["/solutions/gpt-pro/tutorials/high-permorming-agent.md", "High-Performing Agent"]
+                ],
                 },
                 {
                   title: "Migrations",
@@ -1314,7 +1317,10 @@ module.exports = {
                 {
                   title: "Tutorials & tips",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"]],
+                  children: [
+                    ["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"],
+                    ["/solutions/gpt-pro/tutorials/high-permorming-agent.md", "High-Performing Agent"]
+                ],
                 },
                 {
                   title: "Migrations",
@@ -2346,7 +2352,10 @@ module.exports = {
                 {
                   title: "Tutorials & tips",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"]],
+                  children: [
+                    ["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"],
+                    ["/solutions/gpt-pro/tutorials/high-permorming-agent.md", "High-Performing Agent"]
+                  ],
                 },
                 {
                   title: "Migrations",
