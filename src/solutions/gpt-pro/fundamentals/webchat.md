@@ -177,15 +177,15 @@ When the chatbot responds, the user sees:
 
 ![Webchat](/assets/img/gpt/webchat-gptpro.png)
 
-1. **"References"** button  
+1. **"References"** button
    - Click to view the response source.  
    - Expand the reference for more details by clicking the **chevron**.  
    - Click on the reference to open the associated document (**local document or SharePoint**).  
 
-2. **"Export"** button  
+2. **"Export"** button
    - Choose between **Excel** and **Word** formats to download the response.  
 
-3. **User feedback**  
+3. **User feedback**
    - Click the **thumbs-up** for positive feedback.  
    - Click the **thumbs-down** for negative feedback (**comment required**).  
 
