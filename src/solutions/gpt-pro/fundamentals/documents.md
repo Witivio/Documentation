@@ -22,7 +22,7 @@ This tutorial provides step-by-step instructions for managing documents within G
 | Using OCR             | The system is using Optical Character Recognition (OCR) to extract text from image-based files. If included in your subscription.  |
 | Not supported         | The document's file type or format is not supported by the system.                                |
 | Unreadable            | The document cannot be read due to corruption, inaccessible permissions, or unsupported encoding. |
-| Ignored               | The document was intentionally skipped based on system rules (e.g., excluded file types).         |
+| Ignored               | The document was intentionally skipped based on system rules (e.g., too many pages, subscription limits reached).         |
 | Creating Embedding    | The system is generating vector embeddings of the document for intelligent search and linkage.    |
 | Updating              | The system is updating the document's index to reflect recent changes in content or metadata.     |
 | Completed             | The indexing process is finished. The document is ready for use in the system.                   |
