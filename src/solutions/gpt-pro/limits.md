@@ -23,6 +23,12 @@ To know more about: [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai
 ### Document Upload Limits
 
 1. **Maximum Number of Documents**: Users can upload up to 50 documents to their GPT Pro environment.
+
+:::tip ℹ️ Info
+For customers on page-based plans, the contractual limit applies to the number of pages, not documents.
+In this context, one document is considered equivalent to 20 pages for usage calculation purposes.
+:::
+
 2. **Supported File Types**: The following file formats are supported for upload:
     - PDF (Portable Document Format)
     - PPTX (Microsoft PowerPoint Presentation)
