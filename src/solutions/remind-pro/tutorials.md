@@ -1,4 +1,4 @@
-We start?
+There are some tutorials
 <Intercom />
 <Hubspot />
 <Clarity />

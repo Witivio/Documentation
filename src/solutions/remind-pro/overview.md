@@ -3,17 +3,17 @@ tagTitle: User documentation for Contacts Pro.
 tagLine: Shared Contact’s book for Microsoft Teams
 heroImage: /contacts.png
 actionText: Get Started →
-actionLink: /solutions/contacts-pro/getting-started-with-contacts-pro/how-can-i-add-a-new-contact-/
+actionLink: /solutions/remind-pro/getting-started-with-remind-pro/how-to-install-remind-pro-to-my-teams-application/
 items:
 - title: Fundamentals​
   itemImage: /heart-book.svg
-  link: /solutions/contacts-pro/managing-contacts-in-contacts-pro/how-can-i-connect-with-the-contacts-/
+  link: /solutions/remind-pro/fundamentals/permissions-in-remind-pro/managing-permissions/
 - title: What’s new
   itemImage: /light.svg
   link: /solutions/contacts-pro/whats-new/
 - title: Tutorials
   itemImage: /graduation-hat.svg
-  link: /solutions/contacts-pro/tutorials/
+  link: /solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-add-a-new-reminder/
 - title: Limits
   itemImage: /wheel.svg
   link: /solutions/contacts-pro/limits/

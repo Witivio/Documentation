@@ -7,13 +7,13 @@ actionLink: /solutions/contacts-pro/getting-started-with-contacts-pro/how-can-i-
 items:
 - title: Fundamentals​
   itemImage: /heart-book.svg
-  link: /solutions/contacts-pro/managing-contacts-in-contacts-pro/how-can-i-connect-with-the-contacts-/
+  link: /solutions/contacts-pro/transferring-contacts-through-contacts-pro/can-we-use-PowerAutomate-with-Contacts-Pro/
 - title: What’s new
   itemImage: /light.svg
   link: /solutions/contacts-pro/whats-new/
 - title: Tutorials
   itemImage: /graduation-hat.svg
-  link: /solutions/contacts-pro/tutorials/
+  link: /solutions/contacts-pro/managing-contacts-in-contacts-pro/how-can-i-connect-with-the-contacts-/
 - title: Limits
   itemImage: /wheel.svg
   link: /solutions/contacts-pro/limits/

@@ -7,10 +7,10 @@ actionLink: /solutions/booking-room-pro/getting-started-with-booking-room-pro/ho
 items:
 - title: Fundamentals​
   itemImage: /heart-book.svg
-  link: /solutions/booking-room-pro/booking-room-pro-view-options/how-can-i-change-the-view-and-day-of-the-week-/
+  link: /solutions/booking-room-pro/pricing-and-licensing-booking-room-pro/do-all-channel-users-need-a-booking-room-pro-license-/
 - title: What’s new
   itemImage: /light.svg
-  link: /solutions/booking-room-pro/whats-new/
+  link: /solutions/booking-room-pro/booking-room-pro-outlook-add-in/how-to-use-booking-room-pro-outlook/
 - title: Tutorials
   itemImage: /graduation-hat.svg
   link: /solutions/booking-room-pro/tutorials/

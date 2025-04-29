@@ -1,4 +1,4 @@
-We start?
+Les bases
 <Intercom />
 <Hubspot />
 <Clarity />
