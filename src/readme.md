@@ -54,10 +54,10 @@ items:
     itemImage: /home.png
     itemDescription: Home Pro
     link: /solutions/home-pro/overview/
-  - title: Remind Pro
-    itemImage: /remind.png
-    itemDescription: Remind Pro
-    link: /solutions/remind-pro/overview/
+  - title: Reminds Pro
+    itemImage: /reminds300300.png
+    itemDescription: Reminds Pro
+    link: /solutions/reminds-pro/overview/
 # - title: Distribution List Pro
 #   itemImage: /distribution.png
 #   itemDescription: Distribution List Pro
