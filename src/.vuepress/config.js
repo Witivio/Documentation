@@ -741,17 +741,17 @@ module.exports = {
               ],
             },
             {
-              title: "Remind Pro",
+              title: "Reminds Pro",
               collapsable: true,
-              path: "/solutions/remind-pro/overview/",
+              path: "/solutions/reminds-pro/overview/",
               children: [
-                ["/solutions/remind-pro/overview.md", "Overview"],
+                ["/solutions/reminds-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get started",
                   collapsable: true,
                   children: [
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-install-remind-pro-to-my-teams-application.md", "How to install Remind Pro to my Teams Application?"],
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-get-the-remind-pro-id.md", "How to get the Remind Pro id?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-install-reminds-pro-to-my-teams-application.md", "How to install Reminds Pro to my Teams Application?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-get-the-reminds-pro-id.md", "How to get the Reminds Pro ID?"],
                   ],
                 },
                 {
@@ -762,7 +762,7 @@ module.exports = {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        ["/solutions/remind-pro/fundamentals/permissions-in-remind-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/reminds-pro/fundamentals/permissions-in-reminds-pro/managing-permissions.md", "Managing permissions"],
                       ]
                     }
                   ],
@@ -775,9 +775,9 @@ module.exports = {
                       title: "Managing reminders",
                       collapsable: true,
                       children: [
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-add-a-new-reminder.md", "How can i add a new reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-edit-a-reminder.md", "How can i edit a reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-delete-a-reminder.md", "How can i delete a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-add-a-new-reminder.md", "How can I add a new reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-edit-a-reminder.md", "How can I edit a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-delete-a-reminder.md", "How can I delete a reminder?"],
                       ],
                     },
                   ],
@@ -1789,17 +1789,17 @@ module.exports = {
               ],
             },
             {
-              title: "Remind Pro",
+              title: "Reminds Pro",
               collapsable: true,
-              path: "/solutions/remind-pro/overview/",
+              path: "/solutions/reminds-pro/overview/",
               children: [
-                ["/solutions/remind-pro/overview.md", "Overview"],
+                ["/solutions/reminds-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get started",
                   collapsable: true,
                   children: [
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-install-remind-pro-to-my-teams-application.md", "How to install Remind Pro to my Teams Application?"],
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-get-the-remind-pro-id.md", "How to get the Remind Pro id?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-install-reminds-pro-to-my-teams-application.md", "How to install Reminds Pro to my Teams Application?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-get-the-reminds-pro-id.md", "How to get the Reminds Pro ID?"],
                   ],
                 },
                 {
@@ -1810,7 +1810,7 @@ module.exports = {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        ["/solutions/remind-pro/fundamentals/permissions-in-remind-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/reminds-pro/fundamentals/permissions-in-reminds-pro/managing-permissions.md", "Managing permissions"],
                       ]
                     }
                   ],
@@ -1823,9 +1823,9 @@ module.exports = {
                       title: "Managing reminders",
                       collapsable: true,
                       children: [
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-add-a-new-reminder.md", "How can i add a new reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-edit-a-reminder.md", "How can i edit a reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-delete-a-reminder.md", "How can i delete a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-add-a-new-reminder.md", "How can I add a new reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-edit-a-reminder.md", "How can I edit a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-delete-a-reminder.md", "How can I delete a reminder?"],
                       ],
                     },
                   ],
@@ -2823,18 +2823,18 @@ module.exports = {
                 ["/solutions/home-pro/changelog.md", "Changelog​"],
               ],
             },
-            {
-              title: "Remind Pro",
+                        {
+              title: "Reminds Pro",
               collapsable: true,
-              path: "/solutions/remind-pro/overview/",
+              path: "/solutions/reminds-pro/overview/",
               children: [
-                ["/solutions/remind-pro/overview.md", "Overview"],
+                ["/solutions/reminds-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get started",
                   collapsable: true,
                   children: [
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-install-remind-pro-to-my-teams-application.md", "How to install Remind Pro to my Teams Application?"],
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-get-the-remind-pro-id.md", "How to get the Remind Pro id?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-install-reminds-pro-to-my-teams-application.md", "How to install Reminds Pro to my Teams Application?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-get-the-reminds-pro-id.md", "How to get the Reminds Pro ID?"],
                   ],
                 },
                 {
@@ -2845,7 +2845,7 @@ module.exports = {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        ["/solutions/remind-pro/fundamentals/permissions-in-remind-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/reminds-pro/fundamentals/permissions-in-reminds-pro/managing-permissions.md", "Managing permissions"],
                       ]
                     }
                   ],
@@ -2858,9 +2858,9 @@ module.exports = {
                       title: "Managing reminders",
                       collapsable: true,
                       children: [
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-add-a-new-reminder.md", "How can i add a new reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-edit-a-reminder.md", "How can i edit a reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-delete-a-reminder.md", "How can i delete a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-add-a-new-reminder.md", "How can I add a new reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-edit-a-reminder.md", "How can I edit a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-delete-a-reminder.md", "How can I delete a reminder?"],
                       ],
                     },
                   ],
