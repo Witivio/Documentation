@@ -3,7 +3,7 @@ tagTitle: User documentation for KeePass Pro.
 tagLine: Password management solution for Microsoft Teams
 heroImage: /keepass.png
 actionText: Get Started →
-actionLink: /solutions/keepass-pro/getting-started-with-keepass-pro/can-an-external-teams-user-have-access-to-keepass-pro-in-private-channel-/
+actionLink: /solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md
 items:
 - title: Fundamentals​
   itemImage: /heart-book.svg

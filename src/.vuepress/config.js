@@ -832,96 +832,22 @@ module.exports = {
                   title: "Get started !",
                   collapsable: true,
                   children: [
-                    [
-                      "/solutions/keepass-pro/getting-started-with-keepass-pro/can-an-external-teams-user-have-access-to-keepass-pro-in-private-channel-.md",
-                      "Can an external Teams user have access to KeePass Pro in private channel?",
-                    ],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-copy-password-.md", "How can I copy password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-create-a-new-password-.md", "How can I create a new password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-delete-a-password-.md", "How can I delete a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-modify-a-password-.md", "How can I modify a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-share-a-password-.md", "How can I share a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-we-generate-a-password-.md", "How can we generate a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-add-keepass-pro-to-a-channel-.md", "How to add KeePass Pro to a channel?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-pin-the-keepass-pro-to-navigation-bar-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-set-up-a-keepass-pro-tab-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/where-are-the-settings--how-can-we-change-it-.md", "Where are the settings? How can we change it?"],
-                  ],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/what-is-keepass-pro.md", "What is KeePass Pro"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How it works"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
+                  ]
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/recycle-bin-keepass-pro/what-is-the-time-frame-for-retrieving-a-password-from-the-recycle-bin-.md",
-                          "What is the time frame for retrieving a password from the Recycle Bin?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/vault-management-keepass-pro/what-is-a-keepass-pro-vault-.md", "What is a KeePass Pro vault?"]],
-                    },
-                    {
-                      title: "Permissions",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/keepass-pro/permissions-keepass-pro/fundamentals-permissions-in-keepass-pro.md", "Fundamentals Permissions in KeePass Pro"],
-                        ["/solutions/keepass-pro/permissions-keepass-pro/limitations-of-keepass-pro-permissions.md", "Limitations of KeePass Pro Permissions"],
-                      ],
-                    },
+                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password management"],
+                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & collaboration"],
+                    ["/solutions/keepass-pro/fundamentals/administration.md", "Administration"],
+                    ["/solutions/keepass-pro/fundamentals/vault-management.md", "Vault Management"],
+                    ["/solutions/keepass-pro/fundamentals/limitations.md", "Limitations"],
                   ],
                 },
-                {
-                  title: "Tutorials",
-                  collapsable: true,
-                  children: [
-                    {
-                      title: "Import and export KeePass Pro passwords",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/import-and-export-keepass-pro-passwords/how-to-import-a-keepass-pro-.kdbx-file-into-a-new-keepass-pro-channel-tab-.md",
-                          "How to import a KeePass Pro .KDBX file into a new KeePass Pro channel tab?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Master password",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/master-password-keepass-pro/how-to-access-keepass-pro-master-password-.md", "How to access KeePass Pro master password?"]],
-                    },
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/recycle-bin-keepass-pro/how-can-i-retrieve-my-password-through-recycle-bin-.md", "How can I retrieve my password through Recycle Bin?"]],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-and-where-can-i-create-the-folders-on-the-vault-.md", "How and where can I create the folders on the vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-change-the-name-the-of-the-keepass-pro-s-vault-.md", "How to change the name the of the KeePass Pro’s vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-choose-vault-location-.md", "How to choose vault location?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-import-a-kdbx-file-in-keepass-pro-.md", "How to import a KDBX file in KeePass Pro?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-keep-a-keepass-pro-vault-private-.md", "How to keep a KeePass Pro Vault private?"],
-                      ],
-                    },
-                    {
-                      title: "Permissions",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/permissions-keepass-pro/tuto-managing-passwords.md", "Managing passwords permissions for IT Team in KeePass Pro"]],
-                    },
-                  ],
-                },
-                ["/solutions/keepass-pro/whats-new.md", "What’s new​"],
-                ["/solutions/keepass-pro/limits.md", "Limits"],
-                ["/solutions/keepass-pro/changelog.md", "Change log​"],
               ],
             },
             {
@@ -1880,83 +1806,22 @@ module.exports = {
                   title: "Get started !",
                   collapsable: true,
                   children: [
-                    [
-                      "/solutions/keepass-pro/getting-started-with-keepass-pro/can-an-external-teams-user-have-access-to-keepass-pro-in-private-channel-.md",
-                      "Can an external Teams user have access to KeePass Pro in private channel?",
-                    ],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-copy-password-.md", "How can I copy password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-create-a-new-password-.md", "How can I create a new password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-delete-a-password-.md", "How can I delete a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-modify-a-password-.md", "How can I modify a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-share-a-password-.md", "How can I share a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-we-generate-a-password-.md", "How can we generate a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-add-keepass-pro-to-a-channel-.md", "How to add KeePass Pro to a channel?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-pin-the-keepass-pro-to-navigation-bar-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-set-up-a-keepass-pro-tab-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/where-are-the-settings--how-can-we-change-it-.md", "Where are the settings? How can we change it?"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/what-is-keepass-pro.md", "What is KeePass Pro"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How it works"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
                   ],
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/recycle-bin-keepass-pro/what-is-the-time-frame-for-retrieving-a-password-from-the-recycle-bin-.md",
-                          "What is the time frame for retrieving a password from the Recycle Bin?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/vault-management-keepass-pro/what-is-a-keepass-pro-vault-.md", "What is a KeePass Pro vault?"]],
-                    },
+                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password management"],
+                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & collaboration"],
+                    ["/solutions/keepass-pro/fundamentals/administration.md", "Administration"],
+                    ["/solutions/keepass-pro/fundamentals/vault-management.md", "Vault Management"],
+                    ["/solutions/keepass-pro/fundamentals/limitations.md", "Limitations"],
                   ],
                 },
-                {
-                  title: "Tutorials",
-                  collapsable: true,
-                  children: [
-                    {
-                      title: "Import and export KeePass Pro passwords",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/import-and-export-keepass-pro-passwords/how-to-import-a-keepass-pro-.kdbx-file-into-a-new-keepass-pro-channel-tab-.md",
-                          "How to import a KeePass Pro .KDBX file into a new KeePass Pro channel tab?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Master password",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/master-password-keepass-pro/how-to-access-keepass-pro-master-password-.md", "How to access KeePass Pro master password?"]],
-                    },
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/recycle-bin-keepass-pro/how-can-i-retrieve-my-password-through-recycle-bin-.md", "How can I retrieve my password through Recycle Bin?"]],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-and-where-can-i-create-the-folders-on-the-vault-.md", "How and where can I create the folders on the vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-change-the-name-the-of-the-keepass-pro-s-vault-.md", "How to change the name the of the KeePass Pro’s vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-choose-vault-location-.md", "How to choose vault location?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-import-a-kdbx-file-in-keepass-pro-.md", "How to import a KDBX file in KeePass Pro?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-keep-a-keepass-pro-vault-private-.md", "How to keep a KeePass Pro Vault private?"],
-                      ],
-                    },
-                  ],
-                },
-                ["/solutions/keepass-pro/whats-new.md", "What’s new​"],
-                ["/solutions/keepass-pro/limits.md", "Limits"],
-                ["/solutions/keepass-pro/changelog.md", "Change log​"],
               ],
             },
             {
@@ -2915,83 +2780,22 @@ module.exports = {
                   title: "Get started !",
                   collapsable: true,
                   children: [
-                    [
-                      "/solutions/keepass-pro/getting-started-with-keepass-pro/can-an-external-teams-user-have-access-to-keepass-pro-in-private-channel-.md",
-                      "Can an external Teams user have access to KeePass Pro in private channel?",
-                    ],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-copy-password-.md", "How can I copy password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-create-a-new-password-.md", "How can I create a new password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-delete-a-password-.md", "How can I delete a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-modify-a-password-.md", "How can I modify a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-share-a-password-.md", "How can I share a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-we-generate-a-password-.md", "How can we generate a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-add-keepass-pro-to-a-channel-.md", "How to add KeePass Pro to a channel?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-pin-the-keepass-pro-to-navigation-bar-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-set-up-a-keepass-pro-tab-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/where-are-the-settings--how-can-we-change-it-.md", "Where are the settings? How can we change it?"],
-                  ],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/what-is-keepass-pro.md", "What is KeePass Pro"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How it works"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
+                ],
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/recycle-bin-keepass-pro/what-is-the-time-frame-for-retrieving-a-password-from-the-recycle-bin-.md",
-                          "What is the time frame for retrieving a password from the Recycle Bin?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/vault-management-keepass-pro/what-is-a-keepass-pro-vault-.md", "What is a KeePass Pro vault?"]],
-                    },
+                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password management"],
+                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & collaboration"],
+                    ["/solutions/keepass-pro/fundamentals/administration.md", "Administration"],
+                    ["/solutions/keepass-pro/fundamentals/vault-management.md", "Vault Management"],
+                    ["/solutions/keepass-pro/fundamentals/limitations.md", "Limitations"],
                   ],
                 },
-                {
-                  title: "Tutorials",
-                  collapsable: true,
-                  children: [
-                    {
-                      title: "Import and export KeePass Pro passwords",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/import-and-export-keepass-pro-passwords/how-to-import-a-keepass-pro-.kdbx-file-into-a-new-keepass-pro-channel-tab-.md",
-                          "How to import a KeePass Pro .KDBX file into a new KeePass Pro channel tab?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Master password",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/master-password-keepass-pro/how-to-access-keepass-pro-master-password-.md", "How to access KeePass Pro master password?"]],
-                    },
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/recycle-bin-keepass-pro/how-can-i-retrieve-my-password-through-recycle-bin-.md", "How can I retrieve my password through Recycle Bin?"]],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-and-where-can-i-create-the-folders-on-the-vault-.md", "How and where can I create the folders on the vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-change-the-name-the-of-the-keepass-pro-s-vault-.md", "How to change the name the of the KeePass Pro’s vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-choose-vault-location-.md", "How to choose vault location?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-import-a-kdbx-file-in-keepass-pro-.md", "How to import a KDBX file in KeePass Pro?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-keep-a-keepass-pro-vault-private-.md", "How to keep a KeePass Pro Vault private?"],
-                      ],
-                    },
-                  ],
-                },
-                ["/solutions/keepass-pro/whats-new.md", "What’s new​"],
-                ["/solutions/keepass-pro/limits.md", "Limits"],
-                ["/solutions/keepass-pro/changelog.md", "Change log​"],
               ],
             },
             {
