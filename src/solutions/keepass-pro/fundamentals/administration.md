@@ -18,6 +18,19 @@ You can add it to the team through <b>Appsource</b>. Search for KeePass Pro > Ad
 You can also add KeePass Pro directly from a channel. Just click the <b>"+" button </b>at the top of the channel, search for KeePass Pro, and add it as a tab.
 <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_add-to-a-channel2.png"></div><p class="no-margin"></p>
 
+## Get KeePass Pro Tab ID
+### How to Get KeePass Pro Tab ID?
+<img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">
+|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
+
+To get the <b>KeePass Pro tab ID</b>, follow these steps:
+
+* Click on the '?' icon at the top left of the tab.
+* Select About from the dropdown menu.
+* Copy the Unique Identifier displayed.
+
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_unique-id.png"></div><p class="no-margin"></p>
+
 ## Set the Vault location
 ### How to choose the vault location?
  <img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
