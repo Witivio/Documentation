@@ -1,24 +1,26 @@
-## How to apply coupon code?
+## How to apply a coupon code?
 
-#### Step by step
+### Step by step to apply a coupon code
 
-1. Log into the [Teams PRO Admin Center](https://admin.teams-pro.com/) with your Microsoft Teams credentials.
+1. **Log in** to the [Teams Pro Admin Center](https://admin.teams-pro.com/) using your Microsoft Teams credentials.  
 
-2. Go to the “Purchase Apps” and select an application.
+2. Navigate to the **"Purchase Apps"** section and select the application you wish to subscribe to.  
 
-3. Then, click “Calculate your pricing”, select the type of subscription, and number of licenses.
+3. Click **"Calculate your pricing"**, then choose your preferred **subscription type** and specify the number of licenses.
 
-4. Click “Subscribe”, review the details, and click “Order”.
+4. Click **"Subscribe"**, review your order details, and proceed by clicking **"Order"**.  
 
-5. This will trigger the payment system.
+5. This will initiate the **payment process**.  
 
-6. Click “Apply coupon” and type/paste the coupon code.
+6. If you have a coupon code, click **"Apply coupon"**, then enter or paste the code. (**Free trial coupons are only valid when selecting the** **Platinum plan** on a **monthly subscription**. )
 
-7. Proceed normally to the checkout.
+7. Complete the checkout process as usual.  
 
-#### Exemple
 
-<div class="intercom-container"><img src="/assets/img/how-to-apply-a-coupon.gif"></div>
+### Video: How to apply a coupon code
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u_E5zV6iX6U?si=PFZWNuT614YbNcGJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <Intercom />
 <Hubspot />

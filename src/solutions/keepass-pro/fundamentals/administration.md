@@ -1,0 +1,91 @@
+# Administration
+
+## Add KeePass Pro to a channel
+### How to add KeePass Pro to a channel?
+<img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">
+|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
+
+
+You can add it to the team through <b>Appsource</b>. Search for KeePass Pro > Add to a team > click to Type a team or channel name > Search for the team you wish to add it to > Select the team and then click on <b>Set up a Tab</b>. Configure KeePass Pro and then click on Save.
+
+⚠️ <b>KeePass Pro cannot be installed in a Private channel.</b>
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_add-to-a-channel.png"></div><p class="no-margin"></p>
+
+### Adding KeePass Pro Directly from a Channel
+ <img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
+
+
+You can also add KeePass Pro directly from a channel. Just click the <b>"+" button </b>at the top of the channel, search for KeePass Pro, and add it as a tab.
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_add-to-a-channel2.png"></div><p class="no-margin"></p>
+
+## Get KeePass Pro Tab ID
+### How to Get KeePass Pro Tab ID?
+<img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">
+|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
+
+To get the <b>KeePass Pro tab ID</b>, follow these steps:
+
+* Click on the '?' icon at the top left of the tab.
+* Select About from the dropdown menu.
+* Copy the Unique Identifier displayed.
+
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_unique-id.png"></div><p class="no-margin"></p>
+
+## Set the Vault location
+### How to choose the vault location?
+ <img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
+
+
+You can<b> choose the vault location</b> when you are done setting up a tab. In the Settings KeePass Pro pop-up window, you choose a folder of your choice where you wish to keep the vault.
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_vault-location.png"></div><p class="no-margin"></p>
+
+## Rename a Vault
+### How to rename a Vault?
+ <img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
+
+
+Once your vault is set up, you can <b>rename it at any time</b>. Simply go to the Settings of your KeePass Pro tab and find the "Vault Name" section. Enter the new name you want and click Save.
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_rename-vault.png"></div><p class="no-margin"></p>
+
+## Access the Master Password
+### How to access the Master Password?
+<img src="/assets/img/teams-pro/keepass-pro/owner-crown.svg" width="24" height="24">
+
+If KeePass Pro is installed in a channel, <b>only the owners of the vault can access the master password</b>. Go to the Settings menu, select 'Master Password,' and you will see the option to <b>view or copy your master password</b>.
+
+⚠️ <b>Important:</b> If the <b>master password is lost</b>, the <b>contents of the vault will be inaccessible</b>.
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_master-password.png"></div><p class="no-margin"></p>
+
+## Recycle Bin: Recover or Permanently Delete Items
+### How to recover or permanently delete items from the Recycle Bin?
+ <img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
+
+Go to the <b>Recycle Bin section</b> in your KeePass Pro interface. From here, you can either <b>restore passwords </b>or <b>permanently delete them </b>to free up space and improve security.
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_recycle-bin.png"></div><p class="no-margin"></p>
+
+
+ <tr>
+      <td><img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24"></td>
+      <td>Free</td>
+      <td>Available to all users</td>
+    </tr>
+    <tr>
+      <td><img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24"></td>
+      <td>Premium</td>
+      <td>Requires a Premium subscription</td>
+    </tr>
+    <tr>
+      <td><img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24"></td>
+      <td>Platinum</td>
+      <td>Requires a Platinum subscription</td>
+    </tr>
+    <tr>
+      <td><img src="/assets/img/teams-pro/keepass-pro/owner-crown.svg" width="24" height="24"></td></td>
+      <td>Owner</td>
+      <td>Reserved for the account owner</td>
+    </tr>
+<Intercom />
+<Hubspot />
+<Clarity />
+<GoogleAnalytics />
+

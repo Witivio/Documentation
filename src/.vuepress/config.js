@@ -43,7 +43,7 @@ module.exports = {
           collapsable: true,
           children: [
             ["/solutions/", "Overview"],
-            {
+            /*{
               title: "Virtual Agent Studio",
               collapsable: true,
               path: "/solutions/virtual-agent-studio/chatbot/build_your_chatbot/",
@@ -216,7 +216,7 @@ module.exports = {
                 },
               ],
             },
-            /*{
+            {
 							title: 'Meta Office Pro',
 							collapsable: true,
 							path: "/solutions/meta-office-pro/overview/",
@@ -246,7 +246,7 @@ module.exports = {
                     ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
                     ["/solutions/gpt-pro/fundamentals/prompts.md", "Prompts"],
-                    ["/solutions/gpt-pro/fundamentals/system-prompt.md", "System Prompt"],
+                    ["/solutions/gpt-pro/fundamentals/system-prompt.md", "Instructions"],
                     ["/solutions/gpt-pro/fundamentals/welcome-card.md", "Welcome Card"],
                     ["/solutions/gpt-pro/fundamentals/Action-bar.md", "Action bar"],
                     ["/solutions/gpt-pro/fundamentals/manage-plugins.md", "Plugins"],
@@ -256,13 +256,17 @@ module.exports = {
                     ["/solutions/gpt-pro/fundamentals/notebook.md", "Notebook"],
                     ["/solutions/gpt-pro/fundamentals/push-communication.md", "Push Communication"],
                     ["/solutions/gpt-pro/fundamentals/feedbacks.md", "Feedbacks"],
+                    ["/solutions/gpt-pro/fundamentals/webchat.md", "Webchat"],
                   ],
                 },
                 ["/solutions/gpt-pro/whats-new.md", "What’s new​"],
                 {
-                  title: "Tutorials",
+                  title: "Tutorials & tips",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"]],
+                  children: [
+                    ["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"],
+                    ["/solutions/gpt-pro/tutorials/high-permorming-agent.md", "High-Performing Agent"]
+                ],
                 },
                 {
                   title: "Migrations",
@@ -333,7 +337,7 @@ module.exports = {
               children: [
                 ["/solutions/booking-room-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get started!",
                   collapsable: true,
                   children: [
                     [
@@ -376,9 +380,9 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "View options",
+                      title: "Outlook integration",
                       collapsable: true,
-                      children: [["/solutions/booking-room-pro/booking-room-pro-view-options/how-can-i-change-the-view-and-day-of-the-week-.md", "How can I change the view and day of the week?"]],
+                      children: [["/solutions/booking-room-pro/booking-room-pro-outlook-add-in/how-to-use-booking-room-pro-outlook.md", "How to Use the Booking Room Pro Add-in in Outlook"]],
                     },
                     {
                       title: "Permissions",
@@ -423,6 +427,11 @@ module.exports = {
                       title: "Timezones",
                       collapsable: true,
                       children: [["/solutions/booking-room-pro/time-zones-in-booking-room-pro/how-to-change-the-time-zone-.md", "How to change the time zone?"]],
+                    },
+                    {
+                      title: "View options",
+                      collapsable: true,
+                      children: [["/solutions/booking-room-pro/booking-room-pro-view-options/how-can-i-change-the-view-and-day-of-the-week-.md", "How can I change the view and day of the week?"]],
                     },
                   ],
                 },
@@ -732,17 +741,17 @@ module.exports = {
               ],
             },
             {
-              title: "Remind Pro",
+              title: "Reminds Pro",
               collapsable: true,
-              path: "/solutions/remind-pro/overview/",
+              path: "/solutions/reminds-pro/overview/",
               children: [
-                ["/solutions/remind-pro/overview.md", "Overview"],
+                ["/solutions/reminds-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get started",
                   collapsable: true,
                   children: [
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-install-remind-pro-to-my-teams-application.md", "How to install Remind Pro to my Teams Application?"],
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-get-the-remind-pro-id.md", "How to get the Remind Pro id?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-install-reminds-pro-to-my-teams-application.md", "How to install Reminds Pro to my Teams Application?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-get-the-reminds-pro-id.md", "How to get the Reminds Pro ID?"],
                   ],
                 },
                 {
@@ -753,7 +762,7 @@ module.exports = {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        ["/solutions/remind-pro/fundamentals/permissions-in-remind-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/reminds-pro/fundamentals/permissions-in-reminds-pro/managing-permissions.md", "Managing permissions"],
                       ]
                     }
                   ],
@@ -766,9 +775,9 @@ module.exports = {
                       title: "Managing reminders",
                       collapsable: true,
                       children: [
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-add-a-new-reminder.md", "How can i add a new reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-edit-a-reminder.md", "How can i edit a reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-delete-a-reminder.md", "How can i delete a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-add-a-new-reminder.md", "How can I add a new reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-edit-a-reminder.md", "How can I edit a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-delete-a-reminder.md", "How can I delete a reminder?"],
                       ],
                     },
                   ],
@@ -823,96 +832,22 @@ module.exports = {
                   title: "Get started !",
                   collapsable: true,
                   children: [
-                    [
-                      "/solutions/keepass-pro/getting-started-with-keepass-pro/can-an-external-teams-user-have-access-to-keepass-pro-in-private-channel-.md",
-                      "Can an external Teams user have access to KeePass Pro in private channel?",
-                    ],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-copy-password-.md", "How can I copy password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-create-a-new-password-.md", "How can I create a new password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-delete-a-password-.md", "How can I delete a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-modify-a-password-.md", "How can I modify a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-share-a-password-.md", "How can I share a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-we-generate-a-password-.md", "How can we generate a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-add-keepass-pro-to-a-channel-.md", "How to add KeePass Pro to a channel?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-pin-the-keepass-pro-to-navigation-bar-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-set-up-a-keepass-pro-tab-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/where-are-the-settings--how-can-we-change-it-.md", "Where are the settings? How can we change it?"],
-                  ],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/what-is-keepass-pro.md", "What is KeePass Pro"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How it works"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
+                  ]
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/recycle-bin-keepass-pro/what-is-the-time-frame-for-retrieving-a-password-from-the-recycle-bin-.md",
-                          "What is the time frame for retrieving a password from the Recycle Bin?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/vault-management-keepass-pro/what-is-a-keepass-pro-vault-.md", "What is a KeePass Pro vault?"]],
-                    },
-                    {
-                      title: "Permissions",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/keepass-pro/permissions-keepass-pro/fundamentals-permissions-in-keepass-pro.md", "Fundamentals Permissions in KeePass Pro"],
-                        ["/solutions/keepass-pro/permissions-keepass-pro/limitations-of-keepass-pro-permissions.md", "Limitations of KeePass Pro Permissions"],
-                      ],
-                    },
+                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password management"],
+                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & collaboration"],
+                    ["/solutions/keepass-pro/fundamentals/administration.md", "Administration"],
+                    ["/solutions/keepass-pro/fundamentals/vault-management.md", "Vault Management"],
+                    ["/solutions/keepass-pro/fundamentals/limitations.md", "Limitations"],
                   ],
                 },
-                {
-                  title: "Tutorials",
-                  collapsable: true,
-                  children: [
-                    {
-                      title: "Import and export KeePass Pro passwords",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/import-and-export-keepass-pro-passwords/how-to-import-a-keepass-pro-.kdbx-file-into-a-new-keepass-pro-channel-tab-.md",
-                          "How to import a KeePass Pro .KDBX file into a new KeePass Pro channel tab?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Master password",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/master-password-keepass-pro/how-to-access-keepass-pro-master-password-.md", "How to access KeePass Pro master password?"]],
-                    },
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/recycle-bin-keepass-pro/how-can-i-retrieve-my-password-through-recycle-bin-.md", "How can I retrieve my password through Recycle Bin?"]],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-and-where-can-i-create-the-folders-on-the-vault-.md", "How and where can I create the folders on the vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-change-the-name-the-of-the-keepass-pro-s-vault-.md", "How to change the name the of the KeePass Pro’s vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-choose-vault-location-.md", "How to choose vault location?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-import-a-kdbx-file-in-keepass-pro-.md", "How to import a KDBX file in KeePass Pro?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-keep-a-keepass-pro-vault-private-.md", "How to keep a KeePass Pro Vault private?"],
-                      ],
-                    },
-                    {
-                      title: "Permissions",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/permissions-keepass-pro/tuto-managing-passwords.md", "Managing passwords permissions for IT Team in KeePass Pro"]],
-                    },
-                  ],
-                },
-                ["/solutions/keepass-pro/whats-new.md", "What’s new​"],
-                ["/solutions/keepass-pro/limits.md", "Limits"],
-                ["/solutions/keepass-pro/changelog.md", "Change log​"],
               ],
             },
             {
@@ -1291,7 +1226,7 @@ module.exports = {
                     ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
                     ["/solutions/gpt-pro/fundamentals/prompts.md", "Prompts"],
-                    ["/solutions/gpt-pro/fundamentals/system-prompt.md", "System Prompt"],
+                    ["/solutions/gpt-pro/fundamentals/system-prompt.md", "Instructions"],
                     ["/solutions/gpt-pro/fundamentals/welcome-card.md", "Welcome Card"],
                     ["/solutions/gpt-pro/fundamentals/Action-bar.md", "Action bar"],
                     ["/solutions/gpt-pro/fundamentals/manage-plugins.md", "Plugins"],
@@ -1301,13 +1236,17 @@ module.exports = {
                     ["/solutions/gpt-pro/fundamentals/notebook.md", "Notebook"],
                     ["/solutions/gpt-pro/fundamentals/push-communication.md", "Push Communication"],
                     ["/solutions/gpt-pro/fundamentals/feedbacks.md", "Feedbacks"],
+                    ["/solutions/gpt-pro/fundamentals/webchat.md", "Webchat"],
                   ],
                 },
                 ["/solutions/gpt-pro/whats-new.md", "What’s new​"],
                 {
-                  title: "Tutorials",
+                  title: "Tutorials & tips",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"]],
+                  children: [
+                    ["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"],
+                    ["/solutions/gpt-pro/tutorials/high-permorming-agent.md", "High-Performing Agent"]
+                ],
                 },
                 {
                   title: "Migrations",
@@ -1358,7 +1297,7 @@ module.exports = {
                         ],
                         ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why can't a transfer be initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
-                        ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply a coupon code"],
                         ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for educational and non-profit organizations"],
                       ],
                     },
@@ -1776,17 +1715,17 @@ module.exports = {
               ],
             },
             {
-              title: "Remind Pro",
+              title: "Reminds Pro",
               collapsable: true,
-              path: "/solutions/remind-pro/overview/",
+              path: "/solutions/reminds-pro/overview/",
               children: [
-                ["/solutions/remind-pro/overview.md", "Overview"],
+                ["/solutions/reminds-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get started",
                   collapsable: true,
                   children: [
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-install-remind-pro-to-my-teams-application.md", "How to install Remind Pro to my Teams Application?"],
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-get-the-remind-pro-id.md", "How to get the Remind Pro id?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-install-reminds-pro-to-my-teams-application.md", "How to install Reminds Pro to my Teams Application?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-get-the-reminds-pro-id.md", "How to get the Reminds Pro ID?"],
                   ],
                 },
                 {
@@ -1797,7 +1736,7 @@ module.exports = {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        ["/solutions/remind-pro/fundamentals/permissions-in-remind-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/reminds-pro/fundamentals/permissions-in-reminds-pro/managing-permissions.md", "Managing permissions"],
                       ]
                     }
                   ],
@@ -1810,9 +1749,9 @@ module.exports = {
                       title: "Managing reminders",
                       collapsable: true,
                       children: [
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-add-a-new-reminder.md", "How can i add a new reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-edit-a-reminder.md", "How can i edit a reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-delete-a-reminder.md", "How can i delete a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-add-a-new-reminder.md", "How can I add a new reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-edit-a-reminder.md", "How can I edit a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-delete-a-reminder.md", "How can I delete a reminder?"],
                       ],
                     },
                   ],
@@ -1867,83 +1806,22 @@ module.exports = {
                   title: "Get started !",
                   collapsable: true,
                   children: [
-                    [
-                      "/solutions/keepass-pro/getting-started-with-keepass-pro/can-an-external-teams-user-have-access-to-keepass-pro-in-private-channel-.md",
-                      "Can an external Teams user have access to KeePass Pro in private channel?",
-                    ],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-copy-password-.md", "How can I copy password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-create-a-new-password-.md", "How can I create a new password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-delete-a-password-.md", "How can I delete a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-modify-a-password-.md", "How can I modify a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-share-a-password-.md", "How can I share a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-we-generate-a-password-.md", "How can we generate a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-add-keepass-pro-to-a-channel-.md", "How to add KeePass Pro to a channel?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-pin-the-keepass-pro-to-navigation-bar-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-set-up-a-keepass-pro-tab-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/where-are-the-settings--how-can-we-change-it-.md", "Where are the settings? How can we change it?"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/what-is-keepass-pro.md", "What is KeePass Pro"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How it works"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
                   ],
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/recycle-bin-keepass-pro/what-is-the-time-frame-for-retrieving-a-password-from-the-recycle-bin-.md",
-                          "What is the time frame for retrieving a password from the Recycle Bin?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/vault-management-keepass-pro/what-is-a-keepass-pro-vault-.md", "What is a KeePass Pro vault?"]],
-                    },
+                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password management"],
+                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & collaboration"],
+                    ["/solutions/keepass-pro/fundamentals/administration.md", "Administration"],
+                    ["/solutions/keepass-pro/fundamentals/vault-management.md", "Vault Management"],
+                    ["/solutions/keepass-pro/fundamentals/limitations.md", "Limitations"],
                   ],
                 },
-                {
-                  title: "Tutorials",
-                  collapsable: true,
-                  children: [
-                    {
-                      title: "Import and export KeePass Pro passwords",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/import-and-export-keepass-pro-passwords/how-to-import-a-keepass-pro-.kdbx-file-into-a-new-keepass-pro-channel-tab-.md",
-                          "How to import a KeePass Pro .KDBX file into a new KeePass Pro channel tab?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Master password",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/master-password-keepass-pro/how-to-access-keepass-pro-master-password-.md", "How to access KeePass Pro master password?"]],
-                    },
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/recycle-bin-keepass-pro/how-can-i-retrieve-my-password-through-recycle-bin-.md", "How can I retrieve my password through Recycle Bin?"]],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-and-where-can-i-create-the-folders-on-the-vault-.md", "How and where can I create the folders on the vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-change-the-name-the-of-the-keepass-pro-s-vault-.md", "How to change the name the of the KeePass Pro’s vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-choose-vault-location-.md", "How to choose vault location?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-import-a-kdbx-file-in-keepass-pro-.md", "How to import a KDBX file in KeePass Pro?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-keep-a-keepass-pro-vault-private-.md", "How to keep a KeePass Pro Vault private?"],
-                      ],
-                    },
-                  ],
-                },
-                ["/solutions/keepass-pro/whats-new.md", "What’s new​"],
-                ["/solutions/keepass-pro/limits.md", "Limits"],
-                ["/solutions/keepass-pro/changelog.md", "Change log​"],
               ],
             },
             {
@@ -2322,7 +2200,7 @@ module.exports = {
                     ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
                     ["/solutions/gpt-pro/fundamentals/prompts.md", "Prompts"],
-                    ["/solutions/gpt-pro/fundamentals/system-prompt.md", "System Prompt"],
+                    ["/solutions/gpt-pro/fundamentals/system-prompt.md", "Instructions"],
                     ["/solutions/gpt-pro/fundamentals/welcome-card.md", "Welcome Card"],
                     ["/solutions/gpt-pro/fundamentals/Action-bar.md", "Action bar"],
                     ["/solutions/gpt-pro/fundamentals/manage-plugins.md", "Plugins"],
@@ -2332,13 +2210,17 @@ module.exports = {
                     ["/solutions/gpt-pro/fundamentals/notebook.md", "Notebook"],
                     ["/solutions/gpt-pro/fundamentals/push-communication.md", "Push Communication"],
                     ["/solutions/gpt-pro/fundamentals/feedbacks.md", "Feedbacks"],
+                    ["/solutions/gpt-pro/fundamentals/webchat.md", "Webchat"],
                   ],
                 },
                 ["/solutions/gpt-pro/whats-new.md", "What’s new​"],
                 {
-                  title: "Tutorials",
+                  title: "Tutorials & tips",
                   collapsable: true,
-                  children: [["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"]],
+                  children: [
+                    ["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"],
+                    ["/solutions/gpt-pro/tutorials/high-permorming-agent.md", "High-Performing Agent"]
+                  ],
                 },
                 {
                   title: "Migrations",
@@ -2806,18 +2688,18 @@ module.exports = {
                 ["/solutions/home-pro/changelog.md", "Changelog​"],
               ],
             },
-            {
-              title: "Remind Pro",
+                        {
+              title: "Reminds Pro",
               collapsable: true,
-              path: "/solutions/remind-pro/overview/",
+              path: "/solutions/reminds-pro/overview/",
               children: [
-                ["/solutions/remind-pro/overview.md", "Overview"],
+                ["/solutions/reminds-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get started",
                   collapsable: true,
                   children: [
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-install-remind-pro-to-my-teams-application.md", "How to install Remind Pro to my Teams Application?"],
-                    ["/solutions/remind-pro/getting-started-with-remind-pro/how-to-get-the-remind-pro-id.md", "How to get the Remind Pro id?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-install-reminds-pro-to-my-teams-application.md", "How to install Reminds Pro to my Teams Application?"],
+                    ["/solutions/reminds-pro/getting-started-with-reminds-pro/how-to-get-the-reminds-pro-id.md", "How to get the Reminds Pro ID?"],
                   ],
                 },
                 {
@@ -2828,7 +2710,7 @@ module.exports = {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        ["/solutions/remind-pro/fundamentals/permissions-in-remind-pro/managing-permissions.md", "Managing permissions"],
+                        ["/solutions/reminds-pro/fundamentals/permissions-in-reminds-pro/managing-permissions.md", "Managing permissions"],
                       ]
                     }
                   ],
@@ -2841,9 +2723,9 @@ module.exports = {
                       title: "Managing reminders",
                       collapsable: true,
                       children: [
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-add-a-new-reminder.md", "How can i add a new reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-edit-a-reminder.md", "How can i edit a reminder?"],
-                    ["/solutions/remind-pro/managing-remind-in-remind-pro/how-can-i-delete-a-reminder.md", "How can i delete a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-add-a-new-reminder.md", "How can I add a new reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-edit-a-reminder.md", "How can I edit a reminder?"],
+                    ["/solutions/reminds-pro/managing-remind-in-reminds-pro/how-can-i-delete-a-reminder.md", "How can I delete a reminder?"],
                       ],
                     },
                   ],
@@ -2898,83 +2780,22 @@ module.exports = {
                   title: "Get started !",
                   collapsable: true,
                   children: [
-                    [
-                      "/solutions/keepass-pro/getting-started-with-keepass-pro/can-an-external-teams-user-have-access-to-keepass-pro-in-private-channel-.md",
-                      "Can an external Teams user have access to KeePass Pro in private channel?",
-                    ],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-copy-password-.md", "How can I copy password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-create-a-new-password-.md", "How can I create a new password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-delete-a-password-.md", "How can I delete a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-modify-a-password-.md", "How can I modify a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-i-share-a-password-.md", "How can I share a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-can-we-generate-a-password-.md", "How can we generate a password?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-add-keepass-pro-to-a-channel-.md", "How to add KeePass Pro to a channel?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-pin-the-keepass-pro-to-navigation-bar-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-to-set-up-a-keepass-pro-tab-.md", "How to pin the KeePass Pro to navigation bar?"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/where-are-the-settings--how-can-we-change-it-.md", "Where are the settings? How can we change it?"],
-                  ],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/what-is-keepass-pro.md", "What is KeePass Pro"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How it works"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
+                ],
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/recycle-bin-keepass-pro/what-is-the-time-frame-for-retrieving-a-password-from-the-recycle-bin-.md",
-                          "What is the time frame for retrieving a password from the Recycle Bin?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/vault-management-keepass-pro/what-is-a-keepass-pro-vault-.md", "What is a KeePass Pro vault?"]],
-                    },
+                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password management"],
+                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & collaboration"],
+                    ["/solutions/keepass-pro/fundamentals/administration.md", "Administration"],
+                    ["/solutions/keepass-pro/fundamentals/vault-management.md", "Vault Management"],
+                    ["/solutions/keepass-pro/fundamentals/limitations.md", "Limitations"],
                   ],
                 },
-                {
-                  title: "Tutorials",
-                  collapsable: true,
-                  children: [
-                    {
-                      title: "Import and export KeePass Pro passwords",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/keepass-pro/import-and-export-keepass-pro-passwords/how-to-import-a-keepass-pro-.kdbx-file-into-a-new-keepass-pro-channel-tab-.md",
-                          "How to import a KeePass Pro .KDBX file into a new KeePass Pro channel tab?",
-                        ],
-                      ],
-                    },
-                    {
-                      title: "Master password",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/master-password-keepass-pro/how-to-access-keepass-pro-master-password-.md", "How to access KeePass Pro master password?"]],
-                    },
-                    {
-                      title: "Recycle bin",
-                      collapsable: true,
-                      children: [["/solutions/keepass-pro/recycle-bin-keepass-pro/how-can-i-retrieve-my-password-through-recycle-bin-.md", "How can I retrieve my password through Recycle Bin?"]],
-                    },
-                    {
-                      title: "Vault management",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-and-where-can-i-create-the-folders-on-the-vault-.md", "How and where can I create the folders on the vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-change-the-name-the-of-the-keepass-pro-s-vault-.md", "How to change the name the of the KeePass Pro’s vault?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-choose-vault-location-.md", "How to choose vault location?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-import-a-kdbx-file-in-keepass-pro-.md", "How to import a KDBX file in KeePass Pro?"],
-                        ["/solutions/keepass-pro/vault-management-keepass-pro/how-to-keep-a-keepass-pro-vault-private-.md", "How to keep a KeePass Pro Vault private?"],
-                      ],
-                    },
-                  ],
-                },
-                ["/solutions/keepass-pro/whats-new.md", "What’s new​"],
-                ["/solutions/keepass-pro/limits.md", "Limits"],
-                ["/solutions/keepass-pro/changelog.md", "Change log​"],
               ],
             },
             {

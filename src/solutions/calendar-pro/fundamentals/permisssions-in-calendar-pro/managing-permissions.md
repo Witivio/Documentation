@@ -41,6 +41,16 @@
    <div class="intercom-container"><img src="/assets/img/teams-pro/calendar-pro/perms-2.png"></div>
 
 
+### Can I assign multiple owners?
+
+Yes, you can assign multiple owners in Calendar Pro. To grant a member Owner rights, click the dropdown button next to their role ('Member') and select 'Owner'. 
+
+**Important considerations:**
+- This change is **non-reversible**. Once a member is assigned as an Owner, their role cannot be downgraded back to Member.
+- The member **must have a Platinum license** assigned to be eligible for the Owner role.
+
+   <div class="intercom-container"><img src="/assets/img/teams-pro/owner.png"></div>
+
 ### Managing Permissions Tips
 
 - **Review Regularly:** Regularly review permissions to ensure they align with team roles and responsibilities.
