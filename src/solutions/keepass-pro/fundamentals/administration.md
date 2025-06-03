@@ -63,8 +63,9 @@ If KeePass Pro is installed in a channel, <b>only the owners of the vault can ac
 Go to the <b>Recycle Bin section</b> in your KeePass Pro interface. From here, you can either <b>restore passwords </b>or <b>permanently delete them </b>to free up space and improve security.
 <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_recycle-bin.png"></div><p class="no-margin"></p>
 
-
- <tr>
+<table>
+  <tbody>
+    <tr>
       <td><img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24"></td>
       <td>Free</td>
       <td>Available to all users</td>
@@ -84,6 +85,9 @@ Go to the <b>Recycle Bin section</b> in your KeePass Pro interface. From here, y
       <td>Owner</td>
       <td>Reserved for the account owner</td>
     </tr>
+  </tbody>
+</table>
+
 <Intercom />
 <Hubspot />
 <Clarity />
