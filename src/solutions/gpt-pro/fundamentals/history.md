@@ -24,7 +24,20 @@ Evaluating chat history is an integral part of maintaining the quality of user i
 
 This feedback loop not only enhances the AI's learning but also ensures that user experiences remain at the forefront of the service's evolution. Through meticulous monitoring and evaluation, administrators can derive actionable insights and foster an environment of constant enhancement in AI communication strategies.
 
-![Manage plugins](/assets/img/gpt/history-evaluation.png)
+![History](/assets/img/gpt/history-evaluation.png)
+
+## Search into the History
+The chat history feature in GPT Pro allows users to easily find past interactions using an intuitive interface.
+At the top right of the history panel, you'll find:
+A keyword search bar: Type any keyword or phrase to quickly retrieve relevant conversations.
+A date picker: Filter your search results by selecting a specific date range.
+
+Benefits:
+- Precision: Find the exact interaction you're looking for, even in long conversation logs.
+- Speed: Save time by jumping directly to relevant exchanges.
+- Monitoring: Improve feedback and quality control with targeted conversation reviews.
+
+This functionality makes it easier than ever to analyze usage patterns, identify potential issues, and improve the user experience with your GPT Pro assistant.
 
 <Intercom />
 <Hubspot />
