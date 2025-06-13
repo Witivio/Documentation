@@ -64,6 +64,79 @@ Card anwser allows to add title, images, buttons.
 💡 If a similar question already exists, a message saying "We found a similar question" is displayed when adding a new question.
 :::
 
+##### Dialog:
+Dialog anwser in GPT Pro enable the creation of dynamic, multi-step conversations through a no-code visual editor. These flows help guide users through complex scenarios using conditional logic, variables, API calls, and user input collection.
+
+#### Accessing the Dialogue Editor
+1. Navigate to the **GPT Maker** section of your admin panel.
+2. Go to **Questions/Answers** and click **+ Add question**.
+3. Choose the type **Dialog**.
+4. Click on the created question to open the visual Dialog Editor.
+
+ ![Card answer published](/assets/img/gpt/dialog.png)
+
+#### Building the Dialogue Flow
+Use the drag-and-drop interface to assemble conversation blocks into a logical path. These blocks represent various actions or messages within your conversation.
+
+#### Available Components
+
+##### Send a Choice
+- Allows the user to pick between multiple options.
+- In the side panel, click **+ branch** to add more options.
+
+##### Send a Message
+- Displays static text content.
+
+##### Send a JSON
+- Sends a structured JSON payload (useful for integrations like adaptive cards).
+
+##### Send an Image
+- Displays an image directly in the chat.
+
+##### Start Another Dialogue Question
+- Triggers a new dialogue question from the flow to promote reusability.
+
+##### Ask a Question
+- Prompts the user for input.
+- **Mandatory:** Assign a **variable name** to store the answer for use later in the flow or for processing.
+
+##### Add a Pause
+- Adds a timed delay to make the flow feel more natural.
+
+##### Add a Variable
+- Set or update a variable dynamically.
+
+##### Call an API
+- Makes a call to an external API.
+- **Requirement:** The API must be defined under `QnAs > API Providers`.
+- Select the appropriate API from the dropdown.
+
+##### API Conditions
+- Add logic to guide the flow based on the API response.
+
+#### Editor Options
+
+##### Full-Screen Mode
+- Click **"Enter full screen"** to expand the editor view.
+
+#### Saving and Publishing
+- Click **Save** to record your work.
+- Then click **Publish** to make the dialogue accessible to users.
+- After publishing, you can compare the **Draft** vs the **Published** version to track changes.
+
+#### Best Practices
+- Always assign variables when using the **Ask a Question** block.
+- Preview and test your flow with real user cases.
+- Use modular questions and sub-dialogues for better maintenance.
+- Be mindful of API error handling and define fallback paths.
+
+#### Example Scenario: IT Support Request
+1. Prompt user to select a type of IT issue.
+2. Display guidance or ask follow-up questions based on their choice.
+3. Trigger an API call to create a ticket in your ITSM tool.
+4. Show confirmation message with reference number.
+
+This type of flow improves support operations by automating FAQs and ticket creation directly within Microsoft Teams.
 
 
 #### Editing Existing Entries

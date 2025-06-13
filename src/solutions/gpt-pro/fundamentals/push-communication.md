@@ -18,8 +18,10 @@ Company Communicator is a feature integrated into GPT Pro that enables proactive
 3. The application opens on the "Message Management" interface.
 
 ### Initial Configuration
+![Company Communicator Pro Dashboard](/assets/img/gpt/ccp-dashboard.png)
 
 #### Configuring Topics
+
 1. Go to settings and select "Topic."
 2. Click "Add a topic."
 3. Enter a title and description.
@@ -39,6 +41,7 @@ Company Communicator is a feature integrated into GPT Pro that enables proactive
 3. Upload your completed file.
 
 ## Message Management
+![Company Communicator Pro Message](/assets/img/gpt/ccp-message.png)
 
 ### Creating a New Message
 1. Click "New message."
@@ -74,9 +77,12 @@ Then, configure your message by completing the following fields:
 - Check the status of sent campaigns, number of recipients, failures, and send date.
 - Access detailed reports and statistics.
 
+![Company Communicator Pro Message](/assets/img/gpt/ccp-teams.png)
+
 ## Detailed Statistics and Analytics
 
 ### Campaign Reports
+![Company Communicator Pro Message](/assets/img/gpt/ccp-statistics.png)
 - **Filters:** filter campaigns by GPT or author.
 - **General Information:** quick overview of essential data.
 - **Deliverability:**
