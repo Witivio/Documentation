@@ -10,7 +10,8 @@
   "repository": "https://github.com/Witivio/documentation",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src",
+    "build:css": "sass src/.vuepress/styles/main.scss src/.vuepress/dist/main.css && cat src/.vuepress/dist/main.css src/.vuepress/styles/assets/css/*.css >> src/.vuepress/dist/vendor.concat.css && cleancss -o src/.vuepress/public/vendor.min.css src/.vuepress/dist/vendor.concat.css",
+    "build": "npm run build:css && vuepress build src",
     "build:azure": "vuepress build src"
   },
   "license": "MIT",
@@ -19,6 +20,8 @@
     "@vuepress/plugin-back-to-top": "^1.9.10",
     "@vuepress/plugin-medium-zoom": "^1.9.10",
     "@vuepress/plugin-register-components": "^1.9.10",
+    "clean-css-cli": "^5.6.3",
+    "sass": "^1.89.2",
     "vuepress": "^1.9.10"
   },
   "dependencies": {

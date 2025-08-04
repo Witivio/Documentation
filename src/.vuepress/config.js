@@ -8,7 +8,7 @@ module.exports = {
     ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
 
     ["link", { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" }],
-    ["link", { rel: "stylesheet", href: "https://www.teams-pro.com/css/vendor.min.css" }],
+    ['link', { rel: 'preload stylesheet', as: 'style', href: '/vendor.min.css', crossorigin: 'anonymous' }],
     ["link", { rel: "stylesheet", href: "https://www.teams-pro.com/css/index.css" }],
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
