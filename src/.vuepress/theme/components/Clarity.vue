@@ -21,7 +21,7 @@ export default {
         t.src = "https://www.clarity.ms/tag/" + i; 
         y = l.getElementsByTagName(r)[0]; 
         y.parentNode.insertBefore(t, y); 
-      })(window, document, "clarity", "script", "86qny1xjbr");
+      })(window, document, "clarity", "script", "mmo2twzhoy");
     `;
     document.head.appendChild(script);
   }
