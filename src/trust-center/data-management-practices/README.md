@@ -18,7 +18,7 @@ Through the implementation of its different features, Witivio solustions access,
 - Keepass Pro: [Architecture & Security](/architecture-security/keepass-pro/)
 - Map Pro: [Architecture & Security](/architecture-security/map-pro/)
 - Gantt Chart Pro: [Architecture & Security](/architecture-security/gantt-chart-pro/)
-- GPT Pro: [Architecture & Security](/architecture-security/gpt-pro/)
+- AI Desk: [Architecture & Security](/architecture-security/ai-desk/)
 - Green Center: [Architecture & Security](/architecture-security/green-center/)
 
 

@@ -72,21 +72,21 @@ This information is subject to change and we recommend that you check back quart
 * Justification/Purpose: Microsoft service used by Witivio solutions to collect anonymous telemetry
 
 
-### GPT Pro
+### AI Desk
 
-#### GPT Pro Web App
+#### AI Desk Web App
 * Domains/Hosts: ***.gpt-pro.com**
 * Justification/Purpose: GPTPro web applications for Microsoft Teams
 
-#### GPT Pro Help Center
+#### AI Desk Help Center
 * Domains/Hosts: **docs.witivio.com**
 
-#### GPT Pro Trust Center
+#### AI Desk Trust Center
 * Domains/Hosts: **trust.witivio.com**
 
-#### GPT Pro Admin Center
+#### AI Desk Admin Center
 * Domains/Hosts: **admin.gpt-pro.com**
-* Justification/Purpose: Admin center of GPT Pro
+* Justification/Purpose: Admin center of AI Desk
 
 #### Clarity
 * Domains/Hosts: **clarity.ms**

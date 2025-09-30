@@ -15,9 +15,9 @@ items:
   #   itemDescription: Meta Office Pro
   #   link: /solutions/meta-office-pro/overview/
   - title: GPT Pro
-    itemImage: /gpt-pro-icon.png
+    itemImage: /ai-desk-icon.png
     itemDescription: GPT Pro
-    link: /solutions/gpt-pro/overview/
+    link: /solutions/ai-desk/overview/
   - title: Calendar Pro
     itemImage: /calendar.png
     itemDescription: Calendar Pro
