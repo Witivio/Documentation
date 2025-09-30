@@ -197,3 +197,26 @@ Here are some best practices to optimize your Webchat experience:
 - **Before installation**, ensure your site’s URL is added in the **Security** tab in GPT Pro Admin center.  
 - **Customize the design** to match your brand identity.  
 - **Monitor user feedback** to continuously improve the experience.  
+
+
+## 5. Security
+
+### 5.1 Current authentication mode
+The Webchat currently operates in **Anonymous** mode. This means we do not collect any identifying information about the user interacting with the agent.
+
+- **Consequence**: it is not possible to perform API calls that require user authentication.
+- **Answer sources**: the bot’s answers rely exclusively on:
+  - **Local documents** indexed in the knowledge base → [Manage documents](./documents.md)
+  - **Q&A (Knowledge Base)** entries configured in the editor → [Q&A Editor](./Knowledge-Base-Editor.md)
+
+### 5.2 Upcoming changes
+💡 We are working on a Webchat version that will support **user authentication**:
+- via **Microsoft 365 SSO** when the user is signed in to their tenant,
+- or via a **sign‑in prompt** shown during the first exchange if no SSO is available.
+
+### 5.3 Domain allow‑listing
+All Webchat traffic goes through a **Bot Framework token**. This token can only be generated from **authorized pages** defined in GPT Pro configuration (see [2.3 Configuring Security](#23-configuring-security)). Make sure to add every domain where the Webchat is embedded.
+
+### 5.4 Flow diagram (message sending)
+
+![Webchat diagram](/assets/img/gpt/webchat-diagram-drawing.png)
