@@ -7,9 +7,12 @@ Printing your Calendar Pro overview is a straightforward process that allows you
 To print your Calendar Pro overview, follow these steps:
 
 1. Click on the **Settings button (⚙️)** next to the 'Day / Week / Month' button.
+<br>
+
 2. Select **'🖨️ Print'** from the dropdown menu.
 
-<div class="intercom-container"><img src="/assets/img/teams-pro/image_110.png"></div>
+<div class="intercom-container"><img src="/assets/img/teams-pro/calendar-pro/calendar-pro-12.png"></div>
+<br> 
 
 3. The print settings of your computer will appear, and Calendar Pro will open in a new dialog.
    

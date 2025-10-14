@@ -34,6 +34,17 @@
 3. **Delete event:**
    - To delete an event, click on the event in the calendar view and select "Delete."
 
+## Can I restore deleted events?
+Yes. Calendar Pro has a <b>data recovery option</b> for deleted events (from the updated site).
+
+## Will participants be notified when I add, edit, or delete an event?
+🔔 Yes. If <b>Notifications</b> are enabled in ⚙️ <b>Settings → Notifications</b>, Calendar Pro sends a Teams notification for <b>added/updated and deleted</b> events.
+
+## Who can edit events?
+Editing depends on <b>Permissions</b> set for the calendar (e.g., <b>everyone, owners only, or custom roles</b>). Users with edit rights can update event details and changes appear to all participants.
+
+## Do changes appear instantly for the team?
+Yes. Updates you save are reflected <b>immediately</b> in the shared calendar for all participants.
 
 <Intercom />
 <Hubspot />

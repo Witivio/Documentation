@@ -3,10 +3,24 @@ KeePass Pro is built around the concept of <b>vaults, tabs, and permissions</b>,
 
 ## Vaults
 
-Vaults are secure digital containers for your passwords. Each vault is protected by a<b> master password</b> and encrypted using<b> AES-256</b>, the industry standard for secure data storage. Vaults can be private (accessible only to the owner) or shared (accessible to multiple users). You can create<b> as many vaults as needed</b> to organize your passwords based on projects, departments, or clients.
-<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_new-vault.png"></div><p class="no-margin"></p> 
+Vaults are secure digital containers for your passwords. Each vault is protected by a<b> master password</b> and encrypted using<b> AES-256</b>, the industry standard for secure data storage. Vaults can be private (accessible only to the owner) or shared (accessible to multiple users).
+
+### Create & Organize Vaults
+<br>
+  <ol>
+    <li>Click the <strong>Settings</strong> button <span aria-label="settings">⚙️</span>.</li>
+    <br>
+    <li>Select <strong>Vault Settings</strong>.</li>
+    <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-1.png"></div><p class="no-margin"></p> 
+    <li>
+      <b>Configure your vaults.</b> You can create as many vaults as needed to organize passwords by
+      <em>projects</em>, <em>departments</em>, or <em>clients</em>.
+    </li>
+  </ol>
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-2.png"></div><p class="no-margin"></p> 
 
 ### Personal vs Shared Vaults
+<br>
 
 * <b>Personal Vaults</b> - Use these for your private passwords. These are not accessible to anyone else and can be <b>pinned to your Teams navigation bar</b>. Ideal for storing sensitive credentials like admin logins or confidential client information.
 <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_access-shared-vault.png"></div><p class="no-margin"></p> 
@@ -14,20 +28,22 @@ Vaults are secure digital containers for your passwords. Each vault is protected
 * <b>Shared Vaults</b> - These are added as <b>tabs in your Teams channels</b>, allowing you to share credentials securely with your colleagues. Perfect for collaborative work where multiple team members need access to shared resources like <b>server logins, Wi-Fi passwords, or API keys.</b>
 
 ### Key Vault Features:
+<br>
 
-* <b>Unlimited Password Storage</b> (depending on plan)
+* <b>Unlimited Password Storage</b> (depending on plan).
 
-* <b>AES-256 Encryption</b> for maximum security
+* <b>AES-256 Encryption</b> for maximum security.
 
-* <b>Master Password Protection</b> to prevent unauthorized access
+* <b>Master Password Protection</b> to prevent unauthorized access.
 
-* <b>Organized Folders</b> (Platinum only) for better password management
+* <b>Organized Folders</b> (Platinum only) for better password management.
 
 ## Tabs
 
 Tabs in KeePass Pro are used to organize your vaults<b> within Microsoft Teams</b>. Each tab corresponds to a specific vault, making it easy to <b>switch between different sets of passwords</b>. Adding KeePass Pro as a tab in a channel makes it accessible to all members of that channel.
 
 ### How to Use Tabs Effectively:
+<br>
 
 * <b>Project-Specific Tabs</b> - Use separate tabs for different projects or departments to avoid mixing credentials.
 
@@ -39,20 +55,36 @@ Tabs in KeePass Pro are used to organize your vaults<b> within Microsoft Teams</
 
 Permissions allow you to control who can <b>view, edit, and manage passwords</b> within each vault. KeePass Pro provides multiple levels of permission to ensure that <b>only authorized users have access to sensitive information</b>:
 
-### Global Permissions
-
-Apply to all users within a shared channel. Useful for setting up default access for large teams.
-
-### Custom Permissions
-
-Set <b>individual access levels</b> for each user, such as view-only, edit, delete, or full control. This is essential for controlling who can modify or delete sensitive credentials.
-<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_customize-permissions.png"></div><p class="no-margin"></p> 
+ ### Manage Permissions
+ <br>
+  <ol>
+    <li>Click the <strong>Settings</strong> button <span aria-label="settings">⚙️</span>.</li>
+    <br>
+    <li>Select <strong>Permissions</strong>.</li>
+    <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-3.png"></div><p class="no-margin"></p> 
+    <br>
+    <li>
+      Choose how you want to manage access:
+      <br>
+      <ul>
+        <li><strong>General permissions settings:</strong> Set the overall mode for the tab (e.g., who can add/edit/delete). Apply to all users within a shared channel. Useful for setting up default access for large teams. </li>
+        <br>
+        <li><strong>Customized permissions settings:</strong> Set individual access levels for each user, such as view-only, edit, delete, or full control. This is essential for controlling who can modify or delete sensitive credentials.</li>
+      </ul>
+      <br>
+      <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-4.png"></div><p class="no-margin"></p> 
+    </li>
+  </ol>
+  <p><strong>Tip:</strong> Start with general settings for most teams, then use customized permissions only where exceptions are required. ✅</p>
+</section>
 
 ### Folder/Password-Level Permissions
 
 Manage access at the <b>folder level for more granular control</b>. For example, you might restrict access to HR-related credentials to only the HR team.
 <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_folder-permissions.png"></div><p class="no-margin"></p> 
+
 ### Key Permission Settings:
+<br>
 
 * <b>Add Passwords</b> - Allow users to add new entries.
 
@@ -63,6 +95,25 @@ Manage access at the <b>folder level for more granular control</b>. For example,
 * <b>Owner Rights</b> - Transfer ownership of a vault to another team member (Platinum only).
 
 With these features, KeePass Pro offers a <b>complete, secure, and flexible password management solution</b> tailored for teams of all sizes.
+
+### Manage Folders
+<br>
+  <ol>
+    <li>Click the <strong>Settings</strong> button <span aria-label="settings">⚙️</span>.</li>
+    <br>
+    <li>In the menu, choose <strong>Folder administration</strong>.</li>
+    <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-5.png"></div><p class="no-margin"></p> 
+    <li>
+      To create a folder, click <strong>New folder</strong>, then enter the <em>name</em> and (if needed) set initial <em>permissions</em>. Confirm to save.
+      <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-6.png"></div><p class="no-margin"></p> 
+    </li>
+    <li>
+      To edit an existing folder, select it and choose <strong>Edit</strong> to update the <em>name</em> and/or <em>permissions</em>, then save.
+    </li>
+    <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-7.png"></div><p class="no-margin"></p> 
+  </ol>
+
+
 
 <Intercom />
 <Hubspot />

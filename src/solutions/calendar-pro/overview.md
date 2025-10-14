@@ -1,5 +1,5 @@
 ---
-tagTitle: User documentation for Calendar Pro.
+tagTitle: Calendar Pro Help Center — User Documentation
 tagLine: Calendar Pro is a collaborative calendar for Microsoft Teams. Add Calendar Pro into a channel to create a shared calendar with its members.
 heroImage: /calendar.png
 actionText: Get Started →
@@ -11,9 +11,9 @@ items:
 - title: What’s new
   itemImage: /light.svg
   link: /solutions/calendar-pro/whats-new/
-- title: Tutorials
+- title: Q&A
   itemImage: /graduation-hat.svg
-  link: /solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-my-calendar-pro-to-another-calendar/
+  link: /solutions/calendar-pro/Q&A/questions-and-answers/
 - title: Limits
   itemImage: /wheel.svg
   link: /solutions/calendar-pro/limits/

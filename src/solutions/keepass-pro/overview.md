@@ -1,5 +1,5 @@
 ---
-tagTitle: User documentation for KeePass Pro.
+tagTitle: KeePass Pro Help Center — User Documentation
 tagLine: Password management solution for Microsoft Teams
 heroImage: /keepass.png
 actionText: Get Started →
@@ -7,17 +7,17 @@ actionLink: /solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works
 items:
 - title: What is KeePass Pro?
   itemImage: /book.svg
-  link: /solutions/keepass-pro/getting-started-with-keepass-pro/what-is-keepass-pro/
+  link: /solutions/keepass-pro/getting-started-with-keepass-pro/get-started-guide/
 - title: How it works
   itemImage: /magnifier.svg
   link: /solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works/
 - title: Access to KeePass Pro plans
   itemImage: /access.svg
   link: /solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans/
-- title: Password management
+- title: Password Management
   itemImage: /password.svg
   link: /solutions/keepass-pro/fundamentals/password-management/
-- title: Sharing & collaboration
+- title: Sharing & Collaboration
   itemImage: /share.svg
   link: /solutions/keepass-pro/fundamentals/sharing-and-collaboration/
 - title: Administration
