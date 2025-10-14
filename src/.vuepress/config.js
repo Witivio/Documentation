@@ -222,7 +222,7 @@ module.exports = {
 							path: "/solutions/meta-office-pro/overview/",
 							children: [
 								['/solutions/meta-office-pro/overview.md', "Overview"],
-								['/solutions/meta-office-pro/get-started.md', "Get Started !"],
+								['/solutions/meta-office-pro/get-started.md', "Get Started!"],
 								['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
 								['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
 								['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
@@ -447,11 +447,10 @@ module.exports = {
               children: [
                 ["/solutions/calendar-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get Started!",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Get started guide"],
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/faq.md", "FAQ"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Get Started Guide"],
                   ],
                 },
                 {
@@ -459,34 +458,35 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "Calendar customization",
+                      title: "Calendar Customization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage view"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate calendar"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage notifications"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and manage public holiday"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage timezone"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage View"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate Calendar"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage Notifications"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and Manage Public Holiday"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage Timezone"],
                       ],
                     },
                     {
                       title: "Events",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing events"],
-                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced event personalization"],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing Events"],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-recurrent-events.md", "Managing Recurrent Events"],
+                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced Event Personalization"],
+                        ["/solutions/calendar-pro/fundamentals/events/files.md", "Files in an Event"],
                       ],
                     },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing permissions"],
-                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md", "FAQ"],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing Permissions"],
                       ],
                     },
                     {
-                      title: "Power automate connector",
+                      title: "Power Automate Connector",
                       collapsable: true,
                       children: [["/solutions/calendar-pro/fundamentals/power-automate-connector-calendar-pro/pa-overview.md", "Overview"]],
                     },
@@ -498,16 +498,22 @@ module.exports = {
                     {
                       title: "Tags",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/fundamentals/tags-in-calendar-pro/add-and-manage-tags.md", "Add and manage tags"]],
+                      children: [["/solutions/calendar-pro/fundamentals/tags-in-calendar-pro/add-and-manage-tags.md", "Add and Manage Tags"]],
+                    },
+                    {
+                      title: "Synchronization",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/calendar-pro/fundamentals/synchronization/synchronize.md", "Synchronization"],
+                      ],
                     },
                   ],
                 },
                 {
-                  title: "Pricing and subscription",
+                  title: "Pricing & Subscription",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
-                    ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
+                    ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Pricing & Subscription"],
                   ],
                 },
                 {
@@ -523,52 +529,10 @@ module.exports = {
                   ],
                 },
                 {
-                  title: "Tutorials",
+                  title: "Q&A",
                   collapsable: true,
                   children: [
-                    {
-                      title: "Synchronization",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-my-calendar-pro-to-another-calendar", "How to synchronize my Calendar Pro to another calendar?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-a-calendar-in-my-calendar-pro.md", "How to synchronize a calendar in my Calendar Pro?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-manage-my-synchronized-calendar.md", "How to manage my synchronized calendars?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-outlook-with-calendar-pro.md", "How to synchronize outlook with Calendar Pro?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/see-the-shared-synchronized-calendars", "See the shared synchronized calendars"],
-                      ],
-                    },
-                    {
-                      title: "Files",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"],
-                      ],
-                    },
-                    {
-                      title: "Single and recurrent events",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/tutorials/single-and-recurrent-events/can-we-delete-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro.md",
-                          "Can we delete a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
-                        ],
-                        [
-                          "/solutions/calendar-pro/tutorials/single-and-recurrent-events/can-we-edit-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro.md",
-                          "Can we edit a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
-                        ],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-add-a-recurrent-event.md", "How can I add a recurrent event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-add-an-event.md", "How can I add an event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-add-links-to-my-events.md", "How can I add links to my events?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-delete-an-event.md", "How can I delete an event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-edit-modify-a-recurrent-events.md", "How can I edit/modify a recurrent events?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-edit-modify-an-event.md", "How can I edit/modify an event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-to-see-the-event-id-in-calendar-pro.md", "How to see the Event ID in Calendar Pro?"],
-                        [
-                          "/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-to-see-the-series-id-of-a-recurrent-event-series-in-calendar-pro.md",
-                          "How to see the series Id of a recurrent event series in Calendar Pro?",
-                        ],
-                      ],
-                    },
+                    ["/solutions/calendar-pro/Q&A/questions-and-answers.md", "Calendar Pro Q&A"],
                   ],
                 },
                 ["/solutions/calendar-pro/whats-new.md", "What’s new​"],
@@ -659,44 +623,81 @@ module.exports = {
               children: [
                 ["/solutions/gantt-chart-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get Started!",
                   collapsable: true,
-                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to set up Gantt Chart Pro"]],
+                  children: [
+                    ["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "Get Started Guide"],
+                  
+                  ],
+
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
                     {
-                      title: "Pricing and licensing",
+                      title: "Tasks & Subtasks",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-all-channel-users-need-a-gantt-chart-pro-license-.md",
-                          "Do all channel users need a Gantt Chart Pro license?",
-                        ],
-                        [
-                          "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/what-s-the-difference-between-free-and-premium-gantt-chart-pro-.md",
-                          "What’s the difference between free and premium Gantt Chart Pro?",
-                        ],
+                        ["/solutions/gantt-chart-pro/fundamentals/tasks-and-subtasks.md","What it is"],
+                      ],        
+                    },
+                    {
+                      title: "Dependencies",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/dependencies.md","What it is"],
                       ],
                     },
-                  ],
-                },
-                {
-                  title: "Tutorials",
-                  collapsable: true,
-                  children: [
+                    {
+                      title: "Colors, Filter & Sort",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/colors-filter-sort.md","What it is"],
+                      ],
+                    },
+                    {
+                      title: "Export & Reporting",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/export-and-reporting.md","What it is"],
+                      ],
+                    },
+                    {
+                      title: "Milestones",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/milestones.md","What it is"],
+                      ],
+                    },
                     {
                       title: "Participants",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/gantt-chart-pro/participants-gantt-chart-pro/how-to-add-or-remove-participants-from-gantt-chart-pro-.md",
-                          "How to Add or Remove Participants from Gantt Chart Pro?",
-                        ],
+                        ["/solutions/gantt-chart-pro/fundamentals/participants.md","What it is"],
                       ],
                     },
+                     {
+                      title: "View & Timeline",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/view-and-timeline.md","What it is"],
+                      ],
+                    },                                                           
+                  ],
+                },
+                                {
+                  title: "Pricing & Subscription",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/gantt-chart-pro/pricing-and-subscription/plans.md", "Access to Gantt Chart Pro plans"],
+                  ],
+                },
+                {
+                  title: "Q&A",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/gantt-chart-pro/Q&A-gantt/questions-and-answers-gantt.md", "Gantt Chart Pro Q&A"],
                   ],
                 },
                 ["/solutions/gantt-chart-pro/whats-new.md", "What’s new​"],
@@ -829,23 +830,36 @@ module.exports = {
               children: [
                 ["/solutions/keepass-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get Started!",
                   collapsable: true,
                   children: [
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/what-is-keepass-pro.md", "What is KeePass Pro"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How it works"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/get-started-guide.md", "Get Started Guide"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How It Works"],
                   ]
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
-                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password management"],
-                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & collaboration"],
+                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password Management"],
+                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & Collaboration"],
                     ["/solutions/keepass-pro/fundamentals/administration.md", "Administration"],
                     ["/solutions/keepass-pro/fundamentals/vault-management.md", "Vault Management"],
                     ["/solutions/keepass-pro/fundamentals/limitations.md", "Limitations"],
+                  ],
+                },
+                {
+                  title: "Pricing & Subscription",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
+                  ],
+                },
+                {
+                  title: "Q&A",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/keepass-pro/Q&A/questions-and-answers.md", "KeePass Pro Q&A"],
                   ],
                 },
               ],
@@ -1023,7 +1037,7 @@ module.exports = {
           collapsable: true,
           children: [
             ["/solutions/", "Overview"],
-            {
+            /*{
               title: "Virtual Agent Studio",
               collapsable: true,
               path: "/solutions/virtual-agent-studio/chatbot/build_your_chatbot/",
@@ -1196,13 +1210,13 @@ module.exports = {
                 },
               ],
             },
-            /*{
+            {
 							title: 'Meta Office Pro',
 							collapsable: true,
 							path: "/solutions/meta-office-pro/overview/",
 							children: [
 								['/solutions/meta-office-pro/overview.md', "Overview"],
-								['/solutions/meta-office-pro/get-started.md', "Get Started !"],
+								['/solutions/meta-office-pro/get-started.md', "Get Started!"],
 								['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
 								['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
 								['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
@@ -1297,8 +1311,9 @@ module.exports = {
                         ],
                         ["/solutions/admin-center/manage-my-subscription/why-can-t-a-transfer-be-initiated.md", "Why can't a transfer be initiated"],
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
-                        ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply a coupon code"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
                         ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for educational and non-profit organizations"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-download-user-team-id-for-license-assignment.md", "How to download the User Team ID for license assignment"],
                       ],
                     },
                   ],
@@ -1316,7 +1331,7 @@ module.exports = {
               children: [
                 ["/solutions/booking-room-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get started!",
                   collapsable: true,
                   children: [
                     [
@@ -1359,9 +1374,9 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "View options",
+                      title: "Outlook integration",
                       collapsable: true,
-                      children: [["/solutions/booking-room-pro/booking-room-pro-view-options/how-can-i-change-the-view-and-day-of-the-week-.md", "How can I change the view and day of the week?"]],
+                      children: [["/solutions/booking-room-pro/booking-room-pro-outlook-add-in/how-to-use-booking-room-pro-outlook.md", "How to Use the Booking Room Pro Add-in in Outlook"]],
                     },
                     {
                       title: "Permissions",
@@ -1407,6 +1422,11 @@ module.exports = {
                       collapsable: true,
                       children: [["/solutions/booking-room-pro/time-zones-in-booking-room-pro/how-to-change-the-time-zone-.md", "How to change the time zone?"]],
                     },
+                    {
+                      title: "View options",
+                      collapsable: true,
+                      children: [["/solutions/booking-room-pro/booking-room-pro-view-options/how-can-i-change-the-view-and-day-of-the-week-.md", "How can I change the view and day of the week?"]],
+                    },
                   ],
                 },
                 ["/solutions/booking-room-pro/whats-new.md", "What’s new​"],
@@ -1421,11 +1441,10 @@ module.exports = {
               children: [
                 ["/solutions/calendar-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get Started!",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Get started guide"],
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/faq.md", "FAQ"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Get Started Guide"],
                   ],
                 },
                 {
@@ -1433,34 +1452,35 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "Calendar customization",
+                      title: "Calendar Customization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage view"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate calendar"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage notifications"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and manage public holiday"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage timezone"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage View"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate Calendar"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage Notifications"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and Manage Public Holiday"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage Timezone"],
                       ],
                     },
                     {
                       title: "Events",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing events"],
-                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced event personalization"],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing Events"],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-recurrent-events.md", "Managing Recurrent Events"],
+                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced Event Personalization"],
+                        ["/solutions/calendar-pro/fundamentals/events/files.md", "Files in an Event"],
                       ],
                     },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing permissions"],
-                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md", "FAQ"],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing Permissions"],
                       ],
                     },
                     {
-                      title: "Power automate connector",
+                      title: "Power Automate Connector",
                       collapsable: true,
                       children: [["/solutions/calendar-pro/fundamentals/power-automate-connector-calendar-pro/pa-overview.md", "Overview"]],
                     },
@@ -1472,16 +1492,22 @@ module.exports = {
                     {
                       title: "Tags",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/fundamentals/tags-in-calendar-pro/add-and-manage-tags.md", "Add and manage tags"]],
+                      children: [["/solutions/calendar-pro/fundamentals/tags-in-calendar-pro/add-and-manage-tags.md", "Add and Manage Tags"]],
+                    },
+                    {
+                      title: "Synchronization",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/calendar-pro/fundamentals/synchronization/synchronize.md", "Synchronization"],
+                      ],
                     },
                   ],
                 },
                 {
-                  title: "Pricing and subscription",
+                  title: "Pricing & Subscription",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
-                    ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
+                    ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Pricing & Subscription"],
                   ],
                 },
                 {
@@ -1497,52 +1523,10 @@ module.exports = {
                   ],
                 },
                 {
-                  title: "Tutorials",
+                  title: "Q&A",
                   collapsable: true,
                   children: [
-                    {
-                      title: "Synchronization",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-my-calendar-pro-to-another-calendar.md", "How to synchronize my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-a-calendar-in-my-calendar-pro.md", "How to synchronize a calendar in my Calendar Pro?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-manage-my-synchronized-calendar.md", "How to manage my synchronized calendars?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-outlook-with-calendar-pro.md", "How to synchronize outlook with Calendar Pro?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/see-the-shared-synchronized-calendars.md", "See the shared synchronized calendars"],
-                      ],
-                    },
-                    {
-                      title: "Files",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"],
-                      ],
-                    },
-                    {
-                      title: "Single and recurrent events",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/tutorials/single-and-recurrent-events/can-we-delete-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro.md",
-                          "Can we delete a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
-                        ],
-                        [
-                          "/solutions/calendar-pro/tutorials/single-and-recurrent-events/can-we-edit-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro.md",
-                          "Can we edit a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
-                        ],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-add-a-recurrent-event.md", "How can I add a recurrent event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-add-an-event.md", "How can I add an event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-add-links-to-my-events.md", "How can I add links to my events?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-delete-an-event.md", "How can I delete an event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-edit-modify-a-recurrent-events.md", "How can I edit/modify a recurrent events?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-edit-modify-an-event.md", "How can I edit/modify an event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-to-see-the-event-id-in-calendar-pro.md", "How to see the Event ID in Calendar Pro?"],
-                        [
-                          "/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-to-see-the-series-id-of-a-recurrent-event-series-in-calendar-pro.md",
-                          "How to see the series Id of a recurrent event series in Calendar Pro?",
-                        ],
-                      ],
-                    },
+                    ["/solutions/calendar-pro/Q&A/questions-and-answers.md", "Calendar Pro Q&A"],
                   ],
                 },
                 ["/solutions/calendar-pro/whats-new.md", "What’s new​"],
@@ -1633,44 +1617,81 @@ module.exports = {
               children: [
                 ["/solutions/gantt-chart-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get Started!",
                   collapsable: true,
-                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to set up Gantt Chart Pro"]],
+                  children: [
+                    ["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "Get Started Guide"],
+                  
+                  ],
+
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
                     {
-                      title: "Pricing and licensing",
+                      title: "Tasks & Subtasks",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-all-channel-users-need-a-gantt-chart-pro-license-.md",
-                          "Do all channel users need a Gantt Chart Pro license?",
-                        ],
-                        [
-                          "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/what-s-the-difference-between-free-and-premium-gantt-chart-pro-.md",
-                          "What’s the difference between free and premium Gantt Chart Pro?",
-                        ],
+                        ["/solutions/gantt-chart-pro/fundamentals/tasks-and-subtasks.md","What it is"],
+                      ],        
+                    },
+                    {
+                      title: "Dependencies",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/dependencies.md","What it is"],
                       ],
                     },
-                  ],
-                },
-                {
-                  title: "Tutorials",
-                  collapsable: true,
-                  children: [
+                    {
+                      title: "Colors, Filter & Sort",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/colors-filter-sort.md","What it is"],
+                      ],
+                    },
+                    {
+                      title: "Export & Reporting",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/export-and-reporting.md","What it is"],
+                      ],
+                    },
+                    {
+                      title: "Milestones",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/milestones.md","What it is"],
+                      ],
+                    },
                     {
                       title: "Participants",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/gantt-chart-pro/participants-gantt-chart-pro/how-to-add-or-remove-participants-from-gantt-chart-pro-.md",
-                          "How to Add or Remove Participants from Gantt Chart Pro?",
-                        ],
+                        ["/solutions/gantt-chart-pro/fundamentals/participants.md","What it is"],
                       ],
                     },
+                     {
+                      title: "View & Timeline",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/view-and-timeline.md","What it is"],
+                      ],
+                    },                                                           
+                  ],
+                },
+                                {
+                  title: "Pricing & Subscription",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/gantt-chart-pro/pricing-and-subscription/plans.md", "Access to Gantt Chart Pro plans"],
+                  ],
+                },
+                {
+                  title: "Q&A",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/gantt-chart-pro/Q&A-gantt/questions-and-answers-gantt.md", "Gantt Chart Pro Q&A"],
                   ],
                 },
                 ["/solutions/gantt-chart-pro/whats-new.md", "What’s new​"],
@@ -1803,23 +1824,36 @@ module.exports = {
               children: [
                 ["/solutions/keepass-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get Started!",
                   collapsable: true,
                   children: [
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/what-is-keepass-pro.md", "What is KeePass Pro"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How it works"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
-                  ],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/get-started-guide.md", "Get Started Guide"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How It Works"],
+                  ]
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
-                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password management"],
-                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & collaboration"],
+                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password Management"],
+                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & Collaboration"],
                     ["/solutions/keepass-pro/fundamentals/administration.md", "Administration"],
                     ["/solutions/keepass-pro/fundamentals/vault-management.md", "Vault Management"],
                     ["/solutions/keepass-pro/fundamentals/limitations.md", "Limitations"],
+                  ],
+                },
+                {
+                  title: "Pricing & Subscription",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
+                  ],
+                },
+                {
+                  title: "Q&A",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/keepass-pro/Q&A/questions-and-answers.md", "KeePass Pro Q&A"],
                   ],
                 },
               ],
@@ -1997,7 +2031,7 @@ module.exports = {
           collapsable: true,
           children: [
             ["/solutions/", "Overview"],
-            {
+            /*{
               title: "Virtual Agent Studio",
               collapsable: true,
               path: "/solutions/virtual-agent-studio/chatbot/build_your_chatbot/",
@@ -2170,13 +2204,13 @@ module.exports = {
                 },
               ],
             },
-            /*{
+            {
 							title: 'Meta Office Pro',
 							collapsable: true,
 							path: "/solutions/meta-office-pro/overview/",
 							children: [
 								['/solutions/meta-office-pro/overview.md', "Overview"],
-								['/solutions/meta-office-pro/get-started.md', "Get Started !"],
+								['/solutions/meta-office-pro/get-started.md', "Get Started!"],
 								['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
 								['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
 								['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
@@ -2220,7 +2254,7 @@ module.exports = {
                   children: [
                     ["/solutions/gpt-pro/tutorials/plugins.md", "Plugins"],
                     ["/solutions/gpt-pro/tutorials/high-permorming-agent.md", "High-Performing Agent"]
-                  ],
+                ],
                 },
                 {
                   title: "Migrations",
@@ -2273,6 +2307,7 @@ module.exports = {
                         ["/solutions/admin-center/manage-my-subscription/what-are-the-rights-of-super-admin-and-admin-role.md", "What are the rights of super admin and admin roles"],
                         ["/solutions/admin-center/manage-my-subscription/how-to-apply-coupon-code.md", "How to apply coupon code"],
                         ["/solutions/admin-center/manage-my-subscription/discounts-for-educational-and-non-profit-organizations.md", "Discounts for educational and non-profit organizations"],
+                        ["/solutions/admin-center/manage-my-subscription/how-to-download-user-team-id-for-license-assignment.md", "How to download the User Team ID for license assignment"],
                       ],
                     },
                   ],
@@ -2290,7 +2325,7 @@ module.exports = {
               children: [
                 ["/solutions/booking-room-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get started!",
                   collapsable: true,
                   children: [
                     [
@@ -2333,9 +2368,9 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "View options",
+                      title: "Outlook integration",
                       collapsable: true,
-                      children: [["/solutions/booking-room-pro/booking-room-pro-view-options/how-can-i-change-the-view-and-day-of-the-week-.md", "How can I change the view and day of the week?"]],
+                      children: [["/solutions/booking-room-pro/booking-room-pro-outlook-add-in/how-to-use-booking-room-pro-outlook.md", "How to Use the Booking Room Pro Add-in in Outlook"]],
                     },
                     {
                       title: "Permissions",
@@ -2381,6 +2416,11 @@ module.exports = {
                       collapsable: true,
                       children: [["/solutions/booking-room-pro/time-zones-in-booking-room-pro/how-to-change-the-time-zone-.md", "How to change the time zone?"]],
                     },
+                    {
+                      title: "View options",
+                      collapsable: true,
+                      children: [["/solutions/booking-room-pro/booking-room-pro-view-options/how-can-i-change-the-view-and-day-of-the-week-.md", "How can I change the view and day of the week?"]],
+                    },
                   ],
                 },
                 ["/solutions/booking-room-pro/whats-new.md", "What’s new​"],
@@ -2395,11 +2435,10 @@ module.exports = {
               children: [
                 ["/solutions/calendar-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get Started!",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Get started guide"],
-                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/faq.md", "FAQ"],
+                    ["/solutions/calendar-pro/getting-started-with-calendar-pro/overview.md", "Get Started Guide"],
                   ],
                 },
                 {
@@ -2407,34 +2446,35 @@ module.exports = {
                   collapsable: true,
                   children: [
                     {
-                      title: "Calendar customization",
+                      title: "Calendar Customization",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage view"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate calendar"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage notifications"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and manage public holiday"],
-                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage timezone"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/calendar-pro-overview.md", "Manage View"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/duplicate-calendar-pro-in-other-channel.md", "Duplicate Calendar"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/notifications.md", "Manage Notifications"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/public-holiday.md", "Set up and Manage Public Holiday"],
+                        ["/solutions/calendar-pro/fundamentals/calendar-customization/timezones.md", "Manage Timezone"],
                       ],
                     },
                     {
                       title: "Events",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing events"],
-                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced event personalization"],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-events.md", "Managing Events"],
+                        ["/solutions/calendar-pro/fundamentals/events/managing-recurrent-events.md", "Managing Recurrent Events"],
+                        ["/solutions/calendar-pro/fundamentals/events/personalizing-events-calendar.md", "Advanced Event Personalization"],
+                        ["/solutions/calendar-pro/fundamentals/events/files.md", "Files in an Event"],
                       ],
                     },
                     {
                       title: "Permissions",
                       collapsable: true,
                       children: [
-                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing permissions"],
-                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/permissions-faq.md", "FAQ"],
+                        ["/solutions/calendar-pro/fundamentals/permisssions-in-calendar-pro/managing-permissions.md", "Managing Permissions"],
                       ],
                     },
                     {
-                      title: "Power automate connector",
+                      title: "Power Automate Connector",
                       collapsable: true,
                       children: [["/solutions/calendar-pro/fundamentals/power-automate-connector-calendar-pro/pa-overview.md", "Overview"]],
                     },
@@ -2446,16 +2486,22 @@ module.exports = {
                     {
                       title: "Tags",
                       collapsable: true,
-                      children: [["/solutions/calendar-pro/fundamentals/tags-in-calendar-pro/add-and-manage-tags.md", "Add and manage tags"]],
+                      children: [["/solutions/calendar-pro/fundamentals/tags-in-calendar-pro/add-and-manage-tags.md", "Add and Manage Tags"]],
+                    },
+                    {
+                      title: "Synchronization",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/calendar-pro/fundamentals/synchronization/synchronize.md", "Synchronization"],
+                      ],
                     },
                   ],
                 },
                 {
-                  title: "Pricing and subscription",
+                  title: "Pricing & Subscription",
                   collapsable: true,
                   children: [
-                    ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Setup and installation"],
-                    ["/solutions/calendar-pro/pricing-and-subscription/what-is-the-difference-between-calendar-pro-premium-vs-free-.md", "FAQ"],
+                    ["/solutions/calendar-pro/pricing-and-subscription/managing-subscription.md", "Pricing & Subscription"],
                   ],
                 },
                 {
@@ -2471,52 +2517,10 @@ module.exports = {
                   ],
                 },
                 {
-                  title: "Tutorials",
+                  title: "Q&A",
                   collapsable: true,
                   children: [
-                    {
-                      title: "Synchronization",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-my-calendar-pro-to-another-calendar.md", "How to synchronize my calendar pro to another calendar?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-a-calendar-in-my-calendar-pro.md", "How to synchronize a calendar in my Calendar Pro?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-manage-my-synchronized-calendar.md", "How to manage my synchronized calendars?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/how-to-synchronize-outlook-with-calendar-pro.md", "How to synchronize outlook with Calendar Pro?"],
-                        ["/solutions/calendar-pro/tutorials/synchronization/see-the-shared-synchronized-calendars.md", "See the shared synchronized calendars"],
-                      ],
-                    },
-                    {
-                      title: "Files",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/calendar-pro/tutorials/adding-files-calendar-pro/how-to-add-files-in-an-event-of-my-calendar-pro.md", "How do I add files in an event of my Calendar Pro?"],
-                      ],
-                    },
-                    {
-                      title: "Single and recurrent events",
-                      collapsable: true,
-                      children: [
-                        [
-                          "/solutions/calendar-pro/tutorials/single-and-recurrent-events/can-we-delete-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro.md",
-                          "Can we delete a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
-                        ],
-                        [
-                          "/solutions/calendar-pro/tutorials/single-and-recurrent-events/can-we-edit-a-single-occurrence-which-is-a-part-of-a-series-of-recurrent-events-in-calendar-pro.md",
-                          "Can we edit a single occurrence which is a part of a series of recurrent events in Calendar Pro?",
-                        ],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-add-a-recurrent-event.md", "How can I add a recurrent event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-add-an-event.md", "How can I add an event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-add-links-to-my-events.md", "How can I add links to my events?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-delete-an-event.md", "How can I delete an event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-edit-modify-a-recurrent-events.md", "How can I edit/modify a recurrent events?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-can-i-edit-modify-an-event.md", "How can I edit/modify an event?"],
-                        ["/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-to-see-the-event-id-in-calendar-pro.md", "How to see the Event ID in Calendar Pro?"],
-                        [
-                          "/solutions/calendar-pro/tutorials/single-and-recurrent-events/how-to-see-the-series-id-of-a-recurrent-event-series-in-calendar-pro.md",
-                          "How to see the series Id of a recurrent event series in Calendar Pro?",
-                        ],
-                      ],
-                    },
+                    ["/solutions/calendar-pro/Q&A/questions-and-answers.md", "Calendar Pro Q&A"],
                   ],
                 },
                 ["/solutions/calendar-pro/whats-new.md", "What’s new​"],
@@ -2607,44 +2611,81 @@ module.exports = {
               children: [
                 ["/solutions/gantt-chart-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get Started!",
                   collapsable: true,
-                  children: [["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "How to set up Gantt Chart Pro"]],
+                  children: [
+                    ["/solutions/gantt-chart-pro/getting-started-with-gantt-chart-pro/how-to-set-up-gantt-chart-pro-.md", "Get Started Guide"],
+                  
+                  ],
+
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
                     {
-                      title: "Pricing and licensing",
+                      title: "Tasks & Subtasks",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/do-all-channel-users-need-a-gantt-chart-pro-license-.md",
-                          "Do all channel users need a Gantt Chart Pro license?",
-                        ],
-                        [
-                          "/solutions/gantt-chart-pro/pricing-and-licensing-of-gantt-chart-pro/what-s-the-difference-between-free-and-premium-gantt-chart-pro-.md",
-                          "What’s the difference between free and premium Gantt Chart Pro?",
-                        ],
+                        ["/solutions/gantt-chart-pro/fundamentals/tasks-and-subtasks.md","What it is"],
+                      ],        
+                    },
+                    {
+                      title: "Dependencies",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/dependencies.md","What it is"],
                       ],
                     },
-                  ],
-                },
-                {
-                  title: "Tutorials",
-                  collapsable: true,
-                  children: [
+                    {
+                      title: "Colors, Filter & Sort",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/colors-filter-sort.md","What it is"],
+                      ],
+                    },
+                    {
+                      title: "Export & Reporting",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/export-and-reporting.md","What it is"],
+                      ],
+                    },
+                    {
+                      title: "Milestones",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/milestones.md","What it is"],
+                      ],
+                    },
                     {
                       title: "Participants",
                       collapsable: true,
                       children: [
-                        [
-                          "/solutions/gantt-chart-pro/participants-gantt-chart-pro/how-to-add-or-remove-participants-from-gantt-chart-pro-.md",
-                          "How to Add or Remove Participants from Gantt Chart Pro?",
-                        ],
+                        ["/solutions/gantt-chart-pro/fundamentals/participants.md","What it is"],
                       ],
                     },
+                     {
+                      title: "View & Timeline",
+                      collapsable: true,
+                      children: [
+                        ["/solutions/gantt-chart-pro/fundamentals/view-and-timeline.md","What it is"],
+                      ],
+                    },                                                           
+                  ],
+                },
+                                {
+                  title: "Pricing & Subscription",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/gantt-chart-pro/pricing-and-subscription/plans.md", "Access to Gantt Chart Pro plans"],
+                  ],
+                },
+                {
+                  title: "Q&A",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/gantt-chart-pro/Q&A-gantt/questions-and-answers-gantt.md", "Gantt Chart Pro Q&A"],
                   ],
                 },
                 ["/solutions/gantt-chart-pro/whats-new.md", "What’s new​"],
@@ -2688,7 +2729,7 @@ module.exports = {
                 ["/solutions/home-pro/changelog.md", "Changelog​"],
               ],
             },
-                        {
+            {
               title: "Reminds Pro",
               collapsable: true,
               path: "/solutions/reminds-pro/overview/",
@@ -2777,23 +2818,36 @@ module.exports = {
               children: [
                 ["/solutions/keepass-pro/overview.md", "Overview"],
                 {
-                  title: "Get started !",
+                  title: "Get Started!",
                   collapsable: true,
                   children: [
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/what-is-keepass-pro.md", "What is KeePass Pro"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How it works"],
-                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
-                ],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/get-started-guide.md", "Get Started Guide"],
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/how-it-works.md", "How It Works"],
+                  ]
                 },
                 {
                   title: "Fundamentals",
                   collapsable: true,
                   children: [
-                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password management"],
-                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & collaboration"],
+                    ["/solutions/keepass-pro/fundamentals/password-management.md", "Password Management"],
+                    ["/solutions/keepass-pro/fundamentals/sharing-and-collaboration.md", "Sharing & Collaboration"],
                     ["/solutions/keepass-pro/fundamentals/administration.md", "Administration"],
                     ["/solutions/keepass-pro/fundamentals/vault-management.md", "Vault Management"],
                     ["/solutions/keepass-pro/fundamentals/limitations.md", "Limitations"],
+                  ],
+                },
+                {
+                  title: "Pricing & Subscription",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/keepass-pro/getting-started-with-keepass-pro/access-to-keepass-pro-plans.md", "Access to KeePass Pro plans"],
+                  ],
+                },
+                {
+                  title: "Q&A",
+                  collapsable: true,
+                  children: [
+                    ["/solutions/keepass-pro/Q&A/questions-and-answers.md", "KeePass Pro Q&A"],
                   ],
                 },
               ],

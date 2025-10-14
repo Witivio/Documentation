@@ -1,4 +1,38 @@
-# How to set up Gantt Chart Pro?
+# Gantt Chart Pro – Get Started Guide
+
+<b>Welcome to Gantt Chart Pro</b>, your interactive Gantt app for <b>Microsoft Teams</b>. This guide gives you a quick overview and the core features so you can <b>plan</b> and <b>visualize</b> projects directly inside Teams.
+
+## Overview
+<b>Gantt Chart Pro</b> lets teams build clear, <b>interactive</b> timelines right in a Teams tab. <b>Create tasks</b> and <b>subtasks, set dependencies</b> and <b>milestones, color-code work, assign participants,</b> and <b>track progress</b> without leaving Teams. You can also export a snapshot of your plan when you need to share or archive it.🔄🗂️
+
+## Key Features
+- **Interactive Gantt charts in Teams:** Visualize timelines and adjust schedules directly in a channel tab.
+
+
+- **Tasks & subtasks:** Break work down for clarity and ownership. 
+
+
+- **Milestones & color-coding:** Highlight key dates and visually classify tasks at a glance. 
+
+
+
+- **Dependencies:** Link tasks to reflect real sequencing and impacts. 
+
+
+- **Participants / resource assignment & progress tracking:** Assign work and update % complete so everyone sees status in context. 
+
+
+- **Export options:** Export the Gantt chart to CSV or PDF for reporting or sharing outside Teams. 
+
+
+- **Permissions (edit control):** Choose whether everyone or owners only can edit; use the tab to keep collaboration inside Teams. 
+
+
+- **Plans & limits:** Free mode is great for pilots; Premium lifts core limits (e.g., from 5 tasks / 3 participants to unlimited) so you can scale.
+
+## Commom Questions 
+
+### How to set up Gantt Chart Pro?
 
 <p class="no-margin">To make the most out of Gantt Chart Pro in effectively managing your project, follow these steps:</p>
 <ol>
@@ -26,7 +60,7 @@
 <p class="no-margin"></p>
 <div class="intercom-container"><img src="/assets/img/teams-pro/image_20.png"></div><p class="no-margin"></p>
 
-# How to find the Tab ID (Unique Identifier) in Gantt Chart Pro
+### How to find the Tab ID (Unique Identifier) in Gantt Chart Pro
 
 <p class="no-margin">To locate the <strong>Tab ID</strong> (also called the <strong>unique identifier</strong>) for your Gantt Chart Pro instance:</p>
 
@@ -41,13 +75,6 @@
 <div class="intercom-container">
   <img src="/assets/img/teams-pro/gantt-chart-pro/gantt-id.png" alt="How to find the unique identifier in Gantt Chart Pro" />
 </div>
-
-<Intercom />
-<Hubspot />
-<Clarity />
-<GoogleAnalytics />
-
-
 
 <Intercom />
 <Hubspot />

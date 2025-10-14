@@ -1,73 +1,106 @@
-# Managing Subscription
+# Managing Subscription (Calendar Pro)
 
-Managing your subscription to Calendar Pro is a straightforward process. Whether you need to upgrade, downgrade, cancel, or update your billing information, we've made it easy to manage your subscription directly from your account dashboard. Here's a step-by-step guide to help you manage your subscription effectively:
+Managing your subscription to Calendar Pro is a straightforward process. Whether you need to upgrade, downgrade, cancel, or update your billing information, we've made it easy to manage your subscription directly from your account dashboard <a href="https://admin.teams-pro.com/" target="_blank" rel="noopener">admin.teams-pro.com</a>. Here's a step-by-step guide to help you manage your subscription effectively:
 
-## Upgrading Your Subscription Settings When Your Team Already Has a License
-In the case that your team / organization already has a license of Calendar Pro, you can 
+## Where to manage your subscription
+
+  <ul>
+    <li><strong>Admin Center:</strong> sign in with your Microsoft account at <a href="https://admin.teams-pro.com/" target="_blank" rel="noopener">admin.teams-pro.com</a> to purchase or manage subscriptions (plans, seats, billing). Access is secure and centralized 🔐.</li>
+    <li><strong>Product page (plans &amp; simulator):</strong> review features by plan and use the simulator to estimate cost, then continue to Admin Center to complete purchase <a href="https://www.teams-pro.com/en/calendar-pro/#plans-feature" target="_blank" rel="noopener">Calendar Pro – Plans &amp; Features</a></li>
+  </ul>
+
 
 ## Managing Your Subscription Settings as a super-admin
 
 ### **Login from the Admin Teams Pro Dashboard**
-   - Navigate to the admin.teams-pro.com and log in using your microsoft credentials. Create an account if you don't have one, it's simple in just a click away.
-   - Once logged in, you can either purchase or upgrade your subscription.
-   - Select "Account Settings" from the dropdown menu.
+   - Navigate to the <a href="https://admin.teams-pro.com/" target="_blank" rel="noopener">admin.teams-pro.com</a> and log in using your <b>Microsoft credentials</b> 🔑. Create an account if you don't have one, it's simple in just a click away ⚡.
+   - Once logged in, you can either <b>purchase</b> or <b>upgrade</b> your subscription 🛒.
 
-### Upgrading or Downgrading Your Plan as an admin
 
-1. **Access Calendar Pro's subscription page**
-   - On the 'purchase apps' section on your admin.teams-pro.com , click on Calendar Pro section.
+### 🔢 Licence Quantity as an admin
 
-2. **Review Available Plans**
-   - On the 'Calendar Pro' page, you will see a list of available subscription plans, including the features and pricing for each tier.
+  <ol>
+    <li>Open the <a href="https://admin.teams-pro.com/" target="_blank" rel="noopener"><strong>Teams-Pro Admin Center</strong></a>.</li>
+    <li>Click <strong>My Products</strong> in the top menu.</li>
+    <li>Select the product you want to manage (e.g., <strong>Calendar Pro</strong>, <strong>KeePass Pro</strong>) to open its product page.</li>
+    <li>Click <strong>Manage Subscription</strong>.</li>
+    <li>Click <strong>Edit Subscription</strong>.</li>
+    <li>Edit the <strong>number of licenses</strong> as needed, then <strong>Save/Confirm</strong>. ✅</li>
+  </ol>
+  <p><em>Tip:</em> Review changes before confirming. If applicable, pro-rated charges or credits may appear on your next invoice.</p>
 
-3. **Select a New Plan**
-   - Choose the plan that best fits your needs. Click on the "Subscribe" button on the desired plan. Select on the desired plan
+  ### ⬆️ Upgrade Your Plan as an admin
+  <ol>
+    <li>Open the <a href="https://admin.teams-pro.com/" target="_blank" rel="noopener"><strong>Teams-Pro Admin Center</strong></a>.</li>
+    <li>Click the <strong>Purchase apps</strong> tab in the top menu.</li>
+    <li>Select the <strong>product</strong> you want to upgrade (e.g., Calendar Pro, KeePass Pro).</li>
+    <li>Scroll to the <strong>plan comparison</strong> table.</li>
+    <li>Choose the <strong>new plan</strong> you want and click <strong>Subscribe/Upgrade</strong>.</li>
+    <li>Review the summary, then click <strong>Confirm</strong> to complete the upgrade. ✅</li>
+  </ol>
+  <p><em>Note:</em> Any price difference is typically handled with <strong>pro-rated charges or credits</strong> on your next invoice.</p>
 
-3. **Confirm Changes**
-   - Review the changes and any pro-rated charges or credits that will be applied to your account. Click "Confirm" to finalize the switch.
+### 💳 Updating Payment Information
 
-### Updating Payment Information
+ <ol>
+    <li>Open the <a href="https://admin.teams-pro.com/" target="_blank" rel="noopener"><strong>Teams-Pro Admin Center</strong></a>.</li>
+    <li>Go to <strong>Billing</strong> (profile icon/name → <strong>Billing</strong>).</li>
+    <li>Click <strong>Payment methods</strong>.</li>
+    <li>Select <strong>Add payment method</strong> or <strong>Edit</strong> on the existing method.</li>
+    <li>Enter the new <strong>card details</strong> (number, expiry, CVV) and billing info.</li>
+    <li>Click <strong>Save</strong>. ✅</li>
+  </ol>
 
-1. **Access Billing Information**
-   - In the Subscription tab, find the "Billing Information" section.
+#### 🧾 Viewing and Downloading Invoices
 
-2. **Edit Payment Details**
-   - Click the "Edit" button next to your current payment method. Enter your new payment information, including card number, expiration date, and CVV.
+  <ol>
+    <li>Open the <a href="https://admin.teams-pro.com/" target="_blank" rel="noopener"><strong>Teams-Pro Admin Center</strong></a>.</li>
+    <li>Click your <strong>profile icon/name</strong> (top-right) and select <strong>Billing</strong>.</li>
+    <li>Go to <strong>Billing History</strong>.</li>
+    <li>Find the invoice you need and click <strong>Download</strong>. The PDF will download automatically. 📥</li>
+  </ol>
 
-3. **Save Changes**
-   - Once you’ve entered the new information, click "Save" to update your billing details.
+#### ❌ Canceling Your Subscription
 
-#### Viewing and Downloading Invoices
+ <ol>
+ <li>Open the <a href="https://admin.teams-pro.com/" target="_blank" rel="noopener"><strong>Teams-Pro Admin Center</strong></a>.</li>
+    <li>Click <strong>My Products</strong>, then select the product you want to cancel.</li>
+    <li>On the product panel, click <strong>Manage Subscription</strong> and choose <strong>Cancel subscription</strong>.</li>
+  </ol>
+  <p><em>Note:</em> Cancellation typically takes effect at the end of the current billing period. Confirm the prompt to finalize.</p>
+</section>
 
-1. **Invoice History**
-   - In the Subscription tab, locate the "Invoice History" section.
+## Common questions
 
-2. **View Invoices**
-   - Here, you can see a list of all past invoices. Click on an invoice number to view details.
+### Can I try Calendar Pro before buying?
+Yes. You can request a <b>free trial</b> 🆓 from the product page.
 
-3. **Download Invoices**
-   - To download an invoice, click the "Download" button next to the invoice you wish to save.
+### Where do I change who can edit events or use Meeting Scheduler?
+Those are controlled in the <b>app's Permissions (in Teams)</b> and by <b>plan (Premium vs Platinum)</b>. Custom roles and Meeting Scheduler require Platinum 🔐🗓️.
 
-#### Canceling Your Subscription
+### What is the difference between Calendar Pro Premium vs free?
+  <p><strong>Premium</strong> includes everything in <strong>Free (Basic)</strong> <em>plus</em>:</p>
+  <ul>
+    <li><strong>Personalize calendar view</strong> (business days &amp; public holidays)</li>
+    <li><strong>Advanced events</strong>: recurrence, tags, files, and location</li>
+    <li><strong>Support tickets &amp; live chat</strong></li>
+  </ul>
 
-1. **Initiate Cancellation**
-   - In the Subscription tab, find the "Cancel Subscription" link at the bottom of the page.
+  <p><strong>Free (Basic)</strong> includes:</p>
+  <ul>
+    <li>Unlimited single events</li>
+    <li>Color to events</li>
+    <li>Calendar cloning</li>
+    <li>Teams notifications on add/update/delete</li>
+  </ul>
 
-2. **Provide Feedback**
-   - (Optional) We appreciate your feedback. You may be asked to provide a reason for your cancellation to help us improve our service.
+  <p><strong>Note:</strong> If you need <strong>Meeting Scheduler</strong>, <strong>customize permissions</strong>, or <strong>automatic Outlook sync</strong>, choose the <strong>Platinum</strong> plan.</p>
 
-3. **Confirm Cancellation**
-   - Follow the prompts to confirm your cancellation. Your subscription will remain active until the end of the current billing cycle, after which you will not be charged further.
+<p>See the full list of features on our <a href="https://www.teams-pro.com/en/calendar-pro/#pricing" target="_blank" rel="noopener">plan comparison page</a>.</p>
 
-#### Reactivating Your Subscription
 
-1. **Reactivate Subscription**
-   - If you decide to return, log in to your Calendar Pro account. In the Subscription tab, click on "Reactivate Subscription."
-
-2. **Choose a Plan**
-   - Select your desired plan and update your payment information if necessary.
-
-3. **Confirm and Reactivate**
-   - Review your selection and click "Confirm" to reactivate your subscription.
-
-Managing your Calendar Pro subscription is designed to be intuitive and user-friendly, ensuring you have full control over your account and billing preferences. If you encounter any issues or need further assistance, our customer support team is always ready to help. 
+  
+<Intercom />
+<Hubspot />
+<Clarity />
+<GoogleAnalytics />

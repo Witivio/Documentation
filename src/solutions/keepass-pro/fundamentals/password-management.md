@@ -2,31 +2,50 @@
 
 
 ## Create a password
-### How can I create a new password?
 
+### How can I create a new password?
  <img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
 
-Select the <b>'+ New item' button</b>, then enter all the relevant details you'd like to include, along with an <b>optional expiration date</b>. When you've finished, make sure to save it.
-<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_new-password.png"></div><p class="no-margin"></p>
+ <br>
+  <ol>
+    <li>Click <strong>+ New item</strong> <span aria-label="add">➕</span>.</li>
+    <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-8.png"></div><p class="no-margin"></p>
+    <li>Enter all relevant details you want to store (e.g., <em>title</em>, <em>username</em>, <em>password</em>, <em>URL</em>, <em>notes</em>).</li>
+    <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-9.png"></div><p class="no-margin"></p>
+    <li>Set an <strong>expiration date</strong> to be reminded when the credential needs rotation.</li>
+    <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-11.png"></div><p class="no-margin"></p>
+    <br>
+    <li>Click <strong>Save</strong> to create the item. ✅</li>
+  </ol>
+  <p><strong>Tip:</strong> Place the item in the right folder so teammates can find it quickly later.</p>
+</section>
+
 
 ## Edit a password
 ### How can I modify a password?
 <img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
 
-You can <b>select the ellipsis [···]</b> located at the bottom left of the Password Card, then click 'edit'.
+  <ol>
+    
+  <b>Option 1:</b> On the password card, click the <strong>ellipsis</strong> <span aria-label="more">[···]</span> at the bottom-left, then choose <strong>Edit</strong>.
+    <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-12.png"></div><p class="no-margin"></p>
+    
+  <b>Option 2:</b> Click the <strong>password entry</strong> you want to change to open its details. In the top-right of the details view, select <strong>Edit</strong>.
+  <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-10.png"></div><p class="no-margin"></p>
+  </ol>
 
-Alternatively, you can click on the password you want to change. This will open the details, and <b>from the top right</b>, you have the option to make edits.
-<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_edit-password.png"></div><p class="no-margin"></p>
 
 ## Delete a password
 ### How can I delete a password?
- <img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
+ <ol>
 
-You can <b>select the ellipsis [···]</b> at the bottom left corner of the Password Card, then choose <b>'Delete'</b>.
-
-Alternatively, you can click on the specific password you wish to remove. This will open its details, and you can select 'Delete' from the <b>top right corner</b>.
-<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_delete-password.png"></div><p class="no-margin"></p>
-⚠️ <b>Be sure to confirm whether you'd like to permanently delete it or just move it to the recycle bin before proceeding.</b>
+  <b>Option 1:</b> On the password card, click the <strong>ellipsis</strong> <span aria-label="more">[···]</span> at the bottom-left corner, then choose <strong>Delete</strong>.
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-13.png"></div><p class="no-margin"></p>
+  <b>Option 2:</b> Click the <strong>password entry</strong> you want to remove to open its details. In the top-right of the details view, select <strong>Delete</strong>.
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-10.png"></div><p class="no-margin"></p>
+  </ol>
+  <p><strong>Note:</strong> Deletions may be permanent depending on your organization’s retention settings. Confirm before proceeding. 🗑️</p>
+</section>
 
 ## Copy a password
 ### How can I copy a password?
@@ -41,7 +60,17 @@ Alternatively, you can click on the particular password you wish to duplicate. T
 ### How can I generate a password?
  <img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
 
-Click on '+ New Password', then fill in all the details. <b>Click on 'Generate Password'</b>, and a pop-up window will appear. Choose the desired length and character set for the password, then click on 'Generate' and use this password.
+
+  <ol>
+    <li>Click <strong>+ New Password</strong>.</li>
+    <li>Fill in the item details (e.g., <em>title</em>, <em>username</em>, <em>URL</em>, <em>notes</em>).</li>
+    <li>Click <strong>Generate Password</strong>. A pop-up window will appear.</li>
+    <li>Choose the desired <strong>length</strong> and <strong>character set</strong> (e.g., letters, numbers, symbols).</li>
+    <li>Click <strong>Generate</strong>, then <strong>use this password</strong> to insert it into the item. ✅</li>
+    <li>Click <strong>Save</strong> to store the new password entry.</li>
+  </ol>
+</section>
+
 <div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_generate-password.png"></div><p class="no-margin"></p>
 
 ## Pin a password

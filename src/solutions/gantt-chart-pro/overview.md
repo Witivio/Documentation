@@ -1,5 +1,5 @@
 ---
-tagTitle: User documentation for Gantt Chart Pro.
+tagTitle: Gantt Chart Pro Help Center — User Documentation
 tagLine: Visualize project schedules on Microsoft Teams
 heroImage: /gantt-chart.png
 actionText: Get Started →
@@ -11,9 +11,9 @@ items:
 - title: What’s new
   itemImage: /light.svg
   link: /solutions/gantt-chart-pro/whats-new/
-- title: Tutorials
+- title: Q&A
   itemImage: /graduation-hat.svg
-  link: /solutions/gantt-chart-pro/participants-gantt-chart-pro/how-to-add-or-remove-participants-from-gantt-chart-pro-/
+  link: /solutions/gantt-chart-pro/Q&A-gantt/questions-and-answers-gantt/
 - title: Limits
   itemImage: /wheel.svg
   link: /solutions/gantt-chart-pro/limits/

@@ -1,22 +1,28 @@
 ## How to assign or remove a license from a user?
 
-<p class="no-margin">1. Log into the <a href="https://admin.teams-pro.com/" target="_blank" class="admin-center-content-link">TeamsPro Admin Center</a> with your Microsoft Teams credentials.</p>
-<div class="intercom-container"><img src="/assets/img/teams-pro/how_to_assign_a_license.gif"></div><p class="no-margin"></p>
-<p class="no-margin"></p>
-<p class="no-margin">2. Go to Manage Users.</p>
-<p class="no-margin"></p>
-<p class="no-margin">3. Click “Assign licenses”.</p>
-<p class="no-margin"></p>
-<p class="no-margin">4. Type the email or user’s name, the click “Search”.</p>
-<p class="no-margin"></p>
-<p class="no-margin">5. Find the user, click “Assign” and select the licenses you want to assign.</p>
-<p class="no-margin"></p>
-<p class="no-margin">6. Close the window.</p>
-<p class="no-margin"></p>
-<p class="no-margin">7. To remove a license, simply click the icon. </p>
-<div class="intercom-container"><img src="/assets/img/teams-pro/action.png"></div><p class="no-margin"></p>
-<p class="no-margin"></p>
-<p class="no-margin"></p>
+<p><strong>1)</strong> Log in to the 
+    <a href="https://admin.teams-pro.com/" target="_blank" rel="noopener" class="admin-center-content-link"><strong>Teams-Pro Admin Center</strong></a> 
+    with your Microsoft Teams credentials. 🔐
+  </p>
+  <div class="intercom-container">
+    <img src="/assets/img/teams-pro/how_to_assign_a_license.gif" alt="Assign a license flow">
+  </div>
+<br>
+  <p><strong>2)</strong> Go to <strong>Manage Users</strong>.</p>
+
+  <p><strong>3)</strong> Click <strong>Assign licenses</strong>.</p>
+
+  <p><strong>4)</strong> Enter the user’s <strong>email</strong> or <strong>name</strong>, then click <strong>Search</strong>.</p>
+
+  <p><strong>5)</strong> In the results, click <strong>Assign</strong> and select the license(s) you want to grant. ✅</p>
+
+  <p><strong>6)</strong> Close the window to finish.</p>
+
+  <p><strong>7)</strong> To <strong>remove</strong> a license later, click the <strong>action</strong> icon next to the user and choose the remove option. 🗑️</p>
+  <div class="intercom-container">
+    <img src="/assets/img/teams-pro/action.png" alt="Action icon to remove a license">
+  </div>
+</section>
 
 <Intercom />
 <Hubspot />

@@ -1,33 +1,53 @@
 ## How does the rights ownership transfer between Super Admin and Admin work?
 
-### Step 1: Initiation by Super Admin
-- The Super Admin logs into the Admin Center.
-- They select the Admin to whom they wish to transfer Super Admin rights.
-- The Super Admin confirms the transfer, initiating the process.
+ <h3>Step 1: Initiation by Super Admin 🔐</h3>
+  <ul>
+    <li>The <strong>Super Admin</strong> logs into the Admin Center.</li>
+    <li>They select the <strong>Admin</strong> to whom they wish to transfer Super Admin rights.</li>
+    <li>The Super Admin <strong>confirms the transfer</strong>, initiating the process.</li>
+  </ul>
+  <div class="intercom-container">
+    <img src="/assets/img/teams-pro/admin_center_manage_admin.png" alt="Admin Center — manage admin and initiate transfer">
+  </div>
 
-<div class="intercom-container"><img src="/assets/img/teams-pro/admin_center_manage_admin.png"></div>
+  <h3>Step 2: Confirmation email to Super Admin ✉️</h3>
+  <ul>
+    <li>Once initiated, the Super Admin receives a <strong>confirmation email</strong> stating the process has started.</li>
+    <li>The email explains the transfer completes after the Admin <strong>accepts the role</strong> and <strong>updates payment information</strong>.</li>
+  </ul>
 
-### Step 2: Confirmation email to Super Admin
-- Once the transfer is initiated, the Super Admin receives an email confirming that the process has started. This email also informs them that the transfer will be completed once the Admin accepts the new role and updates their payment information.
+  <h3>Step 3: Notification email to Admin</h3>
+  <ul>
+    <li>The Admin receives a <strong>notification email</strong> about the rights transfer.</li>
+    <li>The email includes instructions to <strong>update billing details</strong> in the Admin Center.</li>
+  </ul>
 
-### Step 3: Notification email to Admin
-- Simultaneously, the Admin receives an email notifying them that the Super Admin has initiated a rights transfer to them. This email includes instructions for the next steps they need to take, specifically updating billing details in the Admin Center.
+  <h3>Step 4: Admin updates information</h3>
+  <ul>
+    <li>The Admin logs into the Admin Center.</li>
+    <li>A <strong>pop-up dialog</strong> prompts updating the <strong>payment method</strong> and <strong>billing &amp; shipping address</strong> to complete the transfer.</li>
+  </ul>
 
-### Step 4: Admin updates information
-- The Admin logs into the Admin Center.
-- Upon logging in, a pop-up dialog appears prompting the Admin to update their payment method and billing & shipping address to complete the transfer.
+  <h3>Step 5: Confirmation email to Admin ✅</h3>
+  <ul>
+    <li>After the Admin saves the required updates, they receive a <strong>confirmation email</strong>.</li>
+    <li>This confirms the transfer is finalized and they are now the <strong>Super Admin</strong>.</li>
+  </ul>
 
-### Step 5: Confirmation email to Admin
-- After the Admin updates the required information, they receive a confirmation email. This email confirms that the rights transfer is finalized and that they are now the Super Admin.
+  <h3>Step 6: Final notification email to former Super Admin</h3>
+  <ul>
+    <li>The former Super Admin receives an email confirming the successful transfer.</li>
+    <li>The message reminds them their role has changed to <strong>Admin</strong>.</li>
+  </ul>
 
-### Step 6: Final notification email to former Super Admin
-- Concurrently, the former Super Admin receives an email confirming the successful transfer of rights and reminding them of their change in status to Admin.
+  <h3>Step 7: Reminder for non-compliance</h3>
+  <ul>
+    <li>If the Admin does not update billing information, a <strong>reminder email</strong> is sent to prompt completion.</li>
+  </ul>
 
-### Step 7: Reminder for non-compliance
-- If the Admin does not update the billing information as required, a reminder email is sent, urging them to complete the necessary updates to finalize the rights transfer.
-
-This process ensures a clear and documented transition of Super Admin rights to an Admin, maintaining accountability and continuity within the administrative structure.
-
+  <p><em>This process ensures a clear and documented transition of Super Admin rights, maintaining accountability and continuity.</em></p>
+</section>
+</section>
 <Intercom />
 <Hubspot />
 <Clarity />

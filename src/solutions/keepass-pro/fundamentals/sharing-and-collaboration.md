@@ -4,12 +4,18 @@
 ### How can I share a password?
  <img src="/assets/img/teams-pro/keepass-pro/free-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/premium-crown.svg" width="24" height="24">|<img src="/assets/img/teams-pro/keepass-pro/platinum-crown.svg" width="24" height="24">
 
-To share a password, simply <b>click on the share icon</b> located at the bottom right of the card. A new window will appear with the link to the password. By sharing this link with anyone who's a member of the channel, <b>you will share the password location</b>.
+  <ol>
 
-Alternatively, click on the specific password you wish to share, which will open its details. <b>From the top right, you can then share the password</b> by copying the link of the desired password from the pop-up window.
+  <b>Option 1 (from the card):</b> Click the <strong>Share</strong> icon at the bottom-right of the password card.
+  A window opens with a <strong>shareable link</strong> to the password location. Copy this link and share it with members of the same channel.
+<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/keepass-14.png"></div><p class="no-margin"></p>
+  <b>Option 2 (from details):</b> Click the specific <strong>password entry</strong> to open its details. In the
+      top-right, choose <strong>Share</strong> and copy the link from the pop-up window.
 
-⚠️ Please note that <b>you can share passwords only when you have added KeePass Pro to a tab (shared channel)</b>. This function is not available for private vaults or private channels.
-<div class="intercom-container"><img src="/assets/img/teams-pro/keepass-pro/section-keepass_share-password.png"></div><p class="no-margin"></p>
+  </ol>
+  <p><strong>⚠️ Note:</strong> Sharing is available only when KeePass Pro is added as a <strong>tab in a shared channel</strong>.
+    This feature is <em>not</em> available for <strong>private vaults</strong> or <strong>private channels</strong>.</p>
+</section>
 
 ## Access shared Vaults
 ### How can I access shared vaults?
