@@ -86,6 +86,20 @@ Click **"Save"** to apply security restrictions.
 💡To apply the Webchat to all site pages, add the following to the end of the URL:  
 `(\/[\S]*)?`
 
+🆕**Force authentication option:** a new toggle “Force user authentication” is available.
+![Action on library](/assets/img/gpt/webchat-authent.png)
+
+- ❌**When deactivated (default mode)**, the Webchat remains accessible in anonymous mode.
+
+In this case, users cannot access SharePoint documents, SharePoint pages, or any APIs requiring authentication, since no user identity is established.
+
+Once your modifications are complete, click "Save" to apply them.
+
+- ✅ **When activated**, users must sign in with their Microsoft 365 account before accessing the Webchat.
+
+This option enables secure, tenant-based authentication, identical to the model already active on Microsoft Teams.
+
+⚠️When the Webchat uses Microsoft 365 authentication, you must also communicate your main website domain (e.g. www.yourwebsite.com) to Witivio Support via a ticket, so it can be added to the authentication allow-list.
 ---
 
 ### 2.4 Installing Webchat in a WebPart on a Website
@@ -97,6 +111,8 @@ In the **Installation** tab, you will find the script needed to integrate Webcha
 3. Ensure your site's URL is authorized in the **Security** tab.  
 
 ⚠️ **The script cannot be modified. Any modification may cause malfunctions.**
+🆕⚠️**If the “Force user authentication” option is enabled, users will be prompted to sign in with Microsoft 365 when they open the Webchat from your site.
+Ensure that the domain communicated to Witivio matches the exact host where the Webchat is installed.**
 
 ---
 
@@ -104,7 +120,7 @@ In the **Installation** tab, you will find the script needed to integrate Webcha
 To integrate Webchat into **SharePoint** add a personnal app in SharePoint : 
 
 **Step 1: Add custom apps in Sharepoint**
-1. Ask to witivio the app package 
+1. Ask to witivio the app package if you need the package version without authentication. New version including authentication support: https://admin.gpt-pro.com/webchat/gpt-pro-webchat.sppkg
 2. Go to More features in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185077), and sign in with an account that has admin permissions for your organization.
 3. Under Apps, select Open.
 4. On the Manage apps page, select Upload, and browse to the app you want upload, or drag the app into the library. SharePoint Framework solutions have the file name extension .sppkg.
@@ -146,6 +162,12 @@ And use this **"GPT Pro Witivio"** component, follow these steps:
 
 ⚠️ **Don’t forget to add your site’s URL in the "Security" tab of GPT Pro to ensure proper functionality.**
 
+🆕New requirement for authentication:
+
+Install the new SharePoint package (update mandatory).
+
+Communicate your SharePoint main domain (e.g. yourcompany.sharepoint.com) to the Witivio support team via a ticket.
+This is necessary for enabling authentication between SharePoint/ API and Webchat.
 ---
 
 ## 3. Using the Webchat
@@ -159,6 +181,7 @@ Once installed, here’s how users interact with Webchat.
 4. Send the message by clicking the **"Send"** button or pressing **"Enter"**.  
 5. The chatbot responds instantly.  
 
+🆕If authentication is enabled, users will first be redirected to sign in with their Microsoft 365 account before they can start chatting. Once authenticated, GPT Pro applies their SharePoint and Microsoft 365 permissions automatically.
 ---
 
 ### 3.2 User Interface
@@ -181,6 +204,7 @@ When the chatbot responds, the user sees:
    - Click to view the response source.  
    - Expand the reference for more details by clicking the **chevron**.  
    - Click on the reference to open the associated document (**local document or SharePoint**).  
+   🆕If authentication is active, SharePoint links and API results are now accessible according to the user’s permissions.
 
 2. **"Export"** button
    - Choose between **Excel** and **Word** formats to download the response.  
@@ -197,6 +221,7 @@ Here are some best practices to optimize your Webchat experience:
 - **Before installation**, ensure your site’s URL is added in the **Security** tab in GPT Pro Admin center.  
 - **Customize the design** to match your brand identity.  
 - **Monitor user feedback** to continuously improve the experience.  
+- 🆕Enable authentication if your chatbot interacts with sensitive or user-specific data (SharePoint libraries, pages, or APIs).
 
 
 ## 5. Security
@@ -209,10 +234,21 @@ The Webchat currently operates in **Anonymous** mode. This means we do not colle
   - **Local documents** indexed in the knowledge base → [Manage documents](./documents.md)
   - **Q&A (Knowledge Base)** entries configured in the editor → [Q&A Editor](./Knowledge-Base-Editor.md)
 
-### 5.2 Upcoming changes
-💡 We are working on a Webchat version that will support **user authentication**:
-- via **Microsoft 365 SSO** when the user is signed in to their tenant,
-- or via a **sign‑in prompt** shown during the first exchange if no SSO is available.
+### 5.2 New authentication support
+
+The Webchat now supports Microsoft 365 authentication (SSO) — the same model already active on Microsoft Teams.
+
+When enabled:
+- Users sign in with their Microsoft 365 account.
+- GPT Pro applies the same permissions as Teams or SharePoint
+- GPT Pro can now fetch user-specific information via API or query SharePoint (libraries and pages) according to their rights.
+
+**Prerequisites:**
+- Activate the “Force user authentication” toggle.
+- Install the new SharePoint package.
+- Communicate to Witivio Support:
+  - The main SharePoint domain (e.g. yourcompany.sharepoint.com)
+  - The main website domain (e.g. www.yourwebsite.com)
 
 ### 5.3 Domain allow‑listing
 All Webchat traffic goes through a **Bot Framework token**. This token can only be generated from **authorized pages** defined in GPT Pro configuration (see [2.3 Configuring Security](#23-configuring-security)). Make sure to add every domain where the Webchat is embedded.
