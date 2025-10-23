@@ -243,7 +243,17 @@ module.exports = {
                   children: [
                     ["/solutions/gpt-pro/fundamentals/authentication.md", "Authentication & Authorization"],
                     ["/solutions/gpt-pro/fundamentals/dashboard.md", "Dashboard"],
-                    ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
+                    {
+                      title: "Documents",
+                      collapsable: true,
+                      path: "/solutions/gpt-pro/fundamentals/",
+                      children: [
+                        ["/solutions/gpt-pro/fundamentals/documents.md", "Overview"],
+                        ["/solutions/gpt-pro/fundamentals/local-documents.md", "Local Documents"],
+                        ["/solutions/gpt-pro/fundamentals/sharepoint-libraries.md", "SharePoint Libraries"],
+                        ["/solutions/gpt-pro/fundamentals/sharepoint-pages.md", "SharePoint Pages"],
+                      ],
+                    },
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
                     ["/solutions/gpt-pro/fundamentals/prompts.md", "Prompts"],
                     ["/solutions/gpt-pro/fundamentals/system-prompt.md", "Instructions"],
@@ -1237,7 +1247,17 @@ module.exports = {
                   children: [
                     ["/solutions/gpt-pro/fundamentals/authentication.md", "Authentication & Authorization"],
                     ["/solutions/gpt-pro/fundamentals/dashboard.md", "Dashboard"],
-                    ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
+                    {
+                      title: "Documents",
+                      collapsable: true,
+                      path: "/solutions/gpt-pro/fundamentals/",
+                      children: [
+                        ["/solutions/gpt-pro/fundamentals/documents.md", "Overview"],
+                        ["/solutions/gpt-pro/fundamentals/local-documents.md", "Local Documents"],
+                        ["/solutions/gpt-pro/fundamentals/sharepoint-libraries.md", "SharePoint Libraries"],
+                        ["/solutions/gpt-pro/fundamentals/sharepoint-pages.md", "SharePoint Pages"],
+                      ],
+                    },
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
                     ["/solutions/gpt-pro/fundamentals/prompts.md", "Prompts"],
                     ["/solutions/gpt-pro/fundamentals/system-prompt.md", "Instructions"],
@@ -2231,7 +2251,17 @@ module.exports = {
                   children: [
                     ["/solutions/gpt-pro/fundamentals/authentication.md", "Authentication & Authorization"],
                     ["/solutions/gpt-pro/fundamentals/dashboard.md", "Dashboard"],
-                    ["/solutions/gpt-pro/fundamentals/documents.md", "Documents"],
+                    {
+                      title: "Documents",
+                      collapsable: true,
+                      path: "/solutions/gpt-pro/fundamentals",
+                      children: [
+                        ["/solutions/gpt-pro/fundamentals/documents.md", "Overview"],
+                        ["/solutions/gpt-pro/fundamentals/local-documents.md", "Local Documents"],
+                        ["/solutions/gpt-pro/fundamentals/sharepoint-libraries.md", "SharePoint Libraries"],
+                        ["/solutions/gpt-pro/fundamentals/sharepoint-pages.md", "SharePoint Pages"],
+                      ],
+                    },
                     ["/solutions/gpt-pro/fundamentals/history.md", "History"],
                     ["/solutions/gpt-pro/fundamentals/prompts.md", "Prompts"],
                     ["/solutions/gpt-pro/fundamentals/system-prompt.md", "Instructions"],

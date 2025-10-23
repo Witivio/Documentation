@@ -24,8 +24,9 @@ Here is how we're managing data for these different categories:
 | Bot conversations | ✔ | ✔ | ✔ |🚫| Bot conversations.<br/>Accessed at each time the user connect to the bot. |
 | Conversations history | ✔ | ✔ | ✔ |🚫| Bot conversations history.<br/>Accessed at each time the user connect to the bot. |
 | User feedbacks | ✔ | ✔ | ✔ |🚫| User feedback about a bot message.<br/>Accessed when an admin coonect to the admin center. |
-| Local Document files | ✔ | ✔ | ✔ |🚫| Files for the knowledge of the bot.<br/>Accessed when the indexer vectorize the content |
-| SharePoint Document files | ✔ | ✔ | 🚫 |🚫| Sharepoint Files for the knowledge of the bot.<br/>Accessed when the indexer vectorize the content and when we need to check for user permissons on document |
+| Local document files | ✔ | ✔ | ✔ |🚫| Files for the knowledge of the bot.<br/>Accessed when the indexer vectorize the content |
+| SharePoint files | ✔ | ✔ | 🚫 |🚫| Sharepoint files for the knowledge of the bot.<br/>Accessed when the indexer vectorize the content and when we need to check for user permissions on document |
+| SharePoint pages | ✔ | ✔ | 🚫 |🚫| Sharepoint pages for the knowledge of the bot.<br/>Accessed when the indexer vectorize the content and when we need to check for user permissions on page |
 | Teams files | 🚫 | 🚫 | 🚫 |🚫| No access.<br/>No cache.<br/>No storage. |
 
 :::  tip
@@ -49,6 +50,7 @@ All permissions are delegated permissions
 | `profile`                  | Gives the app access to basic information about the user in the claims.                 |                                                                                                                                                                                                                                             |           No           |
 | `User.ReadBasic.All` | Used in the add an administrator view to search for a user to promote as an administrator. |                                                                                                                                                                                                                                             |           No           |
 | `Files.Read.All` | Used to read SharePoint library the admin can access. It is used to scope the knowledge of the bot to one or multiple libraries and vectorize the content of the selected libraries. This scopes is only used when adding a library. | **Allow GPT Pro to access Files within a SharePoint Library to index it and ask question about those files in the bot**  |           No           |
+| `Sites.Read.All` | Used to read SharePoint site the admin can access. It is used to scope the knowledge of the bot to one or multiple pages and vectorize the content of the selected pages. This scopes is only used when adding a page. | **Allow GPT Pro to access pages within a SharePoint site to index it and ask question about those pages in the bot**  |           Yes           |
 
 ::: tip
 The Azure AD App ID for the admin center is: **b2c0dc10-7931-4437-8e5b-21aeb264b648**
@@ -61,6 +63,7 @@ The bot is available from Microsoft Teams Store. It uses Teams SSO to authentica
 | -------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------: |
 | `User.Read`                | Retrieve the properties and relationships of user object.                               | **Allows GPT Pro to read user information through SSO.**                                                                                                                                                             |           No           |
 | `Files.Read.All`                | Used to check for access to a specific SharePoint file. A scope is automatically created on the libraries selected in the admin center                                | **We want to ensure right about indexed Sharepoint files. If the user does not have access to it, the files will never be used as GenAI context.**                                                                                                                                                             |           No           |
+| `Sites.Read.All`                | Used to check for access to a specific SharePoint page. A scope is automatically created on the pages selected in the admin center                                | **We want to ensure right about indexed Sharepoint pages. If the user does not have access to it, the pages will never be used as GenAI context.**                                                                                                                                                             |           Yes           |
 
 ::: tip
 The Azure AD App ID for the admin center is: **a4943772-4dd0-4fad-baaf-2a728b0cb0e0**
