@@ -246,7 +246,6 @@ module.exports = {
                     {
                       title: "Documents",
                       collapsable: true,
-                      path: "/solutions/gpt-pro/fundamentals/",
                       children: [
                         ["/solutions/gpt-pro/fundamentals/documents.md", "Overview"],
                         ["/solutions/gpt-pro/fundamentals/local-documents.md", "Local Documents"],
@@ -1250,7 +1249,6 @@ module.exports = {
                     {
                       title: "Documents",
                       collapsable: true,
-                      path: "/solutions/gpt-pro/fundamentals/",
                       children: [
                         ["/solutions/gpt-pro/fundamentals/documents.md", "Overview"],
                         ["/solutions/gpt-pro/fundamentals/local-documents.md", "Local Documents"],
@@ -2254,7 +2252,6 @@ module.exports = {
                     {
                       title: "Documents",
                       collapsable: true,
-                      path: "/solutions/gpt-pro/fundamentals",
                       children: [
                         ["/solutions/gpt-pro/fundamentals/documents.md", "Overview"],
                         ["/solutions/gpt-pro/fundamentals/local-documents.md", "Local Documents"],
