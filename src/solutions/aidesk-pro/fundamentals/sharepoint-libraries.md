@@ -6,6 +6,10 @@ This guide provides detailed instructions for managing SharePoint libraries with
 - Access to SharePoint sites with appropriate permissions.
 - M365 admin consent for required permissions.
 
+:::warning
+Only Documents in PDF, DOCX or PPTX format will be indexed. Other files types will be listed but ignored.
+:::
+
 # Accessing the SharePoint Libraries Interface
 1. Navigate to [admin.aidesk-pro.com](http://admin.aidesk-pro.com).
 2. Enter your administrator credentials to log in.
