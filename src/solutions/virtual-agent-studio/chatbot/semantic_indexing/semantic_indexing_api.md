@@ -175,7 +175,7 @@ It refers to the ingestion, parsing, and storing of textual content and tokens t
 
 ### Is my data safe ?
 
-Yes, your data is as safe than with another azure service. Your data is not available to GPT openAI, or to another user. The data is not used to train other models. Azure OpenAI is separate from OpenAI. 
+Yes, your data is as safe than with another azure service. Your data is not available to Agent openAI, or to another user. The data is not used to train other models. Azure OpenAI is separate from OpenAI. 
 
 
 ### I have indexed a document containing the answer to a question, but the chatbot doesn't find the answer, why?

@@ -6,46 +6,54 @@ tagline: Take your time to learn and understand all the different and various Wi
 actionText: Quick Start →
 actionLink: /solutions/
 items:
-  - title: Virtual Agent Studio
-    itemImage: /virtual-agent-studio.png
-    itemDescription: Virtual Agent Studio
-    link: /solutions/virtual-agent-studio/chatbot/build_your_chatbot/
+  #- title: Virtual Agent Studio
+  #  itemImage: /virtual-agent-studio.png
+  #  itemDescription: Virtual Agent Studio
+  #  link: /solutions/virtual-agent-studio/chatbot/build_your_chatbot/
   # - title: Meta Office Pro
   #   itemImage: /meta-office-pro.png
   #   itemDescription: Meta Office Pro
   #   link: /solutions/meta-office-pro/overview/
-  - title: GPT Pro
-    itemImage: /gpt-pro-icon.png
-    itemDescription: GPT Pro
-    link: /solutions/gpt-pro/overview/
-  - title: Calendar Pro
-    itemImage: /calendar.png
-    itemDescription: Calendar Pro
-    link: /solutions/calendar-pro/overview/
-  - title: Gantt Chart Pro
-    itemImage: /gantt-chart.png
-    itemDescription: Gantt Chart Pro
-    link: /solutions/gantt-chart-pro/overview/
-  - title: KeePass Pro
-    itemImage: /keepass.png
-    itemDescription: KeePass Pro
-    link: /solutions/keepass-pro/overview/
+  - title: AI desk PRO
+    itemImage: /aidesk-pro-icon.png
+    itemDescription: AI desk PRO
+    link: /solutions/aidesk-pro/overview/
   - title: Booking Room Pro
     itemImage: /booking.png
     itemDescription: Booking Room Pro
     link: /solutions/booking-room-pro/overview/
-  - title: Parking Pro
-    itemImage: /parking.png
-    itemDescription: Parking Pro
-    link: /solutions/parking-pro/overview/
+  - title: Calendar Pro
+    itemImage: /calendar.png
+    itemDescription: Calendar Pro
+    link: /solutions/calendar-pro/overview/
   - title: Contacts Pro
     itemImage: /contacts.png
     itemDescription: Contacts Pro
     link: /solutions/contacts-pro/overview/
+  - title: Gantt Chart Pro
+    itemImage: /gantt-chart.png
+    itemDescription: Gantt Chart Pro
+    link: /solutions/gantt-chart-pro/overview/
+  - title: Gpt Pro
+    itemImage: /gpt-pro.png
+    itemDescription: Gpt Pro
+    link: /solutions/gpt-pro/overview/
+  - title: KeePass Pro
+    itemImage: /keepass.png
+    itemDescription: KeePass Pro
+    link: /solutions/keepass-pro/overview/
   - title: Map Pro
     itemImage: /map.png
     itemDescription: Map Pro
     link: /solutions/map-pro/overview/
+  - title: Parking Pro
+    itemImage: /parking.png
+    itemDescription: Parking Pro
+    link: /solutions/parking-pro/overview/
+  - title: Reminds Pro
+    itemImage: /reminds300300.png
+    itemDescription: Reminds Pro
+    link: /solutions/reminds-pro/overview/
   - title: Image Pro
     itemImage: /image-pro.png
     itemDescription: Image Pro
@@ -54,10 +62,6 @@ items:
     itemImage: /home.png
     itemDescription: Home Pro
     link: /solutions/home-pro/overview/
-  - title: Reminds Pro
-    itemImage: /reminds300300.png
-    itemDescription: Reminds Pro
-    link: /solutions/reminds-pro/overview/
 # - title: Distribution List Pro
 #   itemImage: /distribution.png
 #   itemDescription: Distribution List Pro

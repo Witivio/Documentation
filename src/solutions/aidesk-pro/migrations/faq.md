@@ -1,0 +1,167 @@
+# Virtual Agent Studio to AI desk PRO Transition FAQ
+
+
+
+👉 [Francais](#fr-anchor)<br/>
+👉 [English](#en-anchor)
+
+
+<div id="fr-anchor">
+
+## Aperçu
+Alors que nous passons de Virtual Agent Studio à AI desk PRO le 1er mars 2025, nous comprenons que nos clients peuvent avoir des questions et des préoccupations. Cette FAQ vise à répondre à celles-ci et à assurer une transition en douceur.
+
+:::tip
+Virtual Agent Studio sera arrêté le 01/03/2025.
+:::
+
+### Pourquoi Virtual Agent Studio est-il remplacé par AI desk PRO ?
+**Réponse :** AI desk PRO représente la prochaine génération de notre technologie, offrant des fonctionnalités avancées et des performances améliorées. Cette transition fait partie de notre engagement à fournir des solutions de pointe à nos clients.
+
+### Y a-t-il des fonctionnalités de Virtual Agent Studio qui ne seront pas disponibles dans AI desk PRO ?
+**Réponse :** Oui, certaines fonctionnalités de Virtual Agent Studio pourraient ne pas être disponibles dans AI desk PRO en raison des capacités avancées des Large Language Models (LLMs) dans AI desk PRO. Ces changements sont en accord avec notre objectif de fournir un outil plus puissant et efficace.
+
+### Quels sont les avantages de l'utilisation de AI desk PRO par rapport à Virtual Agent Studio ?
+**Réponse :** AI desk PRO élimine le besoin d'entrainement et de publication. Les LLMs dans AI desk PRO gèrent automatiquement ces processus, simplifiant et améliorant considérablement l'expérience utilisateur.
+
+### La migration vers AI desk PRO sera-t-elle automatique ?
+**Réponse :** Non, la migration ne sera pas automatique. Certaines configurations nécessiteront une migration manuelle en raison de la nouvelle architecture de AI desk PRO. Notre équipe fournira des conseils et un soutien tout au long de ce processus.
+
+### Quel type de migration manuelle sera nécessaire ?
+**Réponse :** Certaines configurations, en particulier celles qui sont hautement personnalisées dans Virtual Agent Studio, nécessiteront une migration manuelle vers AI desk PRO. Nous fournirons des instructions détaillées et un soutien pour ces cas.
+
+### Que se passe-t-il après le 01/03/2025 ?
+**Réponse :** Après le 01/03/2025, Virtual Agent Studio (VAS) sera complètement démantelé et ne sera plus disponible. Tous les services, le soutien et l'accès à la plateforme seront interrompus. Il est crucial pour les clients de compléter la migration vers AI desk PRO avant cette date pour assurer un service continu et l'accès à leurs solutions d'agent virtuel.
+
+### La période de service de Virtual Agent Studio peut-elle être prolongée au-delà du 01/03/2025 ?
+**Réponse :** Malheureusement, la période de service pour Virtual Agent Studio ne peut pas être prolongée au-delà du 01/03/2025. Cette échéance est fixée pour permettre une transition complète vers la plateforme AI desk PRO plus avancée et efficace. Nous encourageons les clients à commencer le processus de migration dès que possible pour éviter toute interruption de service.
+
+### Que deviennent mes données après le 01/03/2025 ?
+**Réponse :** Après le 01/03/2025, puisque Virtual Agent Studio sera entièrement démantelé, toutes les données encore stockées sur la plateforme seront définitivement supprimées conformément à nos politiques de conservation des données et aux réglementations sur la vie privée. Nous conseillons vivement aux clients de sauvegarder ou de migrer toutes les données nécessaires vers AI desk PRO ou un autre emplacement sécurisé avant la date de fermeture pour éviter toute perte de données.
+
+### Quels changements sont nécessaires pour les chatbots intégrés à Microsoft Teams ?
+**Réponse :** Pour les chatbots dans Teams, un nouveau package Teams sera nécessaire, ainsi qu'un nouveau déploiement. Nous vous guiderons tout au long de ce processus pour assurer une transition en douceur.
+
+### L'historique des conversations dans Teams et Virtual Agent Studio sera-t-il migré vers AI desk PRO ?
+**Réponse :** Non, l'historique des conversations dans Teams et dans Virtual Agent Studio ne sera pas migré vers AI desk PRO. Nous recommandons d'archiver les conversations importantes avant la transition.
+
+### Où est hébergé AI desk PRO ?
+**Réponse :** AI desk PRO est hébergé sur Microsoft Azure, spécifiquement dans les centres de données France Central. Cela assure des performances élevées et la conformité avec les réglementations régionales de protection des données.
+
+### Comment la migration manuelle affectera-t-elle mes opérations actuelles ?
+**Réponse :** Nous visons à minimiser l'impact sur vos opérations actuelles. Notre équipe travaillera avec vous pour planifier efficacement le processus de migration, assurant la continuité du service.
+
+### Comment puis-je me préparer à la transition vers AI desk PRO ?
+**Réponse :** Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités de AI desk PRO, d'archiver les données importantes de Virtual Agent Studio et de planifier les aspects manuels de la migration. Notre équipe fournira des ressources et un soutien pour vous aider à vous préparer.
+
+### Sur quels canaux AI desk PRO est-il disponible ?
+**Réponse :** AI desk PRO sera disponible sur Microsoft Teams, intégrant toutes les fonctionnalités d'interface utilisateur et d'intelligence artificielle. De plus, une option de webchat sera proposée, bien qu'avec un sous-ensemble des fonctionnalités disponibles dans Teams.
+
+### Puis-je personnaliser l'identité du chatbot dans AI desk PRO comme dans Virtual Agent Studio (VAS) ?
+**Réponse :** Oui, la personnalisation est tout à fait possible dans AI desk PRO. Vous avez la flexibilité de gérer l'icône, le logo, la description et les comportements du chatbot, permettant une expérience utilisateur sur mesure.
+
+### Comment puis-je intégrer le chatbot avec d'autres applications ?
+**Réponse :** L'intégration avec d'autres systèmes pour la récupération et la lecture de données est réalisable grâce au développement de plugins IA. Cela permet une interconnectivité transparente avec diverses applications.
+
+### Si j'opère plusieurs chatbots, aurai-je besoin d'applications AI desk PRO séparées pour chacun ?
+**Réponse :** AI desk PRO permet la création de plusieurs instances Agent spécialisées, nommées Agents /ˈdʒiː.piː.tiːz/, chacune dédiée à un sujet ou un domaine spécifique. Cette fonctionnalité permet des solutions de chatbot plus ciblées et efficaces.
+
+### AI desk PRO offre-t-il des statistiques d'utilisation similaires à VAS ?
+**Réponse :** Oui, AI desk PRO comprend des tableaux de bord complets fournissant des informations sur les modèles d'adoption et d'utilisation. Ces tableaux de bord avancés pilotés par l'IA offrent des analyses détaillées.
+
+### Est-il possible de faire fonctionner un chatbot dans AI desk PRO sans base de connaissances ?
+**Réponse :** Absolument, AI desk PRO est conçu pour éliminer le besoin d'une base de connaissances traditionnelle. Il suffit de télécharger des documents ou de lier un site SharePoint, et AI desk PRO utilisera des techniques avancées de RAG (Retrieval-Augmented Generation), y compris l'OCR, pour ingérer vos documents.
+
+### Puis-je toujours envoyer des messages push dans AI desk PRO ?
+**Réponse :** La messagerie push sera prise en charge dans AI desk PRO grâce à un module complémentaire supplémentaire nommé Company Communicator Pro. Cette fonctionnalité améliore les capacités de communication de la plateforme.
+
+
+</div>
+
+<div id="en-anchor">
+
+## Overview
+As we transition from Virtual Agent Studio to AI desk PRO on 1st March 2025, we understand that our clients may have questions and concerns. This FAQ aims to address these and ensure a smooth transition.
+
+:::tip
+Virtual Agent Studio will be stopped on 01/03/2025.
+:::
+
+### Why is Virtual Agent Studio being replaced by AI desk PRO?
+**Answer:** AI desk PRO represents the next generation of our technology, offering advanced features and improved performance. This transition is part of our commitment to providing cutting-edge solutions to our clients.
+
+### Are there features in Virtual Agent Studio that will not be available in AI desk PRO?
+**Answer:** Yes, some features from Virtual Agent Studio might not be available in AI desk PRO due to the advanced capabilities of Large Language Models (LLMs) in AI desk PRO. These changes are in line with our goal of providing a more powerful, efficient tool.
+
+### What are the advantages of using AI desk PRO over Virtual Agent Studio?
+**Answer:** AI desk PRO eliminates the need for training and publishing. The LLMs in AI desk PRO automatically handle these processes, significantly simplifying and enhancing the user experience.
+
+### Will the migration to AI desk PRO be automatic?
+**Answer:** No, the migration will not be automatic. Some configurations will require manual migration due to the new architecture of AI desk PRO. Our team will provide guidance and support throughout this process.
+
+### What kind of manual migration will be required?
+**Answer:** Certain configurations, especially those that are highly customized in Virtual Agent Studio, will need manual migration to AI desk PRO. We will provide detailed instructions and support for these cases.
+
+### What happens after 01/03/2025?
+**Answer:** After 01/03/2025, Virtual Agent Studio (VAS) will be completely decommissioned and no longer available. All services, support, and access to the platform will cease. It is crucial for clients to complete the migration to AI desk PRO before this date to ensure continuous service and access to their virtual agent solutions.
+
+### Can the service period of Virtual Agent Studio be extended beyond 01/03/2025?
+**Answer:** Unfortunately, the service period for Virtual Agent Studio cannot be extended beyond 01/03/2025. This deadline is set to allow a complete transition to the more advanced and efficient AI desk PRO platform. We encourage clients to begin the migration process as soon as possible to avoid any service disruptions.
+
+### What happens to my data after 01/03/2025?
+**Answer:** After 01/03/2025, since Virtual Agent Studio will be fully decommissioned, any data still stored on the platform will be permanently deleted in accordance with our data retention policies and privacy regulations. We strongly advise clients to backup or migrate all necessary data to AI desk PRO or another secure location before the shutdown date to prevent data loss.
+
+### What changes are required for chatbots integrated with Microsoft Teams?
+**Answer:** For chatbots in Teams, a new Teams package will be necessary, along with a new deployment. We will guide you through this process to ensure a smooth transition.
+
+### Will conversation history in Teams and Virtual Agent Studio be migrated to AI desk PRO?
+**Answer:** No, the conversation history in Teams and in Virtual Agent Studio will not be migrated to AI desk PRO. We recommend archiving important conversations before the transition.
+
+### Where is AI desk PRO hosted?
+**Answer:** AI desk PRO is hosted on Microsoft Azure, specifically in the France Central Datacenters. This ensures high performance and compliance with regional data protection regulations.
+
+### How will the manual migration affect my current operations?
+**Answer:** We aim to minimize the impact on your current operations. Our team will work with you to plan the migration process effectively, ensuring continuity of service.
+
+### How can I prepare for the transition to AI desk PRO?
+**Answer:** We recommend familiarizing yourself with the new features of AI desk PRO, archiving important data from Virtual Agent Studio, and planning for the manual aspects of the migration. Our team will provide resources and support to help you prepare.
+
+### On what channels is AI desk PRO available?
+**Answer:** AI desk PRO will be available on Microsoft Teams, incorporating all UI and AI features. Additionally, a webchat option will be provided, albeit with a subset of the features available in Teams.
+
+### Can I customize the chatbot's identity in AI desk PRO as in Virtual Agent Studio (VAS)?
+**Answer:** Yes, personalization is very much possible in AI desk PRO. You have the flexibility to manage the icon, logo, description, and chatbot behaviors, allowing for a tailored user experience.
+
+### How can I integrate the chatbot with other applications?
+**Answer:** Integration with other systems for data retrieval and reading is feasible through the development of AI Plugins. This allows for seamless interconnectivity with various applications.
+
+### If I operate multiple chatbots, will I need separate AI desk PRO apps for each?
+**Answer:** AI desk PRO enables the creation of multiple specialized Agent instances, named Agents /ˈdʒiː.piː.tiːz/, each dedicated to a specific topic or vertical. This feature allows for more focused and effective chatbot solutions.
+
+### Does AI desk PRO offer usage statistics similar to VAS?
+**Answer:** Yes, AI desk PRO includes comprehensive dashboards providing insights into adoption and usage patterns. These advanced AI-driven dashboards offer detailed analytics.
+
+### Is it possible to run a chatbot in AI desk PRO without a knowledge base?
+**Answer:** Absolutely, AI desk PRO is designed to eliminate the need for a traditional knowledge base. Simply upload documents or link a SharePoint site, and AI desk PRO will employ advanced RAG (Retrieval-Augmented Generation) techniques, including OCR, to ingest your documents.
+
+### Can I still send push messages in AI desk PRO?
+**Answer:** Push messaging will be supported in AI desk PRO through an additional addon named Company Communicator Pro. This feature enhances the communication capabilities of the platform.
+
+### What are the architectural difference between AI desk PRO and VAS.
+**Answer:** AI desk PRO is a brand new application with is own architecture and its own data model.
+While most of the data will be migrated by Witivio, customer administrators might have to do some manual work to ensure a smooth transition.
+- **Two Azure AD Applications will need consent instead of one**. In AI desk PRO we distinguish the admin center from the bot. 
+The bot is available from Microsoft Teams Store to all users. It uses Teams SSO to authenticate the user and ask for consent to access files when the user ask a question about a file stored in SharePoint.
+The admin center is used by the customer administrator to manage the bot and the data.
+- **The permission asked by AI desk PRO are different**. The admin center will ask for `User.Read`, `email`, `openid`, `offline_access`, `profile`, `User.ReadBasic.All` and `Files.Read.All`. The bot will ask for `User.Read` and `Files.Read.All`.
+- **The bot is now available in Microsoft Teams Store**. Instead of having to install it from the Teams Admin center.
+- **DNS will change** from `app.virtualagentstudio.com` to `admin.aidesk-pro.com`. `webchat.witivio.com` will be removed. Customer might have to update their proxy configuration to reflect this change.
+- **The webchat script, Sharepoint Webpart, Outlook extension, Teams Escalation App and PowerBI connector will not be migrated**. The customer will have to install the new extensions when available.
+- **API Providers will not be migrated**. Customer will have to migrate their API to AI desk PRO Plugin when necessary.
+
+</div>
+
+<Intercom />
+<Hubspot />
+<Clarity />
+<GoogleAnalytics />

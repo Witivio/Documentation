@@ -1,6 +1,6 @@
-# GPT Learning
+# Agent Learning
 
-The GPT learning feature is intended for Virtual Agent Studio users who want to optimize the time required to create a knowledge base by finding answers in documentation written on specific topics.
+The Agent learning feature is intended for Virtual Agent Studio users who want to optimize the time required to create a knowledge base by finding answers in documentation written on specific topics.
 
 Also called "semantic indexing", this feature allows your chatbot to understand and respond contextually from a set of documents you provide. This is particularly useful when you want your chatbot to process a large amount of structured and unstructured information, such as user manuals, FAQs, knowledge base articles, regulatory texts, etc.
 

@@ -98,9 +98,9 @@ Learn more about [Authentication and authorization basics for Microsoft Graph...
 
 * Learn more for [Green Center...](/architecture-security/green-center/#microsoft-graph)
 
-#### GPT Pro
+#### AI desk PRO
 
-* Learn more for [GPT Pro...](/architecture-security/gpt-pro/#microsoft-graph)
+* Learn more for [AI desk PRO...](/architecture-security/aidesk-pro/#microsoft-graph)
 
 <Classification label="public" />
 <Intercom />

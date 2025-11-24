@@ -9,7 +9,7 @@ In order to prepare your organization's network for Witivio solutions, here is a
 
 **All the traffic from and to the Witivio solutions use HTTPS protocol on port 443.**  
 Here is a short description of each flow:
-1. *.teams-pro.com / gpt-pro.com for the apps including help contents
+1. *.teams-pro.com / aidesk-pro.com for the apps including help contents
 2. *.msecnd.net and *..visualstudio.com for performance metrics analysis
 3. *.windows.net for blob cache storage
 4. *.microsoft.com for Microsoft Graph API access
@@ -72,21 +72,21 @@ This information is subject to change and we recommend that you check back quart
 * Justification/Purpose: Microsoft service used by Witivio solutions to collect anonymous telemetry
 
 
-### GPT Pro
+### AI desk PRO
 
-#### GPT Pro Web App
-* Domains/Hosts: ***.gpt-pro.com**
+#### AI desk PRO Web App
+* Domains/Hosts: ***.aidesk-pro.com**
 * Justification/Purpose: GPTPro web applications for Microsoft Teams
 
-#### GPT Pro Help Center
+#### AI desk PRO Help Center
 * Domains/Hosts: **docs.witivio.com**
 
-#### GPT Pro Trust Center
+#### AI desk PRO Trust Center
 * Domains/Hosts: **trust.witivio.com**
 
-#### GPT Pro Admin Center
-* Domains/Hosts: **admin.gpt-pro.com**
-* Justification/Purpose: Admin center of GPT Pro
+#### AI desk PRO Admin Center
+* Domains/Hosts: **admin.aidesk-pro.com**
+* Justification/Purpose: Admin center of AI desk PRO
 
 #### Clarity
 * Domains/Hosts: **clarity.ms**
