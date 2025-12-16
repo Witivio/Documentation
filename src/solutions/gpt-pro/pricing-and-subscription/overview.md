@@ -40,7 +40,7 @@ Examples:
 
  
 
-Full details on <a href="https://www.teams-pro.com/en/gpt-pro/" target="_blank" rel="noopener">TeamsPro Admin Center</a>
+Full details on <a href="https://marketplace.microsoft.com/en-us/product/saas/witivio.gpt-pro?tab=PlansAndPrice" target="_blank" rel="noopener">Microsoft Marketplace</a>
  
 
  

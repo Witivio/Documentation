@@ -886,6 +886,18 @@ module.exports = {
               ],
             },
             {
+              title: "Mail Pro",
+              collapsable: true,
+              path: "/solutions/mail-pro/overview/",
+              children: [
+                ["/solutions/mail-pro/overview.md", "Overview"],
+                ["/solutions/mail-pro/getting-started-with-mail-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/mail-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/mail-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
+                ["/solutions/mail-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
               title: "Map Pro",
               collapsable: true,
               path: "/solutions/map-pro/overview/",
@@ -1901,6 +1913,18 @@ module.exports = {
               ],
             },
             {
+              title: "Mail Pro",
+              collapsable: true,
+              path: "/solutions/mail-pro/overview/",
+              children: [
+                ["/solutions/mail-pro/overview.md", "Overview"],
+                ["/solutions/mail-pro/getting-started-with-mail-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/mail-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/mail-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
+                ["/solutions/mail-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
               title: "Map Pro",
               collapsable: true,
               path: "/solutions/map-pro/overview/",
@@ -2913,6 +2937,18 @@ module.exports = {
                     ["/solutions/keepass-pro/Q&A/questions-and-answers.md", "KeePass Pro Q&A"],
                   ],
                 },
+              ],
+            },
+            {
+              title: "Mail Pro",
+              collapsable: true,
+              path: "/solutions/mail-pro/overview/",
+              children: [
+                ["/solutions/mail-pro/overview.md", "Overview"],
+                ["/solutions/mail-pro/getting-started-with-mail-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/mail-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/mail-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
+                ["/solutions/mail-pro/Q&A/questions-and-answers.md", "Q&A"],
               ],
             },
             {
