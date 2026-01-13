@@ -12,65 +12,90 @@ To access the dashboard, navigate to [admin.aidesk-pro.com](https://admin.aidesk
 
 The AI desk PRO Dashboard is designed to give you a quick snapshot of key metrics and activities associated with your AI desk PRO instance. Here's what you'll find:
 
-### Distinct Users
-
-This card displays the number of unique users that have interacted with your AI desk PRO instance.
-
-### Messages
-
-Here, you can see the total number of messages processed by AI desk PRO.
-
-### Feedbacks Received
-
-This section shows the amount of feedbacks your system has received. Feedback corresponds to a Teams reaction (emoji) to a message.
-
-:::tip
-Regularly check the feedback section to understand user satisfaction and areas of improvement.
-:::
-
-### Average Chat Ratings
-The star rating system is designed for the administrators to evaluate the quality of a conversation between the user and AI desk PRO's responses.
-
-### Unique Users per Day
-
-The line graph illustrates the daily fluctuation of distinct users. Use this to identify trends or patterns in user engagement.
-
-### Feedback Received Bar Chart
-
-The bar chart provides a visual comparison between different types of feedback, such as 'heart' and 'like'.
-
-:::warning
-A higher number of negative feedbacks compared to positive ones might indicate user experience issues that need to be addressed promptly.
-:::
-
-### Assessments Given
-The "Assessments Given" section on AI desk PRO quantifies and presents the total number of user evaluations provided for the service, broken down into distinct categories for comprehensive feedback analysis and quality control.
-
-### Most Used Keywords
-The treemap chart dynamically tracks and visualizes the frequency of keyword usage in queries, assisting users in identifying trending topics and areas of high interest for better insights into user engagement.
-
-### Most Common User Request
-This section provides a ranked list of the most frequent inquiries made by users, with a count next to each for easy tracking of common concerns and topics.
-
-### Most asked question categories
-The pie chart offers a colorful breakdown of user queries, enabling prioritization and trend-spotting in employee's concerns.
-
-
-## Navigating the Dashboard
-
-### Date Range Selection
-
-At the top of the dashboard, you'll find a date range selector. Use this to filter the data displayed for a specific timeframe.
-
-
-## Interpreting the Data
-
-The data presented in the dashboard can be used to gauge the performance and user interaction with your AI desk PRO instance. For instance:
-
-- An increase in distinct users can indicate successful user acquisition efforts.
-- A steady number of messages suggests consistent user engagement.
-- Feedback trends can reflect user satisfaction and can guide further development.
-- Most Asked Question Categories can be insightful for administrators looking to understand the areas where employees seek more information or encounter issues frequently
+### Definition  
+Number of **distinct users** who interacted with the bot at least once during the selected period.
+ 
+### Calculation method  
+A user is uniquely identified depending on the channel used:
+ 
+| Channel | Identifier used |
+|------|----------------|
+| Microsoft Teams | `userAadId` |
+| Webchat (authenticated user) | `userAadId` |
+| Webchat (anonymous user) | `userId` (generated unique identifier) |
+ 
+### Counting rules  
+- A user is counted **only once**, regardless of the number of messages or conversations.  
+- Users are **automatically deduplicated** across interactions.
+ 
+ 
+## 2. Number of Messages
+ 
+### Definition  
+Total number of messages **sent by users** to the bot during the selected period.
+ 
+### Counting rules  
+- Only **user → bot** messages are counted  
+- Bot responses are **not included**  
+- All channels (Teams, Webchat) are included
+ 
+---
+ 
+## 3. Satisfaction Rate
+ 
+### Definition  
+Indicator measuring the overall level of user satisfaction based on collected feedback.
+ 
+### Calculation method  
+The satisfaction rate is calculated as the **ratio of positive and neutral feedback compared to the total number of feedbacks**, including negative feedback.
+ 
+> **Negative feedback (thumbs down) is counted as negative feedback and directly impacts the satisfaction rate.**
+ 
+### Calculation formula  
+ 
+Satisfaction Rate =
+(positive feedback + neutral feedback)
+/
+(positive feedback + neutral feedback + negative feedback)### Feedback types
+ 
+| Feedback type | Impact on rate |
+|-------------|---------------|
+| 👍 Positive | Included in positive feedbacks|
+| 😐 Neutral (no feedback) | Included in positive feedbacks |
+| 👎 Negative | Counted as negative |
+ 
+ 
+## 4. Feedback Details – Thumbs Up 👍
+ 
+### Description  
+When exporting data, it is possible to precisely identify conversations that received **positive feedback (thumbs up)**.
+ 
+### Purpose  
+- Analyze responses perceived as relevant by users  
+- Identify high-value content  
+- Capitalize on best-performing answers in the knowledge base
+ 
+ 
+## 5. Additional Charts and Keywords
+ 
+### Data origin  
+Additional dashboard charts (trends, topics, keyword clouds, most frequent keywords) are:
+ 
+- **Automatically generated by generative AI**
+- Based on semantic analysis of conversations over the selected period
+ 
+### Objective  
+- Identify recurring topics  
+- Detect emerging user needs  
+- Prioritize bot content and experience improvements
+ 
+ 
+## Key Takeaways
+ 
+- All metrics are **calculated on the selected time period**
+- Users are **counted uniquely**
+- The satisfaction rate reflects a **real balance between positive, neutral, and negative feedback**
+- Topic and keyword analysis is **fully automated by generative AI**
 
 ## Conclusion
 
