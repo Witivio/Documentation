@@ -1,12 +1,10 @@
-# Preview Features – AI Desk Pro
+# Preview Features – AI desk Pro
  
 ## What are Preview features and how do I enable them?
  
----
- 
 ## What are Preview features?
  
-Preview features in AI Desk Pro provide early access to selected capabilities before their broader availability.
+Preview features in AI desk Pro provide early access to selected capabilities before their broader availability.
  
 They allow customers to:
  
@@ -25,7 +23,6 @@ Preview features:
  
 Enabling a Preview feature does not constitute a roadmap commitment or a guarantee of general availability.
  
----
  
 ## Important considerations before enabling Preview
  
@@ -38,7 +35,6 @@ Before activating Preview mode:
  
 Preview features are designed for controlled evaluation environments.
  
----
  
 ## How do I enable Preview mode?
  
@@ -51,11 +47,10 @@ To enable Preview mode, you must:
  
 If you do not have the required permissions, contact your system administrator.
  
----
  
 ### Enable Preview mode (Agent-level activation)
  
-1. Sign in to AI Desk Pro  
+1. Sign in to AI desk Pro  
 2. Open the relevant Agent  
 3. Navigate to **Agent Personalization**  
 4. Locate the **Preview Mode** setting  
@@ -64,7 +59,6 @@ If you do not have the required permissions, contact your system administrator.
  
 Preview mode becomes active immediately after saving.
  
----
  
 ## What happens when Preview mode is activated?
  
@@ -76,14 +70,12 @@ Once enabled:
  
 Preview mode can be disabled at any time by toggling the setting to **Off**.
  
----
  
 ## Preview Feedback Collection
  
 As part of Preview mode, feedback must be submitted exclusively through the dedicated **Preview Evaluation Form**.
  
-👉 **Submit your Preview feedback here:**  
-https://forms.office.com/e/m92jCRxa1Q?origin=lprLink
+👉 **[Submit your Preview feedback Here](https://forms.office.com/e/m92jCRxa1Q?origin=lprLink)**
  
 The form allows you to:
  
@@ -101,7 +93,6 @@ The form allows you to:
  
 Using the form ensures structured and consistent feedback analysis during the Preview phase.
  
----
  
 ## Support and Scope
  
@@ -111,28 +102,25 @@ Preview features:
 - Should be enabled in controlled scenarios  
 - Are intended for evaluation and early exploration  
  
----
  
 ## Summary
  
-Preview mode in AI Desk Pro enables organizations to:
+Preview mode in AI desk Pro enables organizations to:
  
 - Access selected capabilities early  
 - Evaluate platform changes in a controlled environment  
 - Contribute to product improvement through structured feedback  
  
 Activation is optional, reversible, and managed at the agent level.  
-Final decisions regarding general availability remain at the sole discretion of AI Desk Pro.
+Final decisions regarding general availability remain at the sole discretion of AI desk Pro.
  
----
  
 # Supplemental Terms of Use  
-## Preview Features – AI Desk Pro  
+## Preview Features – AI desk Pro  
 **Updated: 2026**
  
-AI Desk Pro may make certain features, behavioral capabilities, parameters, or internal evolutions available in Preview mode (“Preview Features”). Preview Features are licensed under the agreement governing your use of AI Desk Pro.
+AI desk Pro may make certain features, behavioral capabilities, parameters, or internal evolutions available in Preview mode (“Preview Features”). Preview Features are licensed under the agreement governing your use of AI desk Pro.
  
----
  
 ## 1. Nature of Preview Features
  
@@ -144,7 +132,6 @@ Preview Features:
 - May be available only in selected environments, agents, or regions  
 - Do not constitute a commitment to general availability  
  
----
  
 ## 2. No Warranties and No SLA
  
@@ -154,7 +141,6 @@ PREVIEW FEATURES ARE NOT COVERED BY SERVICE LEVEL AGREEMENTS (SLA).
  
 AI DESK PRO MAY MODIFY, SUSPEND, OR DISCONTINUE A PREVIEW FEATURE AT ANY TIME.
  
----
  
 ## 3. Authorized Use
  
@@ -164,7 +150,6 @@ Activation must occur within controlled environments.
  
 The Customer is solely responsible for assessing risks associated with enabling Preview Features.
  
----
  
 ## 4. Security, Compliance, and Data
  
@@ -178,7 +163,6 @@ Preview Features may be subject to different or reduced commitments regarding:
  
 The Customer remains responsible for assessing whether the Preview Feature is appropriate for its regulatory and legal obligations.
  
----
  
 ## 5. Generative AI-Related Features
  
@@ -188,7 +172,6 @@ Behavior and outputs may evolve.
  
 Appropriate human oversight is required.
  
----
  
 ## 6. Restricted Early Access Preview
  
@@ -196,7 +179,7 @@ Experimental or early-access Preview Features are intended solely for internal e
  
 They may not be shared, disclosed, or exposed to third parties without prior written authorization.
  
----
+
  
 ## 7. Limitation of Liability
  
@@ -204,7 +187,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, AI DESK PRO SHALL NOT BE LIAB
  
 TOTAL LIABILITY RELATING TO PREVIEW FEATURES SHALL BE LIMITED TO DIRECT DAMAGES NOT EXCEEDING THE AMOUNT PAID BY THE CUSTOMER DURING THE PRECEDING TWELVE (12) MONTHS.
  
----
+
  
 ## 8. General Availability Decision
  
@@ -212,7 +195,7 @@ AI DESK PRO RETAINS SOLE DISCRETION TO GENERALIZE, MODIFY, MAINTAIN IN PREVIEW, 
  
 Activation of a Preview Feature does not constitute a contractual commitment to future availability.
  
----
+
  
 ## 9. Potential Pricing Evolution
  
