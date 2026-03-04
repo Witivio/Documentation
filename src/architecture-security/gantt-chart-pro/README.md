@@ -29,7 +29,7 @@ Here is how we're managing data for these different categories:
 | Scope | Description | Justification | Admin Consent Required |
 |-------|-------------|---------------|:----------------------:|
 | ```User.Read``` | Retrieve the properties and relationships of user object. | **Allows Gantt Chart Pro to read user information and to display it in the UI.** | No |
-| ```User.ReadBasic.All ``` | Retrieve the properties and relationships of user object. | **Allows Gantt Chart Pro to read user information and to display it in the UI.** | Yes |
+| ```User.ReadBasic.All ``` | Retrieve the properties and relationships of user object. | **Allows Gantt Chart Pro to read user information and to display it in the UI.** | No |
 |```email```| Gives the app access to the user's primary email address in the form of the email claim | | No |
 |```openid```| Used to sign in with OpenID Connect | | No |
 |```offline_access```| Gives the app access to resources on behalf of the user for an extended time. | **When a user approves the offline_access scope, Gantt Chart Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Gantt Chart Pro can get new access tokens as older ones expire.** | No |

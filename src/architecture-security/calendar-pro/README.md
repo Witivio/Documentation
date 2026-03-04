@@ -34,7 +34,7 @@ Here is how we're managing data for these different categories:
 |```openid```| Used to sign in with OpenID Connect | | No |
 |```offline_access```| Gives the app access to resources on behalf of the user for an extended time. | **When a user approves the offline_access scope, Calendar Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Calendar Pro can get new access tokens as older ones expire.** | No |
 |```profile```| Gives the app access to basic information about the user in the claims.| | No |
-| ```User.ReadBasic.All ``` | Retrieve the properties and relationships of user object. | **Allows Calendar Pro to read user information and to display it in the UI.** | Yes |
+| ```User.ReadBasic.All ``` | Retrieve the properties and relationships of user object. | **Allows Calendar Pro to read user information and to display it in the UI.** | No |
 
 ::: tip
 The Azure AD App ID is: **fb507a6d-2eaa-4f1f-b43a-140f388c4445**
