@@ -138,6 +138,53 @@ Use the drag-and-drop interface to assemble conversation blocks into a logical p
 
 This type of flow improves support operations by automating FAQs and ticket creation directly within Microsoft Teams.
 
+#### Audit Tab
+
+The **Audit** tab is available on every question (QnA) in AI Desk Pro. It provides a full traceability log of the question's lifecycle — from creation to draft saves and publication.
+
+##### Question
+
+| Field | Description |
+|---|---|
+| **Question created by** | The user who originally created the question |
+| **Question created at** | Date and time of creation |
+| **Question modified by** | The user who last modified the question |
+| **Question modified at** | Date and time of the last modification |
+
+##### Draft Answer
+
+| Field | Description |
+|---|---|
+| **Draft answer created by** | The user who created the first draft of the answer |
+| **Draft answer created at** | Date and time the draft was first saved |
+| **Draft answer modified by** | The user who last saved the draft |
+| **Draft answer modified at** | Date and time of the last draft save |
+
+##### Published Answer
+
+| Field | Description |
+|---|---|
+| **Published answer by** | The user who triggered the publication |
+| **Published answer at** | Date and time the answer was published |
+
+##### Empty Fields
+
+If a field is **blank**, it means the action took place before the audit system was implemented. The data was not captured at the time and cannot be retroactively retrieved.
+
+> Empty field = data existed before audit tracking was enabled.
+
+##### `system` Value
+
+If a field shows **`system`** instead of a user name, it means the action was triggered by an automated bulk publication, not by a specific user manually clicking publish.
+
+> `system` = triggered by a mass publication run, not a named user.
+
+##### Automatic Publication via Business Vocabulary
+
+When an acronym or term is modified in the **Business Vocabulary** section, all questions referencing that term are automatically republished. In that case, the **Published answer by** field displays the name of the user who clicked **Save in the Business Vocabulary section** — not a content editor.
+
+> If you see an unexpected name in the **Published answer by** field, check whether a Business Vocabulary update was performed around the same date and time.
+
 
 #### Editing Existing Entries
 

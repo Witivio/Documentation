@@ -900,6 +900,18 @@ module.exports = {
               ],
             },
             {
+              title: "Manager Insight Pro",
+              collapsable: true,
+              path: "/solutions/manager-insight-pro/overview/",
+              children: [
+                ["/solutions/manager-insight-pro/overview.md", "Overview"],
+                ["/solutions/manager-insight-pro/getting-started-with-manager-insight-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/manager-insight-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/manager-insight-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
+                ["/solutions/manager-insight-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
               title: "Map Pro",
               collapsable: true,
               path: "/solutions/map-pro/overview/",
@@ -1929,6 +1941,18 @@ module.exports = {
               ],
             },
             {
+              title: "Manager Insight Pro",
+              collapsable: true,
+              path: "/solutions/manager-insight-pro/overview/",
+              children: [
+                ["/solutions/manager-insight-pro/overview.md", "Overview"],
+                ["/solutions/manager-insight-pro/getting-started-with-manager-insight-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/manager-insight-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/manager-insight-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
+                ["/solutions/manager-insight-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
               title: "Map Pro",
               collapsable: true,
               path: "/solutions/map-pro/overview/",
@@ -2955,6 +2979,18 @@ module.exports = {
                 ["/solutions/mail-pro/fundamentals/overview.md", "Fundamentals"],
                 ["/solutions/mail-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
                 ["/solutions/mail-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
+              title: "Manager Insight Pro",
+              collapsable: true,
+              path: "/solutions/manager-insight-pro/overview/",
+              children: [
+                ["/solutions/manager-insight-pro/overview.md", "Overview"],
+                ["/solutions/manager-insight-pro/getting-started-with-manager-insight-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/manager-insight-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/manager-insight-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
+                ["/solutions/manager-insight-pro/Q&A/questions-and-answers.md", "Q&A"],
               ],
             },
             {
