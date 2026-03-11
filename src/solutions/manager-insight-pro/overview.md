@@ -1,7 +1,7 @@
 ---
 tagTitle: User solutions for Manager Insight Pro.
 tagLine: Your AI-powered management insights for Copilot. Get visibility on your team and projects instantly..
-heroImage: /mail-pro.png
+heroImage: /manager-insight-pro.png
 actionText: Get Started →
 actionLink: /solutions/manager-insight-pro/get-started/
 items:
