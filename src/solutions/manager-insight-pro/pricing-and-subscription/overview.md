@@ -1,19 +1,16 @@
 # Pricing & Subscription 
 
-## Usage Limits & Message Policy 
+Manager Insights Pro is available at **$5.99 per user per month**.
 
-Manager Insight Pro may use a **usage model** depending on your plan.
+> A valid **Microsoft 365 Copilot license** is required. Local pricing may apply depending on your region.
 
-- Each plan includes a specific message or usage allowance
-- When the limit is reached, the assistant may pause temporarily or you may need to upgrade the plan
+### What's included
 
-Full pricing details on <a href="https://www.teams-pro.com" target="_blank" rel="noopener">TeamsPro website</a>
-
----
-
-## Pricing 
-
-Pricing is available through **in-app purchase** in the Microsoft Teams Store.
+- Full access to all 6 built-in starter prompts
+- Unlimited freeform prompting (within usage policy)
+- Analysis across Teams, Outlook, Calendar, and Org Chart
+- Native Microsoft 365 Copilot integration
+- All data stays within your Microsoft 365 tenant
 
 Full pricing details on <a href="https://marketplace.microsoft.com" target="_blank" rel="noopener">Microsoft Marketplace</a>
 
