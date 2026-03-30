@@ -239,6 +239,7 @@ You can also ask freeform questions to get custom insights based on your permiss
 
 **What Manager Insights Pro does:** Identifies collaboration friction and clarifies where ownership gaps are creating delays.
 
+
 ---
 
 <Intercom />
