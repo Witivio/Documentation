@@ -138,7 +138,13 @@ Use the drag-and-drop interface to assemble conversation blocks into a logical p
 
 This type of flow improves support operations by automating FAQs and ticket creation directly within Microsoft Teams.
 
-#### Audit Tab
+#### Editing Existing Entries
+
+1. **Locate the Entry**: Choose the entry you want to edit.
+2. **Edit Information**: Click on the entry to open it and make the necessary changes on the draft
+3. **Save Changes**: Click on `Save` to update the entry, once saved the updated input will be showcased on the published tab..
+
+## Audit Tab
 
 The **Audit** tab is available on every question (QnA) in AI Desk Pro. It provides a full traceability log of the question's lifecycle — from creation to draft saves and publication.
 
@@ -175,7 +181,7 @@ If a field is **blank**, it means the action took place before the audit system 
 
 ##### `system` Value
 
-If a field shows **`system`** instead of a user name, it means the action was triggered by an automated bulk publication, not by a specific user manually clicking publish.
+If a field shows **`system`** instead of a user name, it means the action was triggered by an automated bulk publication, not by a specific user manually clicking publish due to the migration or a mass publication of questions.
 
 > `system` = triggered by a mass publication run, not a named user.
 
@@ -184,13 +190,6 @@ If a field shows **`system`** instead of a user name, it means the action was tr
 When an acronym or term is modified in the **Business Vocabulary** section, all questions referencing that term are automatically republished. In that case, the **Published answer by** field displays the name of the user who clicked **Save in the Business Vocabulary section** — not a content editor.
 
 > If you see an unexpected name in the **Published answer by** field, check whether a Business Vocabulary update was performed around the same date and time.
-
-
-#### Editing Existing Entries
-
-1. **Locate the Entry**: Choose the entry you want to edit.
-2. **Edit Information**: Click on the entry to open it and make the necessary changes on the draft
-3. **Save Changes**: Click on `Save` to update the entry, once saved the updated input will be showcased on the published tab..
 
 ### Step 2 : Manage gallery ###
 To maintain an organized card image, a gallery is available:  an image must be added to the gallery before it can be used in a card.
