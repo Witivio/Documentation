@@ -155,10 +155,7 @@ Important information:
 - Activation is optional
 - Intended for environments with compatible infrastructure
 
-MCP API documentation is not publicly available.
-It can be requested through support.
-
-MCP APIs are expected to evolve significantly during the Preview phase.
+For detailed setup instructions, including Azure Entra ID configuration and MCP client connection guides, see the dedicated [MCP Server documentation](/solutions/aidesk-pro/fundamentals/mcp-server.html).
 
 # Preview Terms & Conditions
 
