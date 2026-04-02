@@ -912,6 +912,18 @@ module.exports = {
               ],
             },
             {
+              title: "Diagram Maker Pro",
+              collapsable: true,
+              path: "/solutions/diagram-maker-pro/overview/",
+              children: [
+                ["/solutions/diagram-maker-pro/overview.md", "Overview"],
+                ["/solutions/diagram-maker-pro/getting-started-with-diagram-maker-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/diagram-maker-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/diagram-maker-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
+                ["/solutions/diagram-maker-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
               title: "Map Pro",
               collapsable: true,
               path: "/solutions/map-pro/overview/",
@@ -1953,6 +1965,18 @@ module.exports = {
               ],
             },
             {
+              title: "Diagram Maker Pro",
+              collapsable: true,
+              path: "/solutions/diagram-maker-pro/overview/",
+              children: [
+                ["/solutions/diagram-maker-pro/overview.md", "Overview"],
+                ["/solutions/diagram-maker-pro/getting-started-with-diagram-maker-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/diagram-maker-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/diagram-maker-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
+                ["/solutions/diagram-maker-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
               title: "Map Pro",
               collapsable: true,
               path: "/solutions/map-pro/overview/",
@@ -2991,6 +3015,18 @@ module.exports = {
                 ["/solutions/manager-insight-pro/fundamentals/overview.md", "Fundamentals"],
                 ["/solutions/manager-insight-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
                 ["/solutions/manager-insight-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
+              title: "Diagram Maker Pro",
+              collapsable: true,
+              path: "/solutions/diagram-maker-pro/overview/",
+              children: [
+                ["/solutions/diagram-maker-pro/overview.md", "Overview"],
+                ["/solutions/diagram-maker-pro/getting-started-with-diagram-maker-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/diagram-maker-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/diagram-maker-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
+                ["/solutions/diagram-maker-pro/Q&A/questions-and-answers.md", "Q&A"],
               ],
             },
             {
