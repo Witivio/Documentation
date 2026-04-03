@@ -217,20 +217,6 @@ module.exports = {
               ],
             },
             {
-							title: 'Meta Office Pro',
-							collapsable: true,
-							path: "/solutions/meta-office-pro/overview/",
-							children: [
-								['/solutions/meta-office-pro/overview.md', "Overview"],
-								['/solutions/meta-office-pro/get-started.md', "Get Started!"],
-								['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
-								['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
-								['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
-								['/solutions/meta-office-pro/limits.md', "Limits"],
-								['/solutions/meta-office-pro/changelog.md', "Changelog​"],
-							]
-						},*/
-            {
               title: "AI desk PRO",
               collapsable: true,
               path: "/solutions/aidesk-pro/overview/",
@@ -727,42 +713,6 @@ module.exports = {
                 ["/solutions/gpt-pro/fundamentals/overview.md", "Fundamentals"],
                 ["/solutions/gpt-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
                 ["/solutions/gpt-pro/Q&A/questions-and-answers.md", "Q&A"],
-              ],
-            },
-            {
-              title: "Home Pro",
-              collapsable: true,
-              path: "/solutions/home-pro/overview/",
-              children: [
-                ["/solutions/home-pro/overview.md", "Overview"],
-                ["/solutions/home-pro/get-started.md", "Get Started !"],
-                {
-                  title: "Fundamentals",
-                  collapsable: true,
-                  children: [
-                    {
-                      title: "Get to know your widgets",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-add-widget-to-the-home-pro-dashboard-.md", "How can I add Widget to the Home Pro Dashboard?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-configure-a-widget-.md", "How can I configure a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-hide-a-widget-.md", "How can I hide a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-navigate-through-a-widget-.md", "How can I navigate through a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-rename-a-widget-.md", "How can I Rename a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-reset-a-widget-.md", "How can I reset a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-resize-a-widget-.md", "How can I resize a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-do-i-change-the-unique-id-in-the-widget-.md", "How do I change the Unique ID in the widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-many-widgets-can-i-add-.md", "How many widgets can I add?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/what-is-a-widget-.md", "What is a Widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/where-can-i-get-the-settings-of-the-widgets-.md", "Where can I get the settings of the widgets?"],
-                      ],
-                    },
-                  ],
-                },
-                ["/solutions/home-pro/whats-new.md", "What’s new​"],
-                ["/solutions/home-pro/tutorials.md", "Tutorials"],
-                ["/solutions/home-pro/limits.md", "Limits"],
-                ["/solutions/home-pro/changelog.md", "Changelog​"],
               ],
             },
             {
@@ -1271,20 +1221,6 @@ module.exports = {
               ],
             },
             {
-							title: 'Meta Office Pro',
-							collapsable: true,
-							path: "/solutions/meta-office-pro/overview/",
-							children: [
-								['/solutions/meta-office-pro/overview.md', "Overview"],
-								['/solutions/meta-office-pro/get-started.md', "Get Started!"],
-								['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
-								['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
-								['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
-								['/solutions/meta-office-pro/limits.md', "Limits"],
-								['/solutions/meta-office-pro/changelog.md', "Changelog​"],
-							]
-						},*/
-            {
               title: "AI desk PRO",
               collapsable: true,
               path: "/solutions/aidesk-pro/overview/",
@@ -1781,42 +1717,6 @@ module.exports = {
                 ["/solutions/gpt-pro/fundamentals/overview.md", "Fundamentals"],
                 ["/solutions/gpt-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
                 ["/solutions/gpt-pro/Q&A/questions-and-answers.md", "Q&A"],
-              ],
-            },
-            {
-              title: "Home Pro",
-              collapsable: true,
-              path: "/solutions/home-pro/overview/",
-              children: [
-                ["/solutions/home-pro/overview.md", "Overview"],
-                ["/solutions/home-pro/get-started.md", "Get Started !"],
-                {
-                  title: "Fundamentals",
-                  collapsable: true,
-                  children: [
-                    {
-                      title: "Get to know your widgets",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-add-widget-to-the-home-pro-dashboard-.md", "How can I add Widget to the Home Pro Dashboard?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-configure-a-widget-.md", "How can I configure a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-hide-a-widget-.md", "How can I hide a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-navigate-through-a-widget-.md", "How can I navigate through a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-rename-a-widget-.md", "How can I Rename a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-reset-a-widget-.md", "How can I reset a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-resize-a-widget-.md", "How can I resize a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-do-i-change-the-unique-id-in-the-widget-.md", "How do I change the Unique ID in the widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-many-widgets-can-i-add-.md", "How many widgets can I add?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/what-is-a-widget-.md", "What is a Widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/where-can-i-get-the-settings-of-the-widgets-.md", "Where can I get the settings of the widgets?"],
-                      ],
-                    },
-                  ],
-                },
-                ["/solutions/home-pro/whats-new.md", "What’s new​"],
-                ["/solutions/home-pro/tutorials.md", "Tutorials"],
-                ["/solutions/home-pro/limits.md", "Limits"],
-                ["/solutions/home-pro/changelog.md", "Changelog​"],
               ],
             },
             {
@@ -2325,20 +2225,6 @@ module.exports = {
               ],
             },
             {
-							title: 'Meta Office Pro',
-							collapsable: true,
-							path: "/solutions/meta-office-pro/overview/",
-							children: [
-								['/solutions/meta-office-pro/overview.md', "Overview"],
-								['/solutions/meta-office-pro/get-started.md', "Get Started!"],
-								['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
-								['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
-								['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
-								['/solutions/meta-office-pro/limits.md', "Limits"],
-								['/solutions/meta-office-pro/changelog.md', "Changelog​"],
-							]
-						},*/
-            {
               title: "AI desk PRO",
               collapsable: true,
               path: "/solutions/aidesk-pro/overview/",
@@ -2835,42 +2721,6 @@ module.exports = {
                 ["/solutions/gpt-pro/fundamentals/overview.md", "Fundamentals"],
                 ["/solutions/gpt-pro/pricing-and-subscription/overview.md", "Pricing and Subscription"],
                 ["/solutions/gpt-pro/Q&A/questions-and-answers.md", "Q&A"],
-              ],
-            },
-            {
-              title: "Home Pro",
-              collapsable: true,
-              path: "/solutions/home-pro/overview/",
-              children: [
-                ["/solutions/home-pro/overview.md", "Overview"],
-                ["/solutions/home-pro/get-started.md", "Get Started !"],
-                {
-                  title: "Fundamentals",
-                  collapsable: true,
-                  children: [
-                    {
-                      title: "Get to know your widgets",
-                      collapsable: true,
-                      children: [
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-add-widget-to-the-home-pro-dashboard-.md", "How can I add Widget to the Home Pro Dashboard?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-configure-a-widget-.md", "How can I configure a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-hide-a-widget-.md", "How can I hide a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-navigate-through-a-widget-.md", "How can I navigate through a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-rename-a-widget-.md", "How can I Rename a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-reset-a-widget-.md", "How can I reset a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-can-i-resize-a-widget-.md", "How can I resize a widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-do-i-change-the-unique-id-in-the-widget-.md", "How do I change the Unique ID in the widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/how-many-widgets-can-i-add-.md", "How many widgets can I add?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/what-is-a-widget-.md", "What is a Widget?"],
-                        ["/solutions/home-pro/get-to-know-your-widgets/where-can-i-get-the-settings-of-the-widgets-.md", "Where can I get the settings of the widgets?"],
-                      ],
-                    },
-                  ],
-                },
-                ["/solutions/home-pro/whats-new.md", "What’s new​"],
-                ["/solutions/home-pro/tutorials.md", "Tutorials"],
-                ["/solutions/home-pro/limits.md", "Limits"],
-                ["/solutions/home-pro/changelog.md", "Changelog​"],
               ],
             },
             {
