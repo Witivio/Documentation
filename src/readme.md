@@ -10,10 +10,6 @@ items:
   #  itemImage: /virtual-agent-studio.png
   #  itemDescription: Virtual Agent Studio
   #  link: /solutions/virtual-agent-studio/chatbot/build_your_chatbot/
-  # - title: Meta Office Pro
-  #   itemImage: /meta-office-pro.png
-  #   itemDescription: Meta Office Pro
-  #   link: /solutions/meta-office-pro/overview/
   - title: AI desk PRO
     itemImage: /aidesk-pro-icon.png
     itemDescription: AI desk PRO
@@ -58,10 +54,6 @@ items:
     itemImage: /image-pro.png
     itemDescription: Image Pro
     link: /solutions/image-pro/overview/
-  - title: Home Pro
-    itemImage: /home.png
-    itemDescription: Home Pro
-    link: /solutions/home-pro/overview/
 # - title: Distribution List Pro
 #   itemImage: /distribution.png
 #   itemDescription: Distribution List Pro
