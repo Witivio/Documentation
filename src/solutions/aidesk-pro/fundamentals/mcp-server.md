@@ -88,20 +88,19 @@ For production scenarios, consider using a **certificate** or **managed identity
 
 You need to grant your client application permission to call the agent's API. The agent's API is exposed by the SSO application shown on the agent's Information page.
 
+::: warning Delegated authentication only
+The MCP Server only supports the **delegated (on-behalf-of-user) flow**. Application permissions (service-to-service / client credentials) are **not supported**: every call must be made on behalf of a signed-in user so that the agent can enforce per-user permissions on the underlying knowledge sources.
+:::
+
 1. In your client application, go to **API permissions**
 2. Click **Add a permission** > **APIs my organization uses**
 3. Search for the **Application ID** shown on the agent's Information page
-4. Select **Delegated permissions** or **Application permissions** depending on your scenario:
-   - **Delegated** — the MCP client acts on behalf of a signed-in user
-   - **Application** — the MCP client acts as itself (service-to-service)
+4. Select **Delegated permissions** — the MCP client acts on behalf of a signed-in user
 5. Select the available permission scope and click **Add permissions**
-6. If you selected Application permissions, click **Grant admin consent** for your organization
 
 ### Step 4 — Acquire a token
 
-Your MCP client must obtain a JWT access token from Azure Entra ID before connecting.
-
-**For delegated (user) flow:**
+Your MCP client must obtain a JWT access token from Azure Entra ID before connecting, using the delegated (user) flow:
 
 ```
 POST https://login.microsoftonline.com/{tenant-id}/oauth2/v2.0/token
@@ -112,18 +111,6 @@ grant_type=authorization_code
 &scope={audience-uri}/.default
 &code={authorization-code}
 &redirect_uri={your-redirect-uri}
-&client_secret={your-client-secret}
-```
-
-**For application (service-to-service) flow:**
-
-```
-POST https://login.microsoftonline.com/{tenant-id}/oauth2/v2.0/token
-Content-Type: application/x-www-form-urlencoded
-
-grant_type=client_credentials
-&client_id={your-client-app-id}
-&scope={audience-uri}/.default
 &client_secret={your-client-secret}
 ```
 
