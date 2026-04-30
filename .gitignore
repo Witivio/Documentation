@@ -412,3 +412,6 @@ basement_dist
 
 yarn.lock
 .idea/
+
+# Git worktrees
+.worktrees/
