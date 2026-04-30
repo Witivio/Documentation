@@ -13,7 +13,7 @@ Key Characteristics:
 ## Integrating with Microsoft Graph
 
 Integration with Microsoft Graph typically involves:
-- **Authentication**: Leveraging Azure Active Directory for OAuth 2.0 authentication to ensure secure access.
+- **Authentication**: Leveraging Microsoft Entra ID for OAuth 2.0 authentication to ensure secure access.
 - **API Queries**: Making HTTP requests to the Graph endpoint to retrieve or manipulate data.
 - **Permissions**: Managing application permissions and consent levels to comply with organizational and security policies.
 
@@ -21,7 +21,7 @@ Integration with Microsoft Graph typically involves:
 
 Understanding the security implications of Microsoft Graph is crucial:
 
-- **Authentication and Authorization**: Utilizes Azure AD for robust authentication and OAuth 2.0 for authorization, ensuring secure access patterns.
+- **Authentication and Authorization**: Utilizes Microsoft Entra ID for robust authentication and OAuth 2.0 for authorization, ensuring secure access patterns.
 - **Data Access Control**: Implement fine-grained control over data access with extensive permission scopes.
 - **Compliance and Privacy**: Adherence to global compliance standards and privacy laws, making it suitable for various industries.
 - **Audit and Monitoring**: Capabilities to monitor and audit activity, ensuring transparency and aiding in anomaly detection.
@@ -37,7 +37,7 @@ Examples of these kinds of permissions include the following:
 For Witivio soliutions to access data in Microsoft Graph, your administrator must grant it the correct permissions via a consent process.  
 
 Learn more:
-* [Azure AD application consent experience...](https://docs.microsoft.com/en-us/azure/active-directory/develop/application-consent-experience)
+* [Microsoft Entra ID application consent experience...](https://docs.microsoft.com/en-us/azure/active-directory/develop/application-consent-experience)
 
 ## Required Permissions
 

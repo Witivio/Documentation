@@ -41,9 +41,9 @@ All lines of the file (name, first name, SIP/UPN address) must be filled in.
 
 **2 ) From an Active Directory group (dynamic list).**
 
-1. The Client Administrator provides Witivio with the ID client and the Secret of an Azure AD application. Witivio records this information.
+1. The Client Administrator provides Witivio with the ID client and the Secret of an Microsoft Entra ID application. Witivio records this information.
 
-2. Authentication to Azure AD to get a valid token.
+2. Authentication to Microsoft Entra ID to get a valid token.
 
 3. When configuring a push campaign, Witivio searches and displays the groups to which the connected back office user belongs. The user selects a group. 
 

@@ -38,7 +38,7 @@ Here is how we're managing data for these different categories:
 |```profile```| Gives the app access to basic information about the user in the claims.| | No |
 
 ::: tip
-The Azure AD App ID is: **984562b3-6a46-4a7f-a19b-681442b0cdc0**
+The Microsoft Entra ID App ID is: **984562b3-6a46-4a7f-a19b-681442b0cdc0**
 :::
 
 ## Architecture and flow diagram

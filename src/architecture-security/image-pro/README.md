@@ -36,7 +36,7 @@ Here is how we're managing data for these different categories:
 | ```Sites.ReadWrite.All``` | Edit or delete items in all site collections. | **Allows Image Pro to read and write SharePoint and to display it in the UI.** | No |
 
 ::: tip
-The Azure AD App ID is: **f64e410d-2685-4834-8cd1-004fcac3a125**
+The Microsoft Entra ID App ID is: **f64e410d-2685-4834-8cd1-004fcac3a125**
 :::
 
 <!-- ## Architecture and flow diagram
