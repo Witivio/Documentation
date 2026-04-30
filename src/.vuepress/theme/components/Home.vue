@@ -52,24 +52,45 @@
 <div class="container text-center mb-10">
 <h2>Unlock the Full Potential of Witivio Documentation!</h2>
     <h5 class="font-w-4 mb-6">Customize your knowledge acquisition journey from beginning to mastery</h5>
+</div>
 
-    <div class="grid_custom_flow_home">
-
-
-
-        <a :href="item.link" class="shadow p-3 text-start custom_radius" v-for="(item, index) in data.items" :key="index">
-            <div class="bg-primary custom_key_radius text-white h3"> {{index + 1}}</div>
-            <div class="container mt-0">
-                <p class="h4">{{ item.itemDescription }}</p>
-                <div class="text-italic mt-4">Discover {{ item.itemDescription }}</div>
-
-                <div class="arrow">
-                    
+<div v-if="data.teamsApps && data.teamsApps.length" class="home_category home_category--teams">
+    <div class="container text-center">
+        <div class="home_category_header">
+            <span class="home_category_eyebrow">Category</span>
+            <h3 class="home_category_title">Teams apps</h3>
+            <span class="home_category_divider"></span>
+        </div>
+        <div class="grid_custom_flow_home">
+            <a :href="item.link" class="shadow p-3 text-start custom_radius" v-for="(item, index) in data.teamsApps" :key="'teams-' + index">
+                <div class="bg-primary custom_key_radius text-white h3"> {{index + 1}}</div>
+                <div class="container mt-0">
+                    <p class="h4">{{ item.itemDescription }}</p>
+                    <div class="text-italic mt-4">Discover {{ item.itemDescription }}</div>
+                    <div class="arrow"></div>
                 </div>
+            </a>
+        </div>
+    </div>
+</div>
 
-            </div>
-        </a>
-
+<div v-if="data.agents && data.agents.length" class="home_category home_category--agents">
+    <div class="container text-center">
+        <div class="home_category_header">
+            <span class="home_category_eyebrow">Category</span>
+            <h3 class="home_category_title">Agents</h3>
+            <span class="home_category_divider"></span>
+        </div>
+        <div class="grid_custom_flow_home">
+            <a :href="item.link" class="shadow p-3 text-start custom_radius" v-for="(item, index) in data.agents" :key="'agents-' + index">
+                <div class="bg-primary custom_key_radius text-white h3"> {{index + 1}}</div>
+                <div class="container mt-0">
+                    <p class="h4">{{ item.itemDescription }}</p>
+                    <div class="text-italic mt-4">Discover {{ item.itemDescription }}</div>
+                    <div class="arrow"></div>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
 </section>
@@ -212,6 +233,48 @@
   </script>
   
   <style lang="stylus">
+  .home_category
+    padding 4rem 0 3rem
+
+  .home_category--agents
+    background-color #FBF0F7
+    margin-top 1rem
+
+  .home_category_header
+    display flex
+    flex-direction column
+    align-items center
+    margin-bottom 3rem
+
+  .home_category_eyebrow
+    text-transform uppercase
+    letter-spacing 0.18em
+    font-size 0.8rem
+    font-weight 600
+    color $accentColor
+    opacity 0.8
+    margin-bottom 0.75rem
+
+  .home_category_title
+    font-size 2.25rem
+    font-weight 600
+    margin 0
+    line-height 1.2
+
+  .home_category_divider
+    display block
+    width 64px
+    height 3px
+    background-color $accentColor
+    margin-top 1.25rem
+    border-radius 2px
+
+  @media (max-width: $MQMobile)
+    .home_category
+      padding 2.5rem 1.5rem 2rem
+    .home_category_title
+      font-size 1.75rem
+
   .wrap_range
     flex-basis 25%
   .container_item_title

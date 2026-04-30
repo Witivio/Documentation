@@ -5,15 +5,11 @@ tagTitle: Build skills that open doors.
 tagline: Take your time to learn and understand all the different and various Witivio products, from the beginning to the very very end...
 actionText: Quick Start →
 actionLink: /solutions/
-items:
+teamsApps:
   #- title: Virtual Agent Studio
   #  itemImage: /virtual-agent-studio.png
   #  itemDescription: Virtual Agent Studio
   #  link: /solutions/virtual-agent-studio/chatbot/build_your_chatbot/
-  - title: AI desk PRO
-    itemImage: /aidesk-pro-icon.png
-    itemDescription: AI desk PRO
-    link: /solutions/aidesk-pro/overview/
   - title: Booking Room Pro
     itemImage: /booking.png
     itemDescription: Booking Room Pro
@@ -30,10 +26,10 @@ items:
     itemImage: /gantt-chart.png
     itemDescription: Gantt Chart Pro
     link: /solutions/gantt-chart-pro/overview/
-  - title: Gpt Pro
-    itemImage: /gpt-pro.png
-    itemDescription: Gpt Pro
-    link: /solutions/gpt-pro/overview/
+  - title: Image Pro
+    itemImage: /image-pro.png
+    itemDescription: Image Pro
+    link: /solutions/image-pro/overview/
   - title: KeePass Pro
     itemImage: /keepass.png
     itemDescription: KeePass Pro
@@ -50,14 +46,31 @@ items:
     itemImage: /reminds300300.png
     itemDescription: Reminds Pro
     link: /solutions/reminds-pro/overview/
-  - title: Image Pro
-    itemImage: /image-pro.png
-    itemDescription: Image Pro
-    link: /solutions/image-pro/overview/
 # - title: Distribution List Pro
 #   itemImage: /distribution.png
 #   itemDescription: Distribution List Pro
 #   link: /solutions/distribution-list-pro/overview/
+agents:
+  - title: AI desk PRO
+    itemImage: /aidesk-pro-icon.png
+    itemDescription: AI desk PRO
+    link: /solutions/aidesk-pro/overview/
+  - title: Diagram Maker Pro
+    itemImage: /DiagramMakerPro-192x192.jpg
+    itemDescription: Diagram Maker Pro
+    link: /solutions/diagram-maker-pro/overview/
+  - title: Gpt Pro
+    itemImage: /gpt-pro.png
+    itemDescription: Gpt Pro
+    link: /solutions/gpt-pro/overview/
+  - title: Mail Pro
+    itemImage: /mail-pro.png
+    itemDescription: Mail Pro
+    link: /solutions/mail-pro/overview/
+  - title: Manager Insight Pro
+    itemImage: /manager-insights-pro-logo-color.png
+    itemDescription: Manager Insight Pro
+    link: /solutions/manager-insight-pro/overview/
 footer: Made by Witivio with ❤️
 ---
 
