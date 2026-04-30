@@ -22,7 +22,8 @@
     "@vuepress/plugin-register-components": "^1.9.10",
     "clean-css-cli": "^5.6.3",
     "sass": "^1.89.2",
-    "vuepress": "^1.9.10"
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-mermaidjs": "^1.9.1"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
