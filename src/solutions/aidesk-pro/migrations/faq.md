@@ -150,7 +150,7 @@ Virtual Agent Studio will be stopped on 01/03/2025.
 ### What are the architectural difference between AI desk PRO and VAS.
 **Answer:** AI desk PRO is a brand new application with is own architecture and its own data model.
 While most of the data will be migrated by Witivio, customer administrators might have to do some manual work to ensure a smooth transition.
-- **Two Azure AD Applications will need consent instead of one**. In AI desk PRO we distinguish the admin center from the bot. 
+- **Two Microsoft Entra ID Applications will need consent instead of one**. In AI desk PRO we distinguish the admin center from the bot. 
 The bot is available from Microsoft Teams Store to all users. It uses Teams SSO to authenticate the user and ask for consent to access files when the user ask a question about a file stored in SharePoint.
 The admin center is used by the customer administrator to manage the bot and the data.
 - **The permission asked by AI desk PRO are different**. The admin center will ask for `User.Read`, `email`, `openid`, `offline_access`, `profile`, `User.ReadBasic.All` and `Files.Read.All`. The bot will ask for `User.Read` and `Files.Read.All`.

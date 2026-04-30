@@ -1,12 +1,12 @@
 # Authentication & Single Sign On
 
 ## Identity Provider (IdP)
-Access to Witivio apps relie 100% on Microsoft Azure Active Directory (AAD) / Microsoft Entra ID (new name for Azure AD) as an IdP for authentication.  
+Access to Witivio apps relie 100% on Microsoft Entra ID as an IdP for authentication.  
 Especially, it means that:
-- User authentication is performed against your own AAD, just like any other regular Microsoft 365 authentication process.
-- You can enable, disable and manage individual permissions grants from your own AAD.
+- User authentication is performed against your own Microsoft Entra ID, just like any other regular Microsoft 365 authentication process.
+- You can enable, disable and manage individual permissions grants from your own Microsoft Entra ID.
 - We're not accessing, processing nor storing any login / password.
-- Our authentication mechanism is compatible with any [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication) authentication method supported by AAD.
+- Our authentication mechanism is compatible with any [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication) authentication method supported by Microsoft Entra ID.
 
 ## Single Sign On (SSO)
 
@@ -18,7 +18,7 @@ Here's a more detailed explanation:
 
 2. **Enhanced Security**: SSO reduces the risk of password fatigue (the tendency to use weak passwords due to the burden of remembering multiple complex passwords). It also enables centralized management of user access, making it easier to implement strong security policies and promptly revoke access when needed.
 
-3. **Integration with Identity Providers (IdPs)**: SSO often integrates with third-party identity providers like Azure Active Directory. These IdPs manage user identities and credentials, allowing the Teams app to verify user identities without handling passwords directly.
+3. **Integration with Identity Providers (IdPs)**: SSO often integrates with third-party identity providers like Microsoft Entra ID. These IdPs manage user identities and credentials, allowing the Teams app to verify user identities without handling passwords directly.
 
 4. **Seamless User Experience**: For users, SSO in a Teams app means a smoother workflow with fewer interruptions. Once they log in, they can seamlessly use various features of Teams along with other integrated applications without repeated logins.
 

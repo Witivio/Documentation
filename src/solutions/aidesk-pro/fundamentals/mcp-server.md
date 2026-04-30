@@ -15,7 +15,7 @@ When MCP is enabled on an agent, any MCP-compatible client (Claude Desktop, VS C
 
 ### How it works
 
-The MCP server uses the **HTTP + SSE (Server-Sent Events)** transport. MCP clients connect to a dedicated endpoint for the agent and authenticate with an Azure Entra ID (Azure AD) token. Once connected, the client can invoke the `chat` tool to send questions and receive answers with citations.
+The MCP server uses the **HTTP + SSE (Server-Sent Events)** transport. MCP clients connect to a dedicated endpoint for the agent and authenticate with a Microsoft Entra ID token. Once connected, the client can invoke the `chat` tool to send questions and receive answers with citations.
 
 ```
 MCP Client ──Bearer token──▶ AI desk PRO MCP Server ──▶ Agent Knowledge Base
@@ -29,7 +29,7 @@ MCP Client ──Bearer token──▶ AI desk PRO MCP Server ──▶ Agent Kn
 Before configuring MCP, ensure you have:
 
 - Administrator access to the agent in AI desk PRO
-- Access to the **Azure Entra ID** portal (to register or configure a client application)
+- Access to the **Microsoft Entra ID** portal (to register or configure a client application)
 - An MCP-compatible client application
 
 ---
@@ -52,16 +52,16 @@ Once MCP is enabled, connection information appears on the agent's **Information
 | Field | Description |
 |-------|-------------|
 | **MCP Endpoint** | The base URL for the MCP server (e.g., `https://api.aidesk-pro.com/mcp/{agent-id}`) |
-| **Application ID** | The Azure Entra ID application ID used for authentication |
+| **Application ID** | The Microsoft Entra ID application ID used for authentication |
 | **Audience URI** | The audience value to request in the OAuth token (e.g., `api://api.aidesk-pro.com/botid-{application-id}`) |
 
 You will need these three values to configure both the Azure client application and the MCP client.
 
 ---
 
-## Configure the Azure Entra ID client application
+## Configure the Microsoft Entra ID client application
 
-To authenticate with the MCP server, you need to register (or update) a client application in Azure Entra ID that has permission to request tokens for the agent's API.
+To authenticate with the MCP server, you need to register (or update) a client application in Microsoft Entra ID that has permission to request tokens for the agent's API.
 
 ### Step 1 — Register a client application (or use an existing one)
 
@@ -100,7 +100,7 @@ The MCP Server only supports the **delegated (on-behalf-of-user) flow**. Applica
 
 ### Step 4 — Acquire a token
 
-Your MCP client must obtain a JWT access token from Azure Entra ID before connecting, using the delegated (user) flow:
+Your MCP client must obtain a JWT access token from Microsoft Entra ID before connecting, using the delegated (user) flow:
 
 ```
 POST https://login.microsoftonline.com/{tenant-id}/oauth2/v2.0/token
@@ -128,7 +128,7 @@ All MCP clients need the following information:
 |---------|-------|
 | **Server URL** | The **MCP Endpoint** from the agent's Information page |
 | **Transport** | HTTP + SSE (Streamable HTTP) |
-| **Authentication** | Bearer token (Azure Entra ID JWT) |
+| **Authentication** | Bearer token (Microsoft Entra ID JWT) |
 
 ### Claude Desktop
 
@@ -340,7 +340,7 @@ Chat with the AI desk PRO agent using its knowledge base, documents, and configu
 
 - MCP is currently a **Preview** feature — it may evolve or change during this phase
 - The MCP server version is **0.2.0**
-- Authentication requires a valid Azure Entra ID JWT token
+- Authentication requires a valid Microsoft Entra ID JWT token
 - The agent must have MCP enabled in its configuration
 - Each agent has its own dedicated MCP endpoint
 - Chat sessions persist across calls when using the same `chatId`

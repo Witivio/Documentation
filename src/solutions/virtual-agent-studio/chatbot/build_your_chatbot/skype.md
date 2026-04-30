@@ -10,21 +10,21 @@ Before you start, in your Office 365 administration center [https://portal.offic
 - License Skype for Business
 :::
 
-## Azure Active Directory
+## Microsoft Entra ID
 
 Log in to your Office 365 administration center [https://portal.office.com/adminportal/](https://portal.office.com/adminportal/)
 
 * Select Administration Center in the left panel.
-* Select Azure AD
+* Select Microsoft Entra ID
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/virtual-agent-studio/build_your_chatbot/skype1.png')" alt="select Azure AD">
+  <img :src="$withBase('/assets/img/virtual-agent-studio/build_your_chatbot/skype1.png')" alt="select Microsoft Entra ID">
 </div>
 
 
 - You are forwarded to [https://portal.azure.com/](https://portal.azure.com/).
 
-- Select <strong>Azure Active Directory</strong> in the left panel.
+- Select <strong>Microsoft Entra ID</strong> in the left panel.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/virtual-agent-studio/build_your_chatbot/skype2.png')" alt="Azure active directory">
@@ -74,7 +74,7 @@ Log in to your Office 365 administration center [https://portal.office.com/admin
 * Select all elements in the section Delegated permissions
 * Select <strong>Save</strong>
 
-## Allow an Azure AD application
+## Allow an Microsoft Entra ID application
 
 * Copy this URL into the notepad: 
 <pre style="color:white">https://login.microsoftonline.com/common/oauth2/authorize?response_type=id_token&client_id=[APPIDingeredirect_uri=https:/www.witivio.com/s4b&response_mode=form_post&form.online.lync.com & prompt=admin_consent</pre>

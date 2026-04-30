@@ -72,7 +72,7 @@ All the limits are available [here](https://learn.microsoft.com/en-us/graph/thro
 | `Teams.ManageChats` | Manage chats in Teams. | **Allows MetaOffice Pro to create group chat in behalf of the user.** |           No           |
 
 ::: tip
-The Azure AD App ID is: **9fcafdeb-1249-4000-9e96-38e848a963d2**
+The Microsoft Entra ID App ID is: **9fcafdeb-1249-4000-9e96-38e848a963d2**
 :::
 
 ## Architecture and flow diagram

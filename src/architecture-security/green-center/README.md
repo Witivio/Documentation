@@ -88,9 +88,9 @@ Here is how we're managing data for these different categories:
 
 ## Microsoft Graph endpoints
 
-### Endpoint 1: Azure AD User Search
+### Endpoint 1: Microsoft Entra ID User Search
 - **Endpoint:** `https://graph.microsoft.com/v1.0/user`
-- **Functionality:** This endpoint is instrumental in searching for users within Azure Active Directory (AAD). It allows for the retrieval of user details, aiding in user management and verification processes.
+- **Functionality:** This endpoint is instrumental in searching for users within Microsoft Entra ID. It allows for the retrieval of user details, aiding in user management and verification processes.
 - **Security Implications:** Regularly querying this endpoint can help in monitoring and auditing user access, ensuring that only authorized individuals have access to sensitive resources.
 
 ### Endpoint 2: Duplicate File Management
@@ -145,7 +145,7 @@ The image depicts a flow diagram that illustrates the interaction between variou
    - The user initiates the application within Microsoft Teams, which is the starting point of the interaction.
 
 2. **Identity Validation:**
-   - Teams and Azure Active Directory (AAD) work together to validate the user's identity through Single Sign-On (SSO). This is a security measure to ensure that the user is who they claim to be.
+   - Teams and Microsoft Entra ID work together to validate the user's identity through Single Sign-On (SSO). This is a security measure to ensure that the user is who they claim to be.
 
 3. **Information Retrieval via Microsoft Graph API:**
    - Once the user is authenticated, the application retrieves information about the authenticated user from the Microsoft Graph API, which is an interface that allows applications to access data within the Microsoft 365 platform.

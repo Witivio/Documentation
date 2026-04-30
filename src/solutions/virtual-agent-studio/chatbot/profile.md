@@ -71,7 +71,7 @@ The information of the profil may come from :
 
 -   A SharePoint list
 -   HRIS
--   Azure AD
+-   Microsoft Entra ID
 -   … We advise you to consolidate this information via an API (to be
     developed). This API can be easily realized without code via Microsoft Flow
     (see below).

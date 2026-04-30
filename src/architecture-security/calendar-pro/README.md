@@ -37,7 +37,7 @@ Here is how we're managing data for these different categories:
 | ```User.ReadBasic.All ``` | Retrieve the properties and relationships of user object. | **Allows Calendar Pro to read user information and to display it in the UI.** | No |
 
 ::: tip
-The Azure AD App ID is: **fb507a6d-2eaa-4f1f-b43a-140f388c4445**
+The Microsoft Entra ID App ID is: **fb507a6d-2eaa-4f1f-b43a-140f388c4445**
 :::
 
 ## Microsoft Teams Apps Security and Compliance

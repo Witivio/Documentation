@@ -10,7 +10,7 @@ The MoveStream program is designed to facilitate a smooth transition for users m
 
 **1. Prepare**
    - **Stakeholders**: Identify and engage all relevant stakeholders to ensure their needs and expectations are met.
-   - **System Requirements**: Define the technical specifications and system requirements like Azure Entra ID SSO and MS Graph authorization.
+   - **System Requirements**: Define the technical specifications and system requirements like Microsoft Entra ID SSO and MS Graph authorization.
    - **Compatibility & Risk Check**: Conduct thorough compatibility tests and risk assessments to identify potential issues.
    - **Communication Plan**: Develop a communication strategy to keep all parties informed throughout the migration process.
 

@@ -40,7 +40,7 @@ Here is how we're managing data for these different categories:
 
 
 ::: tip
-The Azure AD App ID is: **447c7fc5-2c51-4c7b-a315-3ece4ad3154f**
+The Microsoft Entra ID App ID is: **447c7fc5-2c51-4c7b-a315-3ece4ad3154f**
 :::
 
 ## Architecture and flow diagram

@@ -17,7 +17,7 @@ Especially, Witivio leverages the following Microsoft Teams extensibility compon
 | Embedded web experiences with Tabs | Witivio brings 5 custom tabs to meet specific audiences expectations and requirements |
 | Bots in Microsoft Teams | Witivio intelligent assistant relies on the Microsot Bot Framework and is fully integrated with Microsoft Teams to bring a seamless experience across devices, desktop and mobile |
 | Adaptive Cards | Witivio bot brings actionable notifications through [Adaptive Cards](https://adaptivecards.io/) |
-| Microsoft Graph | Secure and cross-platform authentication with Azure AD. Cross-functional features across the whole Office 365 suite through the Microsoft Graph unified programmability model.
+| Microsoft Graph | Secure and cross-platform authentication with Microsoft Entra ID. Cross-functional features across the whole Office 365 suite through the Microsoft Graph unified programmability model.
 | Messaging Extensions (Search & Share) | Search for any objects right from conversations |
 | Messaging Extensions (Custom Actions) | Initiate actions from conversations |
 | Deep links | Initiate conversation based on business processes |
