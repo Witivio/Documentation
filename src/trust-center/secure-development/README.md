@@ -19,11 +19,11 @@ These best practices are gounded by the [OWASP Security Design Principles](https
 
 ## Development Stack
 
-- **.NET 6 / 8**: A free, cross-platform, open-source developer platform for building various applications, ideal for robust back-end services.
+- **.NET 8 / 10**: A free, cross-platform, open-source developer platform for building various applications, ideal for robust back-end services.
 - **C#**: A modern, object-oriented, and type-safe programming language used for its strong typing and powerful language features.
-- **Microsoft Bot Framework **: Enables the building, testing, deploying, and managing of sophisticated chatbots, integral for interactive customer support solutions.
-- **ASP.NET Core 6 / 8**: A high-performance, open-source framework for building modern, cloud-based, internet-connected applications.
-- **TypeScript **: A strongly typed programming language that builds on JavaScript, enhancing the reliability and maintainability of client-side scripting.
+- **Microsoft Bot Framework**: Enables the building, testing, deploying, and managing of sophisticated chatbots, integral for interactive customer support solutions.
+- **ASP.NET Core 8 / 10**: A high-performance, open-source framework for building modern, cloud-based, internet-connected applications.
+- **TypeScript**: A strongly typed programming language that builds on JavaScript, enhancing the reliability and maintainability of client-side scripting.
 - **React**: A JavaScript library for building user interfaces, known for its efficiency and flexibility in creating dynamic and responsive UIs.
 - **HTML 5 / CSS 3**: Core technologies for building web pages, ensuring structurally sound and visually appealing interfaces.
 - **Azure SaaS and PaaS**: Cloud services provided by Azure, including Software as a Service and Platform as a Service, used for deploying scalable, secure, and efficient cloud-based solutions.
@@ -116,7 +116,7 @@ Through the combination of Azure DevOps and Azure Bicep, along with strategic ma
 
 Witivio employs a suite of development solutions primarily based on Microsoft's technology stacks. The development environment is supported by a variety of tools and integrated development environments (IDEs), including:
 
-1. Visual Studio (Versions 2019 and 2022)
+1. Visual Studio 2026
 2. Visual Studio Code
 3. Azure DevOps (formerly known as VSTS)
 4. Bot Framework Emulator

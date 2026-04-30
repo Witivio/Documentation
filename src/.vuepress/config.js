@@ -690,6 +690,17 @@ module.exports = {
               ],
             },
             {
+              title: "Agent Control Pro",
+              collapsable: true,
+              path: "/solutions/agent-control-pro/overview/",
+              children: [
+                ["/solutions/agent-control-pro/overview.md", "Overview"],
+                ["/solutions/agent-control-pro/getting-started-with-agent-control-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/agent-control-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/agent-control-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
               title: "Diagram Maker Pro",
               collapsable: true,
               path: "/solutions/diagram-maker-pro/overview/",
@@ -861,7 +872,6 @@ module.exports = {
             ["/architecture-security/map-pro/", "Map Pro"],
             ["/architecture-security/image-pro/", "Image Pro"],
             ["/architecture-security/gantt-chart-pro/", "Gantt Chart Pro"],
-            ["/architecture-security/metaoffice-pro/", "MetaOffice Pro"],
             ["/architecture-security/aidesk-pro/", "AI desk PRO"],
             ["/architecture-security/agent-control-pro/", "Agent Control Pro"],
             ["/architecture-security/green-center/", "Green Center"],
@@ -1522,6 +1532,17 @@ module.exports = {
               ],
             },
             {
+              title: "Agent Control Pro",
+              collapsable: true,
+              path: "/solutions/agent-control-pro/overview/",
+              children: [
+                ["/solutions/agent-control-pro/overview.md", "Overview"],
+                ["/solutions/agent-control-pro/getting-started-with-agent-control-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/agent-control-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/agent-control-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
               title: "Diagram Maker Pro",
               collapsable: true,
               path: "/solutions/diagram-maker-pro/overview/",
@@ -1693,7 +1714,6 @@ module.exports = {
             ["/architecture-security/map-pro/", "Map Pro"],
             ["/architecture-security/image-pro/", "Image Pro"],
             ["/architecture-security/gantt-chart-pro/", "Gantt Chart Pro"],
-            ["/architecture-security/metaoffice-pro/", "MetaOffice Pro"],
             ["/architecture-security/aidesk-pro/", "AI desk PRO"],
             ["/architecture-security/agent-control-pro/", "Agent Control Pro"],
             ["/architecture-security/green-center/", "Green Center"],
@@ -2354,6 +2374,17 @@ module.exports = {
               ],
             },
             {
+              title: "Agent Control Pro",
+              collapsable: true,
+              path: "/solutions/agent-control-pro/overview/",
+              children: [
+                ["/solutions/agent-control-pro/overview.md", "Overview"],
+                ["/solutions/agent-control-pro/getting-started-with-agent-control-pro/get-started-guide.md", "Get Started !"],
+                ["/solutions/agent-control-pro/fundamentals/overview.md", "Fundamentals"],
+                ["/solutions/agent-control-pro/Q&A/questions-and-answers.md", "Q&A"],
+              ],
+            },
+            {
               title: "Diagram Maker Pro",
               collapsable: true,
               path: "/solutions/diagram-maker-pro/overview/",
@@ -2525,7 +2556,6 @@ module.exports = {
             ["/architecture-security/map-pro/", "Map Pro"],
             ["/architecture-security/image-pro/", "Image Pro"],
             ["/architecture-security/gantt-chart-pro/", "Gantt Chart Pro"],
-            ["/architecture-security/metaoffice-pro/", "MetaOffice Pro"],
             ["/architecture-security/aidesk-pro/", "AI desk PRO"],
             ["/architecture-security/agent-control-pro/", "Agent Control Pro"],
             ["/architecture-security/green-center/", "Green Center"],

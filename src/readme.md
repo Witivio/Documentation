@@ -71,6 +71,10 @@ agents:
     itemImage: /manager-insights-pro-logo-color.png
     itemDescription: Manager Insight Pro
     link: /solutions/manager-insight-pro/overview/
+  - title: Agent Control Pro
+    itemImage: /agent-control-pro.png
+    itemDescription: Agent Control Pro
+    link: /solutions/agent-control-pro/overview/
 footer: Made by Witivio with ❤️
 ---
 

@@ -38,7 +38,7 @@ Our complete portfolio of domains are outlined below to help our customers confi
 This information is subject to change and we recommend that you check back quarterly for the addition of new domains.
 :::
 
-### TeamsPro & MetaOffice Pro
+### TeamsPro
 
 #### TeamsPro Web App
 * Domains/Hosts: ***.teams-pro.com**

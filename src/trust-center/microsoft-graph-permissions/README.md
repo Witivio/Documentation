@@ -90,10 +90,6 @@ Learn more about [Authentication and authorization basics for Microsoft Graph...
 
 * Learn more for [Company Communicator Pro...](/architecture-security/company-communicator-pro/#microsoft-graph)
 
-#### MetaOffice Pro
-
-* Learn more for [MetaOffice Pro...](/architecture-security/metaoffice-pro/#microsoft-graph)
-
 #### Green Center
 
 * Learn more for [Green Center...](/architecture-security/green-center/#microsoft-graph)

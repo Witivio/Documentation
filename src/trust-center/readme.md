@@ -25,6 +25,25 @@ Through these pages, you'll discover:
 - Our release process
 - How we manage data
 
+## Independently certified to ISO/IEC 27001:2022
+
+<div style="display: flex; align-items: center; gap: 32px; margin: 32px 0; flex-wrap: wrap;">
+  <img src="/assets/img/iso-27001-2022.png" alt="ISO/IEC 27001:2022 Certified" style="width: 180px; height: auto; flex-shrink: 0;" />
+  <div style="flex: 1; min-width: 280px;">
+    <p>
+      Witivio's Information Security Management System (ISMS) is certified against
+      <strong>ISO/IEC 27001:2022</strong>, the international standard for information
+      security. The certification is delivered by an accredited third-party auditor
+      and covers the people, processes, and technology behind every Witivio service.
+    </p>
+    <p>
+      For IT admins and CISOs evaluating Witivio, the full list of Annex A controls,
+      audit reports, and supporting policies is available on our public trust portal:
+      <a href="https://trust.witivio.com" target="_blank" rel="noopener">trust.witivio.com</a>.
+    </p>
+  </div>
+</div>
+
 <Classification label="public" />
 <Intercom />
 <Hubspot />
