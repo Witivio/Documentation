@@ -58,7 +58,7 @@
 
 
         <a :href="item.link" class="shadow p-3 text-start custom_radius" v-for="(item, index) in data.items" :key="index">
-            <div class="bg-primary custom_key_radius text-white h3"> {{index}}</div>
+            <div class="bg-primary custom_key_radius text-white h3"> {{index + 1}}</div>
             <div class="container mt-0">
                 <p class="h4">{{ item.itemDescription }}</p>
                 <div class="text-italic mt-4">Discover {{ item.itemDescription }}</div>
