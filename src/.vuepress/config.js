@@ -15,6 +15,7 @@ module.exports = {
 
   themeConfig: {
     smoothScroll: true,
+    domain: "https://docs.witivio.com",
     repo: "",
     logo: "/witivio.png",
     editLinks: false,
@@ -2571,5 +2572,11 @@ module.exports = {
     "@vuepress/active-header-links": true,
     "@vuepress/register-components": true,
     "vuepress-plugin-mermaidjs": {},
+    "vuepress-plugin-sitemap": {
+      hostname: "https://docs.witivio.com",
+      changefreq: "weekly",
+      exclude: ["/404.html"],
+    },
+    "vuepress-plugin-seo": {},
   },
 };
