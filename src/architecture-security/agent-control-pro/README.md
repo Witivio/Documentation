@@ -116,6 +116,10 @@ Agent Control Pro exposes its capabilities to Microsoft 365 Copilot through a re
 - **Data sent to the server:** the caller's bearer token (validated and exchanged via OBO) and tool arguments such as a package id or OData filter expression.
 - **Third-party APIs:** none. Tool inputs and Microsoft Graph responses are not retained for model training.
 
+::: tip Licensing
+Users calling Agent Control Pro through Microsoft 365 Copilot must hold a **Microsoft Agent 365** license.
+:::
+
 ## Resource Endpoints
 
 All the traffic from and to the Agent Control Pro platform uses HTTPS protocol on port 443. Here is a short description of each flow:

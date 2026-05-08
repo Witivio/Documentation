@@ -8,6 +8,7 @@ Agent Control Pro is read-only. It surfaces ranked recommendations and answers g
 ## Prerequisites
 
 - Active **Microsoft 365 Copilot** license (required)
+- **Microsoft Agent 365** license for every user who calls Agent Control Pro through Microsoft 365 Copilot
 - **Tenant administrator** access (to grant admin consent and upload usage reports)
 - Ability to export the **Microsoft 365 Copilot usage report** from the Microsoft 365 admin centre
 - Microsoft Graph delegated permissions: `User.Read`, `CopilotSettings-LimitedMode.Read.All`
