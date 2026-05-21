@@ -123,7 +123,7 @@ Ensure that the domain communicated to Witivio matches the exact host where the 
 To integrate Webchat into **SharePoint** add a personnal app in SharePoint : 
 
 **Step 1: Add custom apps in Sharepoint**
-1. Ask to witivio the app package if you need the package version without authentication. New version including authentication support: https://admin.aidesk-pro.com/webchat/aidesk-pro-webchat.sppkg
+1. Ask to witivio the app package if you need the package version without authentication. New version including authentication support: [https://admin.aidesk-pro.com/webchat/aideskpro-webchat.sppkg](https://admin.aidesk-pro.com/webchat/aideskpro-webchat.sppkg)
 2. Go to More features in the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185077), and sign in with an account that has admin permissions for your organization.
 3. Under Apps, select Open.
 4. On the Manage apps page, select Upload, and browse to the app you want upload, or drag the app into the library. SharePoint Framework solutions have the file name extension .sppkg.
