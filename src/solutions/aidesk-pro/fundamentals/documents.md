@@ -45,6 +45,11 @@ To learn more about each document type and how to manage them:
 - **[Managing SharePoint Libraries](./sharepoint-libraries.md)** - Discover how to connect SharePoint sites and synchronize document libraries
 - **[Managing SharePoint Pages](./sharepoint-pages.md)** - Explore how to index SharePoint pages as knowledge sources
 
+# Document Counting & Limits
+
+- **1 document = 20 pages.** Regardless of actual page count, each document consumes 20 pages from your quota.
+- **The contracted document count is a total, not cumulative.** The limit applies across all your document sources combined — it is not renewed or added per source or per period.
+
 # General Best Practices
 
 - Regularly review and update your document sources
