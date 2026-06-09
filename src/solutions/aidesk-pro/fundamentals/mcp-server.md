@@ -15,11 +15,31 @@ When MCP is enabled on an agent, any MCP-compatible client (Claude Desktop, VS C
 
 ### How it works
 
-The MCP server uses the **HTTP + SSE (Server-Sent Events)** transport. MCP clients connect to a dedicated endpoint for the agent and authenticate with a Microsoft Entra ID token. Once connected, the client can invoke the `chat` tool to send questions and receive answers with citations.
+The MCP server uses the **HTTP + SSE (Server-Sent Events)** transport. MCP clients connect to a dedicated endpoint for the agent and authenticate with a Microsoft Entra ID token. Once connected, the client can invoke two tools:
 
-```
-MCP Client ──Bearer token──▶ AI desk PRO MCP Server ──▶ Agent Knowledge Base
-            ◀──SSE stream────                        ◀── Answer + Citations
+- **`chat`** — send questions and receive answers with citations.
+- **`get_reference`** — turn any citation returned by `chat` into something openable: a preview link for a local document, Microsoft Graph coordinates for a SharePoint document, or the full question/answer content for a QnA.
+
+```mermaid
+sequenceDiagram
+    participant Client as MCP Client
+    participant Server as AI desk PRO MCP Server
+    participant KB as Agent Knowledge Base
+
+    Client->>Server: Connect (Bearer token, SSE)
+    Server-->>Client: Session ready
+
+    Client->>Server: chat(message)
+    Server->>KB: Retrieve relevant sources
+    KB-->>Server: Passages + metadata
+    Server-->>Client: Answer + citations (referenceId, sourceType)
+
+    opt Resolve a citation
+        Client->>Server: get_reference(referenceId, sourceType)
+        Server->>KB: Check ownership & user permissions
+        KB-->>Server: Source details
+        Server-->>Client: Preview URL / Graph coordinates / QnA content
+    end
 ```
 
 ---
@@ -269,7 +289,7 @@ The server responds (via SSE) with its capabilities and server info.
 }
 ```
 
-The response includes the `chat` tool with its parameter schema.
+The response includes the `chat` and `get_reference` tools with their parameter schemas.
 
 ### 4 — Call the chat tool
 
@@ -294,7 +314,7 @@ The response arrives via the SSE stream with the JSON-RPC result containing the 
 
 ## Available tools
 
-The MCP server exposes a single tool:
+The MCP server exposes two tools: `chat` and `get_reference`.
 
 ### `chat`
 
@@ -314,8 +334,77 @@ Chat with the AI desk PRO agent using its knowledge base, documents, and configu
 | `answer` | string | The complete answer from the agent |
 | `chatId` | string | The chat session ID (use this to continue the conversation) |
 | `chatMessageId` | string | The unique ID of this response message |
-| `citations` | array | Sources and documents used to generate the answer |
+| `citations` | array | Sources and documents used to generate the answer (see below) |
 | `error` | object | Error details if the request failed (contains `code` and `message`) |
+
+**Citation shape:**
+
+Each item in `citations` carries the metadata you need to display the source and, if wanted, retrieve it via `get_reference`:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `referenceId` | string | Identifier to pass back to `get_reference`. Empty when the source has no resolvable backing entity |
+| `sourceType` | string | The kind of source: `Document` or `Qna`. Pass it to `get_reference` alongside `referenceId` |
+| `sourceName` | string | Human-readable name — filename or QnA question |
+| `snippet` | string | The passage of text that supports the citation |
+| `mimeType` | string | MIME type of the source file (empty for QnAs) |
+| `relevanceScore` | number | Relevance of the citation against the query (higher is better) |
+| `fileVersion` | string | File version when known (empty for QnAs / unversioned sources) |
+| `fileLastUpdate` | string | Last-update timestamp of the source when known |
+
+### `get_reference`
+
+Resolve a citation returned by `chat` into an openable preview URL (local documents), Microsoft Graph coordinates (SharePoint documents), or the full QnA content. The agent re-checks that the reference belongs to it and re-validates the signed-in user's permissions before returning anything.
+
+**Parameters:**
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `referenceId` | string | Yes | The `referenceId` from a citation returned by `chat` |
+| `sourceType` | string | Yes | The citation's `sourceType` — `Document` or `Qna` |
+
+**Response (JSON):** the same response shape is used for every kind of source; only the relevant fields are populated. The `sourceType` in the response is more specific than the input (it tells local documents apart from SharePoint ones).
+
+**Local document** (`sourceType` = `Local`) — a file stored by AI desk PRO:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `fileName` | string | The document filename |
+| `mimeType` | string | MIME type of the file |
+| `previewUrl` | string | A ready-to-open, Office Online-compatible preview link. The link is signed and short-lived |
+| `expiresAt` | string | Expiry timestamp of `previewUrl` (default TTL: **1 hour**) |
+
+**SharePoint document** (`sourceType` = `Sharepoint` or `SharepointPage`) — an indexed SharePoint file or page:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `fileName` | string | The document filename |
+| `mimeType` | string | MIME type of the file |
+| `webUrl` | string | The SharePoint URL of the item |
+| `driveId` | string | Microsoft Graph drive ID (typically null for pages) |
+| `driveItemId` | string | Microsoft Graph drive item ID (typically null for pages) |
+| `siteId` | string | Microsoft Graph site ID |
+| `pageId` | string | Graph page ID (populated for SharePoint pages) |
+
+:::warning Microsoft Graph token required
+For SharePoint sources, the MCP server returns coordinates only — it does **not** issue Microsoft Graph tokens. To open `webUrl` or download via `/drives/{driveId}/items/{driveItemId}/content`, your client must obtain its own Graph access token (e.g. via an interactive sign-in). The user's SharePoint permissions are re-checked server-side first, so a `403` is returned if the user is not allowed to read the document.
+:::
+
+**QnA** (`sourceType` = `Qna`):
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `question` | string | The QnA question |
+| `answer` | string | The QnA answer (see `answerType` for its format) |
+| `answerType` | string | `Simple` (plain text), `Card` (adaptive card JSON), or `Dialog` (serialized dialog flow) |
+
+**Error codes:**
+
+| Code | Cause |
+|------|-------|
+| `400` | Empty `referenceId` or `sourceType`, unknown `sourceType`, or a non-GUID QnA `referenceId` |
+| `403` | Reference belongs to another agent, SharePoint permission denied, or tenant mismatch |
+| `404` | Document or QnA not found within the agent's scope |
 
 **Example — Single question:**
 
