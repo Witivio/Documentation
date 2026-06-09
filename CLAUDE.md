@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 User-facing documentation site for Witivio's Microsoft Teams apps, built with **VuePress 1.x**. Deployed as an Azure Static Web App via GitHub Actions (`.github/workflows/azure-static-web-apps-black-moss-035f67f03.yml`).
 
+A second workflow, `.github/workflows/update-documentation.yaml`, is triggered externally via `repository_dispatch` (event type `update-documentation`). It runs `scripts/update_documentation_script_git.ps1` to append the dispatched markdown payload to `src/solutions/gpt-pro/changelog.md` and opens a PR — so the GPT Pro changelog can be updated programmatically from outside the repo.
+
 ## Commands
 
 Run from the repo root unless noted. Yarn is the expected package manager (`yarn.lock` is committed), but `package.json` scripts use `npm`/`vuepress` directly.
@@ -27,7 +29,9 @@ There are no tests or linters configured.
 ### VuePress configuration — `src/.vuepress/config.js`
 This is the single source of truth for navigation. Two things must be edited when adding/changing content:
 1. **`themeConfig.locales./.nav`** — header links.
-2. **`themeConfig.sidebar`** — sidebar tree, keyed by URL prefix (e.g. `/solutions/`). Each entry is either `["/relative/path", "Display Name"]` or a nested `{ title, collapsable, path, children }` group. A page that exists on disk but isn't listed here will not appear in the sidebar.
+2. **`themeConfig.sidebar`** — sidebar tree, keyed by URL prefix. There are **three keys** (`/solutions/`, `/trust-center/`, `/architecture-security/`), and **each one holds a full copy of the entire sidebar tree** (so the same page path appears three times in `config.js`). When adding or renaming a page, edit it in **all three** blocks — otherwise it goes missing from the sidebar while the user is browsing one of the other sections. Each entry is either `["/relative/path", "Display Name"]` or a nested `{ title, collapsable, path, children }` group. A page that exists on disk but isn't listed here will not appear in the sidebar.
+
+The `plugins` block (bottom of `config.js`) enables `vuepress-plugin-mermaidjs` (you can author Mermaid diagrams in fenced ` ```mermaid ` blocks inside any markdown page), plus `vuepress-plugin-sitemap` and `vuepress-plugin-seo`, which auto-generate `sitemap.xml` and SEO/OG meta tags at build time — don't hand-maintain those.
 
 ### Theme customization
 This repo uses a **local theme** at `src/.vuepress/theme/` (not the default theme). Edit there, not in `node_modules`.
