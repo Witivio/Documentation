@@ -33,6 +33,7 @@ This change log documents the updates, bug fixes, and feature enhancements for A
 
 **User Stories:**
 1. **Reviewing User History:** Enhanced the administrator's ability to review user history for quality assessment.
+2. **Per-Agent Answer Model Selection (Preview):** Administrators can now choose the AI model that generates an agent's responses — Default (GPT-4o-mini), Claude Opus 4.8 (Preview), or Mistral Large 3 (Preview) — from Agent Customization, with a per-model credit weight, a change-confirmation dialog requiring consent for Preview models, and a record of the last model change.
 
 #### Additional Information
 - This document is subject to updates as new changes and improvements are made to AI desk PRO.

@@ -5,6 +5,9 @@ This "What's New" page for AI desk PRO provides insights into the latest updates
 
 #### What's New in AI desk PRO
 
+**AI Model Choice**
+- **Per-Agent Answer Model (Preview):** Administrators can now choose the AI model used to generate an agent's responses — Default (GPT-4o-mini), Claude Opus 4.8 (Preview), or Mistral Large 3 (Preview) — directly from Agent Customization. The choice applies to the agent's replies only; knowledge retrieval continues to use the default model. Each model carries a credit weight shown next to the selector, and switching to a Preview model requires accepting its provider's terms of service.
+
 **Administrator Tools Enhancements**
 - **Review User History:** Administrators now have enhanced capabilities to review users' history. This feature is essential for assessing the quality of answers and interactions within Microsoft Teams, ensuring high standards are maintained.
 
