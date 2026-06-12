@@ -75,6 +75,45 @@ These settings influence:
 
 Each feature can be enabled or disabled depending on organizational needs.
 
+# Model
+
+The Model section lets administrators choose which AI model generates the agent's responses. It is located in the **Features** tab of Agent Customization.
+
+## Answer model
+
+The **Answer model** setting defines the AI model used to generate the agent's replies. The available options are:
+
+- **Default** — the standard model (today GPT-4o-mini). Recommended for most agents.
+- **Claude Opus 4.8 (Preview)** — Anthropic's Claude Opus, served through the Anthropic API.
+- **Mistral Large 3 (Preview)** — Mistral's Large 3 model, served through Azure AI Foundry.
+
+::: tip
+The selected model is used for the agent's **responses only**. Semantic processing — embeddings, knowledge search, and reranking — always runs on the default model, so changing the answer model does not affect how the agent retrieves knowledge.
+:::
+
+### Credit consumption
+
+Each model has a **credit weight**, shown as a tooltip next to the selector (for example, `2×`). Exchanges with the agent count toward your session credit consumption at that weight, so a model with a higher weight consumes credits faster. The Default model has the lowest weight.
+
+### Changing the model
+
+Selecting a different model opens a confirmation dialog before the change is applied:
+
+1. In **Configuration > Agent Customization > Features**, open the **Answer model** selector.
+2. Choose the desired model.
+3. Review the confirmation dialog, which states:
+   - the change applies **immediately**, including to conversations currently in progress;
+   - past exchanges are **not** recalculated;
+   - the credit weight of the selected model.
+4. For a Preview model (Claude, Mistral), review the linked **Terms of Service** and tick the mandatory consent checkbox acknowledging that this agent's conversation data will be processed by the model's provider.
+5. Confirm to apply the change.
+
+The most recent change is shown below the selector as a *"Last changed from … to … by … on …"* line, providing a simple audit trail of who switched the model and when.
+
+::: warning
+Claude Opus 4.8 and Mistral Large 3 are Preview features. Review the [Preview Terms](/solutions/aidesk-pro/preview-features.html) before selecting them, and confirm the **Multi-Model** feature is available on your subscription (it appears in the subscription **Preview features** card).
+:::
+
 # Privacy & Security
 
 ## Anonymous mode
