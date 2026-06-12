@@ -15,7 +15,7 @@ When MCP is enabled on an agent, any MCP-compatible client (Claude Desktop, VS C
 
 ### How it works
 
-The MCP server uses the **HTTP + SSE (Server-Sent Events)** transport. MCP clients connect to a dedicated endpoint for the agent and authenticate with a Microsoft Entra ID token. Once connected, the client can invoke two tools:
+The MCP server exposes the **Streamable HTTP** transport (the recommended transport, used by Claude Desktop and VS Code) at a single endpoint per agent — `POST /mcp/{agent-id}` — and also keeps the legacy **HTTP + SSE (Server-Sent Events)** transport for older clients. MCP clients connect to a dedicated endpoint for the agent and authenticate with a Microsoft Entra ID token. Once connected, the client can invoke two tools:
 
 - **`chat`** — send questions and receive answers with citations.
 - **`get_reference`** — turn any citation returned by `chat` into something openable: a preview link for a local document, Microsoft Graph coordinates for a SharePoint document, or the full question/answer content for a QnA.
@@ -26,8 +26,8 @@ sequenceDiagram
     participant Server as AI desk PRO MCP Server
     participant KB as Agent Knowledge Base
 
-    Client->>Server: Connect (Bearer token, SSE)
-    Server-->>Client: Session ready
+    Client->>Server: Connect (Bearer token, Streamable HTTP)
+    Server-->>Client: Session ready (Mcp-Session-Id)
 
     Client->>Server: chat(message)
     Server->>KB: Retrieve relevant sources
@@ -56,6 +56,13 @@ Before configuring MCP, ensure you have:
 
 ## Enable MCP on an agent
 
+MCP access is gated at **two levels** — both must be satisfied, otherwise the server rejects connections:
+
+1. **Subscription level** — the **MCP Server** feature must be available on your plan/subscription. If it is not included in your subscription, the server returns `403` regardless of the agent toggle.
+2. **Agent level** — the **MCP** toggle must be turned on for the specific agent.
+
+To turn on the agent toggle:
+
 1. Sign in to AI desk PRO
 2. Open the agent you want to expose via MCP
 3. Navigate to **Configuration** > **Agent Customization**
@@ -67,13 +74,17 @@ Before configuring MCP, ensure you have:
 MCP is a Preview feature. Review the [Preview Terms](/solutions/aidesk-pro/preview-features.html) before enabling it.
 :::
 
+:::tip
+If connections fail with `403` even though the agent toggle is **On**, confirm the **MCP Server** feature is included in your subscription plan.
+:::
+
 Once MCP is enabled, connection information appears on the agent's **Information** page:
 
 | Field | Description |
 |-------|-------------|
-| **MCP Endpoint** | The base URL for the MCP server (e.g., `https://api.aidesk-pro.com/mcp/{agent-id}`) |
+| **MCP Endpoint** | The base URL for the MCP server (e.g., `https://admin.aidesk-pro.com/mcp/{agent-id}`) |
 | **Application ID** | The Microsoft Entra ID application ID used for authentication |
-| **Audience URI** | The audience value to request in the OAuth token (e.g., `api://api.aidesk-pro.com/botid-{application-id}`) |
+| **Audience URI** | The audience value to request in the OAuth token (e.g., `api://admin.aidesk-pro.com/botid-{application-id}`) |
 
 You will need these three values to configure both the Azure client application and the MCP client.
 
@@ -136,6 +147,10 @@ grant_type=authorization_code
 
 Replace `{audience-uri}` with the **Audience URI** from the agent's Information page.
 
+:::warning Correct audience required
+The token's audience (`aud` claim) must match one the server accepts, or the request is rejected with `401`. The server validates against the host `admin.aidesk-pro.com`, so the audience must be the raw **Application ID** or `api://admin.aidesk-pro.com/botid-{application-id}`. A token issued for `api://api.aidesk-pro.com/...` (the old host) will be **rejected**. Always copy the exact **Audience URI** from the agent's Information page.
+:::
+
 ---
 
 ## Connect an MCP client
@@ -146,19 +161,20 @@ All MCP clients need the following information:
 
 | Setting | Value |
 |---------|-------|
-| **Server URL** | The **MCP Endpoint** from the agent's Information page |
-| **Transport** | HTTP + SSE (Streamable HTTP) |
+| **Server URL** | The **MCP Endpoint** from the agent's Information page (`https://admin.aidesk-pro.com/mcp/{agent-id}`) |
+| **Transport** | Streamable HTTP (recommended). Legacy HTTP + SSE is also supported for older clients |
 | **Authentication** | Bearer token (Microsoft Entra ID JWT) |
 
 ### Claude Desktop
 
-Add the following to your Claude Desktop MCP configuration file (`claude_desktop_config.json`):
+Add the following to your Claude Desktop MCP configuration file (`claude_desktop_config.json`). Use the Streamable HTTP endpoint (no `/sse` suffix):
 
 ```json
 {
   "mcpServers": {
     "aidesk-pro": {
-      "url": "https://api.aidesk-pro.com/mcp/{agent-id}/sse",
+      "type": "http",
+      "url": "https://admin.aidesk-pro.com/mcp/{agent-id}",
       "headers": {
         "Authorization": "Bearer {your-access-token}"
       }
@@ -180,8 +196,8 @@ In your VS Code `settings.json`, add an MCP server entry:
   "mcp": {
     "servers": {
       "aidesk-pro": {
-        "type": "sse",
-        "url": "https://api.aidesk-pro.com/mcp/{agent-id}/sse",
+        "type": "http",
+        "url": "https://admin.aidesk-pro.com/mcp/{agent-id}",
         "headers": {
           "Authorization": "Bearer {your-access-token}"
         }
@@ -197,10 +213,10 @@ Any MCP SDK can connect to the server. Here is an example using the TypeScript M
 
 ```typescript
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
-import { SSEClientTransport } from "@modelcontextprotocol/sdk/client/sse.js";
+import { StreamableHTTPClientTransport } from "@modelcontextprotocol/sdk/client/streamableHttp.js";
 
-const transport = new SSEClientTransport(
-  new URL("https://api.aidesk-pro.com/mcp/{agent-id}/sse"),
+const transport = new StreamableHTTPClientTransport(
+  new URL("https://admin.aidesk-pro.com/mcp/{agent-id}"),
   {
     requestInit: {
       headers: {
@@ -228,39 +244,23 @@ console.log(result);
 
 ## Protocol reference (advanced)
 
-This section describes the raw SSE + JSON-RPC flow for developers building a custom client **without an MCP SDK**. If you use an MCP SDK (TypeScript, Python, C#), these steps are handled automatically.
+This section describes the raw JSON-RPC flow for developers building a custom client **without an MCP SDK**. If you use an MCP SDK (TypeScript, Python, C#), these steps are handled automatically.
 
-### 1 — Open the SSE connection
+### Streamable HTTP (recommended)
 
-Connect to the SSE endpoint with the Bearer token:
+Streamable HTTP uses a **single endpoint** — `POST /mcp/{agent-id}` — for every JSON-RPC message. There is no separate SSE channel to keep open: each request gets its response on the same HTTP call.
+
+#### 1 — Initialize the session
+
+`POST` the `initialize` request to the endpoint with the Bearer token:
 
 ```
-GET /mcp/{agent-id}/sse HTTP/1.1
-Host: api.aidesk-pro.com
+POST /mcp/{agent-id} HTTP/1.1
+Host: admin.aidesk-pro.com
 Authorization: Bearer {access-token}
-Accept: text/event-stream
-```
+Content-Type: application/json
+Accept: application/json, text/event-stream
 
-The server responds with a stream. Wait for the `endpoint` event:
-
-```
-event: endpoint
-data: /mcp/message?sessionId=abc123
-```
-
-This gives you the **message URL** to send JSON-RPC requests to. Prepend the base URL and insert the agent ID:
-
-```
-POST https://api.aidesk-pro.com/mcp/{agent-id}/message?sessionId=abc123
-```
-
-Keep the SSE connection open — all responses will arrive through it.
-
-### 2 — Initialize the session
-
-Send a JSON-RPC `initialize` request to the message endpoint:
-
-```json
 {
   "jsonrpc": "2.0",
   "id": "init-1",
@@ -276,11 +276,21 @@ Send a JSON-RPC `initialize` request to the message endpoint:
 }
 ```
 
-The server responds (via SSE) with its capabilities and server info.
+The server's response includes an **`Mcp-Session-Id`** response header. Send this header back on every subsequent request:
 
-### 3 — List available tools
+```
+Mcp-Session-Id: {session-id-from-initialize-response}
+```
 
-```json
+#### 2 — List available tools
+
+```
+POST /mcp/{agent-id} HTTP/1.1
+Host: admin.aidesk-pro.com
+Authorization: Bearer {access-token}
+Mcp-Session-Id: {session-id}
+Content-Type: application/json
+
 {
   "jsonrpc": "2.0",
   "id": "tools-1",
@@ -291,7 +301,7 @@ The server responds (via SSE) with its capabilities and server info.
 
 The response includes the `chat` and `get_reference` tools with their parameter schemas.
 
-### 4 — Call the chat tool
+#### 3 — Call the chat tool
 
 ```json
 {
@@ -308,7 +318,39 @@ The response includes the `chat` and `get_reference` tools with their parameter 
 }
 ```
 
-The response arrives via the SSE stream with the JSON-RPC result containing the chat response (answer, citations, chatId, etc.).
+The JSON-RPC result contains the chat response (answer, citations, chatId, etc.).
+
+### HTTP + SSE (legacy)
+
+:::warning
+The SSE transport is kept only for backward compatibility with older clients. New integrations should use Streamable HTTP above.
+:::
+
+#### 1 — Open the SSE connection
+
+Connect to the SSE endpoint with the Bearer token:
+
+```
+GET /mcp/{agent-id}/sse HTTP/1.1
+Host: admin.aidesk-pro.com
+Authorization: Bearer {access-token}
+Accept: text/event-stream
+```
+
+The server responds with a stream. Wait for the `endpoint` event:
+
+```
+event: endpoint
+data: /mcp/message?sessionId=abc123
+```
+
+This gives you the **message URL** to send JSON-RPC requests to. Prepend the base URL and insert the agent ID:
+
+```
+POST https://admin.aidesk-pro.com/mcp/{agent-id}/message?sessionId=abc123
+```
+
+Keep the SSE connection open — all responses will arrive through it. The JSON-RPC `initialize`, `tools/list`, and `tools/call` payloads are identical to the Streamable HTTP flow above; only the transport differs.
 
 ---
 
@@ -363,7 +405,11 @@ Resolve a citation returned by `chat` into an openable preview URL (local docume
 | `referenceId` | string | Yes | The `referenceId` from a citation returned by `chat` |
 | `sourceType` | string | Yes | The citation's `sourceType` — `Document` or `Qna` |
 
-**Response (JSON):** the same response shape is used for every kind of source; only the relevant fields are populated. The `sourceType` in the response is more specific than the input (it tells local documents apart from SharePoint ones).
+**Response (JSON):** the same response shape is used for every kind of source; only the relevant fields are populated.
+
+:::tip Input vs. response `sourceType`
+The `sourceType` you **send** is the citation's coarse type — `Document` or `Qna`. The `sourceType` the server **returns** is more specific: a `Document` resolves to `Local`, `Sharepoint`, or `SharepointPage`, while a `Qna` stays `Qna`. Branch your handling on the response value, not the input.
+:::
 
 **Local document** (`sourceType` = `Local`) — a file stored by AI desk PRO:
 
@@ -400,6 +446,8 @@ For SharePoint sources, the MCP server returns coordinates only — it does **no
 
 **Error codes:**
 
+These apply to `get_reference` specifically; `401` and `403` can be returned by any MCP call (see the [Error codes](#error-codes) reference below).
+
 | Code | Cause |
 |------|-------|
 | `400` | Empty `referenceId` or `sourceType`, unknown `sourceType`, or a non-GUID QnA `referenceId` |
@@ -425,12 +473,25 @@ For SharePoint sources, the MCP server returns coordinates only — it does **no
 
 ---
 
+## Error codes
+
+The MCP server returns standard HTTP status codes. The most common ones across all calls:
+
+| Code | Meaning | Typical cause |
+|------|---------|---------------|
+| `400` | Bad request | Missing or invalid parameters (e.g. empty `referenceId`/`sourceType`, unknown `sourceType`, non-GUID QnA `referenceId`) |
+| `401` | Unauthorized | Missing, expired, or invalid token, or a token whose audience (`aud`) does not match an accepted value (see [Correct audience required](#step-4-acquire-a-token)) |
+| `403` | Forbidden | MCP not available on the subscription, MCP toggle off on the agent, reference belongs to another agent, SharePoint permission denied, or tenant mismatch |
+| `404` | Not found | The document or QnA does not exist within the agent's scope |
+
+---
+
 ## Important information
 
 - MCP is currently a **Preview** feature — it may evolve or change during this phase
 - The MCP server version is **0.2.0**
 - Authentication requires a valid Microsoft Entra ID JWT token
-- The agent must have MCP enabled in its configuration
+- MCP must be available on the subscription **and** enabled on the agent (both levels are required)
 - Each agent has its own dedicated MCP endpoint
 - Chat sessions persist across calls when using the same `chatId`
 - Content filtering is applied to all MCP interactions, just like in Teams or webchat
